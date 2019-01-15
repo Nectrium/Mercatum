@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<contentDocument>
+<!-- 	<element location="A3" type="Value" ValueName="DATE">
+	</element>
+ -->
+	<table firstLine="1" endLine="17000" endPageLine="17000" lastColumn="E" table="SAISIE_VENTE_FACTURE">
+	
+		<element location="A" type="fill">
+			<field name="FAMILLE" />
+		</element>
+	
+		<element location="B" type="fill">
+			<field name="CODE" />
+		</element>
+
+		<element location="C" type="fill">
+			<field name="NOM" />
+		</element>
+		
+		<element location="D" type="fill">
+			<field name="QTE" />
+		</element>
+
+	</table>
+</contentDocument>

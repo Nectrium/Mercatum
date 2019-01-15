@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<contentDocument>
+  <element location="A1" type="Value" ValueName="NOM">
+  </element>
+
+	<element location="A3" type="Value" ValueName="DATE">
+	</element>
+
+	<table firstLine="6" endLine="57" endPageLine="57" lastColumn="E" table="SAISIE_VENTE_FACTURE">
+		<element location="A" type="fill">
+			<field name="CODE" />
+		</element>
+
+		<element location="B" type="fill">
+			<field name="NOM" />
+		</element>
+		
+		<element location="C" type="fill">
+			<field name="QTE" />
+		</element>
+
+		<element location="D" type="fill">
+			<field name="TOTAL_HT" />
+		</element>
+
+		<element location="E" type="fill">
+			<field name="TOTAL_TTC" />
+		</element>
+	</table>
+</contentDocument>

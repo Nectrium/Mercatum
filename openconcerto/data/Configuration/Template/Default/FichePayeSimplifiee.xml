@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<contentDocument>
+	<element location="B1" type="fill">
+		<field base="Common" table="SOCIETE_COMMON" name="TYPE" />
+		<field base="Common" table="SOCIETE_COMMON" name="NOM" />
+	</element>
+
+	<element location="B2" type="fill">
+		<field base="Common" table="SOCIETE_COMMON" name="ID_ADRESSE_COMMON">
+			<field base="Common" name="RUE" />
+			<field base="Common" name="VILLE" type="villeCP" />
+			<field base="Common" name="VILLE" type="ville" />
+		</field>
+	</element>
+
+	<element location="D7" type="fill">
+		<field base="Common" table="SOCIETE_COMMON" name="NUMERO_URSSAF" />
+	</element>
+
+	<element location="G7" type="fill">
+		<field base="Common" table="SOCIETE_COMMON" name="NUM_SIRET" />
+	</element>
+
+	<element location="J7" type="fill">
+		<field base="Common" table="SOCIETE_COMMON" name="NUM_APE" />
+	</element>
+
+	<element location="B5" type="replace" replacePattern="_">
+		<field name="ID_SALARIE">
+			<field name="CODE" />
+		</field>
+	</element>
+
+	<element location="E5" type="replace" replacePattern="_" cellSize="75">
+		<field name="ID_SALARIE">
+			<field name="ID_INFOS_SALARIE_PAYE">
+				<field name="ID_CONTRAT_SALARIE">
+					<field name="NATURE" cellSize="75" />
+				</field>
+			</field>
+		</field>
+	</element>
+
+
+	<element location="G2" type="fill">
+		<field name="DU" prefix="Paie du " type="date" datePattern="dd/MM/yy" />
+		<field name="AU" prefix=" au " type="date" datePattern="dd/MM/yy" />
+	</element>
+
+	<element location="D58" type="fill">
+		<field name="DU" type="datePaye" />
+	</element>
+
+	<element location="G9" type="fill">
+		<field name="ID_SALARIE">
+			<field name="PRENOM" />
+			<field name="NOM" />
+		</field>
+	</element>
+	<element location="G10" type="fill">
+		<field name="ID_SALARIE">
+			<field name="ID_ETAT_CIVIL">
+				<field name="ID_ADRESSE">
+					<field name="RUE" />
+				</field>
+			</field>
+		</field>
+	</element>
+	<element location="G12" type="fill">
+		<field name="ID_SALARIE">
+			<field name="ID_ETAT_CIVIL">
+				<field name="ID_ADRESSE">
+					<field name="CODE_POSTAL" />
+					<field name="VILLE" />
+				</field>
+			</field>
+		</field>
+	</element>
+
+	<element location="D12" type="fill">
+		<field name="ID_VARIABLE_SALARIE">
+			<field name="CONGES_PRIS" />
+		</field>
+	</element>
+	<element location="E12" type="fill">
+		<field name="ID_CUMULS_CONGES">
+			<field name="RESTANT" />
+		</field>
+	</element>
+	<element location="F12" type="fill">
+		<field name="ID_CUMULS_CONGES">
+			<field name="ACQUIS" type="cumulConges"/>
+		</field>
+	</element>
+	<element location="B6" type="replace" replacePattern="_">
+		<field name="ID_SALARIE">
+			<field name="ID_ETAT_CIVIL">
+				<field name="NUMERO_SS" />
+			</field>
+		</field>
+	</element>
+
+	<element location="B3" type="fill">
+		<field name="ID_SALARIE">
+			<field name="ID_INFOS_SALARIE_PAYE">
+				<field name="ID_IDCC">
+					<field name="NOM" prefix="Convention collective : " cellSize="125" />
+				</field>
+			</field>
+		</field>
+	</element>
+
+	<element location="B9" type="fill">
+		<field name="DETAILS_CONGES" />
+	</element>
+
+	<element location="H52" type="fill">
+		<field name="COT_SAL" />
+	</element>
+	<element location="I52" type="fill">
+		<field name="COT_PAT" />
+	</element>
+
+	
+	<element location="I54" type="fill">
+		<field name="NET_AVANT_PAS" />
+	</element>
+	<element location="I55" type="fill">
+		<field name="REDUCTION_GVT" />
+	</element>
+	
+	<element location="E57" type="fill">
+		<field name="NET_IMP" />
+	</element>
+	<element location="F57" type="fill">
+		<field name="ID_PAS" >
+			<field name="TAUX_PAS"/>		
+		</field>
+	</element>	
+	<element location="I57" type="fill">
+		<field name="TOTAL_PAS" />
+	</element>
+	
+	
+
+	
+	<element location="I58" type="fill">
+		<field name="NET_A_PAYER" />
+	</element>
+	
+	<element location="D62" type="fill">
+		<field name="SAL_BRUT" />
+	</element>
+	<element location="E62" type="fill">
+		<field name="COT_SAL" />
+	</element>
+	<element location="F62" type="fill">
+		<field name="COT_PAT" />
+	</element>
+
+	<element location="G62" type="fill">
+		<field name="AVANTAGE_NATURE" />
+	</element>
+
+	<element location="H62" type="fill">
+		<field name="NET_IMP" />
+	</element>
+
+	<element location="I62" type="fill">
+		<field name="ALLEGEMENT_COTISATION" />
+	</element>
+
+	<element location="D63" type="fill">
+		<field name="SAL_BRUT" type="cumulPaye" />
+	</element>
+	<element location="E63" type="fill">
+		<field name="COT_SAL" type="cumulPaye" />
+	</element>
+	<element location="F63" type="fill">
+		<field name="COT_PAT" type="cumulPaye" />
+	</element>
+	<element location="G63" type="fill">
+		<field name="AVANTAGE_NATURE" type="cumulPaye" />
+	</element>
+
+	<element location="H63" type="fill">
+		<field name="NET_IMP" type="cumulPaye" />
+	</element>
+
+	<element location="I63" type="fill">
+		<field name="ALLEGEMENT_COTISATION" type="cumulPaye" />
+	</element>
+
+	<table endPageLine="65" firstLine="15" endLine="51" lastColumn="J" base="Societe" table="FICHE_PAYE_ELEMENT"
+		blankLineBeforeStyle="Titre 1,Titre 2" fieldWhere="IMPRESSION" orderBy="POSITION">
+		<element location="B" type="fill" cellSize="52">
+			<field name="NOM" />
+		</element>
+		<element location="E" type="fill">
+			<field name="NB_BASE" />
+		</element>
+		<element location="F" type="fill">
+			<field name="TAUX_SAL" />
+		</element>
+		<element location="G" type="fill">
+			<field name="MONTANT_SAL_AJ" />
+		</element>
+		<element location="H" type="fill">
+			<field name="MONTANT_SAL_DED" />
+		</element>
+		<!-- <element location="I" type="fill">
+			<field name="TAUX_PAT" type="Devise" />
+			</element> -->
+		<element location="J" type="fill">
+			<field name="MONTANT_PAT" />
+		</element>
+
+
+	</table>
+</contentDocument>

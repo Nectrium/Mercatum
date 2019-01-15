@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?> 
+
+<contentDocument>	
+
+	<table firstLine="2" endLine="10000" endPageLine="10000" lastColumn="AK">
+		<element location="A" type="fill" controleMultiline="false">
+			<field base="Societe" name="CODE"/>
+		</element>
+		<element location="C" type="fill" controleMultiline="false">
+			<field base="Societe" name="NOM"/>
+		</element>	
+		<element location="I" type="fill">
+			<field base="Societe" name="FOURNISSEUR"/>
+		</element>				
+		<element location="P" type="fill">
+			<field base="Societe" name="QTE_ACHAT"/>
+		</element>
+		<element location="Q" type="fill">
+			<field base="Societe" name="QTE_MIN"/>
+		</element>
+		<element location="R" type="fill">
+			<field base="Societe" name="PA_HT"/>
+		</element>
+		<element location="T" type="fill">
+			<field base="Societe" name="PV_HT"/>
+		</element>		
+		<element location="AF" type="fill">
+			<field base="Societe" name="POIDS"/>
+		</element>		
+
+		<element location="AG" type="fill">
+			<field base="Societe" name="FAMILLE"/>
+		</element>		
+
+		<element location="AJ" type="fill">
+			<field base="Societe" name="PAYS"/>
+		</element>
+		<element location="AK" type="fill">
+			<field base="Societe" name="CODE_DOUANIER"/>
+		</element>
+		
+	</table>
+	
+</contentDocument>

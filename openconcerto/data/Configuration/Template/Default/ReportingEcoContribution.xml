@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?> 
+
+<contentDocument>	
+	
+	
+	<element0 location="B2" type="Value" ValueName="PERIODE">
+	</element0>
+	
+	<element0 location="C49" type="Value" ValueName="TOTAL_QTE">			
+	</element0>
+	
+	<element0 location="D49" type="Value" ValueName="TOTAL">
+			</element0>
+
+	
+	<table firstLine="4" blankLineBeforeStyle="Titre 1,Titre 2" endLine="1999" endPageLine="2000" lastColumn="J" base="Societe" table="AFFAIRE" sheet="1">
+		
+		<element location="A" type="fill">
+			<field base="Societe" name="CODE"/>
+		</element>
+
+<element location="B" type="fill">
+			<field base="Societe" name="NOM"/>
+		</element>
+<element location="C" type="fill">
+			<field base="Societe" name="QTE"/>
+		</element>
+	
+		<element location="D" type="fill" >
+			<field base="Societe" name="TOTAL_ECO"/>
+		</element>
+		
+	</table>
+	
+	
+	
+</contentDocument>

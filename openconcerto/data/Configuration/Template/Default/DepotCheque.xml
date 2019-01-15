@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<contentDocument>
+
+	<element location="H1" type="fill">
+		<field base="Societe" name="DATE">
+		</field>
+	</element>
+	
+	<element location="K56" type="fill">
+		<field base="Societe" name="MONTANT" type="devise">
+		</field>
+	</element>
+	
+	<element location="A55" type="fill">
+		<field base="Societe" name="NOM">
+		</field>
+	</element>
+	
+	<element location="A56" type="fill">
+		<field base="Societe" name="ID_BANQUE">
+			<field base="Societe" name="NOM" prefix ="Dépôt sur la banque "/>
+		</field>
+	</element>
+
+	
+	<table endPageLine="56" firstLine="5" endLine="53" lastColumn="L" base="Societe" table="DEPOT_CHEQUE_ELEMENT">
+	
+		
+
+		<element location="A" type="fill">
+			<field name="BANQUE" />
+		</element>
+		
+		<element location="B" type="fill">
+			<field name="DATE" />
+		</element>
+
+		<element location="C" type="fill">
+			<field name="NUMERO" />
+		</element>
+
+		<element location="E" type="fill">
+			<field name="ID_CLIENT" >
+				<field name="NOM" />
+			</field>
+		</element>
+
+		<element location="J" type="fill">
+			<field name="PIECE" />
+		</element>
+
+		<element location="K" type="fill">
+			<field name="MONTANT"  type="devise"/>
+		</element>
+		<element location="L" type="LineReference">
+			<field name="MONTANT"  type="LineReference"/>
+		</element>
+		
+	</table>
+</contentDocument>

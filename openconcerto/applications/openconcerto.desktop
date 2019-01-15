@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=OpenConcerto
+Comment=Logiciel de gestion d'entreprise
+Exec=~/.mercatum/bin/openconcerto
+Icon=~/.mercatum/data/openconcerto/icon.png
+Terminal=false
+Type=Application
+Categories=Office;Utility;
+Keywords=erp
+StartupNotify=true
+

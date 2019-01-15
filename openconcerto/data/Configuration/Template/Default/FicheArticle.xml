@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?> 
+
+<contentDocument>
+
+	<element location="C2" type="fill">
+		<field base="Societe" name="CODE"/>
+	</element>
+
+	<element location="C3" type="fill">
+		<field base="Societe" name="NOM"/>
+	</element>
+
+
+	<element location="C12" type="fill">
+		<field base="Societe" name="CODE_BARRE"/>
+	</element>
+	
+	<element location="G12" type="fill">
+		<field base="Societe" name="NOM"/>
+	</element>
+
+	<element location="C14" type="fill">
+		<field base="Societe" name="ID_FAMILLE_ARTICLE">
+			<field base="Societe" name="NOM"/>
+		</field>
+	</element>
+
+	
+	
+</contentDocument>

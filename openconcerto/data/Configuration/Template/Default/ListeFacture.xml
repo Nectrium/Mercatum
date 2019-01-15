@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<contentDocument>
+	<table firstLine="6" endLine="34" endPageLine="34" lastColumn="P" table="SAISIE_VENTE_FACTURE">
+		<element location="A" type="fill">
+			<field name="DATE" />
+		</element>
+		<element location="B" type="fill">
+			<field name="NUMERO" />
+		</element>
+		<element location="D" type="fill">
+			<field name="NUMERO_AFFAIRE" />
+		</element>
+		<element location="G" type="fill">
+			<field name="MONTANT_TTC" />
+		</element>
+		<element location="H" type="fill">
+			<field name="MONTANT_HT" />
+		</element>
+		<element location="K" type="fill">
+			<field name="CLIENT" />
+		</element>
+		<element location="L" type="fill">
+			<field name="NOM_AFFAIRE" />
+		</element>
+		<element location="M" type="fill">
+			<field name="DATE_ECHEANCE" />
+		</element>
+		<element location="N" type="fill">
+			<field name="TYPE_REGLEMENT" />
+		</element>
+		<element location="P" type="fill">
+			<field name="INFOS" />
+		</element>
+	</table>
+</contentDocument>

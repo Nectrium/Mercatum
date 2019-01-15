@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<contentDocument>
+	<element location="C5" type="fill">
+		<field name="FORME_JURIDIQUE" />
+		<field name="NOM" />
+	</element>
+
+	<element location="C6" type="fill">
+		<field name="NUMERO_TVA" />
+	</element>
+
+	<element location="C7" type="fill">
+		<field name="SIRET" />
+	</element>
+
+	<element location="B9" type="fill">
+		<field name="ID_ADRESSE">
+			<field name="RUE" />
+		</field>
+	</element>
+
+	<element location="B12" type="fill">
+		<field name="ID_ADRESSE">
+			<field name="VILLE" type="villeCP" />
+			<field name="VILLE" type="ville" />
+			<field name="CEDEX" prefix="CEDEX " conditionField="HAS_CEDEX" />
+		</field>
+	</element>
+
+	<element location="C16" type="fill">
+		<field name="RESPONSABLE" />
+	</element>
+
+	<element location="C17" type="fill">
+		<field name="TEL" />
+	</element>
+
+	<element location="C18" type="fill">
+		<field name="TEL_P" />
+	</element>
+
+	<element location="C19" type="fill">
+		<field name="FAX" />
+	</element>
+
+	<element location="C20" type="fill">
+		<field name="MAIL" />
+	</element>
+
+	<table endPageLine="56" firstLine="26" endLine="37" lastColumn="K" table="CONTACT">
+		<element location="B" type="fill">
+			<field name="ID_TITRE_PERSONNEL">
+				<field name="NOM" />
+			</field>
+		</element>
+
+		<element location="C" type="fill">
+			<field name="NOM" />
+		</element>
+
+		<element location="D" type="fill">
+			<field name="PRENOM" />
+		</element>
+
+		<element location="G" type="fill">
+			<field name="FONCTION" />
+		</element>
+
+		<element location="I" type="fill">
+			<field name="TEL_DIRECT" />
+		</element>
+	</table>
+</contentDocument>

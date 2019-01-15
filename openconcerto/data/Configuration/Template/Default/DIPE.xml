@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<contentDocument>
+	<element0 location="C1" type="Value" ValueName="SOCIETE">
+	</element0>
+
+	<element0 location="C2" type="Value" ValueName="TELEPHONE">
+	</element0>
+
+	<element0 location="A5" type="Value" ValueName="LIBELLE">
+	</element0>
+
+	
+	<element0 location="E16" type="Value" ValueName="BASE" />		
+	<element0 location="F16" type="Value" ValueName="ANCIENNETE" />
+	<element0 location="G16" type="Value" ValueName="TRANSPORT" />
+	<element0 location="H16" type="Value" ValueName="BRUT" />
+	<element0 location="I16" type="Value"  ValueName="TAXE" />
+	<element0 location="J16" type="Value" ValueName="IRPP" />
+	<element0 location="K16" type="Value" ValueName="CAC" />
+	<element0 location="L16" type="Value" ValueName="CCF" />
+	<element0 location="M16" type="Value" ValueName="TDL" />
+	<element0 location="N16" type="Value" ValueName="RAV" />
+	<element0 location="O16" type="Value" ValueName="PV" />
+	<element0 location="P16" type="Value" ValueName="TOTAL_RETENU" />
+	<element0 location="Q16" type="Value" ValueName="NET" />
+		
+	
+	
+	<element0 location="A30" type="Value" ValueName="NUMERO_EMPLOYEUR">
+	</element0>
+
+	<element0 location="I30" type="Value" ValueName="NUMERO_IDENTIFIANT_UNIQUE">
+	</element0>
+	
+	<element0 location="E21" type="Value" ValueName="BASE_PENSION_FAM">
+	</element0>
+	
+	<element0 location="H21" type="Value" ValueName="MONTANT_PENSION_FAM">
+	</element0>
+	
+	<element0 location="E23" type="Value" ValueName="BASE_PENSION_VIEL">
+	</element0>
+	
+	<element0 location="H23" type="Value" ValueName="MONTANT_PENSION_VIEL">
+	</element0>
+	
+	<element0 location="E25" type="Value" ValueName="BASE_AT">
+	</element0>
+	
+	<element0 location="H25" type="Value" ValueName="MONTANT_AT">
+	</element0>
+	
+	<element0 location="H26" type="Value" ValueName="TOTAL_COT">
+	</element0>
+	
+	<element0 location="O21" type="Value" ValueName="BASE_CCF">
+	</element0>
+	
+	<element0 location="Q21" type="Value" ValueName="MONTANT_CCF">
+	</element0>
+	
+	<element0 location="O23" type="Value" ValueName="BASE_FNE">
+	</element0>
+	
+	<element0 location="Q23" type="Value" ValueName="MONTANT_FNE">
+	</element0>
+	
+	<element0 location="Q26" type="Value" ValueName="TOTAL_FISCAL">
+	</element0>
+	
+	<element0 location="H31" type="Value" ValueName="COT_PAT">
+	</element0>
+	
+	<element0 location="H33" type="Value" ValueName="COT_SAL">
+	</element0>
+	<element0 location="H34" type="Value" ValueName="COT_TOTAL">
+	</element0>
+
+	<element0 location="Q31" type="Value" ValueName="TAX_PAT">
+	</element0>
+	
+	<element0 location="Q33" type="Value" ValueName="TAX_SAL">
+	</element0>
+	<element0 location="Q34" type="Value" ValueName="TAX_TOTAL">
+	</element0>
+
+	<table0 firstLine="11" endLine="16" endPageLine="36" lastColumn="Q" table="ECRITURE" pageRef="P8">
+		<element location="A" type="fill">
+			<field name="NUMERO" />
+		</element>
+		
+		<element location="B" type="fill">
+			<field name="NOM" />
+		</element>
+
+		<element location="C" type="fill">
+			<field name="CNPS" />
+		</element>
+
+		<element location="D" type="fill">
+			<field name="INTERNE" />
+		</element>
+
+		<element location="E" type="fill">
+			<field name="BASE" />
+		</element>
+
+		<element location="F" type="fill">
+			<field name="ANCIENNETE" />
+		</element>
+
+		<element location="G" type="fill">
+			<field name="TRANSPORT" />
+		</element>
+
+		<element location="H" type="fill">
+			<field name="BRUT" />
+		</element>
+		
+		<element location="I" type="fill">
+			<field name="TAXE" />
+		</element>
+		
+		<element location="J" type="fill">
+			<field name="IRPP" />
+		</element>
+		<element location="K" type="fill">
+			<field name="CAC" />
+		</element>
+		<element location="L" type="fill">
+			<field name="CCF" />
+		</element>
+		<element location="M" type="fill">
+			<field name="TDL" />
+		</element>
+		<element location="N" type="fill">
+			<field name="RAV" />
+		</element>
+		<element location="O" type="fill">
+			<field name="PV" />
+		</element>
+		<element location="P" type="fill">
+			<field name="TOTAL_RETENU" />
+		</element>
+		<element location="Q" type="fill">
+			<field name="NET" />
+		</element>
+		
+	</table0>
+</contentDocument>
