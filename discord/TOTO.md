@@ -1,0 +1,1 @@
+- Rajouter l'accélération graphique dans Electron (--use-gl=egl)
