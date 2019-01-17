@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<omnitux>
+<game_set author="Olav_2">
+
+	<title lang="en">Scrambled letters</title>
+
+	<thumbnail>examples/Alphabet/thumb_words.jpg</thumbnail>
+	
+	<rounds>3</rounds>
+
+	<tag>writing</tag>
+
+	<menu_index value="500" />
+
+	<game type="associate">
+		
+		<global_parameters>
+			
+			<game_setup>
+				<type_to_associate>image_on_map</type_to_associate>
+				<type_to_drag>image</type_to_drag>
+				
+				<!-- amount of items to choose from -->
+				<min_draggable> 5 </min_draggable>
+				<max_draggable> 5 </max_draggable>
+				
+			</game_setup>
+			
+			<map>
+				<image>examples/Alphabet/Bananen_Frucht.jpg</image>
+				<pos_x>  11 </pos_x> 
+				<pos_y>  8 </pos_y>
+				<width>  78 </width>
+				<height> 91 </height>
+			</map>
+		
+			<draggable_items_area>
+				<pos_x>  91 </pos_x> 
+				<pos_y>  8 </pos_y>
+				<width>  5 </width>
+				<height> 91 </height>
+				
+				<amount_x> 1 </amount_x>
+				<amount_y> 5 </amount_y>
+				
+			</draggable_items_area>		
+
+			<background>
+				Kot26/liczenie/back1s.png
+			</background>
+			
+		</global_parameters>
+		
+		<associations>
+			<association>
+
+				<goal>
+					<pos_x>  2 </pos_x> 
+					<pos_y>  82 </pos_y>
+					<width>  16 </width>
+					<height> 16 </height>
+					<image>default/icons/NewTux.svg</image>
+				</goal>
+
+				<image type="to_drag">examples/Alphabet/letters/B.svg<sound>examples/Alphabet/letters/En/B.ogg</sound></image>
+
+			</association>
+
+			<association>
+				<goal>
+					<pos_x>  22 </pos_x> 
+					<pos_y>  82 </pos_y>
+					<width>  16 </width>
+					<height> 16 </height>
+					<image>default/icons/NewTux.svg</image>
+				</goal>
+
+				<image type="to_drag">examples/Alphabet/letters/A.svg<sound>examples/Alphabet/letters/En/A.ogg</sound></image>
+			</association>
+
+			<association>
+				<goal>
+					<pos_x>  42 </pos_x> 
+					<pos_y>  82 </pos_y>
+					<width>  16 </width>
+					<height> 16 </height>
+					<image>default/icons/NewTux.svg</image>
+				</goal>
+
+				<image type="to_drag">examples/Alphabet/letters/N.svg<sound>examples/Alphabet/letters/En/N.ogg</sound></image>
+			</association>
+
+			<association>
+				<goal>
+					<pos_x>  62 </pos_x> 
+					<pos_y>  82 </pos_y>
+					<width>  16 </width>
+					<height> 16 </height>
+					<image>default/icons/NewTux.svg</image>
+				</goal>
+
+				<image type="to_drag">examples/Alphabet/letters/A.svg<sound>examples/Alphabet/letters/En/A.ogg</sound></image>
+			</association>
+
+			<association>
+				<goal>
+					<pos_x>  82 </pos_x> 
+					<pos_y>  82 </pos_y>
+					<width>  16 </width>
+					<height> 16 </height>
+					<image>default/icons/NewTux.svg</image>
+				</goal>
+
+				<image type="to_drag">examples/Alphabet/letters/N.svg<sound>examples/Alphabet/letters/En/N.ogg</sound></image>
+			</association>
+
+
+
+		</associations>
+
+	</game>
+
+	<game type="associate" >
+		
+
+		<global_parameters>
+			
+			<game_setup>
+				<type_to_associate>image_on_map</type_to_associate>
+				<type_to_drag>image</type_to_drag>
+				
+				<!-- amount of items to choose from -->
+				<min_draggable> 3 </min_draggable>
+				<max_draggable> 3 </max_draggable>
+				
+			</game_setup>
+			
+			<map>
+				<image>examples/Alphabet/divers_chauve-souris.svg</image>
+				<pos_x>  11 </pos_x> 
+				<pos_y>  8 </pos_y>
+				<width>  78 </width>
+				<height> 91 </height>
+			</map>
+		
+			<draggable_items_area>
+				<pos_x>  91 </pos_x> 
+				<pos_y>  8 </pos_y>
+				<width>  5 </width>
+				<height> 91 </height>
+				
+				<amount_x> 1 </amount_x>
+				<amount_y> 3 </amount_y>
+				
+			</draggable_items_area>		
+
+			<background>
+				Kot26/liczenie/back1s.png
+			</background>
+			
+		</global_parameters>
+		
+		<associations>
+			<association>
+
+				<goal>
+					<pos_x>  22 </pos_x> 
+					<pos_y>  82 </pos_y>
+					<width>  16 </width>
+					<height> 32 </height>
+					<image>default/icons/NewTux.svg</image>
+				</goal>
+
+				<image type="to_drag">examples/Alphabet/letters/B.svg<sound>examples/Alphabet/letters/En/B.ogg</sound></image>
+
+			</association>
+
+			<association>
+				<goal>
+					<pos_x>  42 </pos_x> 
+					<pos_y>  82 </pos_y>
+					<width>  16 </width>
+					<height> 32 </height>
+					<image>default/icons/NewTux.svg</image>
+				</goal>
+
+				<image type="to_drag">examples/Alphabet/letters/A.svg<sound>examples/Alphabet/letters/En/A.ogg</sound></image>
+			</association>
+
+			<association>
+				<goal>
+					<pos_x>  62 </pos_x> 
+					<pos_y>  82 </pos_y>
+					<width>  16 </width>
+					<height> 32 </height>
+					<image>default/icons/NewTux.svg</image>
+				</goal>
+
+				<image type="to_drag">examples/Alphabet/letters/T.svg<sound>examples/Alphabet/letters/En/T.ogg</sound></image>
+			</association>
+
+
+		</associations>
+
+	</game>
+
+	<game type="associate" >
+
+		<global_parameters>
+			
+			<game_setup>
+				<type_to_associate>image_on_map</type_to_associate>
+				<type_to_drag>image</type_to_drag>
+				
+				<!-- amount of items to choose from -->
+				<min_draggable> 5 </min_draggable>
+				<max_draggable> 5 </max_draggable>
+				
+			</game_setup>
+			
+			<map>
+				<image>examples/Alphabet/Equus_quagga.jpg</image>
+				<pos_x>  11 </pos_x> 
+				<pos_y>  8 </pos_y>
+				<width>  78 </width>
+				<height> 91 </height>
+			</map>
+		
+			<draggable_items_area>
+				<pos_x>  91 </pos_x> 
+				<pos_y>  8 </pos_y>
+				<width>  5 </width>
+				<height> 91 </height>
+				
+				<amount_x> 1 </amount_x>
+				<amount_y> 5 </amount_y>
+				
+			</draggable_items_area>		
+
+			<background>
+				Kot26/liczenie/back1s.png
+			</background>
+			
+		</global_parameters>
+		
+		<associations>
+			<association>
+
+				<goal>
+					<pos_x>  2 </pos_x> 
+					<pos_y>  66 </pos_y>
+					<width>  16 </width>
+					<height> 32 </height>
+					<image>default/icons/NewTux.svg</image>
+				</goal>
+
+				<image type="to_drag">examples/Alphabet/letters/Z.svg<sound>examples/Alphabet/letters/En/Z.ogg</sound></image>
+
+			</association>
+
+			<association>
+				<goal>
+					<pos_x>  22 </pos_x> 
+					<pos_y>  66 </pos_y>
+					<width>  16 </width>
+					<height> 32 </height>
+					<image>default/icons/NewTux.svg</image>
+				</goal>
+
+				<image type="to_drag">examples/Alphabet/letters/E.svg<sound>examples/Alphabet/letters/En/E.ogg</sound></image>
+			</association>
+
+			<association>
+				<goal>
+					<pos_x>  42 </pos_x> 
+					<pos_y>  66 </pos_y>
+					<width>  16 </width>
+					<height> 32 </height>
+					<image>default/icons/NewTux.svg</image>
+				</goal>
+
+				<image type="to_drag">examples/Alphabet/letters/B.svg<sound>examples/Alphabet/letters/En/B.ogg</sound></image>
+			</association>
+
+			<association>
+				<goal>
+					<pos_x>  62 </pos_x> 
+					<pos_y>  66 </pos_y>
+					<width>  16 </width>
+					<height> 32 </height>
+					<image>default/icons/NewTux.svg</image>
+				</goal>
+
+				<image type="to_drag">examples/Alphabet/letters/R.svg<sound>examples/Alphabet/letters/En/R.ogg</sound></image>
+			</association>
+
+			<association>
+				<goal>
+					<pos_x>  82 </pos_x> 
+					<pos_y>  66 </pos_y>
+					<width>  16 </width>
+					<height> 32 </height>
+					<image>default/icons/NewTux.svg</image>
+				</goal>
+
+				<image type="to_drag">examples/Alphabet/letters/A.svg<sound>examples/Alphabet/letters/En/A.ogg</sound></image>
+			</association>
+
+		</associations>
+
+	</game>
+
+	<game type="associate" >
+
+		<global_parameters>
+			
+			<game_setup>
+				<type_to_associate>image_on_map</type_to_associate>
+				<type_to_drag>image</type_to_drag>
+				
+				<!-- amount of items to choose from -->
+				<min_draggable> 4 </min_draggable>
+				<max_draggable> 4 </max_draggable>
+				
+			</game_setup>
+			
+			<map>
+				<image>examples/Alphabet/schoolfreeware_Bike.svg</image>
+				<pos_x>  11 </pos_x> 
+				<pos_y>  8 </pos_y>
+				<width>  78 </width>
+				<height> 91 </height>
+			</map>
+		
+			<draggable_items_area>
+				<pos_x>  91 </pos_x> 
+				<pos_y>  8 </pos_y>
+				<width>  5 </width>
+				<height> 91 </height>
+				
+				<amount_x> 1 </amount_x>
+				<amount_y> 4 </amount_y>
+				
+			</draggable_items_area>		
+
+			<background>
+				Kot26/liczenie/back1s.png
+			</background>
+			
+		</global_parameters>
+		
+		<associations>
+			<association>
+
+				<goal>
+					<pos_x>  12 </pos_x> 
+					<pos_y>  66 </pos_y>
+					<width>  16 </width>
+					<height> 32 </height>
+					<image>default/icons/NewTux.svg</image>
+				</goal>
+
+				<image type="to_drag">examples/Alphabet/letters/B.svg<sound>examples/Alphabet/letters/En/B.ogg</sound></image>
+
+			</association>
+
+			<association>
+				<goal>
+					<pos_x>  32 </pos_x> 
+					<pos_y>  66 </pos_y>
+					<width>  16 </width>
+					<height> 32 </height>
+					<image>default/icons/NewTux.svg</image>
+				</goal>
+
+				<image type="to_drag">examples/Alphabet/letters/I.svg<sound>examples/Alphabet/letters/En/I.ogg</sound></image>
+			</association>
+
+			<association>
+				<goal>
+					<pos_x>  52 </pos_x> 
+					<pos_y>  66 </pos_y>
+					<width>  16 </width>
+					<height> 32 </height>
+					<image>default/icons/NewTux.svg</image>
+				</goal>
+
+				<image type="to_drag">examples/Alphabet/letters/K.svg<sound>examples/Alphabet/letters/En/K.ogg</sound></image>
+			</association>
+
+			<association>
+				<goal>
+					<pos_x>  72 </pos_x> 
+					<pos_y>  66 </pos_y>
+					<width>  16 </width>
+					<height> 32 </height>
+					<image>default/icons/NewTux.svg</image>
+				</goal>
+
+				<image type="to_drag">examples/Alphabet/letters/E.svg<sound>examples/Alphabet/letters/En/E.ogg</sound></image>
+			</association>
+
+
+
+		</associations>
+
+	</game>
+
+	<game type="associate" >
+
+		<global_parameters>
+			
+			<game_setup>
+				<type_to_associate>image_on_map</type_to_associate>
+				<type_to_drag>image</type_to_drag>
+				
+				<!-- amount of items to choose from -->
+				<min_draggable> 4 </min_draggable>
+				<max_draggable> 4 </max_draggable>
+				
+			</game_setup>
+			
+			<map>
+				<image>examples/Alphabet/Duck_in_Malbork.JPG</image>
+				<pos_x>  11 </pos_x> 
+				<pos_y>  8 </pos_y>
+				<width>  78 </width>
+				<height> 91 </height>
+			</map>
+		
+			<draggable_items_area>
+				<pos_x>  91 </pos_x> 
+				<pos_y>  8 </pos_y>
+				<width>  5 </width>
+				<height> 91 </height>
+				
+				<amount_x> 1 </amount_x>
+				<amount_y> 4 </amount_y>
+				
+			</draggable_items_area>		
+
+			<background>
+				Kot26/liczenie/back1s.png
+			</background>
+			
+		</global_parameters>
+		
+		<associations>
+			<association>
+
+				<goal>
+					<pos_x>  12 </pos_x> 
+					<pos_y>  66 </pos_y>
+					<width>  16 </width>
+					<height> 32 </height>
+					<image>default/icons/NewTux.svg</image>
+				</goal>
+
+				<image type="to_drag">examples/Alphabet/letters/D.svg<sound>examples/Alphabet/letters/En/D.ogg</sound></image>
+
+			</association>
+
+			<association>
+				<goal>
+					<pos_x>  32 </pos_x> 
+					<pos_y>  66 </pos_y>
+					<width>  16 </width>
+					<height> 32 </height>
+					<image>default/icons/NewTux.svg</image>
+				</goal>
+
+				<image type="to_drag">examples/Alphabet/letters/U.svg<sound>examples/Alphabet/letters/En/U.ogg</sound></image>
+			</association>
+
+			<association>
+				<goal>
+					<pos_x>  52 </pos_x> 
+					<pos_y>  66 </pos_y>
+					<width>  16 </width>
+					<height> 32 </height>
+					<image>default/icons/NewTux.svg</image>
+				</goal>
+
+				<image type="to_drag">examples/Alphabet/letters/C.svg<sound>examples/Alphabet/letters/En/C.ogg</sound></image>
+			</association>
+
+			<association>
+				<goal>
+					<pos_x>  72 </pos_x> 
+					<pos_y>  66 </pos_y>
+					<width>  16 </width>
+					<height> 32 </height>
+					<image>default/icons/NewTux.svg</image>
+				</goal>
+
+				<image type="to_drag">examples/Alphabet/letters/K.svg<sound>examples/Alphabet/letters/En/K.ogg</sound></image>
+			</association>
+
+
+
+		</associations>
+
+	</game>
+
+	<game type="associate">
+		
+		<global_parameters>
+			
+			<game_setup>
+				<type_to_associate>image_on_map</type_to_associate>
+				<type_to_drag>image</type_to_drag>
+				
+				<!-- amount of items to choose from -->
+				<min_draggable> 5 </min_draggable>
+				<max_draggable> 5 </max_draggable>
+				
+			</game_setup>
+			
+			<map>
+				<image>examples/Music_Instruments/Piano_at_Fort_Wayne.jpg</image>
+				<pos_x>  11 </pos_x> 
+				<pos_y>  8 </pos_y>
+				<width>  78 </width>
+				<height> 91 </height>
+			</map>
+		
+			<draggable_items_area>
+				<pos_x>  91 </pos_x> 
+				<pos_y>  8 </pos_y>
+				<width>  5 </width>
+				<height> 91 </height>
+				
+				<amount_x> 1 </amount_x>
+				<amount_y> 5 </amount_y>
+				
+			</draggable_items_area>		
+
+			<background>
+				Kot26/liczenie/back1s.png
+			</background>
+			
+		</global_parameters>
+		
+		<associations>
+			<association>
+
+				<goal>
+					<pos_x>  2 </pos_x> 
+					<pos_y>  82 </pos_y>
+					<width>  16 </width>
+					<height> 16 </height>
+					<image>default/icons/NewTux.svg</image>
+				</goal>
+
+				<image type="to_drag">examples/Alphabet/letters/P.svg<sound>examples/Alphabet/letters/En/P.ogg</sound></image>
+
+			</association>
+
+			<association>
+				<goal>
+					<pos_x>  22 </pos_x> 
+					<pos_y>  82 </pos_y>
+					<width>  16 </width>
+					<height> 16 </height>
+					<image>default/icons/NewTux.svg</image>
+				</goal>
+
+				<image type="to_drag">examples/Alphabet/letters/I.svg<sound>examples/Alphabet/letters/En/I.ogg</sound></image>
+			</association>
+
+			<association>
+				<goal>
+					<pos_x>  42 </pos_x> 
+					<pos_y>  82 </pos_y>
+					<width>  16 </width>
+					<height> 16 </height>
+					<image>default/icons/NewTux.svg</image>
+				</goal>
+
+				<image type="to_drag">examples/Alphabet/letters/A.svg<sound>examples/Alphabet/letters/En/A.ogg</sound></image>
+			</association>
+
+			<association>
+				<goal>
+					<pos_x>  62 </pos_x> 
+					<pos_y>  82 </pos_y>
+					<width>  16 </width>
+					<height> 16 </height>
+					<image>default/icons/NewTux.svg</image>
+				</goal>
+
+				<image type="to_drag">examples/Alphabet/letters/N.svg<sound>examples/Alphabet/letters/En/N.ogg</sound></image>
+			</association>
+
+			<association>
+				<goal>
+					<pos_x>  82 </pos_x> 
+					<pos_y>  82 </pos_y>
+					<width>  16 </width>
+					<height> 16 </height>
+					<image>default/icons/NewTux.svg</image>
+				</goal>
+
+				<image type="to_drag">examples/Alphabet/letters/O.svg<sound>examples/Alphabet/letters/En/O.ogg</sound></image>
+			</association>
+
+
+
+		</associations>
+
+	</game>
+
+
+</game_set>
+</omnitux>

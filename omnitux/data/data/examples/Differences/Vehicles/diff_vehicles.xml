@@ -1,0 +1,309 @@
+<?xml version="1.0" ?>
+<omnitux version="1.0">
+
+<game_set type="differences">
+
+
+	<title lang="de">Fahrzeuge</title>
+	<title lang="en">Vehicles</title>
+	<title lang="es">Vehículos</title>
+	<title lang="fr">Véhicules</title>
+	<title lang="it">Veicoli</title>
+	<title lang="pl">Pojazdy</title>
+	<title lang="pt">Veículos</title>
+ 
+	<thumbnail>examples/Vehicles/Gerald_G_Beach_Trip.svg</thumbnail>
+
+	<rounds>1</rounds>
+
+	<menu_index value="150" />
+
+	<game type="differences" author="Olav_2">
+
+		<global_parameters>
+	
+			<background>
+				Kot26/liczenie/back1s.png
+			</background>
+
+			<min_differences> 4 </min_differences>
+			<max_differences> 4 </max_differences>
+
+			<original>
+				<image>examples/Differences/Vehicles/Gerald_G_Beach_Trip.svg
+				</image>
+				<pos_x unit="px"> 5 </pos_x>
+				<pos_y unit="px"> 10 </pos_y>
+				<width unit="px"> 40 </width>
+				<height unit="px"> 85 </height>
+				
+			</original>
+
+			<modified>
+				<image>examples/Differences/Vehicles/Gerald_G_Beach_Trip_mod.svg
+				</image>
+				
+				<pos_x unit="px"> 55 </pos_x>
+				<pos_y unit="px"> 10 </pos_y>
+				<width unit="px"> 40 </width>
+				<height unit="px"> 85 </height>
+			</modified>
+
+			<found>
+				<image>examples/Differences/entoure.svg
+				</image>
+				<ratio_x>110</ratio_x>
+				<ratio_y>110</ratio_y>
+			</found>
+
+		</global_parameters>
+
+		<differences>
+		
+			<difference>
+				<pos_x unit="px"> 7 </pos_x>
+				<pos_y unit="px"> 227 </pos_y>
+				<width unit="px"> 57 </width>
+				<height unit="px"> 55 </height>
+			</difference>
+			<difference>
+				<pos_x unit="px"> 156 </pos_x>
+				<pos_y unit="px"> 190 </pos_y>
+				<width unit="px"> 56 </width>
+				<height unit="px"> 41 </height>
+			</difference>
+			<difference>
+				<pos_x unit="px"> 261 </pos_x>
+				<pos_y unit="px"> 210 </pos_y>
+				<width unit="px"> 74 </width>
+				<height unit="px"> 23 </height>
+			</difference>
+			<difference>
+				<pos_x unit="px"> 340 </pos_x>
+				<pos_y unit="px"> 229 </pos_y>
+				<width unit="px"> 33 </width>
+				<height unit="px"> 43 </height>
+			</difference>
+			<difference>
+				<pos_x unit="px"> 432 </pos_x>
+				<pos_y unit="px"> 50 </pos_y>
+				<width unit="px"> 55 </width>
+				<height unit="px"> 49 </height>
+			</difference>
+			<difference>
+				<pos_x unit="px"> 457 </pos_x>
+				<pos_y unit="px"> 184 </pos_y>
+				<width unit="px"> 71 </width>
+				<height unit="px"> 76 </height>
+			</difference>
+			<difference>
+				<pos_x unit="px"> 458 </pos_x>
+				<pos_y unit="px"> 293 </pos_y>
+				<width unit="px"> 69 </width>
+				<height unit="px"> 57 </height>
+			</difference>
+			
+		</differences>
+
+	</game>
+
+
+	<game type="differences" author="Olav_2">
+
+		<global_parameters>
+	
+			<background>
+				Kot26/liczenie/back1s.png
+			</background>
+
+			<min_differences> 4 </min_differences>
+			<max_differences> 4 </max_differences>
+
+			<original>
+				<image>examples/Vehicles/Montacarichi.svg
+				</image>
+				<pos_x unit="px"> 5 </pos_x>
+				<pos_y unit="px"> 10 </pos_y>
+				<width unit="px"> 40 </width>
+				<height unit="px"> 85 </height>
+				
+			</original>
+
+			<modified>
+				<image>examples/Differences/Vehicles/Montacarichi_mod.svg
+				</image>
+				
+				<pos_x unit="px"> 55 </pos_x>
+				<pos_y unit="px"> 10 </pos_y>
+				<width unit="px"> 40 </width>
+				<height unit="px"> 85 </height>
+			</modified>
+
+			<found>
+				<image>examples/Differences/entoure.svg
+				</image>
+				<ratio_x>110</ratio_x>
+				<ratio_y>110</ratio_y>
+			</found>
+
+		</global_parameters>
+
+		<differences>
+
+			<difference>
+				<pos_x unit="px"> 176 </pos_x>
+				<pos_y unit="px"> 61 </pos_y>
+				<width unit="px"> 20 </width>
+				<height unit="px"> 61 </height>
+			</difference>
+		
+	
+			<difference>
+				<pos_x unit="px"> 198 </pos_x>
+				<pos_y unit="px"> 92 </pos_y>
+				<width unit="px"> 45 </width>
+				<height unit="px"> 52 </height>
+			</difference>
+		
+			<difference>
+				<pos_x unit="px"> 237 </pos_x>
+				<pos_y unit="px"> 146 </pos_y>
+				<width unit="px"> 53 </width>
+				<height unit="px"> 24 </height>
+			</difference>
+		
+			<difference>
+				<pos_x unit="px"> 379 </pos_x>
+				<pos_y unit="px"> 238 </pos_y>
+				<width unit="px"> 21 </width>
+				<height unit="px"> 24 </height>
+			</difference>
+		
+	
+			<difference>
+				<pos_x unit="px"> 278 </pos_x>
+				<pos_y unit="px"> 256 </pos_y>
+				<width unit="px"> 89 </width>
+				<height unit="px"> 61 </height>
+			</difference>
+		
+		
+			<difference>
+				<pos_x unit="px"> 233 </pos_x>
+				<pos_y unit="px"> 297 </pos_y>
+				<width unit="px"> 28 </width>
+				<height unit="px"> 27 </height>
+			</difference>
+		
+			<difference>
+				<pos_x unit="px"> 89 </pos_x>
+				<pos_y unit="px"> 220 </pos_y>
+				<width unit="px"> 136 </width>
+				<height unit="px"> 132 </height>
+			</difference>
+		
+		</differences>
+
+
+	</game>
+
+
+	<game type="differences" author="Olav_2">
+
+		<global_parameters>
+	
+			<background>
+				Kot26/liczenie/back1s.png
+			</background>
+
+			<min_differences> 4 </min_differences>
+			<max_differences> 4 </max_differences>
+
+			<original>
+				<image>examples/Vehicles/webmichl_2cv4.svg
+				</image>
+				<pos_x unit="px"> 5 </pos_x>
+				<pos_y unit="px"> 10 </pos_y>
+				<width unit="px"> 90 </width>
+				<height unit="px"> 40 </height>
+				
+			</original>
+
+			<modified>
+				<image>examples/Differences/Vehicles/webmichl_2cv4_mod.svg
+				</image>
+				
+				<pos_x unit="px"> 5 </pos_x>
+				<pos_y unit="px"> 52 </pos_y>
+				<width unit="px"> 90 </width>
+				<height unit="px"> 40 </height>
+			</modified>
+
+			<found>
+				<image>examples/Differences/entoure_green.svg
+				</image>
+				<ratio_x>100</ratio_x>
+				<ratio_y>100</ratio_y>
+			</found>
+
+		</global_parameters>
+
+		<differences>
+
+			<difference>
+				<pos_x unit="px"> 0 </pos_x>
+				<pos_y unit="px"> 163 </pos_y>
+				<width unit="px"> 162 </width>
+				<height unit="px"> 145 </height>
+			</difference>
+			<difference>
+				<pos_x unit="px"> 160 </pos_x>
+				<pos_y unit="px"> 58 </pos_y>
+				<width unit="px"> 124 </width>
+				<height unit="px"> 65 </height>
+			</difference>
+			<difference>
+				<pos_x unit="px"> 221 </pos_x>
+				<pos_y unit="px"> 321 </pos_y>
+				<width unit="px"> 155 </width>
+				<height unit="px"> 68 </height>
+			</difference>
+			<difference>
+				<pos_x unit="px"> 255 </pos_x>
+				<pos_y unit="px"> 145 </pos_y>
+				<width unit="px"> 218 </width>
+				<height unit="px"> 44 </height>
+			</difference>
+			<difference>
+				<pos_x unit="px"> 432 </pos_x>
+				<pos_y unit="px"> 83 </pos_y>
+				<width unit="px"> 195 </width>
+				<height unit="px"> 55 </height>
+			</difference>
+			<difference>
+				<pos_x unit="px"> 763 </pos_x>
+				<pos_y unit="px"> 245 </pos_y>
+				<width unit="px"> 118 </width>
+				<height unit="px"> 58 </height>
+			</difference>
+			<difference>
+				<pos_x unit="px"> 789 </pos_x>
+				<pos_y unit="px"> 309 </pos_y>
+				<width unit="px"> 90 </width>
+				<height unit="px"> 40 </height>
+			</difference>
+			<difference>
+				<pos_x unit="px"> 803 </pos_x>
+				<pos_y unit="px"> 166 </pos_y>
+				<width unit="px"> 109 </width>
+				<height unit="px"> 71 </height>
+			</difference>		
+	
+		</differences>
+
+
+	</game>
+
+
+</game_set>
+</omnitux>

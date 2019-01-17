@@ -1,0 +1,4 @@
+http://upload.wikimedia.org/wikipedia/commons/8/81/Nuvola_filesystems_folder_home.svg
+http://commons.wikimedia.org/wiki/File:Nuvola_filesystems_folder_home.svg
+David Vignoni
+GNU Lesser General Public License

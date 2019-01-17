@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<omnitux version="1.0">
+	
+<game_set author="Olav_2">	
+	
+	<title lang="de">Buchstaben</title>
+
+	<tag>writing</tag>
+
+	<menu_index value="100" />
+
+	<level difficulty="1">
+
+		<game type="associate" xml_version="1.0" author="Olav_2">
+
+
+			<rounds>3</rounds>
+			
+			<thumbnail>examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg</thumbnail>
+			
+			<global_parameters>
+				
+				<game_setup>
+					<type_to_associate>image</type_to_associate>
+					<type_to_drag>image</type_to_drag>
+					
+					<!-- amount of items to choose from -->
+					<min_draggable> 3 </min_draggable>
+					<max_draggable> 3 </max_draggable>
+					
+				</game_setup>
+				
+				<item_to_associate>
+					<pos_x>  10 </pos_x> 
+					<pos_y>  10 </pos_y>
+					<width>  80 </width>
+					<height> 60 </height>
+					
+					
+				</item_to_associate>
+
+
+				<goal>
+					<pos_x>  30 </pos_x> 
+					<pos_y>  20 </pos_y>
+					<width>  20 </width>
+					<height> 20 </height>
+					
+					<image>default/icons/question_mark_space.svg</image>
+				</goal>
+				
+				
+				
+				<draggable_items_area>
+					<pos_x>  5 </pos_x> 
+					<pos_y>  75 </pos_y>
+					<width>  90 </width>
+					<height> 15 </height>
+					
+					<amount_x> 3 </amount_x>
+					<amount_y> 1 </amount_y>
+					
+					<spacing_x> 3 </spacing_x>
+					
+				</draggable_items_area>
+
+				<background>
+					examples/Shapes/geometrical/background.png
+				</background>
+				
+			</global_parameters>
+			
+			<associations>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/a.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/A.svg
+						<sound>examples/Alphabet/letters/De/a.ogg</sound> 
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/b.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/B.svg
+						<sound>examples/Alphabet/letters/De/b.ogg</sound>
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/c.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/C.svg
+						<sound>examples/Alphabet/letters/De/c.ogg</sound> 
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/d.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/D.svg
+						<sound>examples/Alphabet/letters/De/d.ogg</sound> 
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/e.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/E.svg
+						<sound>examples/Alphabet/letters/De/e.ogg</sound> 
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/f.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/F.svg
+						<sound>examples/Alphabet/letters/De/f.ogg</sound> 
+					</image>
+				</association>
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/g.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/G.svg
+						<sound>examples/Alphabet/letters/De/g.ogg</sound> 
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/h.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/H.svg
+						<sound>examples/Alphabet/letters/De/h.ogg</sound> 
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/i.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/I.svg
+						<sound>examples/Alphabet/letters/De/i.ogg</sound> 
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/j.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/J.svg
+						<sound>examples/Alphabet/letters/De/j.ogg</sound> 
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/k.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/K.svg
+						<sound>examples/Alphabet/letters/De/k.ogg</sound> 
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/l.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/L.svg
+						<sound>examples/Alphabet/letters/De/l.ogg</sound>
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/m.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/M.svg
+						<sound>examples/Alphabet/letters/De/m.ogg</sound> 
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/n.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/N.svg
+						<sound>examples/Alphabet/letters/De/n.ogg</sound> 
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/o.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/O.svg
+						<sound>examples/Alphabet/letters/De/o.ogg</sound>
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/p.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/P.svg
+						<sound>examples/Alphabet/letters/De/p.ogg</sound> 
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/q.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/Q.svg
+						<sound>examples/Alphabet/letters/De/q.ogg</sound> 
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/r.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/R.svg
+						<sound>examples/Alphabet/letters/De/r.ogg</sound> 
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/s.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/S.svg
+						<sound>examples/Alphabet/letters/De/s.ogg</sound> 
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/t.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/T.svg
+						<sound>examples/Alphabet/letters/De/t.ogg</sound> 
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/u.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/U.svg
+						<sound>examples/Alphabet/letters/De/u.ogg</sound>
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/v.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/V.svg
+						<sound>examples/Alphabet/letters/De/v.ogg</sound>
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/w.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/W.svg
+						<sound>examples/Alphabet/letters/De/w.ogg</sound> 
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/x.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/X.svg
+						<sound>examples/Alphabet/letters/De/x.ogg</sound> 
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/y.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/Y.svg
+						<sound>examples/Alphabet/letters/De/y.ogg</sound> 
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/z.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/Z.svg
+						<sound>examples/Alphabet/letters/De/z.ogg</sound> 
+					</image>
+				</association>
+
+
+
+			</associations>
+
+		</game>
+	</level>
+	
+	
+	<level difficulty="2">
+
+		<game type="associate" xml_version="1.0" author="Olav_2">
+
+			<rounds>5</rounds>
+			
+			<thumbnail>examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg</thumbnail>
+			
+			<global_parameters>
+				
+				<game_setup>
+					<type_to_associate>image</type_to_associate>
+					<type_to_drag>image</type_to_drag>
+					
+					<!-- amount of items to choose from -->
+					<min_draggable> 6 </min_draggable>
+					<max_draggable> 8 </max_draggable>
+					
+				</game_setup>
+				
+				<item_to_associate>
+					<pos_x>  50 </pos_x> 
+					<pos_y>  10 </pos_y>
+					<width>  40 </width>
+					<height> 80 </height>
+					
+					
+				</item_to_associate>
+
+
+				<goal>
+					<pos_x>  56 </pos_x> 
+					<pos_y>  29 </pos_y>
+					<width>  10 </width>
+					<height> 20 </height>
+					
+					<image>default/icons/question_mark_space.svg</image>
+				</goal>
+				
+				
+				
+				<draggable_items_area>
+					<pos_x>  5 </pos_x> 
+					<pos_y>  10 </pos_y>
+					<width>  40 </width>
+					<height> 80 </height>
+					
+					<amount_x> 2 </amount_x>
+					<amount_y> 4 </amount_y>
+					
+					<spacing_x> 3 </spacing_x>
+					<spacing_y> 2 </spacing_y>
+					
+				</draggable_items_area>
+
+				<background>
+					examples/Shapes/geometrical/background.png
+				</background>
+				
+			</global_parameters>
+			
+			<associations>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/a.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/A.svg
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/b.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/B.svg
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/c.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/C.svg
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/d.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/D.svg
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/e.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/E.svg
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/f.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/F.svg
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/g.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/G.svg
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/h.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/H.svg
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/i.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/I.svg
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/j.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/J.svg
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/k.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/K.svg
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/l.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/L.svg
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/m.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/M.svg
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/n.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/N.svg
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/o.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/O.svg
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/p.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/P.svg
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/q.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/Q.svg
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/r.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/R.svg
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/s.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/S.svg
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/t.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/T.svg
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/u.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/U.svg
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/v.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/V.svg
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/w.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/W.svg
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/x.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/X.svg
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/y.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/Y.svg
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/z.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/Z.svg
+					</image>
+				</association>
+
+			</associations>
+
+		</game>
+
+	</level>
+
+
+	
+	<level difficulty="3">
+
+		<game type="associate" xml_version="1.0" author="Olav_2">
+
+			<rounds>5</rounds>
+			
+			<thumbnail>examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg</thumbnail>
+			
+			<global_parameters>
+				
+				<game_setup>
+					<type_to_associate>image</type_to_associate>
+					<type_to_drag>image</type_to_drag>
+					
+					<!-- amount of items to choose from -->
+					<min_draggable> 20 </min_draggable>
+					<max_draggable> 25 </max_draggable>
+					
+				</game_setup>
+				
+				<item_to_associate>
+					<pos_x>  50 </pos_x> 
+					<pos_y>  10 </pos_y>
+					<width>  40 </width>
+					<height> 80 </height>
+					
+					
+				</item_to_associate>
+
+
+				<goal>
+					<pos_x>  56 </pos_x> 
+					<pos_y>  29 </pos_y>
+					<width>  10 </width>
+					<height> 20 </height>
+					
+					<image>default/icons/question_mark_space.svg</image>
+				</goal>
+				
+				
+				
+				<draggable_items_area>
+					<pos_x>  5 </pos_x> 
+					<pos_y>  10 </pos_y>
+					<width>  40 </width>
+					<height> 80 </height>
+					
+					<amount_x> 5 </amount_x>
+					<amount_y> 5 </amount_y>
+					
+					<spacing_x> 0.5 </spacing_x>
+					<spacing_y> 0.25 </spacing_y>
+					
+				</draggable_items_area>
+
+				<background>
+					examples/Shapes/geometrical/background.png
+				</background>
+				
+			</global_parameters>
+			
+			<associations>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/a.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/A.svg
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/b.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/B.svg
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/c.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/C.svg
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/d.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/D.svg
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/e.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/E.svg
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/f.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/F.svg
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/g.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/G.svg
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/h.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/H.svg
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/i.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/I.svg
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/j.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/J.svg
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/k.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/K.svg
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/l.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/L.svg
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/m.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/M.svg
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/n.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/N.svg
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/o.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/O.svg
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/p.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/P.svg
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/q.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/Q.svg
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/r.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/R.svg
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/s.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/S.svg
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/t.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/T.svg
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/u.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/U.svg
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/v.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/V.svg
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/w.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/W.svg
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/x.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/X.svg
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/y.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/Y.svg
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Alphabet/find_letter/ryanlerch_kids_in_front_of_a_blackboard.svg
+						<sound>examples/Alphabet/letters/De/z.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Alphabet/letters/Z.svg
+					</image>
+				</association>
+
+			</associations>
+		</game>
+
+	</level>
+
+
+
+</game_set>
+</omnitux>

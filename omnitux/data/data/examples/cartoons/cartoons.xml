@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<omnitux version="1.0">
+
+<!--
+ german translation: 100% (2010-04-12)
+ -->
+
+<game_set type="puzzle">
+
+	<title lang="de">Cartoons</title>
+	<title lang="en">Cartoons</title>
+	<title lang="es">Dibujos</title>
+	<title lang="fr">Cartoons</title>
+	<title lang="it">Cartons</title>
+	<title lang="pl">Kreskówki</title>
+	<title lang="pt">Imagens</title>
+	
+	<thumbnail>examples/cartoons/lemmling_Witch_s_cottage.svg</thumbnail>
+
+	<menu_index value="100" />
+
+	<level difficulty="1">
+
+
+		<game type="puzzle" xml_version="1.0" author="Kot26">
+			
+			<rounds>4</rounds>
+
+			<global_parameters>
+				
+				<game_setup>
+					<!-- those global parameters can be overriden for each image file -->
+					<pieces_amount_x> 2 </pieces_amount_x>
+					<pieces_amount_y> 2 </pieces_amount_y>
+					
+				</game_setup>
+				
+
+				<background>
+					examples/cartoons/3508894316_52265dd17a_o.jpg
+				</background>
+				
+				<goal>
+					<image>default/icons/transparent.svg</image>
+				</goal>
+				
+			</global_parameters>
+			
+			<puzzles>
+				<puzzle>
+					<image>examples/cartoons/eltlims_Estrela_do_PT_Sorindo.svg</image>
+					<text lang="de">Lächelnder Stern; Elton Lima</text>
+					<text lang="en">Smiling star; Elton Lima</text>
+					<text lang="fr">Etoile souriante; Elton Lima</text>
+					<text lang="it">Stella Sorridente; Elton Lima</text>
+					<text lang="pl">Gwiazda; Elton Lima</text>
+					<text lang="es">Estrella sonriente; Elton Lima</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/cartoons/hyoga_Tux_G2.svg</image>
+					<text lang="de">Batux; Javier Martínez</text>
+					<text lang="en">Batux; Javier Martínez</text>
+					<text lang="fr">Batux; Javier Martínez</text>
+					<text lang="it">Batux; Javier Martínez</text>	
+					<text lang="pl">Batux; Javier Martínez</text>	
+					<text lang="es">Batux; Javier Martínez</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/cartoons/lemmling_Mushroom_house.svg</image>
+					<text lang="de">Pilzhaus; Lemmling</text>
+					<text lang="en">Mushroom house; Lemmling</text>
+					<text lang="fr">Maison champignon; Lemmling</text>
+					<text lang="it">Casa Fungo; Lemmling</text>
+					<text lang="pl">Mushroom house; Lemmling</text>	
+					<text lang="es">Casa de hongo; Lemmling</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/cartoons/lemmling_Spooky_castle_in_full_moon.svg</image>
+					<text lang="de">Spukschloss bei Vollmond; Lemmling</text>
+					<text lang="en">Spooky castle in full moon; Lemmling</text>
+					<text lang="fr">Château sinistre, une nuit de pleine Lune; Lemmling</text>
+					<text lang="it">Castello Incantato in una notte di luna piena; Lemmling</text>
+					<text lang="pl">Spooky castle in full moon; Lemmling</text>
+					<text lang="es">Castillo encantado en luna llena; Lemmling</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/cartoons/lemmling_Witch_s_cottage.svg</image>
+					<text lang="de">Hexenhaus; Lemmling</text>
+					<text lang="en">Witch's cottage; Lemmling</text>
+					<text lang="fr">Le cottage de la sorcière; Lemmling</text>
+					<text lang="it">La Casa delle Streghe; Lemmling</text>
+					<text lang="pl">Witch's cottage; Lemmling</text>	
+					<text lang="es">Casita de la bruja; Lemmling</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/cartoons/Piratey_vector_version.svg</image>
+					<text lang="de">Pirat; Gustavb</text>
+					<text lang="en">Pirate; Gustavb</text>
+					<text lang="fr">Pirate; Gustavb</text>
+					<text lang="it">Pirata; Gustavb</text>
+					<text lang="pl">Pirat; Gustavb</text>	
+					<text lang="es">Pirata; Gustavb</text>
+				</puzzle>
+			</puzzles>
+
+		</game>
+		
+	</level>
+	
+	<level difficulty="2">
+	
+
+		<game type="puzzle" xml_version="1.0" author="Kot26">
+			
+
+			<global_parameters>
+				
+				<rounds>4</rounds>
+				
+				<game_setup>
+					<!-- those global parameters can be overriden for each image file -->
+					<pieces_amount_x> 3 </pieces_amount_x>
+					<pieces_amount_y> 3 </pieces_amount_y>
+					
+				</game_setup>
+				
+
+				<background>
+					examples/cartoons/3508894316_52265dd17a_o.jpg
+				</background>
+				
+				<goal>
+					<image>default/icons/transparent.svg</image>
+				</goal>
+				
+			</global_parameters>
+			
+			<puzzles>
+				<puzzle>
+					<image>examples/cartoons/eltlims_Estrela_do_PT_Sorindo.svg</image>
+					<text lang="de">Lächelnder Stern; Elton Lima</text>
+					<text lang="en">Smiling star; Elton Lima</text>
+					<text lang="fr">Etoile souriante; Elton Lima</text>
+					<text lang="it">Stella Sorridente; Elton Lima</text>
+					<text lang="pl">Gwiazda; Elton Lima</text>
+					<text lang="es">Estrella sonriente; Elton Lima</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/cartoons/hyoga_Tux_G2.svg</image>
+					<text lang="de">Batux; Javier Martínez</text>
+					<text lang="en">Batux; Javier Martínez</text>
+					<text lang="fr">Batux; Javier Martínez</text>
+					<text lang="it">Batux; Javier Martínez</text>	
+					<text lang="pl">Batux; Javier Martínez</text>	
+					<text lang="es">Batux; Javier Martínez</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/cartoons/lemmling_Mushroom_house.svg</image>
+					<text lang="de">Pilzhaus; Lemmling</text>
+					<text lang="en">Mushroom house; Lemmling</text>
+					<text lang="fr">Maison champignon; Lemmling</text>
+					<text lang="it">Casa Fungo; Lemmling</text>
+					<text lang="pl">Mushroom house; Lemmling</text>	
+					<text lang="es">Casa de hongo; Lemmling</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/cartoons/lemmling_Spooky_castle_in_full_moon.svg</image>
+					<text lang="de">Spukschloss bei Vollmond; Lemmling</text>
+					<text lang="en">Spooky castle in full moon; Lemmling</text>
+					<text lang="fr">Château sinistre, une nuit de pleine Lune; Lemmling</text>
+					<text lang="it">Castello Incantato in una notte di luna piena; Lemmling</text>
+					<text lang="pl">Spooky castle in full moon; Lemmling</text>
+					<text lang="es">Castillo encantado en luna llena; Lemmling</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/cartoons/lemmling_Witch_s_cottage.svg</image>
+					<text lang="de">Hexenhaus; Lemmling</text>
+					<text lang="en">Witch's cottage; Lemmling</text>
+					<text lang="fr">Le cottage de la sorcière; Lemmling</text>
+					<text lang="it">La Casa delle Streghe; Lemmling</text>
+					<text lang="pl">Witch's cottage; Lemmling</text>
+					<text lang="es">Casita de la bruja; Lemmling</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/cartoons/Piratey_vector_version.svg</image>
+					<text lang="de">Pirat; Gustavb</text>
+					<text lang="en">Pirate; Gustavb</text>
+					<text lang="fr">Pirate; Gustavb</text>
+					<text lang="it">Pirata; Gustavb</text>
+					<text lang="pl">Pirat; Gustavb</text>	
+					<text lang="en">Pirata; Gustavb</text>
+				</puzzle>
+			</puzzles>
+
+		</game>
+
+	</level>
+
+</game_set>
+
+</omnitux>

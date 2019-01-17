@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<omnitux version="1.0">
+<game type="associate" xml_version="1.0" author="Olav_2">
+	
+	<title lang="de">Farben</title>
+
+	<rounds>5</rounds>
+	
+	<thumbnail>default/awards/tuxes/NewTux_with_rainbow.svg</thumbnail>
+
+	<menu_index value="100" />
+
+	<global_parameters>
+		
+		<game_setup>
+			<type_to_associate>image</type_to_associate>
+			<type_to_drag>image</type_to_drag>
+			
+			<!-- amount of items to choose from -->
+			<min_draggable> 4 </min_draggable>
+			<max_draggable> 8 </max_draggable>
+			
+		</game_setup>
+		
+		<item_to_associate>
+			<pos_x>  10 </pos_x> 
+			<pos_y>  10 </pos_y>
+			<width>  30 </width>
+			<height> 80 </height>
+		</item_to_associate>
+
+
+		<goal>
+			<pos_x>  15 </pos_x> 
+			<pos_y>  45 </pos_y>
+			<width>  20 </width>
+			<height> 28 </height>
+			
+			<image>default/icons/question_mark_space.svg</image>
+		</goal>
+		
+		
+		
+		<draggable_items_area>
+			<pos_x>  50 </pos_x> 
+			<pos_y>  10 </pos_y>
+			<width>  40 </width>
+			<height> 80 </height>
+			
+			<amount_x> 2 </amount_x>
+			<amount_y> 4 </amount_y>
+			
+		</draggable_items_area>
+
+		<background>
+			examples/Shapes/geometrical/background.png
+		</background>
+		
+	</global_parameters>
+	
+	<associations>
+
+		<association>
+			<image type="to_associate">default/awards/tuxes/NewTux_with_rainbow.svg
+				<sound>examples/Colors/De/De_blau.ogg</sound> 
+			</image>
+			<image type="to_drag">examples/Colors/blue.svg
+			</image>
+			<image type="to_drag">examples/Colors/light_blue.svg
+			</image>
+		</association>
+
+		<association>
+			<image type="to_associate">default/awards/tuxes/NewTux_with_rainbow.svg
+				<sound>examples/Colors/De/De_gruen.ogg</sound> 
+			</image>
+			<image type="to_drag">examples/Colors/green.svg
+			</image>
+		</association>
+		
+		<association>
+			<image type="to_associate">default/awards/tuxes/NewTux_with_rainbow.svg
+				<sound>examples/Colors/De/De_grau.ogg</sound> 
+			</image>
+			<image type="to_drag">examples/Colors/grey.svg
+			</image>
+		</association>
+		
+		<association>
+			<image type="to_associate">default/awards/tuxes/NewTux_with_rainbow.svg
+				<sound>examples/Colors/De/De_orange.ogg</sound> 
+			</image>
+			<image type="to_drag">examples/Colors/orange.svg
+			</image>
+		</association>		
+
+		<association>
+			<image type="to_associate">default/awards/tuxes/NewTux_with_rainbow.svg
+				<sound>examples/Colors/De/De_rosa.ogg</sound> 
+			</image>
+			<image type="to_drag">examples/Colors/pink.svg
+			</image>
+		</association>	
+		
+				<association>
+			<image type="to_associate">default/awards/tuxes/NewTux_with_rainbow.svg
+				<sound>examples/Colors/De/De_rot.ogg</sound> 
+			</image>
+			<image type="to_drag">examples/Colors/red.svg
+			</image>
+		</association>	
+		
+				<association>
+			<image type="to_associate">default/awards/tuxes/NewTux_with_rainbow.svg
+				<sound>examples/Colors/De/De_lila.ogg</sound> 
+			</image>
+			<image type="to_drag">examples/Colors/violet.svg
+			</image>
+		</association>	
+		
+		<association>
+			<image type="to_associate">default/awards/tuxes/NewTux_with_rainbow.svg
+				<sound>examples/Colors/De/De_gelb.ogg</sound> 
+			</image>
+			<image type="to_drag">examples/Colors/yellow.svg
+			</image>
+		</association>	
+		
+		<association>
+			<image type="to_associate">default/awards/tuxes/NewTux_with_rainbow.svg
+				<sound>examples/Colors/De/De_schwarz.ogg</sound> 
+			</image>
+			<image type="to_drag">examples/Colors/black.svg
+			</image>
+		</association>	
+
+		<association>
+			<image type="to_associate">default/awards/tuxes/NewTux_with_rainbow.svg
+				<sound>examples/Colors/De/De_weiss.ogg</sound> 
+			</image>
+			<image type="to_drag">examples/Colors/white.svg
+			</image>
+		</association>	
+
+		<association>
+			<image type="to_associate">default/awards/tuxes/NewTux_with_rainbow.svg
+				<sound>examples/Colors/De/De_braun.ogg</sound> 
+			</image>
+			<image type="to_drag">examples/Colors/brown.svg
+			</image>
+		</association>
+
+	</associations>
+
+</game>
+</omnitux>

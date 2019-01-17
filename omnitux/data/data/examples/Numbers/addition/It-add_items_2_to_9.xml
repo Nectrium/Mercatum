@@ -1,0 +1,265 @@
+<?xml version="1.0" ?>
+<game type="associate" xml_version="1.0" author="Kot26 and eugenio">
+
+	<title lang="en">Sum 1-9</title>
+	<title lang="fr">Somme 1-9</title>	
+	<title lang="it">Somma 2-9</title>
+
+
+	<rounds>8</rounds>
+
+	<thumbnail>examples/Numbers/addition/addition.png</thumbnail>
+
+	<tag>numbers</tag>
+
+	<menu_index value="500" />
+
+
+	<global_parameters>
+		
+		<game_setup>
+			<type_to_associate>image</type_to_associate>
+			<type_to_drag>image</type_to_drag>
+			
+			<!-- amount of items to choose from -->
+			<min_draggable> 3 </min_draggable>
+			<max_draggable> 8 </max_draggable>
+			
+		</game_setup>
+		
+		<item_to_associate>
+			<pos_x>  60 </pos_x> 
+			<pos_y>  10 </pos_y>
+			<width>  30 </width>
+			<height> 50 </height>
+		</item_to_associate>
+
+		<draggable_items_area>
+			<pos_x>  5 </pos_x> 
+			<pos_y>  10 </pos_y>
+			<width>  55 </width>
+			<height> 85 </height>
+			
+			<amount_x> 3 </amount_x>
+			<amount_y> 3 </amount_y>
+
+			<spacing_x> 0.2 </spacing_x>
+			<spacing_y> 0.5 </spacing_y>
+			
+		</draggable_items_area>
+	
+		
+		<goal>
+			<pos_x>  65 </pos_x> 
+			<pos_y>  65 </pos_y>
+			<width>  30 </width>
+			<height> 30 </height>
+		</goal>
+		
+		<background>
+			Kot26/liczenie/back_green_yellow.png
+		</background>		
+		
+	</global_parameters>
+	
+	<associations>	
+
+               <association>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/2_pies.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/2_lornetka.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/2_owca.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/2_oiseau.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/2_koza.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/2_delfin.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/2_swierszcz.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/2_hipopotam.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/2_zaba.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/2_niedzwiedz.png</image>
+                        <image type="to_associate">examples/Numbers/addition/1+1.svg
+                                <sound lang="it">examples/Numbers/addition/It/1+1.ogg</sound>
+                        </image>
+                </association>
+                <association>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/3_pszczola.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/3_ptak.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/3_swierszcz.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/3_pingwin.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/3_zyrafa.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/3_mlotek.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/3_aparat.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/3_lew.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/3_tygrys.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/3_bemben.png</image>
+                        <image type="to_associate">examples/Numbers/addition/1+2.svg
+                                <sound lang="it">examples/Numbers/addition/It/1+2.ogg</sound>
+                        </image>
+                        <image type="to_associate">examples/Numbers/addition/2+1.svg
+                                <sound lang="it">examples/Numbers/addition/It/2+1.ogg</sound>
+                        </image>
+                </association>
+                <association>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/4_motyl.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/4_swinia.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/4_ryba.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/4_krolik.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/4_fleming.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/4_gitara.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/4_sowa.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/4_tygrys.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/4_mucha.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/4_tukan.png</image>
+                        <image type="to_associate">examples/Numbers/addition/3+1.svg
+                                <sound lang="it">examples/Numbers/addition/It/3+1.ogg</sound>
+                        </image>
+                        <image type="to_associate">examples/Numbers/addition/2+2.svg
+                                <sound lang="it">examples/Numbers/addition/It/2+2.ogg</sound>
+                        </image>
+                        <image type="to_associate">examples/Numbers/addition/1+3.svg
+                                <sound lang="it">examples/Numbers/addition/It/1+3.ogg</sound>
+                        </image>
+                </association>
+                <association>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/5_koliber.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/5_wiewiorka.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/5_wazka.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/5_jelen.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/5_koza.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/5_gitara.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/5_skrzypce.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/5_krolik.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/5_fleming.png</image>
+                        <image type="to_associate">examples/Numbers/addition/1+4.svg
+                                <sound lang="it">examples/Numbers/addition/It/1+4.ogg</sound>
+                        </image>
+                        <image type="to_associate">examples/Numbers/addition/2+3.svg
+                                <sound lang="it">examples/Numbers/addition/It/2+3.ogg</sound>
+                        </image>
+                        <image type="to_associate">examples/Numbers/addition/3+2.svg
+                                <sound lang="it">examples/Numbers/addition/It/3+2.ogg</sound>
+                        </image>
+                        <image type="to_associate">examples/Numbers/addition/4+1.svg
+                                <sound lang="it">examples/Numbers/addition/It/4+1.ogg</sound>
+                        </image>
+                </association>
+                <association>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/6_slimak.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/6_delfin.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/6_motyl.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/6_kury.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/6_osiol.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/6_pies.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/6_zebra.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/6_koala.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/6_tukan.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/6_nozyczki.png</image>
+                        <image type="to_associate">examples/Numbers/addition/1+5.svg
+                                <sound lang="it">examples/Numbers/addition/It/1+5.ogg</sound>
+                        </image>
+                        <image type="to_associate">examples/Numbers/addition/2+4.svg
+                                <sound lang="it">examples/Numbers/addition/It/2+4.ogg</sound>
+                        </image>
+                        <image type="to_associate">examples/Numbers/addition/3+3.svg
+                                <sound lang="it">examples/Numbers/addition/It/3+3.ogg</sound>
+                        </image>
+                        <image type="to_associate">examples/Numbers/addition/4+2.svg
+                                <sound lang="it">examples/Numbers/addition/It/4+2.ogg</sound>
+                        </image>
+                        <image type="to_associate">examples/Numbers/addition/5+1.svg
+                                <sound lang="it">examples/Numbers/addition/It/5+1.ogg</sound>
+                        </image>
+                </association>
+                <association>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/7_pingwin.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/7_lis.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/7_foka.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/7_mlotek.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/7_kon.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/7_ges.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/7_ryba.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/7_zebra.png</image>
+                        <image type="to_associate">examples/Numbers/addition/1+6.svg
+                                <sound lang="it">examples/Numbers/addition/It/1+6.ogg</sound>
+                        </image>
+                        <image type="to_associate">examples/Numbers/addition/2+5.svg
+                                <sound lang="it">examples/Numbers/addition/It/2+5.ogg</sound>
+                        </image>
+                        <image type="to_associate">examples/Numbers/addition/3+4.svg
+                                <sound lang="it">examples/Numbers/addition/It/3+4.ogg</sound>
+                        </image>
+                        <image type="to_associate">examples/Numbers/addition/4+3.svg
+                                <sound lang="it">examples/Numbers/addition/It/4+3.ogg</sound>
+                        </image>
+                        <image type="to_associate">examples/Numbers/addition/5+2.svg
+                                <sound lang="it">examples/Numbers/addition/It/5+2.ogg</sound>
+                        </image>
+                        <image type="to_associate">examples/Numbers/addition/6+1.svg
+                                <sound lang="it">examples/Numbers/addition/It/6+1.ogg</sound>
+                        </image>
+                </association>
+                <association>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/8_pingwin.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/8_pedzel.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/8_koliber.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/8_swinia.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/8_biedronka.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/8_mysz.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/8_bobr.png</image>
+                        <image type="to_associate">examples/Numbers/addition/1+7.svg
+                                <sound lang="it">examples/Numbers/addition/It/1+7.ogg</sound>
+                        </image>
+                        <image type="to_associate">examples/Numbers/addition/2+6.svg
+                                <sound lang="it">examples/Numbers/addition/It/2+6.ogg</sound>
+                        </image>
+                        <image type="to_associate">examples/Numbers/addition/3+5.svg
+                                <sound lang="it">examples/Numbers/addition/It/3+5.ogg</sound>
+                        </image>
+                        <image type="to_associate">examples/Numbers/addition/4+4.svg
+                                <sound lang="it">examples/Numbers/addition/It/4+4.ogg</sound>
+                        </image>
+                        <image type="to_associate">examples/Numbers/addition/5+3.svg
+                                <sound lang="it">examples/Numbers/addition/It/5+3.ogg</sound>
+                        </image>
+                        <image type="to_associate">examples/Numbers/addition/6+2.svg
+                                <sound lang="it">examples/Numbers/addition/It/6+2.ogg</sound>
+                        </image>
+                        <image type="to_associate">examples/Numbers/addition/7+1.svg
+                                <sound lang="it">examples/Numbers/addition/It/7+1.ogg</sound>
+                        </image>
+                </association>
+                <association>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/9_wiewiorka.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/9_niedzwiedz.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/9_pila.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/9_kura.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/9_papuga.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/9_kangur.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/9_ryba.png</image>
+                        <image type="to_associate">examples/Numbers/addition/1+8.svg
+                                <sound lang="it">examples/Numbers/addition/It/1+8.ogg</sound>
+                        </image>
+                        <image type="to_associate">examples/Numbers/addition/2+7.svg
+                                <sound lang="it">examples/Numbers/addition/It/2+7.ogg</sound>
+                        </image>
+                        <image type="to_associate">examples/Numbers/addition/3+6.svg
+                                <sound lang="it">examples/Numbers/addition/It/3+6.ogg</sound>
+                        </image>
+                        <image type="to_associate">examples/Numbers/addition/4+5.svg
+                                <sound lang="it">examples/Numbers/addition/It/4+5.ogg</sound>
+                        </image>
+                        <image type="to_associate">examples/Numbers/addition/5+4.svg
+                                <sound lang="it">examples/Numbers/addition/It/5+4.ogg</sound>
+                        </image>
+                        <image type="to_associate">examples/Numbers/addition/6+3.svg
+                                <sound lang="it">examples/Numbers/addition/It/6+3.ogg</sound>
+                        </image>
+                        <image type="to_associate">examples/Numbers/addition/7+2.svg
+                                <sound lang="it">examples/Numbers/addition/It/7+2.ogg</sound>
+                        </image>
+                        <image type="to_associate">examples/Numbers/addition/8+1.svg
+                                <sound lang="it">examples/Numbers/addition/It/8+1.ogg</sound>
+                        </image>
+                </association>
+
+	</associations>
+
+</game>

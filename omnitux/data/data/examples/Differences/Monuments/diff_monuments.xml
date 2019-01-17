@@ -1,0 +1,135 @@
+<?xml version="1.0" ?>
+<omnitux version="1.0">
+
+<game_set type="differences">
+
+ 	<title lang="de">Bauwerke</title>
+	<title lang="en">Monuments</title>
+	<title lang="es">Monumentos</title>
+	<title lang="fr">Monuments</title>
+	<title lang="it">Monumenti</title>
+	<title lang="pl">Zabytki</title>
+	<title lang="pt">Monumentos</title>
+ 
+	<thumbnail>examples/Differences/Monuments/thumb_monuments.jpg</thumbnail>
+
+	<menu_index value="200" />
+
+	<game type="differences" author="Kot26">
+	
+		<global_parameters>
+	
+			<background>
+				Kot26/liczenie/back1s.png
+			</background>
+
+			<min_differences> 5 </min_differences>
+			<max_differences> 5 </max_differences>
+
+			<!-- next tag is useful in case of resizing for .light images -->
+			<image_resolution width="3872" height="2592"/>				
+
+			<original>
+				<image>Manfred/German_monuments/Rothenburg_BW_4.JPG
+				</image>
+				<pos_x unit="px"> 0.5 </pos_x>
+				<pos_y unit="px"> 10 </pos_y>
+				<width unit="px"> 49 </width>
+				<height unit="px"> 89 </height>
+				
+			</original>
+
+			<modified>
+				<image>examples/Differences/Monuments/Rothenburg_BW_4_diff.jpg
+				</image>
+				
+				<pos_x unit="px"> 50.5 </pos_x>
+				<pos_y unit="px"> 10 </pos_y>
+				<width unit="px"> 49 </width>
+				<height unit="px"> 89 </height>
+			</modified>
+
+			<found>
+				<image>examples/Differences/entoure.svg
+				</image>
+				<ratio_x>110</ratio_x>
+				<ratio_y>110</ratio_y>
+			</found>
+
+		</global_parameters>
+
+		<differences>
+		
+			<difference>
+				<pos_x unit="px"> 1764 </pos_x>
+				<pos_y unit="px"> 0 </pos_y>
+				<width unit="px"> 668 </width>
+				<height unit="px"> 444 </height>
+			</difference>
+			<difference>
+				<pos_x unit="px"> 2596 </pos_x>
+				<pos_y unit="px"> 476 </pos_y>
+				<width unit="px"> 160 </width>
+				<height unit="px"> 216 </height>
+			</difference>
+			<difference>
+				<pos_x unit="px"> 1644 </pos_x>
+				<pos_y unit="px"> 716 </pos_y>
+				<width unit="px"> 168 </width>
+				<height unit="px"> 168 </height>
+			</difference>
+			<difference>
+				<pos_x unit="px"> 928 </pos_x>
+				<pos_y unit="px"> 860 </pos_y>
+				<width unit="px"> 256 </width>
+				<height unit="px"> 208 </height>
+			</difference>
+			<difference>
+				<pos_x unit="px"> 1012 </pos_x>
+				<pos_y unit="px"> 1076 </pos_y>
+				<width unit="px"> 88 </width>
+				<height unit="px"> 96 </height>
+			</difference>
+			<difference>
+				<pos_x unit="px"> 1560 </pos_x>
+				<pos_y unit="px"> 1056 </pos_y>
+				<width unit="px"> 148 </width>
+				<height unit="px"> 128 </height>
+			</difference>
+			<difference>
+				<pos_x unit="px"> 352 </pos_x>
+				<pos_y unit="px"> 1140 </pos_y>
+				<width unit="px"> 196 </width>
+				<height unit="px"> 216 </height>
+			</difference>
+			<difference>
+				<pos_x unit="px"> 1412 </pos_x>
+				<pos_y unit="px"> 1384 </pos_y>
+				<width unit="px"> 484 </width>
+				<height unit="px"> 140 </height>
+			</difference>
+			<difference>
+				<pos_x unit="px"> 2288 </pos_x>
+				<pos_y unit="px"> 1388 </pos_y>
+				<width unit="px"> 112 </width>
+				<height unit="px"> 320 </height>
+			</difference>
+			<difference>
+				<pos_x unit="px"> 3180 </pos_x>
+				<pos_y unit="px"> 1520 </pos_y>
+				<width unit="px"> 232 </width>
+				<height unit="px"> 388</height>
+			</difference>
+			<difference>
+				<pos_x unit="px"> 572 </pos_x>
+				<pos_y unit="px"> 1752 </pos_y>
+				<width unit="px"> 908 </width>
+				<height unit="px"> 380 </height>
+			</difference>
+
+		</differences>
+
+	</game>
+
+</game_set>
+</omnitux>

@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<omnitux version="1.0">
+
+<game_set>
+
+	<title lang="de">Bauwerke in Deutschland</title>
+	<title lang="en">German Monuments</title>
+	<title lang="es">Monumentos en Alemania</title>
+	<title lang="fr">Monuments - Allemagne</title>
+	<title lang="it">Monumenti - Germania</title>
+	<title lang="pl">Zabytki - Niemcy</title>
+	<title lang="pt">Monumentos em Alemanha</title>
+
+	<thumbnail>Manfred/German_monuments/Coat_of_Arms_of_Germany.svg</thumbnail>
+
+	<tag>arts</tag>
+
+
+	<menu_index value="300" lang="de" />
+	<menu_index value="500" lang="en" />
+	<menu_index value="500" lang="es" />
+	<menu_index value="500" lang="fr" />
+	<menu_index value="500" lang="it" />
+	<menu_index value="500" lang="pl" />
+	<menu_index value="500" lang="pt" />
+	
+
+	<level difficulty="1">
+
+		<game type="associate" author="Olav_2">
+			
+			<rounds>1</rounds>
+			
+			<global_parameters>
+				
+				<game_setup>
+					<type_to_associate>image_on_map</type_to_associate>
+					<type_to_drag>image</type_to_drag>
+					
+					<!-- amount of items to choose from -->
+					<min_draggable> 4 </min_draggable>
+					<max_draggable> 6 </max_draggable>
+					
+				</game_setup>
+
+				<map>
+					<image>Manfred/Germany.svg</image>
+					<pos_x>  22 </pos_x> 
+					<pos_y>  7 </pos_y>
+					<width>  56 </width>
+					<height> 92 </height>
+				</map>		
+
+				<draggable_items_area>
+					<pos_x>  1 </pos_x> 
+					<pos_y>  7 </pos_y>
+					<width>  20 </width>
+					<height> 92 </height>
+					
+					<amount_x> 1 </amount_x>
+					<amount_y> 3 </amount_y>
+					
+				</draggable_items_area>
+				
+				<draggable_items_area>
+					<pos_x>  79 </pos_x> 
+					<pos_y>  7 </pos_y>
+					<width>  20 </width>
+					<height> 92 </height>
+					
+
+					<amount_x> 1 </amount_x>
+					<amount_y> 3 </amount_y>
+					
+				</draggable_items_area>		
+
+				<background>
+					Kot26/liczenie/back1s.png
+				</background>		
+				
+			</global_parameters>
+			
+			<associations>	
+				<association>
+					<goal>
+						<pos_x>  74.51 </pos_x> 
+						<pos_y>  41.56 </pos_y>
+						<width>  16 </width>
+						<height> 16 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">Manfred/German_monuments/Dresden-Frauenkirche-night.jpg
+						
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x>  42 </pos_x> 
+						<pos_y>  67.33 </pos_y>
+						<width>  16 </width>
+						<height> 16 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">Manfred/German_monuments/Rothenburg_BW_4.JPG
+						
+					</image>
+				</association>
+				
+				<association>
+					<goal>
+						<pos_x>  9.08 </pos_x> 
+						<pos_y>  54 </pos_y>
+						<width>  16 </width>
+						<height> 16 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">Manfred/German_monuments/Burg_Eltz_1.jpg
+						
+					</image>
+				</association>
+				
+				<association>
+					<goal>
+						<pos_x>  69.87 </pos_x> 
+						<pos_y>  23.28 </pos_y>
+						<width>  16 </width>
+						<height> 16 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">Manfred/German_monuments/Brandenburger_Tor_abends.jpg
+						
+					</image>
+				</association>
+				
+				<association>
+					<goal>
+						<pos_x>  31.89 </pos_x> 
+						<pos_y>  -3.59 </pos_y>
+						<width>  16 </width>
+						<height> 16 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">Manfred/German_monuments/Glucksburg,_Sudfassade.JPG
+						
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x>  46.92 </pos_x> 
+						<pos_y>  34.07 </pos_y>
+						<width>  16 </width>
+						<height> 16 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">Manfred/German_monuments/Schlossqlb.jpg
+						
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x>  44.32 </pos_x> 
+						<pos_y>  87.59 </pos_y>
+						<width>  16 </width>
+						<height> 16 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">Manfred/German_monuments/Castle_Neuschwanstein.jpg
+						
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x>  7.03 </pos_x> 
+						<pos_y>  42.77 </pos_y>
+						<width>  16 </width>
+						<height> 16 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">Manfred/German_monuments/Kolner_Dom_abends.jpg
+						
+					</image>
+				</association>
+
+			</associations>
+		</game>
+
+	</level>
+
+
+	<level difficulty="2">
+
+		<game type="associate" author="Olav_2">
+			
+			
+			<rounds>1</rounds>
+			
+			
+			<global_parameters>
+				
+				<game_setup>
+					<type_to_associate>image_on_map</type_to_associate>
+					<type_to_drag>image</type_to_drag>
+					
+					<!-- amount of items to choose from -->
+					<min_draggable> 4 </min_draggable>
+					<max_draggable> 6 </max_draggable>
+					
+				</game_setup>
+
+				<map>
+					<image>Manfred/Germany.svg</image>
+					<pos_x>  22 </pos_x> 
+					<pos_y>  7 </pos_y>
+					<width>  56 </width>
+					<height> 92 </height>
+				</map>		
+
+				<draggable_items_area>
+					<pos_x>  1 </pos_x> 
+					<pos_y>  7 </pos_y>
+					<width>  20 </width>
+					<height> 92 </height>
+					
+					<amount_x> 1 </amount_x>
+					<amount_y> 3 </amount_y>
+					
+				</draggable_items_area>
+				
+				<draggable_items_area>
+					<pos_x>  79 </pos_x> 
+					<pos_y>  7 </pos_y>
+					<width>  20 </width>
+					<height> 92 </height>
+					
+
+					<amount_x> 1 </amount_x>
+					<amount_y> 3 </amount_y>
+					
+				</draggable_items_area>		
+				
+
+				<background>
+					Kot26/liczenie/back1s.png
+				</background>		
+				
+			</global_parameters>
+			
+			<associations>	
+				<association>
+					<goal>
+						<pos_x>  74.51 </pos_x> 
+						<pos_y>  41.56 </pos_y>
+						<width>  16 </width>
+						<height> 16 </height>
+						<image>default/icons/transparent.svg</image>
+					</goal>
+					<image type="to_drag">Manfred/German_monuments/Dresden-Frauenkirche-night.jpg
+						
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x>  42 </pos_x> 
+						<pos_y>  67.33 </pos_y>
+						<width>  16 </width>
+						<height> 16 </height>
+						<image>default/icons/transparent.svg</image>
+					</goal>
+					<image type="to_drag">Manfred/German_monuments/Rothenburg_BW_4.JPG
+						
+					</image>
+				</association>
+				
+				<association>
+					<goal>
+						<pos_x>  9.08 </pos_x> 
+						<pos_y>  54 </pos_y>
+						<width>  16 </width>
+						<height> 16 </height>
+						<image>default/icons/transparent.svg</image>
+					</goal>
+					<image type="to_drag">Manfred/German_monuments/Burg_Eltz_1.jpg
+						
+					</image>
+				</association>
+				
+				<association>
+					<goal>
+						<pos_x>  69.87 </pos_x> 
+						<pos_y>  23.28 </pos_y>
+						<width>  16 </width>
+						<height> 16 </height>
+						<image>default/icons/transparent.svg</image>
+					</goal>
+					<image type="to_drag">Manfred/German_monuments/Brandenburger_Tor_abends.jpg
+						
+					</image>
+				</association>
+				
+				<association>
+					<goal>
+						<pos_x>  31.89 </pos_x> 
+						<pos_y>  -3.59 </pos_y>
+						<width>  16 </width>
+						<height> 16 </height>
+						<image>default/icons/transparent.svg</image>
+					</goal>
+					<image type="to_drag">Manfred/German_monuments/Glucksburg,_Sudfassade.JPG
+						
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x>  46.92 </pos_x> 
+						<pos_y>  34.07 </pos_y>
+						<width>  16 </width>
+						<height> 16 </height>
+						<image>default/icons/transparent.svg</image>
+					</goal>
+					<image type="to_drag">Manfred/German_monuments/Schlossqlb.jpg
+						
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x>  44.32 </pos_x> 
+						<pos_y>  87.59 </pos_y>
+						<width>  16 </width>
+						<height> 16 </height>
+						<image>default/icons/transparent.svg</image>
+					</goal>
+					<image type="to_drag">Manfred/German_monuments/Castle_Neuschwanstein.jpg
+						
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x>  7.03 </pos_x> 
+						<pos_y>  42.77 </pos_y>
+						<width>  16 </width>
+						<height> 16 </height>
+						<image>default/icons/transparent.svg</image>
+					</goal>
+					<image type="to_drag">Manfred/German_monuments/Kolner_Dom_abends.jpg
+						
+					</image>
+				</association>
+
+			</associations>
+		</game>
+
+	</level>
+	
+</game_set>
+
+</omnitux>

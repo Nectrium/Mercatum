@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<omnitux version="1.0">
+
+<game_set>
+
+	<title lang="de">Bauwerke in Frankreich</title>
+	<title lang="en">Monuments in France</title>
+	<title lang="es">Monumentos en Francia</title>
+	<title lang="fr">Monuments français</title>
+	<title lang="it">Monumenti francesi</title>
+	<title lang="pl">Zabytki - Francja</title>
+	<title lang="pt">Monumentos em França</title>
+
+
+	<tag>arts</tag>
+
+	<thumbnail>examples/Monuments/Paris_06_Eiffelturm_4828.jpg</thumbnail>
+
+	<menu_index value="400" lang="de" />
+	<menu_index value="400" lang="en" />
+	<menu_index value="400" lang="es" />
+	<menu_index value="300" lang="fr" />
+	<menu_index value="400" lang="it" />
+	<menu_index value="400" lang="pl" />
+	<menu_index value="400" lang="pt" />
+
+
+
+	<dict key="Lyon" lang="de" value="Lyon" />
+	<dict key="Lyon" lang="en" value="Lyon" />
+	<dict key="Lyon" lang="es" value="Lyon" />	
+	<dict key="Lyon" lang="fr" value="Lyon" />
+	<dict key="Lyon" lang="it" value="Lyon" />
+	<dict key="Lyon" lang="pl" value="Lyon" />
+	<dict key="Lyon" lang="pt" value="Lyon" />
+	
+	<dict key="Strasbourg" lang="de" value="Straßburg" />
+	<dict key="Strasbourg" lang="es" value="Estrasburgo - Los puentes cubiertos" />
+	<dict key="Strasbourg" lang="en" value="Strasbourg - Grande Île" />
+	<dict key="Strasbourg" lang="fr" value="Strasbourg - Les ponts couverts" />
+	<dict key="Strasbourg" lang="it" value="Strasburgo - I ponti coperti" />
+	<dict key="Strasbourg" lang="pl" value="Strasburg - Zabytkowe Centrum" />
+	<dict key="Strasbourg" lang="pt" value="Estrasburgo" />
+
+	<dict key="Avignon" lang="de" value="Papstpalast (Avignon)" />
+	<dict key="Avignon" lang="es" value="Palacio Papal de Aviñón" />
+	<dict key="Avignon" lang="en" value="Palais des Papes (Avignon)" />
+	<dict key="Avignon" lang="fr" value="Palais des papes d'Avignon" />
+	<dict key="Avignon" lang="it" value="Palazzo dei Papi d'Avignone" />
+	<dict key="Avignon" lang="pl" value="Pałac Papieski, Awinion" />
+	<dict key="Avignon" lang="pt" value="Palácio dos Papas de Avinhão" />
+
+
+	<dict key="Salt" lang="de" value="Batz-sur-Mer" />
+	<dict key="Salt" lang="es" value="Batz-sur-Mer" />
+	<dict key="Salt" lang="en" value="Batz-sur-Mer" />
+	<dict key="Salt" lang="fr" value="Batz-sur-Mer, Marais salants" />
+	<dict key="Salt" lang="it" value="Batz-sur-Mer" />
+	<dict key="Salt" lang="pl" value="Batz-sur-Mer" />
+	<dict key="Salt" lang="pt" value="Batz-sur-Mer" />
+	
+	<dict key="Bonifacio" lang="de" value="Bonifacio" />
+	<dict key="Bonifacio" lang="es" value="Bonifacio" />
+	<dict key="Bonifacio" lang="en" value="Bonifacio" />
+	<dict key="Bonifacio" lang="fr" value="Bonifacio" />
+	<dict key="Bonifacio" lang="it" value="Bonifacio" />
+	<dict key="Bonifacio" lang="pl" value="Bonifacio" />
+	<dict key="Bonifacio" lang="pt" value="Bonifacio" />	
+
+	<dict key="Carcassonne" lang="de" value="Stadtmauer von Carcassonne" />
+	<dict key="Carcassonne" lang="es" value="Ciudad histórica fortificada de Carcasona" />
+	<dict key="Carcassonne" lang="en" value="Historic Fortified City of Carcassonne" />
+	<dict key="Carcassonne" lang="fr" value="Carcassonne, cité médiévale" />
+	<dict key="Carcassonne" lang="it" value="Carcassonne, Città Medioevale" />
+	<dict key="Carcassonne" lang="pl" value="Ufortyfikowane stare miasto w Carcassonne" />
+	<dict key="Carcassonne" lang="pt" value="Cidade Histórica Fortificada de Carcassonne" />
+
+	<dict key="Chenonceau" lang="de" value="Schloss Chenonceau" />
+	<dict key="Chenonceau" lang="es" value="Castillo de Chenonceau" />
+	<dict key="Chenonceau" lang="en" value="Château de Chenonceau" />
+	<dict key="Chenonceau" lang="fr" value="Château de Chenonceau" />
+	<dict key="Chenonceau" lang="it" value="Castello di Chenonceau" />
+	<dict key="Chenonceau" lang="pl" value="Zamek Chenonceau" />
+	<dict key="Chenonceau" lang="pt" value="Castelo de Chenonceau" />
+
+	<dict key="Chambord" lang="de" value="Schloss Chambord" />
+	<dict key="Chambord" lang="es" value="Castillo de Chambord" />
+	<dict key="Chambord" lang="en" value="Château de Chambord" />
+	<dict key="Chambord" lang="fr" value="Château de Chambord" />
+	<dict key="Chambord" lang="it" value="Castello di Chambord" />
+	<dict key="Chambord" lang="pl" value="Zamek w Chambord" />
+	<dict key="Chambord" lang="pt" value="Castelo de Chambord" />
+
+	<dict key="Foix" lang="de" value="Burg Foix" />
+	<dict key="Foix" lang="es" value="Castillo de Foix" />
+	<dict key="Foix" lang="en" value="Château de Foix" />
+	<dict key="Foix" lang="fr" value="Château de Foix" />
+	<dict key="Foix" lang="it" value="Castello di Foix" />
+	<dict key="Foix" lang="pl" value="Zamek w Foix" />
+	<dict key="Foix" lang="pt" value="Castelo de Foix" />
+
+	<dict key="Espelette" lang="de" value="Espelette" />
+	<dict key="Espelette" lang="es" value="Espelette" />
+	<dict key="Espelette" lang="en" value="Espelette" />
+	<dict key="Espelette" lang="fr" value="Espelette" />
+	<dict key="Espelette" lang="it" value="Espelette" />
+	<dict key="Espelette" lang="pl" value="Espelette" />
+	<dict key="Espelette" lang="pt" value="Espelette" />
+
+	<dict key="Nancy" lang="de" value="Place Stanislas, Nancy" />
+	<dict key="Nancy" lang="es" value="Plaza Stanislas, Nancy" />
+	<dict key="Nancy" lang="en" value="Place Stanislas, Nancy" />
+	<dict key="Nancy" lang="fr" value="Place Stanislas, Nancy" />
+	<dict key="Nancy" lang="it" value="Piazza Stanislas, Nancy" />
+	<dict key="Nancy" lang="pl" value="Plac Stanisława, Nancy" />
+	<dict key="Nancy" lang="pt" value="Place Stanislas, Nancy" />
+
+	<dict key="Rochelle" lang="de" value="La Rochelle, Hafenportal von Seeseite" />
+	<dict key="Rochelle" lang="es" value="Torres del viejo puerto de La Rochelle" />
+	<dict key="Rochelle" lang="en" value="La Rochelle, Harbour towers" />
+	<dict key="Rochelle" lang="fr" value="Les tours du vieux-port de La Rochelle" />
+	<dict key="Rochelle" lang="it" value="Torre di avvistamento del porto di La Rochelle" />
+	<dict key="Rochelle" lang="pl" value="Wieże broniące wejścia do portu w La Rochelle" />
+	<dict key="Rochelle" lang="pt" value="La Rochelle" />
+
+	<dict key="Rouen" lang="de" value="Die große astronomische Uhr, Rouen" />
+	<dict key="Rouen" lang="es" value="Gran Reloj, Rouen" />
+	<dict key="Rouen" lang="en" value="The Gros Horloge, Rouen" />
+	<dict key="Rouen" lang="fr" value="Le Gros-Horloge, Rouen" />
+	<dict key="Rouen" lang="it" value="Orologio Astronomico, Rouen" />
+	<dict key="Rouen" lang="pl" value="Zegar astronomiczny, Rouen" />
+	<dict key="Rouen" lang="pt" value="Relógio astronômico, Ruão" />
+
+	<dict key="StMichel" lang="de" value="Mont-Saint-Michel" />
+	<dict key="StMichel" lang="es" value="Monte Saint-Michel" />
+	<dict key="StMichel" lang="en" value="Mont Saint-Michel" />
+	<dict key="StMichel" lang="fr" value="Mont-Saint-Michel" />
+	<dict key="StMichel" lang="it" value="Mont-Saint-Michel" />
+	<dict key="StMichel" lang="pl" value="Mont-Saint-Michel" />
+	<dict key="StMichel" lang="pt" value="Monte Saint-Michel" />
+
+	<dict key="StMathieu" lang="de" value="Leuchtturm von St. Mathieu" />
+	<dict key="StMathieu" lang="es" value="Faro de Saint-Mathieu" />
+	<dict key="StMathieu" lang="en" value="St. Mathieu lighthouse" />
+	<dict key="StMathieu" lang="fr" value="Phare de Saint-Mathieu" />
+	<dict key="StMathieu" lang="pl" value="Latarnia morska Świętego Mateusza" />
+	<dict key="StMathieu" lang="pt" value="Farol de Saint Mathieu" />
+
+	<dict key="Gard" lang="de" value="Pont du Gard" />
+	<dict key="Gard" lang="es" value="Puente del Gard" />
+	<dict key="Gard" lang="en" value="Pont du Gard" />
+	<dict key="Gard" lang="fr" value="Pont du Gard" />
+	<dict key="Gard" lang="it" value="Pont du Gard" />
+	<dict key="Gard" lang="pl" value="Akwedukt Pont-du-Gard" />
+	<dict key="Gard" lang="pt" value="Ponte do Gard" />
+
+	<dict key="Chartres" lang="de" value="Kathedrale Notre-Dame-de-Chartres" />
+	<dict key="Chartres" lang="es" value="Catedral de la Asunción de Nuestra Señora" />
+	<dict key="Chartres" lang="en" value="Cathedral of Our Lady of Chartres" />
+	<dict key="Chartres" lang="fr" value="Cathédrale Notre-Dame de Chartres" />
+	<dict key="Chartres" lang="it" value="Cattedrale Notre-Dame de Chartres" />
+	<dict key="Chartres" lang="pl" value="Katedra w Chartres" />
+	<dict key="Chartres" lang="pt" value="Catedral de Chartres" />
+
+	<dict key="Capitole" lang="de" value="Das Capitole, das Rathaus von Toulouse" />
+	<dict key="Capitole" lang="es" value="Capitolio de Toulouse" />
+	<dict key="Capitole" lang="en" value="Capitole de Toulouse" />
+	<dict key="Capitole" lang="fr" value="Capitole de Toulouse" />
+	<dict key="Capitole" lang="it" value="Capitole de Toulouse" />
+	<dict key="Capitole" lang="pl" value="Kapitol w Tuluzie" />
+	<dict key="Capitole" lang="pt" value="Capitólio, Toulouse" />
+
+	<dict key="Bordeaux" lang="de" value="Place de la Bourse mit Miroir d´eau, Bordeaux" />
+	<dict key="Bordeaux" lang="es" value="Place de la Bourse, Bordeaux" />
+	<dict key="Bordeaux" lang="en" value="Place de la Bourse with Miroir d´eau" />
+	<dict key="Bordeaux" lang="fr" value="Place de la Bourse, miroir d'eau, Bordeaux" />
+	<dict key="Bordeaux" lang="it" value="Place de la Bourse, Bordeaux" />
+	<dict key="Bordeaux" lang="pl" value="Place de la Bourse w Bordeaux" />
+	<dict key="Bordeaux" lang="pt" value="Bordéus" />
+
+
+
+	<level difficulty="1">
+		<game type="associate" xml_version="1.0" author="Olav_2">
+			
+			<rounds>1</rounds>
+
+
+			<global_parameters>
+				
+				<game_setup>
+					<type_to_associate>image_on_map</type_to_associate>
+					<type_to_drag>image</type_to_drag>
+					
+					<!-- amount of items to choose from -->
+					<min_draggable> 5 </min_draggable>
+					<max_draggable> 6 </max_draggable>
+
+
+				</game_setup>
+
+				<map>
+					<image>examples/Maps/Europe/France_map_Lambert-93_topographic-blank.svg</image>
+					<pos_x>   16.5 </pos_x> 
+					<pos_y>  8 </pos_y>
+					<width>  66 </width>
+					<height> 83 </height>
+					
+				</map>		
+
+				<draggable_items_area>
+					<pos_x>  0.5 </pos_x> 
+					<pos_y>  8 </pos_y>
+					<width>  16 </width>
+					<height> 83 </height>
+					
+
+					<amount_x> 1 </amount_x>
+					<amount_y> 3 </amount_y>
+					
+					<spacing_y> 0.25 </spacing_y>
+					
+				</draggable_items_area>
+
+				<draggable_items_area>
+					<pos_x>  83.5 </pos_x> 
+					<pos_y>  8 </pos_y>
+					<width>  16 </width>
+					<height> 83 </height>
+					
+
+					<amount_x> 1 </amount_x>
+					<amount_y> 3 </amount_y>
+					
+					<spacing_y> 0.25 </spacing_y>
+					
+				</draggable_items_area>
+				
+				<text_legend_area>
+					<pos_x>  1 </pos_x> 
+					<pos_y>  91.5 </pos_y>
+					<width>  99 </width>
+					<height> 8 </height>
+
+				</text_legend_area>				
+
+				<background>
+					Kot26/liczenie/back1s.png
+				</background>		
+				
+			</global_parameters>
+			
+			<associations>	
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 1258 </pos_x> 
+						<pos_y unit="px"> 1390 </pos_y>
+						<width> 12 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/France/Avignon_Palais_des_Papes_depuis_Tour_Philippe_le_Bel_by_JM_Rosier.jpg
+						<text key = "Avignon" />
+					</image>
+				</association>
+				
+				<association>
+					<goal>
+						<pos_x unit="px"> 948 </pos_x> 
+						<pos_y unit="px"> 1524 </pos_y>
+						<width> 12 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/France/Carcassone_42645432_d8082f820b_o.jpg
+						<text key = "Carcassonne" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 772 </pos_x> 
+						<pos_y unit="px"> 788 </pos_y>
+						<width> 12 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/France/Chateau_de_Chenonceau_2008E.jpg
+						<text key = "Chenonceau" />
+					</image>
+				</association>
+
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 858 </pos_x> 
+						<pos_y unit="px"> 734 </pos_y>
+						<width> 12 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/France/France_Loir-et-Cher_Chambord_Chateau_03.jpg
+						<text key = "Chambord" />
+					</image>
+				</association>
+
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 440 </pos_x> 
+						<pos_y unit="px"> 1474 </pos_y>
+						<width> 12 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/France/Espelette_Euskadi.jpg
+						<text key = "Espelette" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 1394 </pos_x> 
+						<pos_y unit="px"> 530 </pos_y>
+						<width> 12 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/France/France-Nancy-Place_Stanislas_1_2007-03.jpg
+						<text key = "Nancy" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 514 </pos_x> 
+						<pos_y unit="px"> 968 </pos_y>
+						<width> 12 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/France/La_Rochelle_Vieux-Port.jpg
+						<text key = "Rochelle" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 496 </pos_x> 
+						<pos_y unit="px"> 540 </pos_y>
+						<width> 12 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/France/Mont_Saint-Michel_France.jpg
+						<text key = "StMichel" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 1218 </pos_x> 
+						<pos_y unit="px"> 1380 </pos_y>
+						<width> 12 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/France/Pontdugard.jpg
+						<text key = "Gard" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 868 </pos_x> 
+						<pos_y unit="px"> 584 </pos_y>
+						<width> 12 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/France/Westfassade_Chartres.jpg
+						<text key = "Chartres" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 822 </pos_x> 
+						<pos_y unit="px"> 1462 </pos_y>
+						<width> 12 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/France/Toulouse_Capitole_Night_Wikimedia_Commons.jpg
+						<text key = "Capitole" />
+					</image>
+				</association>
+
+			</associations>
+
+		</game>
+
+	</level>
+
+
+	<level difficulty="2">
+		<game type="associate" xml_version="1.0" author="Olav_2">
+			
+			<rounds>1</rounds>
+
+
+			<global_parameters>
+				
+				<game_setup>
+					<type_to_associate>image_on_map</type_to_associate>
+					<type_to_drag>image</type_to_drag>
+					
+					<!-- amount of items to choose from -->
+					<min_draggable> 6 </min_draggable>
+					<max_draggable> 8 </max_draggable>
+
+					<!-- amount of "false" goals to make things harder on a map -->
+					<min_false_goals> 1 </min_false_goals>
+					<max_false_goals> 3 </max_false_goals>
+
+				</game_setup>
+
+				<map>
+					<image>examples/Maps/Europe/France_map_Lambert-93_topographic-blank.svg</image>
+					<pos_x>   16.5 </pos_x> 
+					<pos_y>  8 </pos_y>
+					<width>  66 </width>
+					<height> 83 </height>
+					
+				</map>		
+
+				<draggable_items_area>
+					<pos_x>  0.5 </pos_x> 
+					<pos_y>  8 </pos_y>
+					<width>  16 </width>
+					<height> 83 </height>
+					
+
+					<amount_x> 1 </amount_x>
+					<amount_y> 4 </amount_y>
+					
+					<spacing_y> 0.25 </spacing_y>
+					
+				</draggable_items_area>
+
+				<draggable_items_area>
+					<pos_x>  83.5 </pos_x> 
+					<pos_y>  8 </pos_y>
+					<width>  16 </width>
+					<height> 83 </height>
+					
+
+					<amount_x> 1 </amount_x>
+					<amount_y> 4 </amount_y>
+					
+					<spacing_y> 0.25 </spacing_y>
+					
+				</draggable_items_area>
+				
+				<text_legend_area>
+					<pos_x>  1 </pos_x> 
+					<pos_y>  91.5 </pos_y>
+					<width>  99 </width>
+					<height> 8 </height>
+
+				</text_legend_area>				
+
+				<background>
+					Kot26/liczenie/back1s.png
+				</background>		
+				
+			</global_parameters>
+			
+			<associations>	
+					<!-- image rendered with gimp is 2000x1898 pixels -->
+
+				<association>
+					<goal>
+						<!-- Lyon -->
+						<pos_x unit="px"> 1260 </pos_x> 
+						<pos_y unit="px"> 1059 </pos_y>
+						<width> 12 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/France/162404701_698188de94_o.jpg
+						<text key = "Lyon" />
+					</image>
+				</association>
+
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 1586 </pos_x> 
+						<pos_y unit="px"> 540 </pos_y>
+						<width> 12 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/France/Absolute_ponts_couverts_02.jpg
+						<text key = "Strasbourg" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 1258 </pos_x> 
+						<pos_y unit="px"> 1390 </pos_y>
+						<width> 12 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/France/Avignon_Palais_des_Papes_depuis_Tour_Philippe_le_Bel_by_JM_Rosier.jpg
+						<text key = "Avignon" />
+					</image>
+				</association>
+				
+				<association>
+					<goal>
+						<pos_x unit="px"> 364 </pos_x> 
+						<pos_y unit="px"> 766 </pos_y>
+						<width> 12 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/France/Batz-sur-Mer_Marais_Salants.jpg
+						<text key = "Salt" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 1856 </pos_x> 
+						<pos_y unit="px"> 1818 </pos_y>
+						<width> 12 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/France/Bonifacio_2580327787_60c77ba1ff_o.jpg
+						<text key = "Bonifacio" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 948 </pos_x> 
+						<pos_y unit="px"> 1524 </pos_y>
+						<width> 12 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/France/Carcassone_42645432_d8082f820b_o.jpg
+						<text key = "Carcassonne" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 772 </pos_x> 
+						<pos_y unit="px"> 788 </pos_y>
+						<width> 12 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/France/Chateau_de_Chenonceau_2008E.jpg
+						<text key = "Chenonceau" />
+					</image>
+				</association>
+
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 858 </pos_x> 
+						<pos_y unit="px"> 734 </pos_y>
+						<width> 12 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/France/France_Loir-et-Cher_Chambord_Chateau_03.jpg
+						<text key = "Chambord" />
+					</image>
+				</association>
+
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 846 </pos_x> 
+						<pos_y unit="px"> 1576 </pos_y>
+						<width> 12 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/France/Chateau_de_Foix_Lespinet.jpg
+						<text key = "Foix" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 440 </pos_x> 
+						<pos_y unit="px"> 1474 </pos_y>
+						<width> 12 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/France/Espelette_Euskadi.jpg
+						<text key = "Espelette" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 1394 </pos_x> 
+						<pos_y unit="px"> 530 </pos_y>
+						<width> 12 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/France/France-Nancy-Place_Stanislas_1_2007-03.jpg
+						<text key = "Nancy" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 514 </pos_x> 
+						<pos_y unit="px"> 968 </pos_y>
+						<width> 12 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/France/La_Rochelle_Vieux-Port.jpg
+						<text key = "Rochelle" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 816 </pos_x> 
+						<pos_y unit="px"> 426 </pos_y>
+						<width> 12 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/France/Le_Gros_Horloge_Rouen_Normandy.jpg
+						<text key = "Rouen" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 496 </pos_x> 
+						<pos_y unit="px"> 540 </pos_y>
+						<width> 12 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/France/Mont_Saint-Michel_France.jpg
+						<text key = "StMichel" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 106 </pos_x> 
+						<pos_y unit="px"> 562 </pos_y>
+						<width> 12 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/France/Phare_de_Saint_Mathieu.jpg
+						<text key = "StMathieu" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 1218 </pos_x> 
+						<pos_y unit="px"> 1380 </pos_y>
+						<width> 12 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/France/Pontdugard.jpg
+						<text key = "Gard" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 868 </pos_x> 
+						<pos_y unit="px"> 584 </pos_y>
+						<width> 12 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/France/Westfassade_Chartres.jpg
+						<text key = "Chartres" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 822 </pos_x> 
+						<pos_y unit="px"> 1462 </pos_y>
+						<width> 12 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/France/Toulouse_Capitole_Night_Wikimedia_Commons.jpg
+						<text key = "Capitole" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 576 </pos_x> 
+						<pos_y unit="px"> 1192 </pos_y>
+						<width> 12 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/France/XDSC_7643-Effet-brouillard-Miroir-d-eau-quai-de-la-Gironde.jpg
+						<text key = "Bordeaux" />
+					</image>
+				</association>
+
+			</associations>
+
+		</game>
+
+	</level>
+
+	</game_set>
+
+</omnitux>

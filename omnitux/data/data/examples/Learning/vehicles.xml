@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<omnitux version="1.0">
+
+<game_set author="Olav_2">
+
+	<title lang="de">Fahrzeuge</title>
+	<title lang="en">Vehicles</title>
+	<title lang="es">Vehículos</title>
+	<title lang="fr">Véhicules</title>
+	<title lang="it">Veicoli</title>
+	<title lang="pl">Pojazdy</title>
+	<title lang="pt">Veículos</title>
+
+	<thumbnail>examples/Vehicles/mbs_ICE-Train.svg</thumbnail>
+
+	<tag>learning</tag>
+
+	<menu_index value="050" />
+
+	<game type="learning">
+
+
+		<music mode="off" />
+
+
+		<rounds>1</rounds>
+
+
+		<global_parameters>
+			<game_setup>
+
+				<!-- amount of items to display -->
+				<min_display> 4 </min_display>
+				<max_display> 4 </max_display>
+				
+			</game_setup>
+				
+				<item_to_display_area>
+					<pos_x>   1 </pos_x> 
+					<pos_y>  11 </pos_y>
+					<width>  48 </width>
+					<height> 38 </height>
+
+					<image type="mask">
+						default/backgrounds/ABSTRACT-Pastel_1024x768.jpg
+					</image>
+
+				</item_to_display_area>
+				
+				<item_to_display_area>
+					<pos_x>  51 </pos_x> 
+					<pos_y>  11 </pos_y>
+					<width>  48 </width>
+					<height> 38 </height>
+
+					<image type="mask">
+						default/backgrounds/ABSTRACT-Pastel_1024x768.jpg
+					</image>
+
+				</item_to_display_area>
+
+				<item_to_display_area>
+					<pos_x>   1 </pos_x> 
+					<pos_y>  51 </pos_y>
+					<width>  48 </width>
+					<height> 38 </height>
+
+					<image type="mask">
+						default/backgrounds/ABSTRACT-Pastel_1024x768.jpg
+					</image>
+
+				</item_to_display_area>
+				
+				<item_to_display_area>
+					<pos_x>  51 </pos_x> 
+					<pos_y>  51 </pos_y>
+					<width>  48 </width>
+					<height> 38 </height>
+
+					<image type="mask">ABSTRACT-Pastel_1024x768.jpgdark_green.svg
+					</image>
+
+				</item_to_display_area>
+
+
+				<background>default/backgrounds/ABSTRACT-Vertigo_1600x1200.jpg</background>
+
+
+		</global_parameters>
+	
+		<learning_cards>	
+
+			<learning_card>
+				<image>examples/Vehicles/fire_engine_mimooh_01.svg</image>
+				<sound>examples/Vehicles/Sounds/104464__dkmedic__SIREN2.ogg</sound> 
+			</learning_card>
+			<learning_card>
+				<image>examples/Vehicles/koconmus_Soldek.svg</image>
+				<sound>examples/Vehicles/Sounds/23722__milo__ship2_bergen.ogg</sound> 
+			</learning_card>
+			<learning_card>
+				<image>examples/Vehicles/mbs_ICE-Train.svg</image>
+				<sound>examples/Vehicles/Sounds/24968__mich3d__Train_TGV_Passing_06.ogg</sound> 
+			</learning_card>
+			<learning_card>
+				<image>examples/Alphabet/ivak_Cistern_Truck.svg</image>
+				<sound>examples/Vehicles/Sounds/26814__roscoetoon__t_start1.ogg</sound> 
+			</learning_card>
+			<learning_card>
+				<image>examples/Alphabet/yves_guillou_boat.svg</image>
+				<sound>examples/Vehicles/Sounds/38017__rockdoctor__sea2.ogg</sound> 
+			</learning_card>
+			<learning_card>
+				<image>examples/Alphabet/Gerald_G_Motorcycle_Clipart.svg</image>
+				<sound>examples/Vehicles/Sounds/49328__Heigh_hoo__hayabusa3.ogg</sound> 
+			</learning_card>
+			<learning_card>
+				<image>examples/Vehicles/Planes/Jarno_Aircraft.svg</image>
+				<sound>examples/Vehicles/Sounds/51491__Heigh_hoo__airliner_approach_2.ogg</sound> 
+			</learning_card>
+			<learning_card>
+				<image>examples/Alphabet/Bell214STDrawing.svg</image>
+				<sound>examples/Vehicles/Sounds/69607__Figowitz__Robinson_flying_loop.ogg</sound> 
+			</learning_card>
+			<learning_card>
+				<image>examples/Vehicles/jean_victor_balin_locotoy.svg</image>
+				<sound>examples/Vehicles/Sounds/9922__Heigh_hoo__steam_locomotive_close.ogg</sound> 
+			</learning_card>
+			<learning_card>
+				<image>examples/Vehicles/ryanlerch_Red_Lamborghini.svg</image>
+				<sound>examples/Vehicles/Sounds/21741__Erdie__car_start.ogg</sound> 
+			</learning_card>
+
+
+		</learning_cards>
+
+	</game>
+
+</game_set>
+</omnitux>

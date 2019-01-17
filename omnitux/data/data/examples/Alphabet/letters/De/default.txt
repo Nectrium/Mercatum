@@ -1,0 +1,4 @@
+http://edu.kde.org/klettres/
+Helmut Kriege
+GNU GPL 2+
+

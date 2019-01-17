@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<omnitux>
+<game_set author="Olav_2">
+
+	<title lang="fr">Ordonner les lettres</title>
+
+	<thumbnail>examples/Alphabet/thumb_words.jpg</thumbnail>
+	
+	<rounds>2</rounds>
+
+	<tag>writing</tag>
+
+	<menu_index value="500" />
+
+	<game type="associate">
+		
+		<global_parameters>
+			
+			<game_setup>
+				<type_to_associate>image_on_map</type_to_associate>
+				<type_to_drag>image</type_to_drag>
+				
+				<!-- amount of items to choose from -->
+				<min_draggable> 6 </min_draggable>
+				<max_draggable> 6 </max_draggable>
+				
+			</game_setup>
+			
+			<map>
+				<image>examples/Alphabet/Bananen_Frucht.jpg</image>
+				<pos_x>  11 </pos_x> 
+				<pos_y>  8 </pos_y>
+				<width>  78 </width>
+				<height> 91 </height>
+			</map>
+		
+			<draggable_items_area>
+				<pos_x>  91 </pos_x> 
+				<pos_y>  8 </pos_y>
+				<width>  5 </width>
+				<height> 91 </height>
+				
+				<amount_x> 1 </amount_x>
+				<amount_y> 6 </amount_y>
+				
+			</draggable_items_area>		
+
+			<background>
+				Kot26/liczenie/back1s.png
+			</background>
+			
+		</global_parameters>
+		
+		<associations>
+			<association>
+
+				<goal>
+					<pos_x>  -20.5 </pos_x> 
+					<pos_y>  82 </pos_y>
+					<width>  16 </width>
+					<height> 16 </height>
+					<image>default/icons/NewTux.svg</image>
+				</goal>
+
+				<image type="to_drag">examples/Alphabet/letters/B.svg<sound>examples/Alphabet/letters/Fr/Fr-B-fr-Sud_Ouest.ogg</sound></image>
+
+			</association>
+
+			<association>
+				<goal>
+					<pos_x>  4.5 </pos_x> 
+					<pos_y>  82 </pos_y>
+					<width>  16 </width>
+					<height> 16 </height>
+					<image>default/icons/NewTux.svg</image>
+				</goal>
+
+				<image type="to_drag">examples/Alphabet/letters/A.svg<sound>examples/Alphabet/letters/Fr/Fr-A-fr-Paris.ogg</sound></image>
+			</association>
+
+			<association>
+				<goal>
+					<pos_x>  29.5 </pos_x> 
+					<pos_y>  82 </pos_y>
+					<width>  16 </width>
+					<height> 16 </height>
+					<image>default/icons/NewTux.svg</image>
+				</goal>
+
+				<image type="to_drag">examples/Alphabet/letters/N.svg<sound>examples/Alphabet/letters/Fr/Fr-N-fr-Paris.ogg</sound></image>
+			</association>
+
+			<association>
+				<goal>
+					<pos_x>  54.5 </pos_x> 
+					<pos_y>  82 </pos_y>
+					<width>  16 </width>
+					<height> 16 </height>
+					<image>default/icons/NewTux.svg</image>
+				</goal>
+
+				<image type="to_drag">examples/Alphabet/letters/A.svg<sound>examples/Alphabet/letters/Fr/Fr-A-fr-Paris.ogg</sound></image>
+			</association>
+
+			<association>
+				<goal>
+					<pos_x>  79.5 </pos_x> 
+					<pos_y>  82 </pos_y>
+					<width>  16 </width>
+					<height> 16 </height>
+					<image>default/icons/NewTux.svg</image>
+				</goal>
+
+				<image type="to_drag">examples/Alphabet/letters/N.svg<sound>examples/Alphabet/letters/Fr/Fr-N-fr-Paris.ogg</sound></image>
+			</association>
+
+			<association>
+				<goal>
+					<pos_x>  104.5 </pos_x> 
+					<pos_y>  82 </pos_y>
+					<width>  16 </width>
+					<height> 16 </height>
+					<image>default/icons/NewTux.svg</image>
+				</goal>
+
+				<image type="to_drag">examples/Alphabet/letters/E.svg<sound>examples/Alphabet/letters/Fr/Fr-E-fr-Paris.ogg</sound></image>
+			</association>
+
+		</associations>
+
+	</game>
+
+	<game type="associate" >
+		
+
+		<global_parameters>
+			
+			<game_setup>
+				<type_to_associate>image_on_map</type_to_associate>
+				<type_to_drag>image</type_to_drag>
+				
+				<!-- amount of items to choose from -->
+				<min_draggable> 6 </min_draggable>
+				<max_draggable> 6 </max_draggable>
+				
+			</game_setup>
+			
+			<map>
+				<image>examples/Alphabet/Giraffe_standing.jpg</image>
+				<pos_x>  11 </pos_x> 
+				<pos_y>  8 </pos_y>
+				<width>  78 </width>
+				<height> 91 </height>
+			</map>
+		
+			<draggable_items_area>
+				<pos_x>  91 </pos_x> 
+				<pos_y>  8 </pos_y>
+				<width>  5 </width>
+				<height> 91 </height>
+				
+				<amount_x> 1 </amount_x>
+				<amount_y> 6 </amount_y>
+				
+			</draggable_items_area>		
+
+			<background>
+				Kot26/liczenie/back1s.png
+			</background>
+			
+		</global_parameters>
+		
+		<associations>
+			<association>
+
+				<goal>
+					<pos_x>  -20.5 </pos_x> 
+					<pos_y>  82 </pos_y>
+					<width>  16 </width>
+					<height> 16 </height>
+					<image>default/icons/NewTux.svg</image>
+				</goal>
+
+				<image type="to_drag">examples/Alphabet/letters/G.svg<sound>examples/Alphabet/letters/Fr/Fr-G-fr-Paris.ogg</sound></image>
+
+			</association>
+
+			<association>
+				<goal>
+					<pos_x>  4.5 </pos_x> 
+					<pos_y>  82 </pos_y>
+					<width>  16 </width>
+					<height> 16 </height>
+					<image>default/icons/NewTux.svg</image>
+				</goal>
+
+				<image type="to_drag">examples/Alphabet/letters/I.svg<sound>examples/Alphabet/letters/Fr/Fr-I-fr-Paris.ogg</sound></image>
+			</association>
+
+			<association>
+				<goal>
+					<pos_x>  29.5 </pos_x> 
+					<pos_y>  82 </pos_y>
+					<width>  16 </width>
+					<height> 16 </height>
+					<image>default/icons/NewTux.svg</image>
+				</goal>
+
+				<image type="to_drag">examples/Alphabet/letters/R.svg<sound>examples/Alphabet/letters/Fr/Fr-R-fr-Paris.ogg</sound></image>
+			</association>
+
+			<association>
+				<goal>
+					<pos_x>  54.5 </pos_x> 
+					<pos_y>  82 </pos_y>
+					<width>  16 </width>
+					<height> 16 </height>
+					<image>default/icons/NewTux.svg</image>
+				</goal>
+
+				<image type="to_drag">examples/Alphabet/letters/A.svg<sound>examples/Alphabet/letters/Fr/Fr-A-fr-Paris.ogg</sound></image>
+			</association>
+
+			<association>
+				<goal>
+					<pos_x>  79.5 </pos_x> 
+					<pos_y>  82 </pos_y>
+					<width>  16 </width>
+					<height> 16 </height>
+					<image>default/icons/NewTux.svg</image>
+				</goal>
+
+				<image type="to_drag">examples/Alphabet/letters/F.svg<sound>examples/Alphabet/letters/Fr/Fr-F-fr-Paris.ogg</sound></image>
+			</association>
+
+			<association>
+				<goal>
+					<pos_x>  104.5 </pos_x> 
+					<pos_y>  82 </pos_y>
+					<width>  16 </width>
+					<height> 16 </height>
+					<image>default/icons/NewTux.svg</image>
+				</goal>
+
+				<image type="to_drag">examples/Alphabet/letters/E.svg<sound>examples/Alphabet/letters/Fr/Fr-E-fr-Paris.ogg</sound></image>
+			</association>
+
+		</associations>
+
+	</game>
+
+	<game type="associate" >
+
+		<global_parameters>
+			
+			<game_setup>
+				<type_to_associate>image_on_map</type_to_associate>
+				<type_to_drag>image</type_to_drag>
+				
+				<!-- amount of items to choose from -->
+				<min_draggable> 4 </min_draggable>
+				<max_draggable> 4 </max_draggable>
+				
+			</game_setup>
+			
+			<map>
+				<image>examples/Alphabet/Gerald_G_Motorcycle_Clipart.svg</image>
+				<pos_x>  11 </pos_x> 
+				<pos_y>  8 </pos_y>
+				<width>  78 </width>
+				<height> 91 </height>
+			</map>
+		
+			<draggable_items_area>
+				<pos_x>  91 </pos_x> 
+				<pos_y>  8 </pos_y>
+				<width>  5 </width>
+				<height> 91 </height>
+				
+				<amount_x> 1 </amount_x>
+				<amount_y> 6 </amount_y>
+				
+			</draggable_items_area>		
+
+			<background>
+				Kot26/liczenie/back1s.png
+			</background>
+			
+		</global_parameters>
+		
+		<associations>
+			<association>
+
+				<goal>
+					<pos_x>  12 </pos_x> 
+					<pos_y>  82 </pos_y>
+					<width>  16 </width>
+					<height> 16 </height>
+					<image>default/icons/NewTux.svg</image>
+				</goal>
+
+				<image type="to_drag">examples/Alphabet/letters/M.svg<sound>examples/Alphabet/letters/Fr/Fr-M-fr-Paris.ogg</sound></image>
+
+			</association>
+
+			<association>
+				<goal>
+					<pos_x>  32 </pos_x> 
+					<pos_y>  82 </pos_y>
+					<width>  16 </width>
+					<height> 16 </height>
+					<image>default/icons/NewTux.svg</image>
+				</goal>
+
+				<image type="to_drag">examples/Alphabet/letters/O.svg<sound>examples/Alphabet/letters/Fr/Fr-O-fr-Paris.ogg</sound></image>
+			</association>
+
+			<association>
+				<goal>
+					<pos_x>  52 </pos_x> 
+					<pos_y>  82 </pos_y>
+					<width>  16 </width>
+					<height> 16 </height>
+					<image>default/icons/NewTux.svg</image>
+				</goal>
+
+				<image type="to_drag">examples/Alphabet/letters/T.svg<sound>examples/Alphabet/letters/Fr/Fr-T-fr-Paris.ogg</sound></image>
+			</association>
+
+			<association>
+				<goal>
+					<pos_x>  72 </pos_x> 
+					<pos_y>  82 </pos_y>
+					<width>  16 </width>
+					<height> 16 </height>
+					<image>default/icons/NewTux.svg</image>
+				</goal>
+
+				<image type="to_drag">examples/Alphabet/letters/O.svg<sound>examples/Alphabet/letters/Fr/Fr-O-fr-Paris.ogg</sound></image>
+			</association>
+
+
+		</associations>
+
+	</game>
+
+	<game type="associate">
+		
+		<global_parameters>
+			
+			<game_setup>
+				<type_to_associate>image_on_map</type_to_associate>
+				<type_to_drag>image</type_to_drag>
+				
+				<!-- amount of items to choose from -->
+				<min_draggable> 5 </min_draggable>
+				<max_draggable> 5 </max_draggable>
+				
+			</game_setup>
+			
+			<map>
+				<image>examples/Music_Instruments/Piano_at_Fort_Wayne.jpg</image>
+				<pos_x>  11 </pos_x> 
+				<pos_y>  8 </pos_y>
+				<width>  78 </width>
+				<height> 91 </height>
+			</map>
+		
+			<draggable_items_area>
+				<pos_x>  91 </pos_x> 
+				<pos_y>  8 </pos_y>
+				<width>  5 </width>
+				<height> 91 </height>
+				
+				<amount_x> 1 </amount_x>
+				<amount_y> 5 </amount_y>
+				
+			</draggable_items_area>		
+
+			<background>
+				Kot26/liczenie/back1s.png
+			</background>
+			
+		</global_parameters>
+		
+		<associations>
+			<association>
+
+				<goal>
+					<pos_x>  2 </pos_x> 
+					<pos_y>  82 </pos_y>
+					<width>  16 </width>
+					<height> 16 </height>
+					<image>default/icons/NewTux.svg</image>
+				</goal>
+
+				<image type="to_drag">examples/Alphabet/letters/P.svg<sound>examples/Alphabet/letters/Fr/Fr-P-fr-Paris.ogg</sound></image>
+
+			</association>
+
+			<association>
+				<goal>
+					<pos_x>  22 </pos_x> 
+					<pos_y>  82 </pos_y>
+					<width>  16 </width>
+					<height> 16 </height>
+					<image>default/icons/NewTux.svg</image>
+				</goal>
+
+				<image type="to_drag">examples/Alphabet/letters/I.svg<sound>examples/Alphabet/letters/Fr/Fr-I-fr-Paris.ogg</sound></image>
+			</association>
+
+			<association>
+				<goal>
+					<pos_x>  42 </pos_x> 
+					<pos_y>  82 </pos_y>
+					<width>  16 </width>
+					<height> 16 </height>
+					<image>default/icons/NewTux.svg</image>
+				</goal>
+
+				<image type="to_drag">examples/Alphabet/letters/A.svg<sound>examples/Alphabet/letters/Fr/Fr-A-fr-Paris.ogg</sound></image>
+			</association>
+
+			<association>
+				<goal>
+					<pos_x>  62 </pos_x> 
+					<pos_y>  82 </pos_y>
+					<width>  16 </width>
+					<height> 16 </height>
+					<image>default/icons/NewTux.svg</image>
+				</goal>
+
+				<image type="to_drag">examples/Alphabet/letters/N.svg<sound>examples/Alphabet/letters/Fr/Fr-N-fr-Paris.ogg</sound></image>
+			</association>
+
+			<association>
+				<goal>
+					<pos_x>  82 </pos_x> 
+					<pos_y>  82 </pos_y>
+					<width>  16 </width>
+					<height> 16 </height>
+					<image>default/icons/NewTux.svg</image>
+				</goal>
+
+				<image type="to_drag">examples/Alphabet/letters/O.svg<sound>examples/Alphabet/letters/Fr/Fr-O-fr-Paris.ogg</sound></image>
+			</association>
+
+
+
+		</associations>
+
+	</game>
+
+</game_set>
+</omnitux>

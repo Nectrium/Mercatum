@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1430"
+   height="1000"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   version="1.0"
+   sodipodi:docname="compter_1_9.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient8759">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop8761" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop8763" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient8749">
+      <stop
+         style="stop-color:#00ff00;stop-opacity:1;"
+         offset="0"
+         id="stop8751" />
+      <stop
+         style="stop-color:#0078fa;stop-opacity:0;"
+         offset="1"
+         id="stop8753" />
+    </linearGradient>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+    <inkscape:perspective
+       id="perspective5135"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5230"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5297"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5364"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5499"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5600"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5684"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5751"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5818"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5885"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective5952"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective6019"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective6086"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient8749"
+       id="linearGradient8767"
+       x1="0"
+       y1="500"
+       x2="1430"
+       y2="500"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.6993007,0,0,1.43,-1000,-1430)" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     gridtolerance="10000"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.773"
+     inkscape:cx="715"
+     inkscape:cy="521.59173"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="992"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     showguides="false">
+    <inkscape:grid
+       type="xygrid"
+       id="grid5145"
+       units="px"
+       visible="true"
+       enabled="true"
+       empspacing="5"
+       dotted="false"
+       spacingy="100px"
+       spacingx="130px" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:url(#linearGradient8767);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.39999998;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect8739"
+       width="1000"
+       height="1430"
+       x="-1000"
+       y="-1430"
+       transform="matrix(0,-1,-1,0,0,0)"
+       ry="55.627426" />
+    <image
+       y="48"
+       x="168.33099"
+       id="image5137"
+       height="100"
+       width="115.38461"
+       sodipodi:absref="../data/examples/Numbers/flowers/anemone_red.png"
+       xlink:href="../data/examples/Numbers/flowers/anemone_red.png" />
+    <g
+       id="g6168"
+       transform="translate(153.71561,48)">
+      <image
+         xlink:href="../data/examples/Numbers/flowers/flower1.png"
+         sodipodi:absref="../data/examples/Numbers/flowers/flower1.png"
+         width="79.411766"
+         height="100"
+         id="image5232"
+         x="50.588234"
+         y="100" />
+      <image
+         xlink:href="../data/examples/Numbers/flowers/flower1.png"
+         sodipodi:absref="../data/examples/Numbers/flowers/flower1.png"
+         width="79.411766"
+         height="100"
+         id="image6092"
+         x="180.58823"
+         y="100" />
+    </g>
+    <g
+       id="g6190"
+       transform="translate(153.71561,48)">
+      <image
+         xlink:href="../data/examples/Numbers/flowers/rose.png"
+         sodipodi:absref="../data/examples/Numbers/flowers/rose.png"
+         width="117.43119"
+         height="100"
+         id="image5887"
+         x="12.56881"
+         y="500" />
+      <image
+         xlink:href="../data/examples/Numbers/flowers/rose.png"
+         sodipodi:absref="../data/examples/Numbers/flowers/rose.png"
+         width="117.43119"
+         height="100"
+         id="image6100"
+         x="142.56882"
+         y="500" />
+      <image
+         xlink:href="../data/examples/Numbers/flowers/rose.png"
+         sodipodi:absref="../data/examples/Numbers/flowers/rose.png"
+         width="117.43119"
+         height="100"
+         id="image6102"
+         x="272.56882"
+         y="500" />
+      <image
+         xlink:href="../data/examples/Numbers/flowers/rose.png"
+         sodipodi:absref="../data/examples/Numbers/flowers/rose.png"
+         width="117.43119"
+         height="100"
+         id="image6104"
+         x="402.56882"
+         y="500" />
+      <image
+         xlink:href="../data/examples/Numbers/flowers/rose.png"
+         sodipodi:absref="../data/examples/Numbers/flowers/rose.png"
+         width="117.43119"
+         height="100"
+         id="image6106"
+         x="532.56879"
+         y="500" />
+      <image
+         xlink:href="../data/examples/Numbers/flowers/rose.png"
+         sodipodi:absref="../data/examples/Numbers/flowers/rose.png"
+         width="117.43119"
+         height="100"
+         id="image6108"
+         x="662.56879"
+         y="500" />
+    </g>
+    <g
+       id="g6183"
+       transform="translate(153.71561,48)">
+      <image
+         xlink:href="../data/examples/Numbers/flowers/flower9.png"
+         sodipodi:absref="../data/examples/Numbers/flowers/flower9.png"
+         width="104.95868"
+         height="100"
+         id="image5602"
+         x="25.041321"
+         y="400" />
+      <image
+         xlink:href="../data/examples/Numbers/flowers/flower9.png"
+         sodipodi:absref="../data/examples/Numbers/flowers/flower9.png"
+         width="104.95868"
+         height="100"
+         id="image6098"
+         x="155.04132"
+         y="400" />
+      <image
+         xlink:href="../data/examples/Numbers/flowers/flower9.png"
+         sodipodi:absref="../data/examples/Numbers/flowers/flower9.png"
+         width="104.95868"
+         height="100"
+         id="image6110"
+         x="285.04132"
+         y="400" />
+      <image
+         xlink:href="../data/examples/Numbers/flowers/flower9.png"
+         sodipodi:absref="../data/examples/Numbers/flowers/flower9.png"
+         width="104.95868"
+         height="100"
+         id="image6112"
+         x="415.04132"
+         y="400" />
+      <image
+         xlink:href="../data/examples/Numbers/flowers/flower9.png"
+         sodipodi:absref="../data/examples/Numbers/flowers/flower9.png"
+         width="104.95868"
+         height="100"
+         id="image6114"
+         x="545.04132"
+         y="400" />
+    </g>
+    <g
+       id="g6177"
+       transform="translate(153.71561,48)">
+      <image
+         xlink:href="../data/examples/Numbers/flowers/whitestar-petunia.png"
+         sodipodi:absref="../data/examples/Numbers/flowers/whitestar-petunia.png"
+         width="91.40625"
+         height="100"
+         id="image6088"
+         x="38.59375"
+         y="300" />
+      <image
+         xlink:href="../data/examples/Numbers/flowers/whitestar-petunia.png"
+         sodipodi:absref="../data/examples/Numbers/flowers/whitestar-petunia.png"
+         width="91.40625"
+         height="100"
+         id="image6096"
+         x="168.59375"
+         y="300" />
+      <image
+         xlink:href="../data/examples/Numbers/flowers/whitestar-petunia.png"
+         sodipodi:absref="../data/examples/Numbers/flowers/whitestar-petunia.png"
+         width="91.40625"
+         height="100"
+         id="image6116"
+         x="298.59375"
+         y="300" />
+      <image
+         xlink:href="../data/examples/Numbers/flowers/whitestar-petunia.png"
+         sodipodi:absref="../data/examples/Numbers/flowers/whitestar-petunia.png"
+         width="91.40625"
+         height="100"
+         id="image6118"
+         x="428.59375"
+         y="300" />
+    </g>
+    <g
+       id="g6172"
+       transform="translate(153.71561,48)">
+      <image
+         xlink:href="../data/examples/Numbers/flowers/flower2.png"
+         sodipodi:absref="../data/examples/Numbers/flowers/flower2.png"
+         width="90.909088"
+         height="100"
+         id="image5299"
+         x="39.090912"
+         y="200" />
+      <image
+         xlink:href="../data/examples/Numbers/flowers/flower2.png"
+         sodipodi:absref="../data/examples/Numbers/flowers/flower2.png"
+         width="90.909088"
+         height="100"
+         id="image6094"
+         x="169.09091"
+         y="200" />
+      <image
+         xlink:href="../data/examples/Numbers/flowers/flower2.png"
+         sodipodi:absref="../data/examples/Numbers/flowers/flower2.png"
+         width="90.909088"
+         height="100"
+         id="image6122"
+         x="299.09091"
+         y="200" />
+    </g>
+    <g
+       id="g6198"
+       transform="translate(153.71561,48)">
+      <image
+         xlink:href="../data/examples/Numbers/flowers/marigold.png"
+         sodipodi:absref="../data/examples/Numbers/flowers/marigold.png"
+         width="114.15929"
+         height="100"
+         id="image5686"
+         x="15.840714"
+         y="600" />
+      <image
+         xlink:href="../data/examples/Numbers/flowers/marigold.png"
+         sodipodi:absref="../data/examples/Numbers/flowers/marigold.png"
+         width="114.15929"
+         height="100"
+         id="image6126"
+         x="145.84071"
+         y="600" />
+      <image
+         xlink:href="../data/examples/Numbers/flowers/marigold.png"
+         sodipodi:absref="../data/examples/Numbers/flowers/marigold.png"
+         width="114.15929"
+         height="100"
+         id="image6128"
+         x="275.8407"
+         y="600" />
+      <image
+         xlink:href="../data/examples/Numbers/flowers/marigold.png"
+         sodipodi:absref="../data/examples/Numbers/flowers/marigold.png"
+         width="114.15929"
+         height="100"
+         id="image6130"
+         x="405.8407"
+         y="600" />
+      <image
+         xlink:href="../data/examples/Numbers/flowers/marigold.png"
+         sodipodi:absref="../data/examples/Numbers/flowers/marigold.png"
+         width="114.15929"
+         height="100"
+         id="image6132"
+         x="535.8407"
+         y="600" />
+      <image
+         xlink:href="../data/examples/Numbers/flowers/marigold.png"
+         sodipodi:absref="../data/examples/Numbers/flowers/marigold.png"
+         width="114.15929"
+         height="100"
+         id="image6134"
+         x="665.8407"
+         y="600" />
+      <image
+         xlink:href="../data/examples/Numbers/flowers/marigold.png"
+         sodipodi:absref="../data/examples/Numbers/flowers/marigold.png"
+         width="114.15929"
+         height="100"
+         id="image6136"
+         x="795.8407"
+         y="600" />
+    </g>
+    <g
+       id="g6207"
+       transform="translate(153.71561,48)">
+      <image
+         xlink:href="../data/examples/Numbers/flowers/red-gazania.png"
+         sodipodi:absref="../data/examples/Numbers/flowers/red-gazania.png"
+         width="98.4375"
+         height="100"
+         id="image5820"
+         x="31.5625"
+         y="700" />
+      <image
+         xlink:href="../data/examples/Numbers/flowers/red-gazania.png"
+         sodipodi:absref="../data/examples/Numbers/flowers/red-gazania.png"
+         width="98.4375"
+         height="100"
+         id="image6138"
+         x="161.5625"
+         y="700" />
+      <image
+         xlink:href="../data/examples/Numbers/flowers/red-gazania.png"
+         sodipodi:absref="../data/examples/Numbers/flowers/red-gazania.png"
+         width="98.4375"
+         height="100"
+         id="image6140"
+         x="291.5625"
+         y="700" />
+      <image
+         xlink:href="../data/examples/Numbers/flowers/red-gazania.png"
+         sodipodi:absref="../data/examples/Numbers/flowers/red-gazania.png"
+         width="98.4375"
+         height="100"
+         id="image6142"
+         x="421.5625"
+         y="700" />
+      <image
+         xlink:href="../data/examples/Numbers/flowers/red-gazania.png"
+         sodipodi:absref="../data/examples/Numbers/flowers/red-gazania.png"
+         width="98.4375"
+         height="100"
+         id="image6144"
+         x="551.5625"
+         y="700" />
+      <image
+         xlink:href="../data/examples/Numbers/flowers/red-gazania.png"
+         sodipodi:absref="../data/examples/Numbers/flowers/red-gazania.png"
+         width="98.4375"
+         height="100"
+         id="image6146"
+         x="681.5625"
+         y="700" />
+      <image
+         xlink:href="../data/examples/Numbers/flowers/red-gazania.png"
+         sodipodi:absref="../data/examples/Numbers/flowers/red-gazania.png"
+         width="98.4375"
+         height="100"
+         id="image6148"
+         x="811.5625"
+         y="700" />
+      <image
+         xlink:href="../data/examples/Numbers/flowers/red-gazania.png"
+         sodipodi:absref="../data/examples/Numbers/flowers/red-gazania.png"
+         width="98.4375"
+         height="100"
+         id="image6150"
+         x="941.5625"
+         y="700" />
+    </g>
+    <g
+       id="g6217"
+       transform="translate(153.71561,52)">
+      <image
+         xlink:href="../data/examples/Numbers/flowers/flower8.png"
+         sodipodi:absref="../data/examples/Numbers/flowers/flower8.png"
+         width="105.26316"
+         height="100"
+         id="image5501"
+         x="24.736839"
+         y="800" />
+      <image
+         xlink:href="../data/examples/Numbers/flowers/flower8.png"
+         sodipodi:absref="../data/examples/Numbers/flowers/flower8.png"
+         width="105.26316"
+         height="100"
+         id="image6152"
+         x="154.73685"
+         y="800" />
+      <image
+         xlink:href="../data/examples/Numbers/flowers/flower8.png"
+         sodipodi:absref="../data/examples/Numbers/flowers/flower8.png"
+         width="105.26316"
+         height="100"
+         id="image6154"
+         x="284.73685"
+         y="800" />
+      <image
+         xlink:href="../data/examples/Numbers/flowers/flower8.png"
+         sodipodi:absref="../data/examples/Numbers/flowers/flower8.png"
+         width="105.26316"
+         height="100"
+         id="image6156"
+         x="414.73685"
+         y="800" />
+      <image
+         xlink:href="../data/examples/Numbers/flowers/flower8.png"
+         sodipodi:absref="../data/examples/Numbers/flowers/flower8.png"
+         width="105.26316"
+         height="100"
+         id="image6158"
+         x="544.73682"
+         y="800" />
+      <image
+         xlink:href="../data/examples/Numbers/flowers/flower8.png"
+         sodipodi:absref="../data/examples/Numbers/flowers/flower8.png"
+         width="105.26316"
+         height="100"
+         id="image6160"
+         x="674.73682"
+         y="800" />
+      <image
+         xlink:href="../data/examples/Numbers/flowers/flower8.png"
+         sodipodi:absref="../data/examples/Numbers/flowers/flower8.png"
+         width="105.26316"
+         height="100"
+         id="image6162"
+         x="804.73682"
+         y="800" />
+      <image
+         xlink:href="../data/examples/Numbers/flowers/flower8.png"
+         sodipodi:absref="../data/examples/Numbers/flowers/flower8.png"
+         width="105.26316"
+         height="100"
+         id="image6164"
+         x="934.73682"
+         y="800" />
+      <image
+         xlink:href="../data/examples/Numbers/flowers/flower8.png"
+         sodipodi:absref="../data/examples/Numbers/flowers/flower8.png"
+         width="105.26316"
+         height="100"
+         id="image6166"
+         x="1064.7368"
+         y="800" />
+    </g>
+  </g>
+</svg>

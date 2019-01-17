@@ -1,0 +1,2 @@
+Tuxpaint authors
+GNU GPL

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Omnitux
+Comment=Logiciel d'apprentissage pour enfants
+Exec=.mercatum/bin/omnitux
+Icon=omnitux.png
+Terminal=false
+Type=Application
+Categories=Education;
+Keywords=education
+StartupNotify=true
+

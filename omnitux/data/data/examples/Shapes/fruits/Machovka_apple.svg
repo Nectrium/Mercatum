@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg6187"
+   sodipodi:version="0.32"
+   inkscape:version="0.44.1"
+   width="325.18469"
+   height="292.75803"
+   version="1.0"
+   sodipodi:docbase="D:\_petr_\School\INKSCAPE\svg\05.Ovoce, zelenina, jidlo"
+   sodipodi:docname="jabko.svg">
+  <metadata
+     id="metadata6192">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
+        <dc:title>jablko</dc:title>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>jablko</rdf:li>
+            <rdf:li>apple</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title />
+          </cc:Agent>
+        </dc:creator>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>ZS a MS Machovo nam.</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs6190">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient2834">
+      <stop
+         style="stop-color:#ececec;stop-opacity:1;"
+         offset="0"
+         id="stop2836" />
+      <stop
+         style="stop-color:#ececec;stop-opacity:0;"
+         offset="1"
+         id="stop2838" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient7119">
+      <stop
+         style="stop-color:#f1783b;stop-opacity:0.93814433;"
+         offset="0"
+         id="stop7121" />
+      <stop
+         style="stop-color:#ff6042;stop-opacity:0;"
+         offset="1"
+         id="stop7123" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2834"
+       id="radialGradient2840"
+       cx="378.46152"
+       cy="271.83023"
+       fx="378.46152"
+       fy="271.83023"
+       r="131.45889"
+       gradientTransform="matrix(1,0,0,1.021792,206.3428,134.2993)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:window-height="712"
+     inkscape:window-width="1024"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     guidetolerance="10.0"
+     gridtolerance="10.0"
+     objecttolerance="10.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     inkscape:zoom="0.55537345"
+     inkscape:cx="253.6715"
+     inkscape:cy="237.1757"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     inkscape:current-layer="svg6187" />
+  <g
+     id="g2848"
+     inkscape:export-filename="/media/KINGSTON/inkscape/9.c/J.Murin/ovoce,zelenina/jablko.png"
+     inkscape:export-xdpi="90"
+     inkscape:export-ydpi="90"
+     transform="translate(-195.5393,-126.8094)">
+    <path
+       id="path6196"
+       d="M 308.1167,148.96552 C 353.8429,133.99493 409.49218,128.44537 450.142,159.25481 C 469.09959,173.26359 486.77164,190.42689 498.70677,210.70442 C 507.42546,237.60497 512.04123,266.65794 505.26291,294.52875 C 503.90196,321.63779 490.43119,346.37232 468.66256,362.45413 C 439.16015,388.62887 399.97869,408.88231 359.60219,404.38687 C 313.06195,393.27076 281.83656,352.26072 259.38834,312.72174 C 246.81468,283.11182 239.2024,245.70167 258.88756,217.34811 C 269.46363,196.65604 286.21781,178.61571 307.49999,168.80464 C 313.21622,163.84351 312.74213,154.47137 308.1167,148.96552 z "
+       style="fill:#e60e0e;fill-opacity:1;fill-rule:evenodd;stroke:black;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       sodipodi:nodetypes="ccsccsc"
+       id="path6198"
+       d="M 302.38727,253.3687 C 304.93369,250.18568 311.93634,229.17771 311.93634,229.17771 C 311.93634,229.17771 317.66578,218.99204 323.39523,217.71883 C 329.12467,216.44562 342.49337,204.35013 342.49337,204.35013 L 355.86207,197.98408 C 355.86207,197.98408 367.32096,191.61804 371.14058,189.07162 C 374.96021,186.5252 378.77984,180.15915 378.77984,180.15915"
+       style="fill:none;fill-rule:evenodd;stroke:black;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       id="path6200"
+       d="M 368.59416,143.23607 L 357.13528,155.96817 L 352.04244,174.42971 L 348.85942,193.52785"
+       style="fill:none;fill-rule:evenodd;stroke:black;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       id="path6202"
+       d="M 346.61362,197.98256 L 331.75875,179.52651 L 317.35403,163.3212 L 301.82393,145.31529 L 290.34517,136.08727 L 278.41626,130.46042 L 267.83779,127.30939 L 259.51006,127.30939 L 254.33337,129.7852 L 252.53278,134.51175 L 252.53278,139.46338 L 255.68381,146.21559 L 261.53573,149.36662 L 265.13691,149.5917 L 271.88912,149.5917 L 277.51597,149.5917 L 283.36788,149.81677 L 286.96907,149.81677 L 294.84665,150.04184 L 304.07467,155.89376 L 311.72718,166.02208 L 323.88116,180.87695 L 336.93544,205.40999 L 346.61362,197.98256 z "
+       style="fill:#a97550;fill-opacity:1;fill-rule:evenodd;stroke:black;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       id="path6204"
+       d="M 311.05196,165.79701 L 303.8496,155.89376 L 294.84665,150.26692 L 287.41921,150.26692 L 282.01744,154.99347 L 272.78942,162.87105 C 272.78942,162.87105 261.08558,167.5976 260.18529,167.5976 C 259.28499,167.5976 237.90298,174.57488 237.90298,174.57488 L 226.42422,181.77725 L 218.09649,189.8799 L 212.69472,198.88285 L 203.69177,205.40999 L 197.3897,215.08816 L 196.03926,222.96575 L 196.03926,258.75248 L 199.64044,268.65572 L 202.5664,274.73272 L 208.64339,276.53331 L 214.27024,273.1572 L 232.72629,254.70115 L 249.15667,229.94303 C 249.15667,229.94303 250.05697,234.21944 250.28204,233.31914 C 250.50711,232.41885 269.86346,198.88285 269.86346,198.88285 L 281.11715,186.95394 L 293.94635,177.95099 L 300.24842,171.19878 L 309.0263,169.17311 L 311.05196,165.79701 z "
+       style="fill:#61882f;fill-opacity:1;fill-rule:evenodd;stroke:black;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       style="opacity:0.35514018;fill:url(#radialGradient2840);fill-opacity:1;fill-rule:evenodd;stroke:black;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 318.92025,162.3791 L 352.6603,152.83003 L 383.21733,150.92021 L 408.04492,150.92021 L 428.41627,154.73984 L 465.33935,174.47459 L 492.71335,201.21199 L 510.53829,223.49316 L 520.72396,275.05814 L 514.35792,318.98387 L 507.35526,346.35788 L 485.7107,370.54886 L 454.51707,396.01305 L 415.68418,413.83798 L 395.94943,417.65761 L 380.03431,419.56743 L 356.47993,414.47459 L 328.46932,398.55947 L 314.46402,385.82737 L 292.18285,360.99979 L 267.99187,323.44011 L 257.80619,283.334 L 257.80619,253.41358 L 262.89903,245.13772 L 279.45075,213.94408 L 290.90964,200.57538 C 290.90964,200.57538 298.5489,194.84594 301.09532,193.57273 C 303.64174,192.29952 306.82476,189.1165 306.82476,189.1165 C 306.82476,189.1165 310.64439,185.29687 313.19081,184.66026 C 315.73723,184.02366 320.83007,182.11385 320.83007,182.11385 L 323.37648,177.02101 L 323.37648,170.01835 L 318.92025,162.3791 z "
+       id="path2832" />
+  </g>
+</svg>

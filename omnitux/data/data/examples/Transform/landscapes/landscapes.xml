@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<omnitux version="1.0">
+
+<game_set author="Olav_2">
+
+	<title lang="de">Landschaften</title>
+	<title lang="en">Landscapes</title>
+	<title lang="es">Paisajes</title>
+	<title lang="fr">Paysages</title>
+	<title lang="it">Paesaggi</title>
+	<title lang="pl">Pejzaż</title>
+	<title lang="pt">Paisagens</title>
+	
+	<tag>mouse_manipulation</tag>
+
+	<menu_index value="40" />
+
+	<thumbnail>examples/Landscapes/thumb.png</thumbnail>
+
+	<dict key="Rubasu" lang="de" value="Austria, by Rubasu"/>
+	<dict key="Rubasu" lang="en" value="Austria, by Rubasu"/>
+	<dict key="Rubasu" lang="fr" value="Autriche, par Rubasu"/>
+	<dict key="Rubasu" lang="it" value="Autria, Autore: Rubasu"/>
+	<dict key="Rubasu" lang="pl" value="Austria; Autor: Rubasu"/>
+
+	<dict key="bergamo" lang="de" value="Rainbow above Oltre il Colle - Bergamo; Renato Zanotti"/>
+	<dict key="bergamo" lang="en" value="Rainbow above Oltre il Colle - Bergamo; Renato Zanotti"/>
+	<dict key="bergamo" lang="fr" value="Arc en ciel au dessus d'Oltre il Colle - Bergamo; Renato Zanotti"/>
+	<dict key="bergamo" lang="it" value="Arcobaleno sopra Oltre il Colle - Bergamo; Renato Zanotti"/>
+	<dict key="bergamo" lang="pl" value="Tęcza nad Oltre il Colle - Bergamo; Renato Zanotti"/>	
+
+	<dict key="bolzano" lang="de" value="Province of Bolzano-Bozen; Andy Kanonier"/>
+	<dict key="bolzano" lang="en" value="Province of Bolzano-Bozen; Andy Kanonier"/>
+	<dict key="bolzano" lang="fr" value="Province autonome de Bolzano; Andy Kanonier"/>
+	<dict key="bolzano" lang="it" value="Provincia di Bolzano-Bozen; Andy Kanonier"/>
+	<dict key="bolzano" lang="pl" value="Prowincja Bolzano; Andy Kanonier"/>
+
+	<dict key="Darłowo" lang="de" value="Darłowo, Poland"/>
+	<dict key="Darłowo" lang="en" value="Darłowo, Poland"/>
+	<dict key="Darłowo" lang="fr" value="Darłowo, Pologne"/>
+	<dict key="Darłowo" lang="it" value="Darłowo, Polonia"/>
+	<dict key="Darłowo" lang="pl" value="Darłowo, Polska"/>
+
+	<dict key="dolomiti" lang="de" value="Monte Cristallo, Dolomites, Italy; Franz Fellner"/>
+	<dict key="dolomiti" lang="en" value="Monte Cristallo, Dolomites, Italy; Franz Fellner"/>
+	<dict key="dolomiti" lang="fr" value="Monte Cristallo, Dolomites, Italie; Franz Fellnere"/>
+	<dict key="dolomiti" lang="it" value="Monte Cristallo, Dolomiti, Italia; Franz Fellnere"/>
+	<dict key="dolomiti" lang="pl" value="Monte Cristallo, Dolomites, Włochy; Franz Fellnere"/>
+			
+	<dict key="saona" lang="de" value="Island Saona, Dominican Republic; Roman Sidler"/>
+	<dict key="saona" lang="en" value="Island Saona, Dominican Republic; Roman Sidler"/>
+	<dict key="saona" lang="fr" value="Ile Saona, République Dominicaine; Roman Sidler"/>
+	<dict key="saona" lang="it" value="Isola Saona, Repubblica Dominicana; Roman Sidler"/>
+	<dict key="saona" lang="pl" value="Wyspa Saona, Republika Dominikańska; Roman Sidler"/>
+
+	<level difficulty="1">
+
+		<game type="transform">
+			
+			<rounds>4</rounds>
+			
+			<global_parameters>
+				
+				<game_setup>
+					<!-- those global parameters can be overriden for each image file -->
+					<pieces_amount_x> 4 </pieces_amount_x>
+					<pieces_amount_y> 3 </pieces_amount_y>
+				
+				</game_setup>
+			
+				<image_area>
+					<pos_x> 4 </pos_x>
+					<pos_y> 14 </pos_y>
+					<width> 92 </width>
+					<height> 79 </height>
+				</image_area>
+
+			</global_parameters>
+			
+			<transformations>
+			
+				<transformation>
+					<image>examples/Transform/landscapes/56346-austria2_mod.jpg</image>
+					<image>examples/Landscapes/56346-austria2.jpg</image>
+					<text key = "Rubasu" />
+				</transformation>
+				<transformation>
+					<image>examples/Transform/landscapes/91300-Arcobaleno a Oltre il colle1680_mod.jpg</image>
+					<image>examples/Landscapes/91300-Arcobaleno a Oltre il colle1680.jpg</image>
+					<text key = "bergamo" />
+				</transformation>
+				<transformation>
+					<image>examples/Transform/landscapes/92608-pict3511_mod.jpg</image>
+					<image>examples/Landscapes/92608-pict3511.jpg</image>
+					<text key = "bolzano" />
+				</transformation>
+				<transformation>
+					<image>examples/Transform/landscapes/31505-darlowo_mod.jpg</image>
+					<image>examples/Landscapes/31505-darlowo.jpg</image>
+					<text key = "Darłowo" />
+				</transformation>
+				<transformation>
+					<image>examples/Transform/landscapes/30897-cristallo-1600x1200_mod.jpg</image>
+					<image>examples/Landscapes/30897-cristallo-1600x1200.jpg</image>
+					<text key = "dolomiti" />
+
+				</transformation>
+				<transformation>
+					<image>examples/Transform/landscapes/41890-caribbean_1600x1200_mod.jpg</image>
+					<image>examples/Landscapes/41890-caribbean_1600x1200.jpg</image>
+					<text key = "saona" />
+
+				</transformation>
+
+
+
+			</transformations>
+
+
+
+		</game>
+		
+	</level>
+
+
+	<level difficulty="2">
+
+		<game type="transform">
+			
+			<rounds>4</rounds>
+			
+			<global_parameters>
+				
+				<game_setup>
+					<!-- those global parameters can be overriden for each image file -->
+					<pieces_amount_x> 7 </pieces_amount_x>
+					<pieces_amount_y> 5 </pieces_amount_y>
+				
+				</game_setup>
+			
+				<image_area>
+					<pos_x> 0 </pos_x>
+					<pos_y> 10 </pos_y>
+					<width> 100 </width>
+					<height> 90 </height>
+				</image_area>
+
+			</global_parameters>
+			
+			<transformations>
+			
+				<transformation>
+					<image>examples/Transform/landscapes/56346-austria2_mod.jpg</image>
+					<image>examples/Landscapes/56346-austria2.jpg</image>
+					<text key = "Rubasu" />
+				</transformation>
+				<transformation>
+					<image>examples/Transform/landscapes/91300-Arcobaleno a Oltre il colle1680_mod.jpg</image>
+					<image>examples/Landscapes/91300-Arcobaleno a Oltre il colle1680.jpg</image>
+					<text key = "bergamo" />
+				</transformation>
+				<transformation>
+					<image>examples/Transform/landscapes/92608-pict3511_mod.jpg</image>
+					<image>examples/Landscapes/92608-pict3511.jpg</image>
+					<text key = "bolzano" />
+				</transformation>
+				<transformation>
+					<image>examples/Transform/landscapes/31505-darlowo_mod.jpg</image>
+					<image>examples/Landscapes/31505-darlowo.jpg</image>
+					<text key = "Darłowo" />
+				</transformation>
+				<transformation>
+					<image>examples/Transform/landscapes/30897-cristallo-1600x1200_mod.jpg</image>
+					<image>examples/Landscapes/30897-cristallo-1600x1200.jpg</image>
+					<text key = "dolomiti" />
+
+				</transformation>
+				<transformation>
+					<image>examples/Transform/landscapes/41890-caribbean_1600x1200_mod.jpg</image>
+					<image>examples/Landscapes/41890-caribbean_1600x1200.jpg</image>
+					<text key = "saona" />
+
+				</transformation>
+
+
+
+			</transformations>
+
+
+
+		</game>
+		
+	</level>
+
+	<level difficulty="3">
+
+		<game type="transform">
+			
+			<rounds>4</rounds>
+			
+			<global_parameters>
+				
+				<game_setup>
+					<!-- those global parameters can be overriden for each image file -->
+					<pieces_amount_x> 11 </pieces_amount_x>
+					<pieces_amount_y> 8 </pieces_amount_y>
+				
+				</game_setup>
+			
+				<image_area>
+					<pos_x> 0 </pos_x>
+					<pos_y> 10 </pos_y>
+					<width> 100 </width>
+					<height> 90 </height>
+				</image_area>
+
+			</global_parameters>
+			
+			<transformations>
+			
+				<transformation>
+					<image>examples/Transform/landscapes/56346-austria2_mod.jpg</image>
+					<image>examples/Landscapes/56346-austria2.jpg</image>
+					<text key = "Rubasu" />
+				</transformation>
+				<transformation>
+					<image>examples/Transform/landscapes/91300-Arcobaleno a Oltre il colle1680_mod.jpg</image>
+					<image>examples/Landscapes/91300-Arcobaleno a Oltre il colle1680.jpg</image>
+					<text key = "bergamo" />
+				</transformation>
+				<transformation>
+					<image>examples/Transform/landscapes/92608-pict3511_mod.jpg</image>
+					<image>examples/Landscapes/92608-pict3511.jpg</image>
+					<text key = "bolzano" />
+				</transformation>
+				<transformation>
+					<image>examples/Transform/landscapes/31505-darlowo_mod.jpg</image>
+					<image>examples/Landscapes/31505-darlowo.jpg</image>
+					<text key = "Darłowo" />
+				</transformation>
+				<transformation>
+					<image>examples/Transform/landscapes/30897-cristallo-1600x1200_mod.jpg</image>
+					<image>examples/Landscapes/30897-cristallo-1600x1200.jpg</image>
+					<text key = "dolomiti" />
+
+				</transformation>
+				<transformation>
+					<image>examples/Transform/landscapes/41890-caribbean_1600x1200_mod.jpg</image>
+					<image>examples/Landscapes/41890-caribbean_1600x1200.jpg</image>
+					<text key = "saona" />
+
+				</transformation>
+
+
+
+			</transformations>
+
+
+
+		</game>
+		
+	</level>
+
+
+
+</game_set>
+
+</omnitux>

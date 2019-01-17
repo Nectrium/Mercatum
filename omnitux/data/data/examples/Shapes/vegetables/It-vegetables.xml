@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<omnitux version="1.0">
+<game type="associate" xml_version="1.0" author="eugenio">
+	
+	<title lang="it">Verdure</title>
+
+	<rounds>5</rounds>
+	
+	<thumbnail>examples/Shapes/vegetables/NewTux_with_vegetables.svg</thumbnail>
+	
+	<global_parameters>
+		
+		<game_setup>
+			<type_to_associate>image</type_to_associate>
+			<type_to_drag>image</type_to_drag>
+			
+			<!-- amount of items to choose from -->
+			<min_draggable> 4 </min_draggable>
+			<max_draggable> 8 </max_draggable>
+			
+		</game_setup>
+		
+		<item_to_associate>
+			<pos_x>  10 </pos_x> 
+			<pos_y>  10 </pos_y>
+			<width>  30 </width>
+			<height> 80 </height>
+		</item_to_associate>
+
+
+		<goal>
+			<pos_x>  15 </pos_x> 
+			<pos_y>  45 </pos_y>
+			<width>  20 </width>
+			<height> 28 </height>
+			
+			<image>default/icons/question_mark_space.svg</image>
+		</goal>
+		
+		
+		
+		<draggable_items_area>
+			<pos_x>  50 </pos_x> 
+			<pos_y>  10 </pos_y>
+			<width>  40 </width>
+			<height> 80 </height>
+			
+			<amount_x> 2 </amount_x>
+			<amount_y> 4 </amount_y>
+			
+		</draggable_items_area>
+
+		<background>
+			examples/Shapes/geometrical/background.png
+		</background>
+		
+	</global_parameters>
+	
+	<associations>
+
+		<association>
+			<image type="to_associate">default/awards/tuxes/NewTux_with_rainbow.svg
+				<sound>examples/Shapes/vegetables/It/aglio.ogg</sound> 
+			</image>
+			<image type="to_drag">examples/Shapes/vegetables/aglio.svg
+			</image>
+		</association>
+
+		<association>
+			<image type="to_associate">default/awards/tuxes/NewTux_with_rainbow.svg
+				<sound>examples/Shapes/vegetables/It/carota.ogg</sound> 
+			</image>
+			<image type="to_drag">examples/Shapes/vegetables/carota.svg
+			</image>
+		</association>
+
+		<association>
+			<image type="to_associate">default/awards/tuxes/NewTux_with_rainbow.svg
+				<sound>examples/Shapes/vegetables/It/cetriolo.ogg</sound> 
+			</image>
+			<image type="to_drag">examples/Shapes/vegetables/cetriolo.svg
+			</image>
+		</association>
+		
+		<association>
+			<image type="to_associate">default/awards/tuxes/NewTux_with_rainbow.svg
+				<sound>examples/Shapes/vegetables/It/cipollotto.ogg</sound> 
+			</image>
+			<image type="to_drag">examples/Shapes/vegetables/cipollotto.svg
+			</image>
+		</association>
+		
+		<association>
+			<image type="to_associate">default/awards/tuxes/NewTux_with_rainbow.svg
+				<sound>examples/Shapes/vegetables/It/melanzana.ogg</sound> 
+			</image>
+			<image type="to_drag">examples/Shapes/vegetables/melanzana.svg
+			</image>
+		</association>		
+
+		<association>
+			<image type="to_associate">default/awards/tuxes/NewTux_with_rainbow.svg
+				<sound>examples/Shapes/vegetables/It/peperoncino.ogg</sound> 
+			</image>
+			<image type="to_drag">examples/Shapes/vegetables/peperoncino.svg
+			</image>
+		</association>	
+		
+				<association>
+			<image type="to_associate">default/awards/tuxes/NewTux_with_rainbow.svg
+				<sound>examples/Shapes/vegetables/It/peperone.ogg</sound> 
+			</image>
+			<image type="to_drag">examples/Shapes/vegetables/peperone.svg
+			</image>
+		</association>	
+		
+				<association>
+			<image type="to_associate">default/awards/tuxes/NewTux_with_rainbow.svg
+				<sound>examples/Shapes/vegetables/It/pomodoro.ogg</sound> 
+			</image>
+			<image type="to_drag">examples/Shapes/vegetables/pomodoro.svg
+			</image>
+		</association>	
+		
+				<association>
+			<image type="to_associate">default/awards/tuxes/NewTux_with_rainbow.svg
+				<sound>examples/Shapes/vegetables/It/spinaci.ogg</sound> 
+			</image>
+			<image type="to_drag">examples/Shapes/vegetables/spinaci.svg
+			</image>
+		</association>	
+				<association>
+			<image type="to_associate">default/awards/tuxes/NewTux_with_rainbow.svg
+				<sound>examples/Shapes/vegetables/It/broccoli.ogg</sound> 
+			</image>
+			<image type="to_drag">examples/Shapes/vegetables/vegetables_23.svg
+			</image>
+		</association>	
+		
+				<association>
+			<image type="to_associate">default/awards/tuxes/NewTux_with_rainbow.svg
+				<sound>examples/Shapes/vegetables/It/piselli.ogg</sound> 
+			</image>
+			<image type="to_drag">examples/Shapes/vegetables/vegetables_02.svg
+			</image>
+		</association>	
+		
+				<association>
+			<image type="to_associate">default/awards/tuxes/NewTux_with_rainbow.svg
+				<sound>examples/Shapes/vegetables/It/cipolla.ogg</sound> 
+			</image>
+			<image type="to_drag">examples/Shapes/vegetables/vegetables_05.svg
+			</image>
+		</association>	
+				<association>
+			<image type="to_associate">default/awards/tuxes/NewTux_with_rainbow.svg
+				<sound>examples/Shapes/vegetables/It/cavolo.ogg</sound> 
+			</image>
+			<image type="to_drag">examples/Shapes/vegetables/vegetables_25.svg
+			</image>
+		</association>	
+				<association>
+			<image type="to_associate">default/awards/tuxes/NewTux_with_rainbow.svg
+				<sound>examples/Shapes/vegetables/It/carciofo.ogg</sound> 
+			</image>
+			<image type="to_drag">examples/Shapes/vegetables/vegetables_33.svg
+			</image>
+		</association>	
+		
+				<association>
+			<image type="to_associate">default/awards/tuxes/NewTux_with_rainbow.svg
+				<sound>examples/Shapes/vegetables/It/patate.ogg</sound> 
+			</image>
+			<image type="to_drag">examples/Shapes/vegetables/vegetables_40.svg
+			</image>
+		</association>	
+		
+				<association>
+			<image type="to_associate">default/awards/tuxes/NewTux_with_rainbow.svg
+				<sound>examples/Shapes/vegetables/It/rapa.ogg</sound> 
+			</image>
+			<image type="to_drag">examples/Shapes/vegetables/vegetables_53.svg
+			</image>
+		</association>	
+
+	</associations>
+
+</game>
+</omnitux>

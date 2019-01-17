@@ -1,0 +1,317 @@
+
+***************
+*** Omnitux ***
+***************
+
+Omnitux is a set of educational activities based on multimedia elements (images, sounds, and text)
+
+
+*** License ***
+
+In a word : Omnitux is free !
+
+Program files are released under the GNU GPL license by Olav_2.
+Most multimedia elements included in the game come from various authors (eg: from Wikipedia), they are licensed under compatible free licenses. (for instance CC-BY-SA)
+
+
+*** More about the contributors ***
+
+
+* "Direct" project contributors :
+
+    * Cheperobert
+    * Daniel von Weissenfluh
+    * Eugenio Baldi
+    * Gerardo Meléndez
+    * Iwan Gabovitch
+    * Kleopatra Kyropoulou
+    * Kot26
+    * Lucelia
+    * Manfred Schulenburg
+    * Olav_2
+    * Trilarion
+    * Tutur
+
+   
+* People whose work is being re-used :
+
+Omnitux uses a lot of free resources from other projects.
+Thanks a lot to their authors for having choosen to license their work under various free licenses. (GNU Free Documentation Licenses, Creative Commons, ...)
+You can look for *.txt files in the game directory. They contain a link to the original file locations and their precise licenses. 
+
+
+*** List of authors of multimedia files ***
+
+3bagbrew
+Aaha
+Aaron logan
+Acclivity
+Actarus
+Adrielhernandez
+Aj
+Albantor
+Ana belén caballero, juan pedro paredes
+Andy kanonier
+Anonymous
+Apreussler
+Arnoud999
+Artfavor
+Assassingr
+Audrey_sel
+Aunt owwee
+Aurbina
+Aurelio a. heckert
+B3rny
+Ballou
+Bastique
+Batux
+Benboncan
+Benedikt schreiner
+Benh lieu song
+Benjamin gimmel
+Bernadette perrin-riou, octavio paniagua
+Berthold werner
+Betsy megas
+Bigredsmile
+Bitstream team
+Bittbox
+Björnt
+Bjørn christian tørrissen
+Bluezoeme
+Bobocal
+Boney-man
+Boobaloo
+Bouillaguet flora, vion nicolas
+Bradypus
+Bratac
+Brioche4012
+Bruno vallette
+Brunocb
+Bsantos
+Bugmenot
+Carlitos
+Celestianpower
+Chris spooner
+Chrisdesign
+Cisoun
+Connum
+Dakdada
+Daniel galleguillos
+Daniel galleguillos c
+Dario biazzi
+Darkone
+David bellot
+David iliff
+David monniaux
+David vignoni
+De:benutzer:pumbaa80
+Denis richard
+Derbeth
+Dhirad
+Didas
+Digifishmusic
+Dinou10
+Dj_raph
+Dobroide
+Donar reiskoffer
+Dvortybot
+Dvortygirl
+Earle winslow
+Edetsa
+Elembis
+Eliaden
+Elian
+Eltonlima
+Emmanuel boutet
+Emmanuel revah
+Erdie
+Erh
+Eric gaba
+Eugenia & julian
+Eugeniobaldi
+Fcys14
+Fishdog
+Foenyx
+Francesco 'architetto' rollandin
+Franz fellner
+Fredgalist
+Freqman
+Gelo_papas
+Gerald_g
+Gerhard bräunlich
+Gg3po
+Gilad rom
+Giraud patrick
+Giuseppe arcimboldo
+Gmad
+Gonz34
+Gripso_banana_prune
+Gustavb
+Hairymnstr
+Hao wei
+Harrieta171
+Heidas
+Hello_flowers
+Helmut kriege
+Henri rousseau
+Hooiwind
+Icmusic
+Illuzmax
+Informatitux
+Informatux
+Isb
+Itsmine
+Ivak
+Ixnayonthetimmay
+J.j. mccullough
+Jan mehlich
+Jarno
+Javier gil
+Javier martínez
+Jean-marc rosier
+Jean_victor_balin
+Jens jäpel
+Joachim huber
+Johnny_automatic
+Joiseyshowaa
+Jonata
+Jonathan martz
+Jongleur100
+Joni
+Jony_superstar
+Kami23
+Kipmaster
+Kolja21
+Kolossos
+Kot26
+Kristin heller
+K_millio
+La fouine
+Labé
+Larry ewing, simon budig, anja gerwinski
+Leland_mcinnes
+Lemmling
+Liftarn
+Lorentey
+Lucelia
+Mairin
+Máirín duffy
+Manfred schulenburg
+Manjari
+Marble authors
+Marcowy zając
+Markc09
+Martouf
+Masta64
+Max-peine
+Metzner
+Michael collette
+Michał pecyna
+Mimova
+Miroslav duchacek
+Miroslav strugarevic
+Mybob
+Myriam dechamps
+Mystica
+Nagaya
+Nasa
+Nasa / johnny_automatic
+Nasa jsc
+Neojackass
+Nicu b.
+Nicu bunu
+Nicubunu
+Noise.inc
+Nova
+Nuclearvacuum
+Nummer39
+Ofol
+Olav_2
+Oren neu dag
+Overlord59
+Papapishu
+Patrick castay
+Pink sherbet photography
+Pinpin
+Piotr bebenista
+Pit-tux
+Pitr
+Pixabella
+Pline
+Pmaster
+Podoxav
+Podracerhh
+Purzen
+Ra-smit
+Regional partnership from fort wayne, indiana, allen
+Reinsamba
+Remi jouan
+Remi_inconnu
+Renato zanotti
+Renoir
+Revans2
+Rg1024
+Rheve
+Ricardo liberato
+Rkramer62
+Robert wadley
+Roger zenner
+Romainguy
+Roman sidler
+Romgt4
+Ronchon
+Roubignolle
+Royal-angel
+Rubasu
+Rüdiger wölk
+Ryan, us epa sunwise program
+Schoolfreeware
+Sean vivek crasto
+Sergey stepanov
+Simon.rue
+Softeis
+Source works, tkgd2007
+Splashdust
+Staecker
+Starwolf
+Stefan kühn
+Stuart
+Studiofibonacci
+Synapse
+Szater
+Tawker
+Tebu.an
+Terwelp
+Thedaveross
+Theresaknott
+Thestructorr
+Thomas wolf (der wolf im wald)
+Tillwe
+Timothy schellhase
+Timwi
+Touko
+Trinity101
+Truth
+Tsca
+Tudortulok
+Tutur
+Tux paint authors
+Tuxpaint authors
+U.s. government
+Ufo_web_factory
+Unknown
+Usda forest service
+Valérie75
+Valessiobrito
+Vincent van gogh
+Vion nicolas
+Webmichl
+William warby
+Wollebolleke
+Yannthebigboss
+Yekcim
+Yves_guillou
+Zilcade
+Zippi1
+ℍenry salomé
+

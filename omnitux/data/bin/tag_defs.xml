@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<omnitux_tag_defs version="1.0">
+
+	<tag_def>
+		<tag>mouse_manipulation</tag>
+		
+		<image>default/icons/lemmling_Simple_cartoon_mouse.svg</image>
+
+		<text lang='de'>Maus Manipulation</text>
+		<text lang='en'>Mouse manipulation</text>
+		<text lang='es'>Manipulación del ratón</text>
+		<text lang='fr'>Manipulation de la souris</text>
+		<text lang='it'>Utilizzo del Mouse</text>
+		<text lang='pl'>Mouse manipulation</text>
+		<text lang='pt'>Mouse manipulation</text>
+		<text lang='zh'></text>
+
+	</tag_def>
+
+	<tag_def>
+		<tag>learning</tag>
+		
+		<image>default/awards/tuxes/overlord59-magic-tux.png</image>
+
+		<text lang='de'>Lernen</text>
+		<text lang='en'>Learning</text>
+		<text lang='es'>Aprendizaje</text>
+		<text lang='fr'>Apprentissage</text>
+		<text lang='it'>Apprendimento</text>
+		<text lang='pl'>Uczenie się</text>
+		<text lang='pt'>Aprendizagem</text>
+		<text lang='zh'>Aprendizagem</text>
+		<text lang='zh'></text>
+
+	</tag_def>
+
+
+	<tag_def>
+		<tag>associate</tag>
+		
+		<image>default/awards/tuxes/overlord59-tux-teacher.png</image>
+
+		<text lang='de'>Assoziationen</text>
+		<text lang='en'>Associations</text>
+		<text lang='es'>Asociaciones</text>
+		<text lang='fr'>Associations</text>
+		<text lang='it'>Associazioni</text>
+		<text lang='pl'>Połączenia</text>
+		<text lang='pt'>Associações</text>
+		<text lang='zh'></text>
+
+	</tag_def>
+
+	<tag_def>
+		<tag>memory_cards</tag>
+		
+		<image>default/icons/Memory.png</image>
+
+		<text lang='de'>Memory</text>
+		<text lang='en'>Memory cards</text>
+		<text lang='es'>Memorizar cartas</text>
+		<text lang='fr'>Cartes à mémoriser</text>
+		<text lang='it'>Memo</text>
+		<text lang='pl'>Memo</text>
+		<text lang='pt'>Jogo de mémoria</text>
+		<text lang='zh'></text>
+
+	</tag_def>
+
+	<tag_def>
+		<tag>puzzle</tag>
+		
+		<image>default/icons/Jigsaw.png</image>
+
+		<text lang='de'>Puzzles</text>
+		<text lang='en'>Jigsaw puzzles</text>
+		<text lang='es'>Rompecabezas</text>
+		<text lang='fr'>Puzzles</text>
+		<text lang='it'>Puzzle</text>
+		<text lang='pl'>Puzle</text>
+		<text lang='pt'>Quebra-cabeça</text>
+		<text lang='zh'></text>
+
+	</tag_def>
+
+	<tag_def>
+		<tag>differences</tag>
+		
+		<image>default/icons/differences.png</image>
+		
+		<text lang='de'>Unterschiede</text>
+		<text lang='en'>Differences</text>
+		<text lang='es'>Diferencias</text>
+		<text lang='fr'>Différences</text>
+		<text lang='it'>Differenze</text>
+		<text lang='pl'>Różnice</text>
+		<text lang='pt'>Diferenças</text>
+		<text lang='zh'></text>
+
+	</tag_def>
+
+	<tag_def>
+		<tag>numbers</tag>
+		
+		<image>default/icons/Numbers.png</image>
+		
+		<text lang='de'>Zählen</text>
+		<text lang='en'>Numbers</text>
+		<text lang='es'>Números</text>
+		<text lang='fr'>Nombres</text>
+		<text lang='it'>Numeri</text>
+		<text lang='pl'>Liczby</text>
+		<text lang='pt'>Números</text>
+		<text lang='zh'></text>
+
+	</tag_def>
+
+	<tag_def>
+		<tag>writing</tag>
+		
+		<image>default/icons/abc_tux.svg</image>
+		
+		<text lang='de'>Schrift</text>
+		<text lang='en'>Writing</text>
+		<text lang='es'>Escritura</text>
+		<text lang='fr'>Ecriture</text>
+		<text lang='it'>scrittura</text>
+		<text lang='pl'>Pismo</text>
+		<text lang='pt'>Escrita</text>
+		<text lang='zh'></text>
+
+	</tag_def>
+
+	<tag_def>
+		<tag>arts</tag>
+		
+		<image>default/awards/tuxes/brunocb-jeune-tuxette-a-la-perle.png</image>
+		
+		<text lang='de'>Kunst</text>
+		<text lang='en'>Arts</text>
+		<text lang='es'>Arte</text>
+		<text lang='fr'>Arts et Cultures</text>
+		<text lang='it'>Arte e Cultura</text>
+		<text lang='pl'>Sztuka</text>
+		<text lang='pt'>Arte</text>
+		<text lang='zh'></text>
+
+	</tag_def>
+
+	<tag_def>
+		<tag>geography</tag>
+		
+		<image>default/awards/tuxes/brunocb-tux-terre-g1-et-sa-lune.png</image>
+		
+		<text lang='de'>Geographie</text>
+		<text lang='en'>Geography</text>
+		<text lang='es'>Geografía</text>
+		<text lang='fr'>Géographie</text>
+		<text lang='it'>Geografia</text>
+		<text lang='pl'>Geografia</text>
+		<text lang='pt'>Geografia</text>
+		<text lang='zh'></text>
+
+	</tag_def>
+
+</omnitux_tag_defs>

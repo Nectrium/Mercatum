@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<omnitux version="1.0">
+
+<!--
+ german translation: 100% (2010-04-12)
+
+ comment: a lot of copy and paste of language strings necessary
+ -->
+
+<game_set type="puzzle">
+
+	<title lang="de">Landschaften</title>
+	<title lang="en">Landscapes</title>
+	<title lang="es">Paisajes</title>
+	<title lang="fr">Paysages</title>
+	<title lang="it">Paesaggi</title>
+	<title lang="pl">Pejzaż</title>
+	<title lang="pt">Paisagens</title>
+
+	<thumbnail>examples/Landscapes/thumb.png</thumbnail>
+	
+
+	<menu_index value="400"  />
+
+	<level difficulty="1">
+
+		<game type="puzzle" xml_version="1.0" lang="*" author="Olav_2">
+			
+			<rounds>3</rounds>
+			<global_parameters>
+				
+				<game_setup>
+					<!-- those global parameters can be overriden for each image file -->
+					<pieces_amount_x> 2 </pieces_amount_x>
+					<pieces_amount_y> 2 </pieces_amount_y>
+					
+				</game_setup>
+				
+
+				<background>
+					default/backgrounds/Whimsy.JPG
+				</background>
+				
+			</global_parameters>
+			
+			<puzzles>
+				<puzzle>
+					<image>examples/Landscapes/56346-austria2.jpg</image>
+					<text lang='de'>Österreich, von Rubasu</text>
+					<text lang='en'>Austria, by Rubasu</text>
+					<text lang='fr'>Autriche, par Rubasu</text>
+					<text lang='it'>Austria, par Rubasu</text>
+					<text lang='pl'>Austria; Autor: Rubasu</text>
+					<text lang='es'>Austria, por Rubasu</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Landscapes/91300-Arcobaleno a Oltre il colle1680.jpg</image>
+					<text lang='de'>Regenbogen über Oltre il Colle - Bergamo; Renato Zanotti</text>
+					<text lang='en'>Rainbow above Oltre il Colle - Bergamo; Renato Zanotti</text>
+					<text lang='fr'>Arc en ciel au dessus d'Oltre il Colle - Bergamo; Renato Zanotti</text>
+					<text lang='it'>Arcobaleno sopra Oltre il Colle - Bergamo; Renato Zanotti</text>
+					<text lang='pl'>Tęcza nad Oltre il Colle - Bergamo; Renato Zanotti</text>
+					<text lang='es'>Arco iris sobre Oltre il Colle - Bergamo; Renato Zanotti</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Landscapes/92608-pict3511.jpg</image>
+					<text lang='de'>Provinz Bolzano-Bozen; Andy Kanonier</text>
+					<text lang='en'>Province of Bolzano-Bozen; Andy Kanonier</text>
+					<text lang='fr'>Province autonome de Bolzano; Andy Kanonier</text>
+					<text lang='it'>Provincia autonoma di Bolzano; Andy Kanonier</text>
+					<text lang='pl'>Prowincja Bolzano; Andy Kanonier</text>
+					<text lang='es'>Provicia de Bolzano-Bozen; Andy Kanonier</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Landscapes/31505-darlowo.jpg</image>
+					<text lang='de'>Darłowo, Polen</text>
+					<text lang='en'>Darłowo, Poland</text>
+					<text lang='fr'>Darłowo, Pologne</text>
+					<text lang='it'>Darłowo, Pologne</text>
+					<text lang='pl'>Darłowo, Polska</text>
+					<text lang='es'>Darłowo, Polska</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Landscapes/30897-cristallo-1600x1200.jpg</image>
+					<text lang='de'>Monte Cristallo, Dolomiten, Italien; Franz Fellner</text>
+					<text lang='en'>Monte Cristallo, Dolomites, Italy; Franz Fellner</text>
+					<text lang='fr'>Monte Cristallo, Dolomites, Italie; Franz Fellnere</text>
+					<text lang='it'>Monte Cristallo, Dolomiti, Italia; Franz Fellnere</text>
+					<text lang='pl'>Monte Cristallo, Dolomites, Włochy; Franz Fellnere</text>
+					<text lang='es'>Monte Cristallo, Dolomites, Italia; Franz Fellner</text>
+
+				</puzzle>
+				<puzzle>
+					<image>examples/Landscapes/41890-caribbean_1600x1200.jpg</image>
+					<text lang='de'>Insel Saona, Dominikanische Republik; Roman Sidler</text>
+					<text lang='en'>Island Saona, Dominican Republic; Roman Sidler</text>
+					<text lang='fr'>Ile Saona, République Dominicaine; Roman Sidler</text>
+					<text lang='it'>Isola Saona, Republica Dominicana; Roman Sidler</text>
+					<text lang='pl'>Wyspa Saona, Republika Dominikańska; Roman Sidler</text>
+					<text lang='es'>Isla Saona, República Dominicana; Roman Sidler</text>
+				</puzzle>
+			</puzzles>
+
+		</game>
+
+	</level>
+
+	<level difficulty="2">
+	
+		<game type="puzzle" xml_version="1.0" lang="*" author="Olav_2">
+			
+			<rounds>3</rounds>
+			<global_parameters>
+				
+				<game_setup>
+					<!-- those global parameters can be overriden for each image file -->
+					<pieces_amount_x> 3 </pieces_amount_x>
+					<pieces_amount_y> 3 </pieces_amount_y>
+					
+				</game_setup>
+				
+
+				<background>
+					default/backgrounds/Whimsy.JPG
+				</background>
+				
+			</global_parameters>
+			
+			<puzzles>
+				<puzzle>
+					<image>examples/Landscapes/56346-austria2.jpg</image>
+					<text lang='de'>Österreich, von Rubasu</text>
+					<text lang='en'>Austria, by Rubasu</text>
+					<text lang='fr'>Autriche, par Rubasu</text>
+					<text lang='it'>Austria, par Rubasu</text>
+					<text lang='pl'>Austria; Autor: Rubasu</text>
+					<text lang='es'>Austria, por Rubasu</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Landscapes/91300-Arcobaleno a Oltre il colle1680.jpg</image>
+					<text lang='de'>Regenbogen über Oltre il Colle - Bergamo; Renato Zanotti</text>
+					<text lang='en'>Rainbow above Oltre il Colle - Bergamo; Renato Zanotti</text>
+					<text lang='fr'>Arc en ciel au dessus d'Oltre il Colle - Bergamo; Renato Zanotti</text>
+					<text lang='it'>Arcobaleno sopra Oltre il Colle - Bergamo; Renato Zanotti</text>
+					<text lang='pl'>Tęcza nad Oltre il Colle - Bergamo; Renato Zanotti</text>
+					<text lang='es'>Arco iris sobre Oltre il Colle - Bergamo; Renato Zanotti</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Landscapes/92608-pict3511.jpg</image>
+					<text lang='de'>Provinz Bolzano-Bozen; Andy Kanonier</text>
+					<text lang='en'>Province of Bolzano-Bozen; Andy Kanonier</text>
+					<text lang='fr'>Province autonome de Bolzano; Andy Kanonier</text>
+					<text lang='it'>Provincia autonoma di Bolzano; Andy Kanonier</text>
+					<text lang='pl'>Prowincja Bolzano; Andy Kanonier</text>
+					<text lang='es'>Provicia de Bolzano-Bozen; Andy Kanonier</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Landscapes/31505-darlowo.jpg</image>
+					<text lang='de'>Darłowo, Polen</text>
+					<text lang='en'>Darłowo, Poland</text>
+					<text lang='fr'>Darłowo, Pologne</text>
+					<text lang='it'>Darłowo, Pologne</text>
+					<text lang='pl'>Darłowo, Polska</text>
+					<text lang='es'>Darłowo, Polska</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Landscapes/30897-cristallo-1600x1200.jpg</image>
+					<text lang='de'>Monte Cristallo, Dolomiten, Italien; Franz Fellner</text>
+					<text lang='en'>Monte Cristallo, Dolomites, Italy; Franz Fellner</text>
+					<text lang='fr'>Monte Cristallo, Dolomites, Italie; Franz Fellnere</text>
+					<text lang='it'>Monte Cristallo, Dolomiti, Italia; Franz Fellnere</text>
+					<text lang='pl'>Monte Cristallo, Dolomites, Włochy; Franz Fellnere</text>
+					<text lang='es'>Monte Cristallo, Dolomites, Italia; Franz Fellner</text>
+
+				</puzzle>
+				<puzzle>
+					<image>examples/Landscapes/41890-caribbean_1600x1200.jpg</image>
+					<text lang='de'>Insel Saona, Dominikanische Republik; Roman Sidler</text>
+					<text lang='en'>Island Saona, Dominican Republic; Roman Sidler</text>
+					<text lang='fr'>Ile Saona, République Dominicaine; Roman Sidler</text>
+					<text lang='it'>Isola Saona, Republica Dominicana; Roman Sidler</text>
+					<text lang='pl'>Wyspa Saona, Republika Dominikańska; Roman Sidler</text>
+					<text lang='es'>Isla Saona, República Dominicana; Roman Sidler</text>
+				</puzzle>
+			</puzzles>
+
+		</game>
+
+	</level>
+
+
+	<level difficulty="3">
+
+		<game type="puzzle" xml_version="1.0" lang="*" author="Olav_2">
+			
+			<rounds>3</rounds>
+			<global_parameters>
+				
+				<game_setup>
+					<!-- those global parameters can be overriden for each image file -->
+					<pieces_amount_x> 4 </pieces_amount_x>
+					<pieces_amount_y> 4 </pieces_amount_y>
+					
+				</game_setup>
+				
+
+				<background>
+					default/backgrounds/Whimsy.JPG
+				</background>
+				
+			</global_parameters>
+			
+			<puzzles>
+				<puzzle>
+					<image>examples/Landscapes/56346-austria2.jpg</image>
+					<text lang='de'>Österreich, von Rubasu</text>
+					<text lang='en'>Austria, by Rubasu</text>
+					<text lang='fr'>Autriche, par Rubasu</text>
+					<text lang='it'>Austria, par Rubasu</text>
+					<text lang='pl'>Austria; Autor: Rubasu</text>
+					<text lang='es'>Austria, por Rubasu</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Landscapes/91300-Arcobaleno a Oltre il colle1680.jpg</image>
+					<text lang='de'>Regenbogen über Oltre il Colle - Bergamo; Renato Zanotti</text>
+					<text lang='en'>Rainbow above Oltre il Colle - Bergamo; Renato Zanotti</text>
+					<text lang='fr'>Arc en ciel au dessus d'Oltre il Colle - Bergamo; Renato Zanotti</text>
+					<text lang='it'>Arcobaleno sopra Oltre il Colle - Bergamo; Renato Zanotti</text>
+					<text lang='pl'>Tęcza nad Oltre il Colle - Bergamo; Renato Zanotti</text>
+					<text lang='es'>Arco iris sobre Oltre il Colle - Bergamo; Renato Zanotti</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Landscapes/92608-pict3511.jpg</image>
+					<text lang='de'>Provinz Bolzano-Bozen; Andy Kanonier</text>
+					<text lang='en'>Province of Bolzano-Bozen; Andy Kanonier</text>
+					<text lang='fr'>Province autonome de Bolzano; Andy Kanonier</text>
+					<text lang='it'>Provincia autonoma di Bolzano; Andy Kanonier</text>
+					<text lang='pl'>Prowincja Bolzano; Andy Kanonier</text>
+					<text lang='es'>Provicia de Bolzano-Bozen; Andy Kanonier</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Landscapes/31505-darlowo.jpg</image>
+					<text lang='de'>Darłowo, Polen</text>
+					<text lang='en'>Darłowo, Poland</text>
+					<text lang='fr'>Darłowo, Pologne</text>
+					<text lang='it'>Darłowo, Pologne</text>
+					<text lang='pl'>Darłowo, Polska</text>
+					<text lang='es'>Darłowo, Polska</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Landscapes/30897-cristallo-1600x1200.jpg</image>
+					<text lang='de'>Monte Cristallo, Dolomiten, Italien; Franz Fellner</text>
+					<text lang='en'>Monte Cristallo, Dolomites, Italy; Franz Fellner</text>
+					<text lang='fr'>Monte Cristallo, Dolomites, Italie; Franz Fellnere</text>
+					<text lang='it'>Monte Cristallo, Dolomiti, Italia; Franz Fellnere</text>
+					<text lang='pl'>Monte Cristallo, Dolomites, Włochy; Franz Fellnere</text>
+					<text lang='es'>Monte Cristallo, Dolomites, Italia; Franz Fellner</text>
+
+				</puzzle>
+				<puzzle>
+					<image>examples/Landscapes/41890-caribbean_1600x1200.jpg</image>
+					<text lang='de'>Insel Saona, Dominikanische Republik; Roman Sidler</text>
+					<text lang='en'>Island Saona, Dominican Republic; Roman Sidler</text>
+					<text lang='fr'>Ile Saona, République Dominicaine; Roman Sidler</text>
+					<text lang='it'>Isola Saona, Republica Dominicana; Roman Sidler</text>
+					<text lang='pl'>Wyspa Saona, Republika Dominikańska; Roman Sidler</text>
+					<text lang='es'>Isla Saona, República Dominicana; Roman Sidler</text>
+				</puzzle>
+			</puzzles>
+
+		</game>
+
+	</level>
+
+	<level difficulty="4">
+	
+		<game type="puzzle" xml_version="1.0" lang="*" author="Olav_2">
+			
+			<rounds>3</rounds>
+			<global_parameters>
+				
+				<game_setup>
+					<!-- those global parameters can be overriden for each image file -->
+					<pieces_amount_x> 5 </pieces_amount_x>
+					<pieces_amount_y> 5 </pieces_amount_y>
+					
+				</game_setup>
+				
+
+				<background>
+					default/backgrounds/Whimsy.JPG
+				</background>
+				
+			</global_parameters>
+			
+			<puzzles>
+				<puzzle>
+					<image>examples/Landscapes/56346-austria2.jpg</image>
+					<text lang='de'>Österreich, von Rubasu</text>
+					<text lang='en'>Austria, by Rubasu</text>
+					<text lang='fr'>Autriche, par Rubasu</text>
+					<text lang='it'>Austria, par Rubasu</text>
+					<text lang='pl'>Austria; Autor: Rubasu</text>
+					<text lang='es'>Austria, por Rubasu</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Landscapes/91300-Arcobaleno a Oltre il colle1680.jpg</image>
+					<text lang='de'>Regenbogen über Oltre il Colle - Bergamo; Renato Zanotti</text>
+					<text lang='en'>Rainbow above Oltre il Colle - Bergamo; Renato Zanotti</text>
+					<text lang='fr'>Arc en ciel au dessus d'Oltre il Colle - Bergamo; Renato Zanotti</text>
+					<text lang='it'>Arcobaleno sopra Oltre il Colle - Bergamo; Renato Zanotti</text>
+					<text lang='pl'>Tęcza nad Oltre il Colle - Bergamo; Renato Zanotti</text>
+					<text lang='es'>Arco iris sobre Oltre il Colle - Bergamo; Renato Zanotti</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Landscapes/92608-pict3511.jpg</image>
+					<text lang='de'>Provinz Bolzano-Bozen; Andy Kanonier</text>
+					<text lang='en'>Province of Bolzano-Bozen; Andy Kanonier</text>
+					<text lang='fr'>Province autonome de Bolzano; Andy Kanonier</text>
+					<text lang='it'>Provincia autonoma di Bolzano; Andy Kanonier</text>
+					<text lang='pl'>Prowincja Bolzano; Andy Kanonier</text>
+					<text lang='es'>Provicia de Bolzano-Bozen; Andy Kanonier</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Landscapes/31505-darlowo.jpg</image>
+					<text lang='de'>Darłowo, Polen</text>
+					<text lang='en'>Darłowo, Poland</text>
+					<text lang='fr'>Darłowo, Pologne</text>
+					<text lang='it'>Darłowo, Pologne</text>
+					<text lang='pl'>Darłowo, Polska</text>
+					<text lang='es'>Darłowo, Polska</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Landscapes/30897-cristallo-1600x1200.jpg</image>
+					<text lang='de'>Monte Cristallo, Dolomiten, Italien; Franz Fellner</text>
+					<text lang='en'>Monte Cristallo, Dolomites, Italy; Franz Fellner</text>
+					<text lang='fr'>Monte Cristallo, Dolomites, Italie; Franz Fellnere</text>
+					<text lang='it'>Monte Cristallo, Dolomiti, Italia; Franz Fellnere</text>
+					<text lang='pl'>Monte Cristallo, Dolomites, Włochy; Franz Fellnere</text>
+					<text lang='es'>Monte Cristallo, Dolomites, Italia; Franz Fellner</text>
+
+				</puzzle>
+				<puzzle>
+					<image>examples/Landscapes/41890-caribbean_1600x1200.jpg</image>
+					<text lang='de'>Insel Saona, Dominikanische Republik; Roman Sidler</text>
+					<text lang='en'>Island Saona, Dominican Republic; Roman Sidler</text>
+					<text lang='fr'>Ile Saona, République Dominicaine; Roman Sidler</text>
+					<text lang='it'>Isola Saona, Republica Dominicana; Roman Sidler</text>
+					<text lang='pl'>Wyspa Saona, Republika Dominikańska; Roman Sidler</text>
+					<text lang='es'>Isla Saona, República Dominicana; Roman Sidler</text>
+				</puzzle>
+			</puzzles>
+
+		</game>
+
+	</level>
+
+
+
+</game_set>
+
+</omnitux>

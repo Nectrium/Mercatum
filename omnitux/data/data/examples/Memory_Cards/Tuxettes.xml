@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<omnitux version="1.0">
+
+<game_set type="memory_cards">
+
+	<title lang="de">Tux-Mädchen</title>
+	<title lang="en">Tuxgirls</title>
+	<title lang="es">Chicas Tux</title>
+	<title lang="fr">Tuxettes</title>
+	<title lang="it">Tuxine</title>
+	<title lang="pl">Tuxynki</title>
+	<title lang="pt">Tuxgirls</title>
+	
+	<thumbnail>examples/Memory_Cards/backgrounds/buggi_hearts.svg</thumbnail>
+
+	<menu_index value="400" />
+
+	<level difficulty="1">
+
+		<game type="memory_cards" xml_version="1.0" author="Olav_2">
+			
+
+
+			<global_parameters>
+				
+				<identical_cards> 2 </identical_cards>
+				
+				<grid>
+					<pos_x>   5 </pos_x> 
+					<pos_y>  10 </pos_y>
+					<width>  90 </width>
+					<height> 87 </height>
+					
+					<amount_x> 4 </amount_x>
+					<amount_y> 3 </amount_y>			
+					
+					<spacing_x> 0.3 </spacing_x>
+					<spacing_y> 0.5 </spacing_y>
+					
+				</grid>
+
+				<card>
+					<front>
+						examples/Memory_Cards/tux_card_front_pink.svg
+					</front>
+					
+					<back>
+						examples/Memory_Cards/tux_card_back_pink.svg
+					</back>
+					
+					<image_area>
+						<ratio_x> 92 </ratio_x>
+						<ratio_y> 88 </ratio_y>
+					</image_area>
+				
+				</card>
+
+
+					<background mode="CENTERED">examples/Memory_Cards/backgrounds/buggi_hearts.svg
+					</background>
+
+					<background mode="CENTERED">examples/Memory_Cards/backgrounds/pixabella_Red_Heart_Shaped_Border_with_Little_Hearts.svg
+					</background>
+
+			</global_parameters>
+			
+			<associations>	
+
+				<association><image>default/awards/tuxes/brunocb-jeune-tuxette-a-la-perle.png</image></association>
+				<association><image>default/awards/tuxes/dinou10-tux-une-fille.png</image></association>
+				<association><image>default/awards/tuxes/fcys14-lala-tux.png</image></association>
+				<association><image>default/awards/tuxes/isb-tux-becassine.png</image></association>
+				<association><image>default/awards/tuxes/isb-tux-danseuse-jazz.png</image></association>
+				<association><image>default/awards/tuxes/isb-tux-danseuse-lecigne.png</image></association>
+				<association><image>default/awards/tuxes/isb-tux-danseuse.png</image></association>
+				<association><image>default/awards/tuxes/podoxav-malibu-tux-pamela.png</image></association>
+				<association><image>default/awards/tuxes/truth-tux-r1-the-pink-one.png</image></association>
+				<association><image>default/awards/tuxes/zilcade-tuxita.png</image></association>
+		
+
+			</associations>
+
+		</game>
+		
+	</level>
+	
+	<level difficulty="2">
+	
+		<game type="memory_cards" xml_version="1.0" author="Olav_2">
+			
+			<global_parameters>
+				
+				<identical_cards> 2 </identical_cards>
+				
+				<grid>
+					<pos_x>   5 </pos_x> 
+					<pos_y>  10 </pos_y>
+					<width>  90 </width>
+					<height> 87 </height>
+					
+					<amount_x> 5 </amount_x>
+					<amount_y> 4 </amount_y>			
+					
+					<spacing_x> 0.3 </spacing_x>
+					<spacing_y> 0.5 </spacing_y>
+					
+				</grid>
+
+				<card>
+					<front>
+						examples/Memory_Cards/tux_card_front_pink.svg
+					</front>
+					
+					<back>
+						examples/Memory_Cards/tux_card_back_pink.svg
+					</back>
+					
+					<image_area>
+						<ratio_x> 92 </ratio_x>
+						<ratio_y> 88 </ratio_y>
+					</image_area>
+				
+				</card>
+
+
+					<background mode="CENTERED">examples/Memory_Cards/backgrounds/buggi_hearts.svg
+					</background>
+
+					<background mode="CENTERED">examples/Memory_Cards/backgrounds/pixabella_Red_Heart_Shaped_Border_with_Little_Hearts.svg
+					</background>
+
+			</global_parameters>
+			
+			<associations>	
+				
+				<association><image>default/awards/tuxes/brunocb-jeune-tuxette-a-la-perle.png</image></association>
+				<association><image>default/awards/tuxes/dinou10-tux-une-fille.png</image></association>
+				<association><image>default/awards/tuxes/fcys14-lala-tux.png</image></association>
+				<association><image>default/awards/tuxes/isb-tux-becassine.png</image></association>
+				<association><image>default/awards/tuxes/isb-tux-danseuse-jazz.png</image></association>
+				<association><image>default/awards/tuxes/isb-tux-danseuse-lecigne.png</image></association>
+				<association><image>default/awards/tuxes/isb-tux-danseuse.png</image></association>
+				<association><image>default/awards/tuxes/podoxav-malibu-tux-pamela.png</image></association>
+				<association><image>default/awards/tuxes/truth-tux-r1-the-pink-one.png</image></association>
+				<association><image>default/awards/tuxes/zilcade-tuxita.png</image></association>
+
+			</associations>
+
+		</game>
+
+	</level>
+	
+	<level difficulty="3">
+	
+		<game type="memory_cards" xml_version="1.0" author="Olav_2">
+			
+
+			<global_parameters>
+				
+				<identical_cards> 3 </identical_cards>
+				
+				<grid>
+					<pos_x>   5 </pos_x> 
+					<pos_y>  10 </pos_y>
+					<width>  90 </width>
+					<height> 87 </height>
+					
+					<amount_x> 6 </amount_x>
+					<amount_y> 5 </amount_y>			
+					
+					<spacing_x> 0.3 </spacing_x>
+					<spacing_y> 0.5 </spacing_y>
+					
+				</grid>
+
+				<card>
+					<front>
+						examples/Memory_Cards/tux_card_front_pink.svg
+					</front>
+					
+					<back>
+						examples/Memory_Cards/tux_card_back_pink.svg
+					</back>
+					
+					<image_area>
+						<ratio_x> 92 </ratio_x>
+						<ratio_y> 88 </ratio_y>
+					</image_area>
+				
+				</card>
+
+
+					<background mode="CENTERED">examples/Memory_Cards/backgrounds/buggi_hearts.svg
+					</background>
+
+					<background mode="CENTERED">examples/Memory_Cards/backgrounds/pixabella_Red_Heart_Shaped_Border_with_Little_Hearts.svg
+					</background>
+
+			</global_parameters>
+			
+			<associations>	
+				
+				
+				<association><image>default/awards/tuxes/brunocb-jeune-tuxette-a-la-perle.png</image></association>
+				<association><image>default/awards/tuxes/dinou10-tux-une-fille.png</image></association>
+				<association><image>default/awards/tuxes/fcys14-lala-tux.png</image></association>
+				<association><image>default/awards/tuxes/isb-tux-becassine.png</image></association>
+				<association><image>default/awards/tuxes/isb-tux-danseuse-jazz.png</image></association>
+				<association><image>default/awards/tuxes/isb-tux-danseuse-lecigne.png</image></association>
+				<association><image>default/awards/tuxes/isb-tux-danseuse.png</image></association>
+				<association><image>default/awards/tuxes/podoxav-malibu-tux-pamela.png</image></association>
+				<association><image>default/awards/tuxes/truth-tux-r1-the-pink-one.png</image></association>
+				<association><image>default/awards/tuxes/zilcade-tuxita.png</image></association>
+
+			</associations>
+
+		</game>
+
+	</level>
+	
+</game_set>
+		
+</omnitux>

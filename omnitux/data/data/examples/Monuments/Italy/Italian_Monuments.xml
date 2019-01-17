@@ -1,0 +1,2256 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<omnitux version="1.0">
+
+<game_set>
+
+	<title lang="it">Monumenti italiani</title>
+
+
+	<tag>arts</tag>
+
+	<thumbnail>examples/Monuments/Italy/Pisa_Duomo_2.jpg</thumbnail>
+
+	<menu_index value="400" lang="it" />
+
+
+
+	<dict key="assisi" lang="it" value="Assisi (PG) Umbria - San Pietro" />
+	
+	<dict key="firenze" lang="it" value="Firenze Toscana - Uffizi e Palazzo Vecchio" />
+
+	<dict key="noto" lang="it" value="Noto (SR) Sicilia - La Cattedrale" />
+
+	<dict key="aquila" lang="it" value="L'Aquila Abruzzo - Basilica di Santa Maria di Collemaggio" />
+
+	<dict key="levanzo" lang="it" value="Levanzo (TP) Sicilia - Il Porto dal Mare" />
+
+	<dict key="montagnana" lang="it" value="Montagnana (PD) Veneto - Cinta Muraria" />
+
+	<dict key="monteriggioni" lang="it" value="Monteriggioni (SI) Toscana - l'Antico Borgo" />
+
+	<dict key="torino" lang="it" value="Torino Piemonte - Palazzina di Caccia di Stupinigi" />
+
+	<dict key="mantova" lang="it" value="Mantova Lombardia - Plazzo Te" />
+
+	<dict key="pisa" lang="it" value="Pisa Toscana - Piazza dei Miracoli" />
+
+	<dict key="spoleto" lang="it" value="Spoleto (PG) Umbria - Rocca e Ponte delle Torri" />
+
+	<dict key="5terre" lang="it" value="Cinque Terre (SP) Liguria - Riviera delle Cinque Terre" />
+
+	<dict key="sepino" lang="it" value="Sepino (CB) Molise - Il teatro Romano" />
+
+	<dict key="sanfruttuoso" lang="it" value="San Fruttuoso (GE) Liguria - Abazia di San Fruttuoso" />
+
+	<dict key="ortobene" lang="it" value="Monte Ortobene (NU) Sardegna - Una casa nel granito" />
+
+	<dict key="trieste" lang="it" value="Trieste Friuli-Venezia Giulia - Castello di Miramare" />
+
+	<dict key="castelvetrano" lang="it" value="Castelvetrano (TP) Sicilia - Selinunte Il Tempio di Hera" />
+
+	<dict key="roma" lang="it" value="Roma Lazio - Piazza di Spagna" />
+
+	<dict key="ravenna" lang="it" value="Ravenna Emilia-Romagna - Mosaici di Sant'Apollinare in Classe" />
+
+	<dict key="brisighella" lang="it" value="Brisighella (RA) Emilia-Romagna - Via degli asini" />
+
+	<dict key="venezia" lang="it" value="Venezia Veneto - Teatro la Fenice" />
+
+	<dict key="lucca" lang="it" value="Lucca Toscana - Torre Giunigi" />
+
+	<dict key="trecime" lang="it" value="Trentino-Alto Adige - Tre cime di Lavaredo" />
+
+	<dict key="alberobello" lang="it" value="Alberobello (BA) Puglia - Trulli" />
+
+	<dict key="orgosolo" lang="it" value="Orgosolo (NU) - Murales su granito" />
+
+	<dict key="cansiglio" lang="it" value="Veneto - La foresta del Cansiglio" />
+
+	<dict key="ancona" lang="it" value="Ancona Marche - Mole Vanvitelliana" />
+
+	<dict key="bologna" lang="it" value="Bologna Emilia-Romagna - I Portici" />
+
+	<dict key="tivoli" lang="it" value="Tivoli (RM) Lazio - Villa Adriana" />
+
+	<dict key="andria" lang="it" value="Andria (BAT) - Castel del Monte" />
+
+	<dict key="aosta" lang="it" value="Aosta Valle d'Aosta - Castello di Fènis" />
+
+	<dict key="stilo" lang="it" value="Stilo (RC) Calabria - Cattolica di Stilo" />
+
+	<dict key="caserta" lang="it" value="Caserta Campania - Il Parco della Reggia" />
+
+	<dict key="matera" lang="it" value="Matera Basilicata - I Sassi" />
+
+	<dict key="melfi" lang="it" value="Melfi (PZ) Basilicata - Il Castello" />
+
+
+	<level difficulty="1">
+		<game type="associate" xml_version="1.0" author="eugenio">
+			
+			<rounds>1</rounds>
+
+
+			<global_parameters>
+				
+				<game_setup>
+					<type_to_associate>image_on_map</type_to_associate>
+					<type_to_drag>image</type_to_drag>
+					
+					<!-- amount of items to choose from -->
+					<min_draggable> 5 </min_draggable>
+					<max_draggable> 6 </max_draggable>
+
+
+				</game_setup>
+
+				<map>
+					<image>examples/Monuments/Italy/Italy_topographic_map-blank.svg</image>
+					<pos_x>   16.5 </pos_x> 
+					<pos_y>  8 </pos_y>
+					<width>  66 </width>
+					<height> 83 </height>
+					
+				</map>		
+
+				<draggable_items_area>
+					<pos_x>  0.5 </pos_x> 
+					<pos_y>  8 </pos_y>
+					<width>  26 </width>
+					<height> 83 </height>
+					
+
+					<amount_x> 1 </amount_x>
+					<amount_y> 3 </amount_y>
+					
+					<spacing_y> 0.25 </spacing_y>
+					
+				</draggable_items_area>
+
+				<draggable_items_area>
+					<pos_x>  72.5 </pos_x> 
+					<pos_y>  8 </pos_y>
+					<width>  26 </width>
+					<height> 83 </height>
+					
+
+					<amount_x> 1 </amount_x>
+					<amount_y> 3 </amount_y>
+					
+					<spacing_y> 0.25 </spacing_y>
+					
+				</draggable_items_area>
+				
+				<text_legend_area>
+					<pos_x>  1 </pos_x> 
+					<pos_y>  91.5 </pos_y>
+					<width>  99 </width>
+					<height> 8 </height>
+
+				</text_legend_area>				
+
+				<background>
+					Kot26/liczenie/back1s.png
+				</background>		
+				
+			</global_parameters>
+			
+			<associations>	
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 853 </pos_x> 
+						<pos_y unit="px"> 772 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/FacadeS.Pietro_Assisi.jpg
+						<text key = "assisi" />
+					</image>
+				</association>
+				
+				<association>
+					<goal>
+						<pos_x unit="px"> 690 </pos_x> 
+						<pos_y unit="px"> 674 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/FirenzeIMG0281_bordercropped.jpg
+						<text key = "firenze" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 1193 </pos_x> 
+						<pos_y unit="px"> 1838 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/La_cattedrale_di_Noto_restaurata.jpg
+						<text key = "noto" />
+					</image>
+				</association>
+
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 951 </pos_x> 
+						<pos_y unit="px"> 904 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/L'Aquila_31.jpg
+						<text key = "aquila" />
+					</image>
+				</association>
+
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 823 </pos_x> 
+						<pos_y unit="px"> 1656 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Levanzo_Tp.jpg
+						<text key = "levanzo" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 716 </pos_x> 
+						<pos_y unit="px"> 432 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Montagnana.jpg
+						<text key = "montagnana" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 705 </pos_x> 
+						<pos_y unit="px"> 793 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Monteriggioni0001.jpg
+						<text key = "monteriggioni" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 277 </pos_x> 
+						<pos_y unit="px"> 419 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Palazzina_di_caccia_di_Stupinigi1.jpg
+						<text key = "torino" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 626 </pos_x> 
+						<pos_y unit="px"> 436 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Palazzo_Te_Mantova_4.jpg
+						<text key = "mantova" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 578 </pos_x> 
+						<pos_y unit="px"> 680 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Pisa_Duomo_2.jpg
+						<text key = "pisa" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 864 </pos_x> 
+						<pos_y unit="px"> 854 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Rocca_Albornoz_and_Ponte_delle_Torri,_Spoleto.jpg
+						<text key = "spoleto" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 498 </pos_x> 
+						<pos_y unit="px"> 614 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Riviera5terre.jpg
+						<text key = "5terre" />
+					</image>
+				</association>
+				
+				<association>
+					<goal>
+						<pos_x unit="px"> 1137 </pos_x> 
+						<pos_y unit="px"> 1056 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Saepinum_(18).jpg
+						<text key = "sepino" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 428 </pos_x> 
+						<pos_y unit="px"> 573 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Sanfruttuoso01.jpg
+						<text key = "sanfruttuoso" />
+					</image>
+				</association>
+
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 450 </pos_x> 
+						<pos_y unit="px"> 1240 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Sardegna-casa_nella_roccia-monte_Ortobene.jpg
+						<text key = "ortobene" />
+					</image>
+				</association>
+
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 983 </pos_x> 
+						<pos_y unit="px"> 344 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Schloss_miramare.jpg
+						<text key = "trieste" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 878 </pos_x> 
+						<pos_y unit="px"> 1709 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Sicily_Selinunte_Temple_E_(Hera).jpg
+						<text key = "castelvetrano" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 834 </pos_x> 
+						<pos_y unit="px"> 990 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Spagna_Spanische_Treppe_Rom.jpg
+						<text key = "roma" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 800 </pos_x> 
+						<pos_y unit="px"> 555 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Stappoclasseaps.jpg
+						<text key = "ravenna" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 804 </pos_x> 
+						<pos_y unit="px"> 400 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Teatro-la-fenice-sala.jpg
+						<text key = "venezia" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 595 </pos_x> 
+						<pos_y unit="px"> 650 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Torre_Guinigi.jpg
+						<text key = "lucca" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 810 </pos_x> 
+						<pos_y unit="px"> 185 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/TreCime.jpg
+						<text key = "trecime" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 1292 </pos_x> 
+						<pos_y unit="px"> 1128 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Trulli_Alberobello11_apr06.jpg
+						<text key = "alberobello" />
+					</image>
+				</association>
+				
+				<association>
+					<goal>
+						<pos_x unit="px"> 445 </pos_x> 
+						<pos_y unit="px"> 1266 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/2585863939_c58cb47418_orgosolomuraleroccia.jpg
+						<text key = "orgosolo" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 828 </pos_x> 
+						<pos_y unit="px"> 261 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Albericansiglio.jpg
+						<text key = "cansiglio" />
+					</image>
+				</association>
+
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 960 </pos_x> 
+						<pos_y unit="px"> 700 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Ancona_Mole_Vanvitelliana.jpg
+						<text key = "ancona" />
+					</image>
+				</association>
+
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 690 </pos_x> 
+						<pos_y unit="px"> 548 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Bologna,_portici_di_via_zamboni_01.jpg
+						<text key = "bologna" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 887 </pos_x> 
+						<pos_y unit="px"> 973 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Canopus_vanaf_serapium.jpg
+						<text key = "tivoli" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 1297 </pos_x> 
+						<pos_y unit="px"> 1090 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Castel_Del_Monte_June1997.jpg
+						<text key = "andria" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 223 </pos_x> 
+						<pos_y unit="px"> 323 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Castello_Fénis.jpg
+						<text key = "aosta" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 1423 </pos_x> 
+						<pos_y unit="px"> 1392 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Cattolica_di_stilo.jpg
+						<text key = "stilo" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 1275 </pos_x> 
+						<pos_y unit="px"> 1128 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Matera_boenisch_nov_2005.jpg
+						<text key = "matera" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 1246 </pos_x> 
+						<pos_y unit="px"> 1128 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Castello_di_melfi1.jpg
+						<text key = "melfi" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 1080 </pos_x> 
+						<pos_y unit="px"> 1125 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Der_bourbonische_Königspalast_in_Caserta.jpg
+						<text key = "caserta" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 738 </pos_x> 
+						<pos_y unit="px"> 604 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Brisighella_via_degli_asini.jpg
+						<text key = "brisighella" />
+					</image>
+				</association>
+
+			</associations>
+
+		</game>
+
+	</level>
+
+
+	<level difficulty="2">
+		<game type="associate" xml_version="1.0" author="Olav_2">
+			
+			<rounds>1</rounds>
+
+
+			<global_parameters>
+				
+				<game_setup>
+					<type_to_associate>image_on_map</type_to_associate>
+					<type_to_drag>image</type_to_drag>
+					
+					<!-- amount of items to choose from -->
+					<min_draggable> 15 </min_draggable>
+					<max_draggable> 16 </max_draggable>
+
+					<!-- amount of "false" goals to make things harder on a map -->
+					<min_false_goals> 1 </min_false_goals>
+					<max_false_goals> 4 </max_false_goals>
+
+				</game_setup>
+
+				<map>
+					<image>examples/Monuments/Italy/Italy_topographic_map-blank.svg</image>
+					<pos_x>   16.5 </pos_x> 
+					<pos_y>  8 </pos_y>
+					<width>  66 </width>
+					<height> 83 </height>
+					
+				</map>		
+
+				<draggable_items_area>
+					<pos_x>  0.5 </pos_x> 
+					<pos_y>  8 </pos_y>
+					<width>  26 </width>
+					<height> 83 </height>
+					
+
+					<amount_x> 2 </amount_x>
+					<amount_y> 4 </amount_y>
+					
+					<spacing_y> 0.25 </spacing_y>
+					
+				</draggable_items_area>
+
+				<draggable_items_area>
+					<pos_x>  72.5 </pos_x> 
+					<pos_y>  8 </pos_y>
+					<width>  26 </width>
+					<height> 83 </height>
+					
+
+					<amount_x> 2 </amount_x>
+					<amount_y> 4 </amount_y>
+					
+					<spacing_y> 0.25 </spacing_y>
+					
+				</draggable_items_area>
+				
+				<text_legend_area>
+					<pos_x>  1 </pos_x> 
+					<pos_y>  91.5 </pos_y>
+					<width>  99 </width>
+					<height> 8 </height>
+
+				</text_legend_area>				
+
+				<background>
+					Kot26/liczenie/back1s.png
+				</background>		
+				
+			</global_parameters>
+			
+			<associations>	
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 853 </pos_x> 
+						<pos_y unit="px"> 772 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/FacadeS.Pietro_Assisi.jpg
+						<text key = "assisi" />
+					</image>
+				</association>
+				
+				<association>
+					<goal>
+						<pos_x unit="px"> 690 </pos_x> 
+						<pos_y unit="px"> 674 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/FirenzeIMG0281_bordercropped.jpg
+						<text key = "firenze" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 1193 </pos_x> 
+						<pos_y unit="px"> 1838 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/La_cattedrale_di_Noto_restaurata.jpg
+						<text key = "noto" />
+					</image>
+				</association>
+
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 951 </pos_x> 
+						<pos_y unit="px"> 904 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/L'Aquila_31.jpg
+						<text key = "aquila" />
+					</image>
+				</association>
+
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 823 </pos_x> 
+						<pos_y unit="px"> 1656 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Levanzo_Tp.jpg
+						<text key = "levanzo" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 716 </pos_x> 
+						<pos_y unit="px"> 432 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Montagnana.jpg
+						<text key = "montagnana" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 705 </pos_x> 
+						<pos_y unit="px"> 793 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Monteriggioni0001.jpg
+						<text key = "monteriggioni" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 277 </pos_x> 
+						<pos_y unit="px"> 419 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Palazzina_di_caccia_di_Stupinigi1.jpg
+						<text key = "torino" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 626 </pos_x> 
+						<pos_y unit="px"> 436 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Palazzo_Te_Mantova_4.jpg
+						<text key = "mantova" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 578 </pos_x> 
+						<pos_y unit="px"> 680 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Pisa_Duomo_2.jpg
+						<text key = "pisa" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 864 </pos_x> 
+						<pos_y unit="px"> 854 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Rocca_Albornoz_and_Ponte_delle_Torri,_Spoleto.jpg
+						<text key = "spoleto" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 498 </pos_x> 
+						<pos_y unit="px"> 614 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Riviera5terre.jpg
+						<text key = "5terre" />
+					</image>
+				</association>
+				
+				<association>
+					<goal>
+						<pos_x unit="px"> 1137 </pos_x> 
+						<pos_y unit="px"> 1056 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Saepinum_(18).jpg
+						<text key = "sepino" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 428 </pos_x> 
+						<pos_y unit="px"> 573 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Sanfruttuoso01.jpg
+						<text key = "sanfruttuoso" />
+					</image>
+				</association>
+
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 450 </pos_x> 
+						<pos_y unit="px"> 1240 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Sardegna-casa_nella_roccia-monte_Ortobene.jpg
+						<text key = "ortobene" />
+					</image>
+				</association>
+
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 983 </pos_x> 
+						<pos_y unit="px"> 344 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Schloss_miramare.jpg
+						<text key = "trieste" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 878 </pos_x> 
+						<pos_y unit="px"> 1709 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Sicily_Selinunte_Temple_E_(Hera).jpg
+						<text key = "castelvetrano" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 834 </pos_x> 
+						<pos_y unit="px"> 990 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Spagna_Spanische_Treppe_Rom.jpg
+						<text key = "roma" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 800 </pos_x> 
+						<pos_y unit="px"> 555 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Stappoclasseaps.jpg
+						<text key = "ravenna" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 804 </pos_x> 
+						<pos_y unit="px"> 400 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Teatro-la-fenice-sala.jpg
+						<text key = "venezia" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 595 </pos_x> 
+						<pos_y unit="px"> 650 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Torre_Guinigi.jpg
+						<text key = "lucca" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 810 </pos_x> 
+						<pos_y unit="px"> 185 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/TreCime.jpg
+						<text key = "trecime" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 1292 </pos_x> 
+						<pos_y unit="px"> 1128 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Trulli_Alberobello11_apr06.jpg
+						<text key = "alberobello" />
+					</image>
+				</association>
+				
+				<association>
+					<goal>
+						<pos_x unit="px"> 445 </pos_x> 
+						<pos_y unit="px"> 1266 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/2585863939_c58cb47418_orgosolomuraleroccia.jpg
+						<text key = "orgosolo" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 828 </pos_x> 
+						<pos_y unit="px"> 261 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Albericansiglio.jpg
+						<text key = "cansiglio" />
+					</image>
+				</association>
+
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 960 </pos_x> 
+						<pos_y unit="px"> 700 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Ancona_Mole_Vanvitelliana.jpg
+						<text key = "ancona" />
+					</image>
+				</association>
+
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 690 </pos_x> 
+						<pos_y unit="px"> 548 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Bologna,_portici_di_via_zamboni_01.jpg
+						<text key = "bologna" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 887 </pos_x> 
+						<pos_y unit="px"> 973 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Canopus_vanaf_serapium.jpg
+						<text key = "tivoli" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 1297 </pos_x> 
+						<pos_y unit="px"> 1090 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Castel_Del_Monte_June1997.jpg
+						<text key = "andria" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 223 </pos_x> 
+						<pos_y unit="px"> 323 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Castello_Fénis.jpg
+						<text key = "aosta" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 1423 </pos_x> 
+						<pos_y unit="px"> 1392 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Cattolica_di_stilo.jpg
+						<text key = "stilo" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 1275 </pos_x> 
+						<pos_y unit="px"> 1128 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Matera_boenisch_nov_2005.jpg
+						<text key = "matera" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 1246 </pos_x> 
+						<pos_y unit="px"> 1128 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Castello_di_melfi1.jpg
+						<text key = "melfi" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 1080 </pos_x> 
+						<pos_y unit="px"> 1125 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Der_bourbonische_Königspalast_in_Caserta.jpg
+						<text key = "caserta" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 738 </pos_x> 
+						<pos_y unit="px"> 604 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Brisighella_via_degli_asini.jpg
+						<text key = "brisighella" />
+					</image>
+				</association>
+
+			</associations>
+
+		</game>
+
+	</level>
+
+	<level difficulty="3">
+		<game type="associate" xml_version="1.0" author="Olav_2">
+			
+			<rounds>1</rounds>
+
+
+			<global_parameters>
+				
+				<game_setup>
+					<type_to_associate>image_on_map</type_to_associate>
+					<type_to_drag>image</type_to_drag>
+					
+					<!-- amount of items to choose from -->
+					<min_draggable> 23 </min_draggable>
+					<max_draggable> 24 </max_draggable>
+
+					<!-- amount of "false" goals to make things harder on a map -->
+					<min_false_goals> 1 </min_false_goals>
+					<max_false_goals> 6 </max_false_goals>
+
+				</game_setup>
+
+				<map>
+					<image>examples/Monuments/Italy/Italy_topographic_map-blank.svg</image>
+					<pos_x>   16.5 </pos_x> 
+					<pos_y>  8 </pos_y>
+					<width>  66 </width>
+					<height> 83 </height>
+					
+				</map>		
+
+				<draggable_items_area>
+					<pos_x>  0.5 </pos_x> 
+					<pos_y>  8 </pos_y>
+					<width>  26 </width>
+					<height> 83 </height>
+					
+
+					<amount_x> 2 </amount_x>
+					<amount_y> 6 </amount_y>
+					
+					<spacing_y> 0.25 </spacing_y>
+					
+				</draggable_items_area>
+
+				<draggable_items_area>
+					<pos_x>  72.5 </pos_x> 
+					<pos_y>  8 </pos_y>
+					<width>  26 </width>
+					<height> 83 </height>
+					
+
+					<amount_x> 2 </amount_x>
+					<amount_y> 6 </amount_y>
+					
+					<spacing_y> 0.25 </spacing_y>
+					
+				</draggable_items_area>
+				
+				<text_legend_area>
+					<pos_x>  1 </pos_x> 
+					<pos_y>  91.5 </pos_y>
+					<width>  99 </width>
+					<height> 8 </height>
+
+				</text_legend_area>				
+
+				<background>
+					Kot26/liczenie/back1s.png
+				</background>		
+				
+			</global_parameters>
+			
+			<associations>	
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 853 </pos_x> 
+						<pos_y unit="px"> 772 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/FacadeS.Pietro_Assisi.jpg
+						<text key = "assisi" />
+					</image>
+				</association>
+				
+				<association>
+					<goal>
+						<pos_x unit="px"> 690 </pos_x> 
+						<pos_y unit="px"> 674 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/FirenzeIMG0281_bordercropped.jpg
+						<text key = "firenze" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 1193 </pos_x> 
+						<pos_y unit="px"> 1838 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/La_cattedrale_di_Noto_restaurata.jpg
+						<text key = "noto" />
+					</image>
+				</association>
+
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 951 </pos_x> 
+						<pos_y unit="px"> 904 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/L'Aquila_31.jpg
+						<text key = "aquila" />
+					</image>
+				</association>
+
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 823 </pos_x> 
+						<pos_y unit="px"> 1656 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Levanzo_Tp.jpg
+						<text key = "levanzo" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 716 </pos_x> 
+						<pos_y unit="px"> 432 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Montagnana.jpg
+						<text key = "montagnana" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 705 </pos_x> 
+						<pos_y unit="px"> 793 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Monteriggioni0001.jpg
+						<text key = "monteriggioni" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 277 </pos_x> 
+						<pos_y unit="px"> 419 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Palazzina_di_caccia_di_Stupinigi1.jpg
+						<text key = "torino" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 626 </pos_x> 
+						<pos_y unit="px"> 436 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Palazzo_Te_Mantova_4.jpg
+						<text key = "mantova" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 578 </pos_x> 
+						<pos_y unit="px"> 680 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Pisa_Duomo_2.jpg
+						<text key = "pisa" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 864 </pos_x> 
+						<pos_y unit="px"> 854 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Rocca_Albornoz_and_Ponte_delle_Torri,_Spoleto.jpg
+						<text key = "spoleto" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 498 </pos_x> 
+						<pos_y unit="px"> 614 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Riviera5terre.jpg
+						<text key = "5terre" />
+					</image>
+				</association>
+				
+				<association>
+					<goal>
+						<pos_x unit="px"> 1137 </pos_x> 
+						<pos_y unit="px"> 1056 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Saepinum_(18).jpg
+						<text key = "sepino" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 428 </pos_x> 
+						<pos_y unit="px"> 573 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Sanfruttuoso01.jpg
+						<text key = "sanfruttuoso" />
+					</image>
+				</association>
+
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 450 </pos_x> 
+						<pos_y unit="px"> 1240 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Sardegna-casa_nella_roccia-monte_Ortobene.jpg
+						<text key = "ortobene" />
+					</image>
+				</association>
+
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 983 </pos_x> 
+						<pos_y unit="px"> 344 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Schloss_miramare.jpg
+						<text key = "trieste" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 878 </pos_x> 
+						<pos_y unit="px"> 1709 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Sicily_Selinunte_Temple_E_(Hera).jpg
+						<text key = "castelvetrano" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 834 </pos_x> 
+						<pos_y unit="px"> 990 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Spagna_Spanische_Treppe_Rom.jpg
+						<text key = "roma" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 800 </pos_x> 
+						<pos_y unit="px"> 555 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Stappoclasseaps.jpg
+						<text key = "ravenna" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 804 </pos_x> 
+						<pos_y unit="px"> 400 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Teatro-la-fenice-sala.jpg
+						<text key = "venezia" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 595 </pos_x> 
+						<pos_y unit="px"> 650 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Torre_Guinigi.jpg
+						<text key = "lucca" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 810 </pos_x> 
+						<pos_y unit="px"> 185 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/TreCime.jpg
+						<text key = "trecime" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 1292 </pos_x> 
+						<pos_y unit="px"> 1128 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Trulli_Alberobello11_apr06.jpg
+						<text key = "alberobello" />
+					</image>
+				</association>
+				
+				<association>
+					<goal>
+						<pos_x unit="px"> 445 </pos_x> 
+						<pos_y unit="px"> 1266 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/2585863939_c58cb47418_orgosolomuraleroccia.jpg
+						<text key = "orgosolo" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 828 </pos_x> 
+						<pos_y unit="px"> 261 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Albericansiglio.jpg
+						<text key = "cansiglio" />
+					</image>
+				</association>
+
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 960 </pos_x> 
+						<pos_y unit="px"> 700 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Ancona_Mole_Vanvitelliana.jpg
+						<text key = "ancona" />
+					</image>
+				</association>
+
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 690 </pos_x> 
+						<pos_y unit="px"> 548 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Bologna,_portici_di_via_zamboni_01.jpg
+						<text key = "bologna" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 887 </pos_x> 
+						<pos_y unit="px"> 973 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Canopus_vanaf_serapium.jpg
+						<text key = "tivoli" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 1297 </pos_x> 
+						<pos_y unit="px"> 1090 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Castel_Del_Monte_June1997.jpg
+						<text key = "andria" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 223 </pos_x> 
+						<pos_y unit="px"> 323 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Castello_Fénis.jpg
+						<text key = "aosta" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 1423 </pos_x> 
+						<pos_y unit="px"> 1392 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Cattolica_di_stilo.jpg
+						<text key = "stilo" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 1275 </pos_x> 
+						<pos_y unit="px"> 1128 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Matera_boenisch_nov_2005.jpg
+						<text key = "matera" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 1246 </pos_x> 
+						<pos_y unit="px"> 1128 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Castello_di_melfi1.jpg
+						<text key = "melfi" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 1080 </pos_x> 
+						<pos_y unit="px"> 1125 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Der_bourbonische_Königspalast_in_Caserta.jpg
+						<text key = "caserta" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 738 </pos_x> 
+						<pos_y unit="px"> 604 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Brisighella_via_degli_asini.jpg
+						<text key = "brisighella" />
+					</image>
+				</association>
+
+			</associations>
+
+		</game>
+
+	</level>
+
+	<level difficulty="4">
+		<game type="associate" xml_version="1.0" author="Olav_2">
+			
+			<rounds>1</rounds>
+
+
+			<global_parameters>
+				
+				<game_setup>
+					<type_to_associate>image_on_map</type_to_associate>
+					<type_to_drag>image</type_to_drag>
+					
+					<!-- amount of items to choose from -->
+					<min_draggable> 35 </min_draggable>
+					<max_draggable> 35 </max_draggable>
+
+					<!-- amount of "false" goals to make things harder on a map -->
+					<min_false_goals> 1 </min_false_goals>
+					<max_false_goals> 10 </max_false_goals>
+
+				</game_setup>
+
+				<map>
+					<image>examples/Monuments/Italy/Italy_topographic_map-blank.svg</image>
+					<pos_x>   16.5 </pos_x> 
+					<pos_y>  8 </pos_y>
+					<width>  66 </width>
+					<height> 83 </height>
+					
+				</map>		
+
+				<draggable_items_area>
+					<pos_x>  0.5 </pos_x> 
+					<pos_y>  8 </pos_y>
+					<width>  26 </width>
+					<height> 83 </height>
+					
+
+					<amount_x> 3 </amount_x>
+					<amount_y> 6 </amount_y>
+					
+					<spacing_y> 0.25 </spacing_y>
+					
+				</draggable_items_area>
+
+				<draggable_items_area>
+					<pos_x>  72.5 </pos_x> 
+					<pos_y>  8 </pos_y>
+					<width>  26 </width>
+					<height> 83 </height>
+					
+
+					<amount_x> 3 </amount_x>
+					<amount_y> 6 </amount_y>
+					
+					<spacing_y> 0.25 </spacing_y>
+					
+				</draggable_items_area>
+				
+				<text_legend_area>
+					<pos_x>  1 </pos_x> 
+					<pos_y>  91.5 </pos_y>
+					<width>  99 </width>
+					<height> 8 </height>
+
+				</text_legend_area>				
+
+				<background>
+					Kot26/liczenie/back1s.png
+				</background>		
+				
+			</global_parameters>
+			
+			<associations>	
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 853 </pos_x> 
+						<pos_y unit="px"> 772 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/FacadeS.Pietro_Assisi.jpg
+						<text key = "assisi" />
+					</image>
+				</association>
+				
+				<association>
+					<goal>
+						<pos_x unit="px"> 690 </pos_x> 
+						<pos_y unit="px"> 674 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/FirenzeIMG0281_bordercropped.jpg
+						<text key = "firenze" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 1193 </pos_x> 
+						<pos_y unit="px"> 1838 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/La_cattedrale_di_Noto_restaurata.jpg
+						<text key = "noto" />
+					</image>
+				</association>
+
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 951 </pos_x> 
+						<pos_y unit="px"> 904 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/L'Aquila_31.jpg
+						<text key = "aquila" />
+					</image>
+				</association>
+
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 823 </pos_x> 
+						<pos_y unit="px"> 1656 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Levanzo_Tp.jpg
+						<text key = "levanzo" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 716 </pos_x> 
+						<pos_y unit="px"> 432 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Montagnana.jpg
+						<text key = "montagnana" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 705 </pos_x> 
+						<pos_y unit="px"> 793 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Monteriggioni0001.jpg
+						<text key = "monteriggioni" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 277 </pos_x> 
+						<pos_y unit="px"> 419 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Palazzina_di_caccia_di_Stupinigi1.jpg
+						<text key = "torino" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 626 </pos_x> 
+						<pos_y unit="px"> 436 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Palazzo_Te_Mantova_4.jpg
+						<text key = "mantova" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 578 </pos_x> 
+						<pos_y unit="px"> 680 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Pisa_Duomo_2.jpg
+						<text key = "pisa" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 864 </pos_x> 
+						<pos_y unit="px"> 854 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Rocca_Albornoz_and_Ponte_delle_Torri,_Spoleto.jpg
+						<text key = "spoleto" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 498 </pos_x> 
+						<pos_y unit="px"> 614 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Riviera5terre.jpg
+						<text key = "5terre" />
+					</image>
+				</association>
+				
+				<association>
+					<goal>
+						<pos_x unit="px"> 1137 </pos_x> 
+						<pos_y unit="px"> 1056 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Saepinum_(18).jpg
+						<text key = "sepino" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 428 </pos_x> 
+						<pos_y unit="px"> 573 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Sanfruttuoso01.jpg
+						<text key = "sanfruttuoso" />
+					</image>
+				</association>
+
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 450 </pos_x> 
+						<pos_y unit="px"> 1240 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Sardegna-casa_nella_roccia-monte_Ortobene.jpg
+						<text key = "ortobene" />
+					</image>
+				</association>
+
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 983 </pos_x> 
+						<pos_y unit="px"> 344 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Schloss_miramare.jpg
+						<text key = "trieste" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 878 </pos_x> 
+						<pos_y unit="px"> 1709 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Sicily_Selinunte_Temple_E_(Hera).jpg
+						<text key = "castelvetrano" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 834 </pos_x> 
+						<pos_y unit="px"> 990 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Spagna_Spanische_Treppe_Rom.jpg
+						<text key = "roma" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 800 </pos_x> 
+						<pos_y unit="px"> 555 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Stappoclasseaps.jpg
+						<text key = "ravenna" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 804 </pos_x> 
+						<pos_y unit="px"> 400 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Teatro-la-fenice-sala.jpg
+						<text key = "venezia" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 595 </pos_x> 
+						<pos_y unit="px"> 650 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Torre_Guinigi.jpg
+						<text key = "lucca" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 810 </pos_x> 
+						<pos_y unit="px"> 185 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/TreCime.jpg
+						<text key = "trecime" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 1292 </pos_x> 
+						<pos_y unit="px"> 1128 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Trulli_Alberobello11_apr06.jpg
+						<text key = "alberobello" />
+					</image>
+				</association>
+				
+				<association>
+					<goal>
+						<pos_x unit="px"> 445 </pos_x> 
+						<pos_y unit="px"> 1266 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/2585863939_c58cb47418_orgosolomuraleroccia.jpg
+						<text key = "orgosolo" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 828 </pos_x> 
+						<pos_y unit="px"> 261 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Albericansiglio.jpg
+						<text key = "cansiglio" />
+					</image>
+				</association>
+
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 960 </pos_x> 
+						<pos_y unit="px"> 700 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Ancona_Mole_Vanvitelliana.jpg
+						<text key = "ancona" />
+					</image>
+				</association>
+
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 690 </pos_x> 
+						<pos_y unit="px"> 548 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Bologna,_portici_di_via_zamboni_01.jpg
+						<text key = "bologna" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 887 </pos_x> 
+						<pos_y unit="px"> 973 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Canopus_vanaf_serapium.jpg
+						<text key = "tivoli" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 1297 </pos_x> 
+						<pos_y unit="px"> 1090 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Castel_Del_Monte_June1997.jpg
+						<text key = "andria" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 223 </pos_x> 
+						<pos_y unit="px"> 323 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Castello_Fénis.jpg
+						<text key = "aosta" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 1423 </pos_x> 
+						<pos_y unit="px"> 1392 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Cattolica_di_stilo.jpg
+						<text key = "stilo" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 1275 </pos_x> 
+						<pos_y unit="px"> 1128 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Matera_boenisch_nov_2005.jpg
+						<text key = "matera" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 1246 </pos_x> 
+						<pos_y unit="px"> 1128 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Castello_di_melfi1.jpg
+						<text key = "melfi" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 1080 </pos_x> 
+						<pos_y unit="px"> 1125 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Der_bourbonische_Königspalast_in_Caserta.jpg
+						<text key = "caserta" />
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x unit="px"> 738 </pos_x> 
+						<pos_y unit="px"> 604 </pos_y>
+						<width>  8 </width>
+						<height> 8 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Italy/Brisighella_via_degli_asini.jpg
+						<text key = "brisighella" />
+					</image>
+				</association>
+
+			</associations>
+
+		</game>
+
+	</level>
+
+	</game_set>
+
+</omnitux>

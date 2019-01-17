@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<omnitux version="1.0">
+
+<game_set author="Olav_2">
+
+	<title lang="de">Musikinstrumente</title>
+	<title lang="en">Musical instruments</title>
+	<title lang="es">Instrumentos musicales</title>
+	<title lang="fr">Instruments de musique</title>
+	<title lang="it">Strumenti Musicali</title>
+	<title lang="pl">Instrumenty muzyczne</title>
+	<title lang="pt">Instrumentos de música</title>
+
+	<thumbnail>examples/Music_Instruments/thumbnail_music.svg</thumbnail>
+
+	<tag>learning</tag>
+
+	<menu_index value="200" />
+
+	<game type="learning">
+
+
+		<music mode="off" />
+
+		<rounds>1</rounds>
+
+
+		<global_parameters>
+			<game_setup>
+
+				<!-- amount of items to display -->
+				<min_display> 4 </min_display>
+				<max_display> 4 </max_display>
+				
+			</game_setup>
+				
+				<item_to_display_area>
+					<pos_x>   1 </pos_x> 
+					<pos_y>  11 </pos_y>
+					<width>  48 </width>
+					<height> 38 </height>
+
+					<image type="mask">
+						default/backgrounds/ABSTRACT-Pastel_1024x768.jpg
+					</image>
+
+				</item_to_display_area>
+				
+				<item_to_display_area>
+					<pos_x>  51 </pos_x> 
+					<pos_y>  11 </pos_y>
+					<width>  48 </width>
+					<height> 38 </height>
+
+					<image type="mask">
+						default/backgrounds/ABSTRACT-Pastel_1024x768.jpg
+					</image>
+
+				</item_to_display_area>
+
+				<item_to_display_area>
+					<pos_x>   1 </pos_x> 
+					<pos_y>  51 </pos_y>
+					<width>  48 </width>
+					<height> 38 </height>
+
+					<image type="mask">
+						default/backgrounds/ABSTRACT-Pastel_1024x768.jpg
+					</image>
+
+				</item_to_display_area>
+				
+				<item_to_display_area>
+					<pos_x>  51 </pos_x> 
+					<pos_y>  51 </pos_y>
+					<width>  48 </width>
+					<height> 38 </height>
+
+					<image type="mask">ABSTRACT-Pastel_1024x768.jpgdark_green.svg
+					</image>
+
+				</item_to_display_area>
+
+
+				
+				<background>
+					examples/Music_Instruments/background_music.png
+				</background>	
+
+		</global_parameters>
+	
+		<learning_cards>	
+
+			<learning_card>
+
+				<image>examples/Music_Instruments/Lublin_Archikatedra9.jpg
+				</image>
+				<sound>examples/Music_Instruments/06_Auszug_e.ogg</sound> 
+				<sound lang="fr">examples/Music_Instruments/Fr-orgue.ogg</sound>
+				<sound lang="it">examples/Music_Instruments/It/organo.ogg</sound> 
+			</learning_card>
+		
+			<learning_card>
+				<image>examples/Music_Instruments/Piano_at_Fort_Wayne.jpg
+				</image>
+				<sound>examples/Music_Instruments/12692__Connum__movement_in_C.ogg</sound> 
+				<sound lang="fr">examples/Music_Instruments/Fr-piano.ogg</sound> 
+				<sound lang="it">examples/Music_Instruments/It/piano.ogg</sound> 
+			</learning_card>
+
+			<learning_card>
+
+				<image>examples/Music_Instruments/Harmonica-bluejay.jpg
+				</image>
+				<sound>examples/Music_Instruments/Harmonica-pumping.ogg</sound> 
+				<sound lang="fr">examples/Music_Instruments/Fr-harmonica.ogg</sound> 
+				<sound lang="it">examples/Music_Instruments/It/armonica.ogg</sound> 
+			</learning_card>
+
+			<learning_card>
+				<image>examples/Music_Instruments/papapishu_violin.svg
+				</image>
+				<sound>examples/Music_Instruments/Rocky-road-to-dublin-eviolin.ogg</sound> 
+				<sound lang="fr">examples/Music_Instruments/Fr-violon.ogg</sound> 
+				<sound lang="it">examples/Music_Instruments/It/violoncello.ogg</sound> 
+			</learning_card>
+
+			<learning_card>
+				<image>examples/Music_Instruments/Gerald_G_Trumpet_1.svg
+				</image>
+				<sound>examples/Music_Instruments/2323__Synapse__TrumpetLoop01.ogg</sound> 
+				<sound lang="fr">examples/Music_Instruments/Fr-trompette.ogg</sound> 
+				<sound lang="it">examples/Music_Instruments/It/tromba.ogg</sound>
+			</learning_card>
+
+			<learning_card>
+				<image>examples/Music_Instruments/TheresaKnott_Saxophone.svg
+				</image>
+				<sound>examples/Music_Instruments/24602__acclivity__TenorSax1.ogg</sound> 
+				<sound lang="fr">examples/Music_Instruments/Fr-saxophone.ogg</sound> 
+				<sound lang="it">examples/Music_Instruments/It/sax.ogg</sound> 
+			</learning_card>
+
+			<learning_card>
+				<image>examples/Music_Instruments/TheresaKnott_Flying_V_guitar.svg
+				</image>
+				<sound>examples/Music_Instruments/33663__ERH__key_jaz_epi_3_5.ogg</sound> 
+				<sound lang="fr">examples/Music_Instruments/Fr-guitare_electrique.ogg</sound> 
+				<sound lang="it">examples/Music_Instruments/It/chitarra_elettrica.ogg</sound> 
+			</learning_card>
+
+			<learning_card>
+				<image>examples/Music_Instruments/papapishu_guitar_1.svg
+				</image>
+				<sound>examples/Music_Instruments/58645__ERH__DADGAD_tk89_RIFF_4E.ogg</sound> 
+				<sound lang="fr">examples/Music_Instruments/Fr-guitare_acoustique.ogg</sound>
+				<sound lang="it">examples/Music_Instruments/It/chitarra_acustica.ogg</sound> 
+
+			</learning_card>
+
+			<learning_card>
+				<image>examples/Music_Instruments/TheresaKnott_Drum_Kit_3.svg
+				</image>
+				<sound>examples/Music_Instruments/39091__hello_flowers__TIG_New_Wave_125_Tijo_Break_2.ogg</sound> 
+				<sound lang="fr">examples/Music_Instruments/Fr-batterie.ogg</sound> 
+				<sound lang="it">examples/Music_Instruments/It/batteria.ogg</sound> 
+			</learning_card>
+
+			<learning_card>
+				<image>examples/Music_Instruments/Gerald_G_Harp_1.svg
+				</image>
+				<image>examples/Music_Instruments/papapishu_harp_1.svg
+				</image>			
+				<sound>examples/Music_Instruments/Glissando_Imprecision_for_2_Harps.ogg</sound> 
+				<sound lang="fr">examples/Music_Instruments/Fr-harpe.ogg</sound> 
+				<sound lang="it">examples/Music_Instruments/It/arpa.ogg</sound> 
+			</learning_card>
+
+			<learning_card>
+				<image>examples/Music_Instruments/Schaferpfeife_in_G-G.jpg
+				</image>
+				<sound>examples/Music_Instruments/70089__Trinity101__WS219681a.ogg</sound>
+				<sound lang="fr">examples/Music_Instruments/Fr-cornemuse.ogg</sound> 
+				<sound lang="it">examples/Music_Instruments/It/cornamusa.ogg</sound> 			
+			</learning_card>
+
+		</learning_cards>
+
+	</game>
+
+</game_set>
+</omnitux>

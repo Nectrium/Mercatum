@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<omnitux version="1.0">
+
+<game_set author="Olav_2">
+
+	<title lang="de">Fahrzeuge</title>
+	<title lang="en">Vehicles</title>
+	<title lang="es">Vehículos</title>
+	<title lang="fr">Véhicules</title>
+	<title lang="it">Veicoli</title>
+	<title lang="pl">Pojazdy</title>
+	<title lang="pt">Veículos</title>
+
+	<tag>mouse_manipulation</tag>
+	
+	<menu_index value="20" />
+	
+	<thumbnail>examples/Vehicles/Assembly/johnny_automatic_here_comes_the_engine.svg </thumbnail>
+
+
+	<level difficulty="1">
+
+		<game type="transform">
+			
+			<rounds>4</rounds>
+			
+			<global_parameters>
+				
+				<game_setup>
+					<!-- those global parameters can be overriden for each image file -->
+					<pieces_amount_x> 4 </pieces_amount_x>
+					<pieces_amount_y> 3 </pieces_amount_y>
+				
+				</game_setup>
+			
+				<image_area>
+					<pos_x> 4 </pos_x>
+					<pos_y> 14 </pos_y>
+					<width> 92 </width>
+					<height> 79 </height>
+				</image_area>
+
+				<background>default/backgrounds/ABSTRACT-Vertigo_1600x1200.jpg</background>
+				<background>default/backgrounds/GNOME-PurpearlGnome_1024x768.png</background>
+
+			</global_parameters>
+			
+			<transformations>
+			
+				<transformation>
+					<image>examples/Vehicles/Assembly/johnny_automatic_crankshaft_balancer.svg</image>
+					<image>examples/Vehicles/autobus.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Vehicles/Assembly/johnny_automatic_fastening_the_wheels.svg</image>
+					<image>examples/Vehicles/bobocal_American_Sport_Car.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Vehicles/Assembly/johnny_automatic_here_comes_the_engine.svg</image>
+					<image>examples/Vehicles/Gerald_G_Beach_Trip.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Vehicles/Assembly/johnny_automatic_here_comes_the_engine.svg</image>
+					<image>examples/Vehicles/Gerald_G_Girl_and_Boy_Driving_Car_Cartoon.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Vehicles/Assembly/johnny_automatic_frame_goes_on_the_assembly_line.svg</image>
+					<image>examples/Vehicles/heavy_equipment_26.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Vehicles/Assembly/johnny_automatic_frame_goes_on_the_assembly_line.svg</image>
+					<image>examples/Vehicles/Montacarichi.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Vehicles/Assembly/johnny_automatic_frame_goes_on_the_assembly_line.svg</image>
+					<image>examples/Vehicles/mystica_Snowmobile.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Vehicles/Assembly/johnny_automatic_fastening_the_wheels.svg</image>
+					<image>examples/Vehicles/ufo_web_factory_500.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Vehicles/Assembly/johnny_automatic_putting_the_axle_on_the_chasis.svg</image>
+					<image>examples/Vehicles/webmichl_2cv4.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Vehicles/Assembly/johnny_automatic_crankshaft_balancer.svg</image>
+					<image>examples/Alphabet/Gerald_G_Motorcycle_Clipart.svg</image>
+				</transformation>
+
+			</transformations>
+
+
+
+		</game>
+		
+	</level>
+
+
+	<level difficulty="2">
+
+		<game type="transform">
+			
+			<rounds>4</rounds>
+			
+			<global_parameters>
+				
+				<game_setup>
+					<!-- those global parameters can be overriden for each image file -->
+					<pieces_amount_x> 7 </pieces_amount_x>
+					<pieces_amount_y> 6 </pieces_amount_y>
+				
+				</game_setup>
+			
+				<image_area>
+					<pos_x> 4 </pos_x>
+					<pos_y> 14 </pos_y>
+					<width> 92 </width>
+					<height> 79 </height>
+				</image_area>
+
+				<background>default/backgrounds/ABSTRACT-Vertigo_1600x1200.jpg</background>
+				<background>default/backgrounds/GNOME-PurpearlGnome_1024x768.png</background>
+
+			</global_parameters>
+			
+			<transformations>
+			
+				<transformation>
+					<image>examples/Vehicles/Assembly/johnny_automatic_crankshaft_balancer.svg</image>
+					<image>examples/Vehicles/autobus.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Vehicles/Assembly/johnny_automatic_fastening_the_wheels.svg</image>
+					<image>examples/Vehicles/bobocal_American_Sport_Car.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Vehicles/Assembly/johnny_automatic_here_comes_the_engine.svg</image>
+					<image>examples/Vehicles/Gerald_G_Beach_Trip.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Vehicles/Assembly/johnny_automatic_here_comes_the_engine.svg</image>
+					<image>examples/Vehicles/Gerald_G_Girl_and_Boy_Driving_Car_Cartoon.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Vehicles/Assembly/johnny_automatic_frame_goes_on_the_assembly_line.svg</image>
+					<image>examples/Vehicles/heavy_equipment_26.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Vehicles/Assembly/johnny_automatic_frame_goes_on_the_assembly_line.svg</image>
+					<image>examples/Vehicles/Montacarichi.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Vehicles/Assembly/johnny_automatic_frame_goes_on_the_assembly_line.svg</image>
+					<image>examples/Vehicles/mystica_Snowmobile.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Vehicles/Assembly/johnny_automatic_fastening_the_wheels.svg</image>
+					<image>examples/Vehicles/ufo_web_factory_500.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Vehicles/Assembly/johnny_automatic_putting_the_axle_on_the_chasis.svg</image>
+					<image>examples/Vehicles/webmichl_2cv4.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Vehicles/Assembly/johnny_automatic_crankshaft_balancer.svg</image>
+					<image>examples/Alphabet/Gerald_G_Motorcycle_Clipart.svg</image>
+				</transformation>
+
+			</transformations>
+
+
+
+		</game>
+		
+	</level>
+
+
+	<level difficulty="3">
+
+		<game type="transform">
+			
+			<rounds>4</rounds>
+			
+			<global_parameters>
+				
+				<game_setup>
+					<!-- those global parameters can be overriden for each image file -->
+					<pieces_amount_x> 11 </pieces_amount_x>
+					<pieces_amount_y> 9 </pieces_amount_y>
+				
+				</game_setup>
+			
+				<image_area>
+					<pos_x> 4 </pos_x>
+					<pos_y> 14 </pos_y>
+					<width> 92 </width>
+					<height> 79 </height>
+				</image_area>
+
+				<background>default/backgrounds/ABSTRACT-Vertigo_1600x1200.jpg</background>
+				<background>default/backgrounds/GNOME-PurpearlGnome_1024x768.png</background>
+
+			</global_parameters>
+			
+			<transformations>
+			
+				<transformation>
+					<image>examples/Vehicles/Assembly/johnny_automatic_crankshaft_balancer.svg</image>
+					<image>examples/Vehicles/autobus.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Vehicles/Assembly/johnny_automatic_fastening_the_wheels.svg</image>
+					<image>examples/Vehicles/bobocal_American_Sport_Car.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Vehicles/Assembly/johnny_automatic_here_comes_the_engine.svg</image>
+					<image>examples/Vehicles/Gerald_G_Beach_Trip.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Vehicles/Assembly/johnny_automatic_here_comes_the_engine.svg</image>
+					<image>examples/Vehicles/Gerald_G_Girl_and_Boy_Driving_Car_Cartoon.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Vehicles/Assembly/johnny_automatic_frame_goes_on_the_assembly_line.svg</image>
+					<image>examples/Vehicles/heavy_equipment_26.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Vehicles/Assembly/johnny_automatic_frame_goes_on_the_assembly_line.svg</image>
+					<image>examples/Vehicles/Montacarichi.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Vehicles/Assembly/johnny_automatic_frame_goes_on_the_assembly_line.svg</image>
+					<image>examples/Vehicles/mystica_Snowmobile.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Vehicles/Assembly/johnny_automatic_fastening_the_wheels.svg</image>
+					<image>examples/Vehicles/ufo_web_factory_500.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Vehicles/Assembly/johnny_automatic_putting_the_axle_on_the_chasis.svg</image>
+					<image>examples/Vehicles/webmichl_2cv4.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Vehicles/Assembly/johnny_automatic_crankshaft_balancer.svg</image>
+					<image>examples/Alphabet/Gerald_G_Motorcycle_Clipart.svg</image>
+				</transformation>
+
+			</transformations>
+
+
+
+		</game>
+		
+	</level>
+
+
+
+</game_set>
+
+</omnitux>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.0"
+   width="208"
+   height="303"
+   viewBox="0 0 167.08643 242.66748"
+   id="svg2"
+   xml:space="preserve"><defs
+   id="defs88" />
+	
+<path
+   d="M 47.737641,12.94064 C 44.553071,18.67209 33.700461,23.92282 33.679891,31.16551 C 33.670181,34.58542 36.825951,37.34088 40.708771,37.34088 C 43.182281,37.34088 45.380211,36.23079 46.633111,34.52933 C 46.109681,39.4537 44.705721,44.95719 39.579131,46.00146 L 47.737641,46.00146 L 55.896161,46.00146 C 50.769581,44.95719 49.365611,39.4537 48.842181,34.52933 C 50.095091,36.23079 52.293011,37.34088 54.766521,37.34088 C 58.649341,37.34088 61.805111,34.58542 61.795401,31.16551 C 61.774831,23.92282 50.922221,18.67209 47.737641,12.94064 z"
+   id="path2254"
+   style="fill-rule:nonzero;stroke:none;stroke-miterlimit:4" /><use
+   transform="matrix(1,0,0,-1,70.670399,242.64527)"
+   id="use2201"
+   x="0"
+   y="0"
+   width="167.08643"
+   height="242.66748"
+   xlink:href="#path2254" /><use
+   transform="matrix(1,0,0,-1,-1.0000001e-6,242.64527)"
+   id="use2203"
+   x="0"
+   y="0"
+   width="167.08643"
+   height="242.66748"
+   xlink:href="#path2254" /><use
+   transform="translate(70.670399,0)"
+   id="use2205"
+   x="0"
+   y="0"
+   width="167.08643"
+   height="242.66748"
+   xlink:href="#path2254" /><use
+   transform="translate(-34.864835,45.931345)"
+   id="use2207"
+   x="0"
+   y="0"
+   width="167.08643"
+   height="242.66748"
+   xlink:href="#use2205" /><use
+   transform="translate(-35.80557,45.931345)"
+   id="use2209"
+   x="0"
+   y="0"
+   width="167.08643"
+   height="242.66748"
+   xlink:href="#use2207" /><use
+   transform="translate(70.670399,0)"
+   id="use2211"
+   x="0"
+   y="0"
+   width="167.08643"
+   height="242.66748"
+   xlink:href="#use2209" /></svg>

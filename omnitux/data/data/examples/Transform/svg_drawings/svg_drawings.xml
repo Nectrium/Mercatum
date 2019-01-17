@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<omnitux version="1.0">
+
+<game_set author="Olav_2">
+
+	<title lang="de">Zeichnungen</title>
+	<title lang="en">Drawings</title>
+	<title lang="es">Dibujos</title>
+	<title lang="fr">Dessins</title>
+	<title lang="it">Disegni</title>
+	<title lang="pl">Rysunki</title>
+	<title lang="pt">Desenhos</title>
+	
+	<tag>mouse_manipulation</tag>
+	
+	<menu_index value="30" />
+	
+	<thumbnail>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</thumbnail>
+
+
+	<level difficulty="1">
+
+		<game type="transform">
+			
+			<rounds>5</rounds>
+			
+			<global_parameters>
+				
+				<game_setup>
+					<!-- those global parameters can be overriden for each image file -->
+					<pieces_amount_x> 4 </pieces_amount_x>
+					<pieces_amount_y> 3 </pieces_amount_y>
+				
+				</game_setup>
+			
+				<image_area>
+					<pos_x> 15 </pos_x>
+					<pos_y> 25 </pos_y>
+					<width> 70 </width>
+					<height> 60 </height>
+				</image_area>
+
+				<background>examples/Transform/svg_drawings/nicubunu_Rectangular_border.svg</background>
+				<background>examples/Transform/svg_drawings/revans2_Clipboard_Background.svg</background>
+
+			</global_parameters>
+			
+			<transformations>
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Alphabet/Abeille-bee.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Alphabet/battery.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Alphabet/Bell214STDrawing.svg</image>
+				</transformation>
+
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Alphabet/BigRedSmile_A_Cartoon_Dinosaur.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Alphabet/BigRedSmile_A_Mobile_Phone.svg</image>
+				</transformation>
+				
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Alphabet/Chrisdesign_comic_alien.svg</image>
+				</transformation>
+				
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Alphabet/divers_bonhommedeneige.svg</image>
+				</transformation>
+				
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Alphabet/DouglasDC3Drawing.svg</image>
+				</transformation>				
+				
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Alphabet/Gerald_G_Motorcycle_Clipart.svg</image>
+				</transformation>
+				
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Alphabet/ivak_Cistern_Truck.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Alphabet/Rainbow-diagram-ROYGBIV.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Alphabet/rg1024_cartoon_whale.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Alphabet/valessiobrito_Clock_Alarm.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Alphabet/valessiobrito_Green_sea_turtle.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Alphabet/Vector_cup_of_coffee.svg</image>
+				</transformation>
+
+
+
+
+			</transformations>
+
+
+
+		</game>
+		
+	</level>
+
+
+
+
+	<level difficulty="2">
+
+		<game type="transform">
+			
+			<rounds>5</rounds>
+			
+			<global_parameters>
+				
+				<game_setup>
+					<!-- those global parameters can be overriden for each image file -->
+					<pieces_amount_x> 8 </pieces_amount_x>
+					<pieces_amount_y> 6 </pieces_amount_y>
+				
+				</game_setup>
+			
+				<image_area>
+					<pos_x> 15 </pos_x>
+					<pos_y> 25 </pos_y>
+					<width> 70 </width>
+					<height> 60 </height>
+				</image_area>
+
+				<background>examples/Transform/svg_drawings/nicubunu_Rectangular_border.svg</background>
+				<background>examples/Transform/svg_drawings/revans2_Clipboard_Background.svg</background>
+
+			</global_parameters>
+			
+			<transformations>
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Alphabet/Abeille-bee.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Alphabet/battery.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Alphabet/Bell214STDrawing.svg</image>
+				</transformation>
+
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Alphabet/BigRedSmile_A_Cartoon_Dinosaur.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Alphabet/BigRedSmile_A_Mobile_Phone.svg</image>
+				</transformation>
+				
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Alphabet/Chrisdesign_comic_alien.svg</image>
+				</transformation>
+				
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Alphabet/divers_bonhommedeneige.svg</image>
+				</transformation>
+				
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Alphabet/DouglasDC3Drawing.svg</image>
+				</transformation>				
+				
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Alphabet/Gerald_G_Motorcycle_Clipart.svg</image>
+				</transformation>
+				
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Alphabet/ivak_Cistern_Truck.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Alphabet/Rainbow-diagram-ROYGBIV.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Alphabet/rg1024_cartoon_whale.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Alphabet/valessiobrito_Clock_Alarm.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Alphabet/valessiobrito_Green_sea_turtle.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Alphabet/Vector_cup_of_coffee.svg</image>
+				</transformation>
+
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/cartoons/eltlims_Estrela_do_PT_Sorindo.svg</image>
+				</transformation>
+				
+	
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/cartoons/hyoga_Tux_G2.svg</image>
+				</transformation>
+
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/cartoons/lemmling_Mushroom_house.svg</image>
+				</transformation>
+
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/cartoons/lemmling_Spooky_castle_in_full_moon.svg</image>
+				</transformation>
+
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/cartoons/lemmling_Witch_s_cottage.svg</image>
+				</transformation>
+
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/cartoons/Piratey_vector_version.svg</image>
+				</transformation>
+
+			</transformations>
+
+		</game>
+	</level>
+
+
+
+	<level difficulty="3">
+
+		<game type="transform">
+			
+			<rounds>5</rounds>
+			
+			<global_parameters>
+				
+				<game_setup>
+					<!-- those global parameters can be overriden for each image file -->
+					<pieces_amount_x> 11 </pieces_amount_x>
+					<pieces_amount_y> 8 </pieces_amount_y>
+				
+				</game_setup>
+			
+				<image_area>
+					<pos_x> 15 </pos_x>
+					<pos_y> 25 </pos_y>
+					<width> 70 </width>
+					<height> 60 </height>
+				</image_area>
+
+				<background>examples/Transform/svg_drawings/nicubunu_Rectangular_border.svg</background>
+				<background>examples/Transform/svg_drawings/revans2_Clipboard_Background.svg</background>
+
+			</global_parameters>
+			
+			<transformations>
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Alphabet/Abeille-bee.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Alphabet/battery.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Alphabet/Bell214STDrawing.svg</image>
+				</transformation>
+
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Alphabet/BigRedSmile_A_Cartoon_Dinosaur.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Alphabet/BigRedSmile_A_Mobile_Phone.svg</image>
+				</transformation>
+				
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Alphabet/Chrisdesign_comic_alien.svg</image>
+				</transformation>
+				
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Alphabet/divers_bonhommedeneige.svg</image>
+				</transformation>
+				
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Alphabet/DouglasDC3Drawing.svg</image>
+				</transformation>				
+				
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Alphabet/Gerald_G_Motorcycle_Clipart.svg</image>
+				</transformation>
+				
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Alphabet/ivak_Cistern_Truck.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Alphabet/Rainbow-diagram-ROYGBIV.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Alphabet/rg1024_cartoon_whale.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Alphabet/valessiobrito_Clock_Alarm.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Alphabet/valessiobrito_Green_sea_turtle.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Alphabet/Vector_cup_of_coffee.svg</image>
+				</transformation>
+
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/cartoons/eltlims_Estrela_do_PT_Sorindo.svg</image>
+				</transformation>
+				
+	
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/cartoons/hyoga_Tux_G2.svg</image>
+				</transformation>
+
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/cartoons/lemmling_Mushroom_house.svg</image>
+				</transformation>
+
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/cartoons/lemmling_Spooky_castle_in_full_moon.svg</image>
+				</transformation>
+
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/cartoons/lemmling_Witch_s_cottage.svg</image>
+				</transformation>
+
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/cartoons/Piratey_vector_version.svg</image>
+				</transformation>
+
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Music_Instruments/Gerald_G_Harp_1.svg</image>
+				</transformation>
+
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Music_Instruments/Gerald_G_Trumpet_1.svg</image>
+				</transformation>
+
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Music_Instruments/papapishu_guitar_1.svg</image>
+				</transformation>
+
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Music_Instruments/papapishu_harp_1.svg</image>
+				</transformation>
+
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Music_Instruments/papapishu_violin.svg</image>
+				</transformation>
+				
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Music_Instruments/TheresaKnott_Drum_Kit_3.svg</image>
+				</transformation>				
+				
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Music_Instruments/TheresaKnott_Flying_V_guitar.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Music_Instruments/TheresaKnott_Saxophone.svg</image>
+				</transformation>
+
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Animals/Drawings/Anonymous_Architetto_--_Cavallo_20.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Animals/Drawings/Anonymous_emperor_penguin.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Animals/Drawings/bratac_Bird.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Animals/Drawings/bsantos_Chicken.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Animals/Drawings/bugmenot_Happy_Pig.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Animals/Drawings/Gerald_G_Camel_with_Rider.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Animals/Drawings/Gerald_G_Dog_on_leash_(Cartoon).svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Animals/Drawings/Heckert_GNU_white.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Animals/Drawings/jonata_Cricket.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Animals/Drawings/leland_mcinnes_Frog_on_a_lily_pad.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Animals/Drawings/mairin_Gray_Cow.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Animals/Drawings/nicubunu_Donkey_on_a_plate.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Animals/Drawings/pitr_Kitty_icon.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Animals/Drawings/StudioFibonacci_Cartoon_lion.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Animals/Drawings/TheStructorr_sheep.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Animals/Drawings/woodpecker.svg</image>
+				</transformation>
+
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Alphabet/divers_araignee.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Alphabet/Hut.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Alphabet/ivak_Decorative_Sun.svg</image>
+				</transformation>
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Alphabet/tower_round.svg</image>
+				</transformation>
+
+
+				<transformation>
+					<image>examples/Transform/svg_drawings/remi_inconnu_Colouring_pencils.svg</image>
+					<image>examples/Alphabet/valessiobrito_Sea_Lion.svg</image>
+				</transformation>
+
+
+
+
+				
+				
+			</transformations>
+
+
+
+		</game>
+		
+	</level>
+
+
+
+</game_set>
+
+</omnitux>

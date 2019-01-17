@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="492.46149"
+   height="837.76233"
+   id="svg2"
+   inkscape:label="Pozadí"
+   sodipodi:version="0.32"
+   inkscape:version="0.44.1"
+   sodipodi:docbase="D:\_petr_\School\INKSCAPE\svg\05.Ovoce, zelenina, jidlo"
+   sodipodi:docname="hruska_1.svg"
+   version="1.0">
+  <defs
+     id="defs1928">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient2826">
+      <stop
+         style="stop-color:#e6e6e6;stop-opacity:1;"
+         offset="0"
+         id="stop2828" />
+      <stop
+         style="stop-color:#e6e6e6;stop-opacity:0;"
+         offset="1"
+         id="stop2830" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient2816">
+      <stop
+         style="stop-color:#f2f2f2;stop-opacity:1;"
+         offset="0"
+         id="stop2818" />
+      <stop
+         style="stop-color:#f2f2f2;stop-opacity:0;"
+         offset="1"
+         id="stop2820" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient9237">
+      <stop
+         style="stop-color:#00d828;stop-opacity:1;"
+         offset="0"
+         id="stop9239" />
+      <stop
+         style="stop-color:#00ff63;stop-opacity:0;"
+         offset="1"
+         id="stop9241" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2816"
+       id="radialGradient2822"
+       cx="389.88687"
+       cy="574.03003"
+       fx="389.88687"
+       fy="574.03003"
+       r="245.73074"
+       gradientTransform="matrix(1,0,0,1.368957,143.6561,-100.7982)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2826"
+       id="radialGradient2832"
+       cx="389.53714"
+       cy="194.76862"
+       fx="389.53714"
+       fy="194.76862"
+       r="16.815701"
+       gradientTransform="matrix(1.000001,-2.576115e-6,9.371659e-6,3.637909,143.6541,-407.885)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49032549"
+     inkscape:cx="372.04724"
+     inkscape:cy="526.18109"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:window-width="1024"
+     inkscape:window-height="713"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4" />
+  <metadata
+     id="metadata1931">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
+        <dc:title>hruska</dc:title>
+        <dc:date>2.11.2006</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Petra Thurlova</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>ZS a MS Machovo namesti</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:language>cz</dc:language>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>hruska</rdf:li>
+            <rdf:li>pear</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Vrstva 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-143.6561,-105.8958)">
+    <g
+       id="g2834"
+       inkscape:export-filename="/media/KINGSTON/inkscape/8.b/Petra Thurlova/2/svg/ovoce/hruska.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <path
+         sodipodi:type="star"
+         style="fill:black;fill-opacity:0.98895024;stroke:#3dc354;stroke-opacity:0.96618359"
+         id="path6573"
+         sodipodi:sides="12"
+         sodipodi:cx="-358.94525"
+         sodipodi:cy="426.24747"
+         sodipodi:r1="45.8312"
+         sodipodi:r2="22.9156"
+         sodipodi:arg1="0.56331626"
+         sodipodi:arg2="0.82511565"
+         inkscape:flatsided="false"
+         inkscape:rounded="0"
+         inkscape:randomized="0"
+         d="M -320.19548,450.72101 L -343.39766,443.08187 L -337.62374,466.81706 L -353.89784,448.60028 L -360.76507,472.04252 L -365.75047,448.12928 L -383.41879,464.99724 L -375.77965,441.79506 L -399.51484,447.56898 L -381.29807,431.29488 L -404.74031,424.42765 L -380.82706,419.44224 L -397.69502,401.77393 L -374.49284,409.41307 L -380.26677,385.67787 L -363.99266,403.89465 L -357.12543,380.45241 L -352.14003,404.36566 L -334.47171,387.4977 L -342.11085,410.69987 L -318.37566,404.92595 L -336.59244,421.20006 L -313.1502,428.06729 L -337.06344,433.05269 L -320.19548,450.72101 z "
+         transform="translate(754.6008,471.1156)" />
+      <path
+         style="fill:#74fc74;fill-opacity:1;stroke:#56cd4a;stroke-opacity:0.49758456"
+         d="M 585.33883,615.59545 C 692.55754,782.51513 630.35112,918.1385 378.92629,915.4853 C 101.53808,912.5797 112.89661,673.62071 195.77495,520.38472 C 308.54488,311.88137 290.39157,227.91706 396.0691,232.73153 C 533.0257,238.97101 449.17807,420.5463 558.60543,576.82212"
+         id="path3902"
+         sodipodi:nodetypes="ccssc" />
+      <path
+         style="fill:#985736;fill-opacity:1;stroke:#3dc354;stroke-opacity:0.96618359"
+         d="M 373.73132,120.32827 C 373.85878,99.933655 384.96844,123.24657 391.57661,113.19015 C 395.09776,107.83162 408.01978,97.384327 406.36272,122.36773 C 403.8962,159.55527 397.695,269.20896 397.695,269.20896 L 377.30038,269.20896 C 377.30038,269.20896 373.49784,157.68388 373.73132,120.32827 z "
+         id="rect4792"
+         sodipodi:nodetypes="cssccs" />
+      <path
+         style="fill:none;fill-rule:evenodd;stroke:black;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 371.182,267.16951 C 376.58345,271.03639 390.21753,271.58821 399.73446,269.20897 C 402.58058,268.49744 405.37251,266.38995 407.89231,265.13005"
+         id="path5679" />
+      <path
+         sodipodi:nodetypes="ccssc"
+         id="path1927"
+         d="M 585.33883,620.07351 C 692.55754,784.50101 630.35112,918.09946 378.92629,915.48587 C 101.53808,912.62366 112.89661,677.23243 195.77495,526.28433 C 308.54488,320.89402 290.39157,238.18334 396.0691,242.92593 C 533.0257,249.07225 449.17807,427.93654 558.60543,581.87909"
+         style="opacity:0.75233645;fill:url(#radialGradient2822);fill-opacity:1;stroke:none;stroke-opacity:0.49758456" />
+      <path
+         sodipodi:nodetypes="cscccc"
+         id="path2824"
+         d="M 373.22145,120.32827 C 373.22145,120.32827 382.26744,130.37407 388.51742,125.93679 C 397.18295,119.78456 405.85285,122.36773 405.85285,122.36773 L 397.695,269.20896 L 377.30038,269.20896 L 373.22145,120.32827 z "
+         style="opacity:0.59813083;fill:url(#radialGradient2832);fill-opacity:1;stroke:#3dc354;stroke-opacity:0.96618359" />
+    </g>
+  </g>
+</svg>

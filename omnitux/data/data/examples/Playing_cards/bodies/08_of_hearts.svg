@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.0"
+   width="208"
+   height="303"
+   viewBox="0 0 167.08643 242.66748"
+   id="svg2"
+   xml:space="preserve"><defs
+   id="defs88" />
+	
+<path
+   d="M 39.867818,13.329748 C 35.560201,13.339018 32.057363,17.020898 32.085843,21.538468 C 32.146243,31.118068 44.178222,38.045978 47.725097,45.612368 C 51.271972,38.045978 63.329059,31.118068 63.389449,21.538468 C 63.417931,17.020898 59.915095,13.339018 55.607479,13.329748 C 51.299863,13.320948 47.737789,16.986998 47.725097,21.513368 C 47.712405,16.986998 44.175434,13.320948 39.867818,13.329748 z"
+   id="path2170"
+   style="fill:#e61408;fill-rule:nonzero;stroke:none;stroke-miterlimit:4" /><use
+   transform="translate(70.670407,9.5219452e-8)"
+   id="use2199"
+   x="0"
+   y="0"
+   width="167.08643"
+   height="242.66748"
+   xlink:href="#path2170" /><use
+   transform="translate(-34.864837,45.931345)"
+   id="use2201"
+   x="0"
+   y="0"
+   width="167.08643"
+   height="242.66748"
+   xlink:href="#use2199" /><use
+   transform="translate(-35.805572,45.931345)"
+   id="use2203"
+   x="0"
+   y="0"
+   width="167.08643"
+   height="242.66748"
+   xlink:href="#use2201" /><use
+   transform="translate(70.670407,9.5219391e-8)"
+   id="use2205"
+   x="0"
+   y="0"
+   width="167.08643"
+   height="242.66748"
+   xlink:href="#use2203" /><use
+   transform="matrix(1,0,0,-1,35.805569,196.72503)"
+   id="use2207"
+   x="0"
+   y="0"
+   width="167.08643"
+   height="242.66748"
+   xlink:href="#path2170" /><use
+   transform="matrix(1,0,0,-1,-1.2116747e-8,242.64527)"
+   id="use2209"
+   x="0"
+   y="0"
+   width="167.08643"
+   height="242.66748"
+   xlink:href="#path2170" /><use
+   transform="matrix(1,0,0,-1,70.670404,242.64527)"
+   id="use2211"
+   x="0"
+   y="0"
+   width="167.08643"
+   height="242.66748"
+   xlink:href="#path2170" /></svg>

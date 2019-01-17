@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.0"
+   width="208"
+   height="303"
+   viewBox="0 0 167.08643 242.66748"
+   id="svg2"
+   xml:space="preserve"><defs
+   id="defs88" />
+	
+<path
+   d="M 75.67338,105.19244 C 71.36577,105.20171 67.86293,108.88359 67.89141,113.40116 C 67.95181,122.98076 79.98379,129.90867 83.53066,137.47506 C 87.07754,129.90867 99.13463,122.98076 99.19502,113.40116 C 99.2235,108.88359 95.72066,105.20171 91.41305,105.19244 C 87.10543,105.18364 83.54336,108.84969 83.53066,113.37606 C 83.51797,108.84969 79.981,105.18364 75.67338,105.19244 z"
+   id="path2170"
+   style="fill:#e61408;fill-rule:nonzero;stroke:none;stroke-miterlimit:4" /><use
+   transform="translate(-35.805569,-91.862692)"
+   id="use2196"
+   x="0"
+   y="0"
+   width="167.08643"
+   height="242.66748"
+   xlink:href="#path2170" /><use
+   transform="translate(34.864835,-91.862692)"
+   id="use2198"
+   x="0"
+   y="0"
+   width="167.08643"
+   height="242.66748"
+   xlink:href="#path2170" /><use
+   transform="matrix(1,0,0,-1,-35.805569,334.50796)"
+   id="use2200"
+   x="0"
+   y="0"
+   width="167.08643"
+   height="242.66748"
+   xlink:href="#path2170" /><use
+   transform="matrix(1,0,0,-1,34.864835,334.50796)"
+   id="use2204"
+   x="0"
+   y="0"
+   width="167.08643"
+   height="242.66748"
+   xlink:href="#path2170" /></svg>

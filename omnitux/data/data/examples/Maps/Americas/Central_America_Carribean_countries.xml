@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<omnitux version="1.0">
+
+<!--
+ german translation: 100% (2010-04-12)
+ -->
+
+<game_set>
+
+	<title lang="de">Länder : Zentralamerika und Karibik</title>
+	<title lang="en">Countries : Central America and Carribean</title>
+	<title lang="es">Countries : Central America and Carribean</title>
+	<title lang="fr">Pays : Amérique Centrale et Caraïbes</title>
+	<title lang="it">Stati : America Centrale e Caraibi</title>
+	<title lang="pl">Countries : Central America and Carribean</title>
+	<title lang="pt">Countries : Central America and Carribean</title>
+
+	<thumbnail>examples/Maps/Americas/Central_America-Caribbean.svg</thumbnail>
+
+	<tag>geography</tag>
+
+
+	<!-- 
+	No translation required below this line.
+	Translations are *automatically* generated (see tools/activity_tools/generate_activity_from_db.py
+	-->
+
+
+        <dict lang="de" key="ag" value="Antigua und Barbuda " />
+        <dict lang="en" key="ag" value="Antigua and Barbuda" />
+        <dict lang="es" key="ag" value="Antigua y Barbuda" />
+        <dict lang="fr" key="ag" value="Antigua et Barbuda " />
+        <dict lang="pl" key="ag" value="Antigua i Barbuda " />
+        <dict lang="pt" key="ag" value="Antígua e Barbuda " />
+
+        <dict lang="de" key="bs" value="Bahamas" />
+        <dict lang="en" key="bs" value="Bahamas" />
+        <dict lang="es" key="bs" value="Bahamas" />
+        <dict lang="fr" key="bs" value="Bahamas" />
+        <dict lang="pl" key="bs" value="Wyspy Bahama" />
+        <dict lang="pt" key="bs" value="Bahamas" />
+
+        <dict lang="de" key="bb" value="Barbados " />
+        <dict lang="en" key="bb" value="Barbados" />
+        <dict lang="es" key="bb" value="Barbados" />
+        <dict lang="fr" key="bb" value="Barbade " />
+        <dict lang="pl" key="bb" value="Barbados " />
+        <dict lang="pt" key="bb" value="Barbados " />
+
+        <dict lang="de" key="bz" value="Belize " />
+        <dict lang="en" key="bz" value="Belize" />
+        <dict lang="es" key="bz" value="Belice" />
+        <dict lang="fr" key="bz" value="Belize " />
+        <dict lang="pl" key="bz" value="Belize " />
+        <dict lang="pt" key="bz" value="Belize " />
+
+        <dict lang="de" key="cr" value="Costa Rica " />
+        <dict lang="en" key="cr" value="Costa Rica" />
+        <dict lang="es" key="cr" value="Costa Rica" />
+        <dict lang="fr" key="cr" value="Costa Rica " />
+        <dict lang="pl" key="cr" value="Kostaryka " />
+        <dict lang="pt" key="cr" value="Costa Rica " />
+
+        <dict lang="de" key="cu" value="Kuba " />
+        <dict lang="en" key="cu" value="Cuba" />
+        <dict lang="es" key="cu" value="Cuba" />
+        <dict lang="fr" key="cu" value="Cuba " />
+        <dict lang="pl" key="cu" value="Kuba " />
+        <dict lang="pt" key="cu" value="Cuba " />
+
+        <dict lang="de" key="dm" value="Dominica " />
+        <dict lang="en" key="dm" value="Dominica" />
+        <dict lang="es" key="dm" value="Dominica" />
+        <dict lang="fr" key="dm" value="Dominique " />
+        <dict lang="pl" key="dm" value="Dominika " />
+        <dict lang="pt" key="dm" value="Dominica " />
+
+        <dict lang="de" key="do" value="Dominikanische Republik " />
+        <dict lang="en" key="do" value="Dominican Republic" />
+        <dict lang="es" key="do" value="República Dominicana" />
+        <dict lang="fr" key="do" value="République dominicaine " />
+        <dict lang="pl" key="do" value="Dominikana " />
+        <dict lang="pt" key="do" value="República Dominicana " />
+
+        <dict lang="de" key="sv" value="El Salvador " />
+        <dict lang="en" key="sv" value="El Salvador" />
+        <dict lang="es" key="sv" value="El Salvador" />
+        <dict lang="fr" key="sv" value="El Salvador " />
+        <dict lang="pl" key="sv" value="Salwador " />
+        <dict lang="pt" key="sv" value="El Salvador " />
+
+        <dict lang="de" key="gd" value="Grenada " />
+        <dict lang="en" key="gd" value="Grenada" />
+        <dict lang="es" key="gd" value="Granada" />
+        <dict lang="fr" key="gd" value="Grenade " />
+        <dict lang="pl" key="gd" value="Grenada " />
+        <dict lang="pt" key="gd" value="Granada " />
+
+        <dict lang="de" key="gt" value="Guatemala " />
+        <dict lang="en" key="gt" value="Guatemala" />
+        <dict lang="es" key="gt" value="Guatemala" />
+        <dict lang="fr" key="gt" value="Guatemala " />
+        <dict lang="pl" key="gt" value="Gwatemala " />
+        <dict lang="pt" key="gt" value="Guatemala " />
+
+        <dict lang="de" key="ht" value="Haiti " />
+        <dict lang="en" key="ht" value="Haiti" />
+        <dict lang="es" key="ht" value="Haití" />
+        <dict lang="fr" key="ht" value="Haïti " />
+        <dict lang="pl" key="ht" value="Haiti " />
+        <dict lang="pt" key="ht" value="Haiti " />
+
+        <dict lang="de" key="hn" value="Honduras " />
+        <dict lang="en" key="hn" value="Honduras" />
+        <dict lang="es" key="hn" value="Honduras" />
+        <dict lang="fr" key="hn" value="Honduras " />
+        <dict lang="pl" key="hn" value="Honduras " />
+        <dict lang="pt" key="hn" value="Honduras " />
+
+        <dict lang="de" key="jm" value="Jamaika " />
+        <dict lang="en" key="jm" value="Jamaica" />
+        <dict lang="es" key="jm" value="Jamaica" />
+        <dict lang="fr" key="jm" value="Jamaïque " />
+        <dict lang="pl" key="jm" value="Jamajka " />
+        <dict lang="pt" key="jm" value="Jamaica " />
+
+        <dict lang="de" key="ni" value="Nicaragua " />
+        <dict lang="en" key="ni" value="Nicaragua" />
+        <dict lang="es" key="ni" value="Nicaragua" />
+        <dict lang="fr" key="ni" value="Nicaragua " />
+        <dict lang="pl" key="ni" value="Nikaragua " />
+        <dict lang="pt" key="ni" value="Nicarágua " />
+
+        <dict lang="de" key="pa" value="Panama " />
+        <dict lang="en" key="pa" value="Panama" />
+        <dict lang="es" key="pa" value="Panamá" />
+        <dict lang="fr" key="pa" value="Panama " />
+        <dict lang="pl" key="pa" value="Panama " />
+        <dict lang="pt" key="pa" value="Panamá " />
+
+        <dict lang="de" key="kn" value="St. Kitts und Nevis " />
+        <dict lang="en" key="kn" value="Saint Kitts and Nevis" />
+        <dict lang="es" key="kn" value="Saint Kitts y Nevis" />
+        <dict lang="fr" key="kn" value="Saint Kitts et Nevis " />
+        <dict lang="pl" key="kn" value="Saint Kitts i Nevis " />
+        <dict lang="pt" key="kn" value="São Cristóvão e Névis " />
+
+        <dict lang="de" key="lc" value="St. Lucia " />
+        <dict lang="en" key="lc" value="Saint Lucia" />
+        <dict lang="es" key="lc" value="Santa Lucía" />
+        <dict lang="fr" key="lc" value="Sainte-Lucie " />
+        <dict lang="pl" key="lc" value="Saint Lucia " />
+        <dict lang="pt" key="lc" value="Santa Lúcia " />
+
+        <dict lang="de" key="vc" value="St. Vincent und die Grenadinen " />
+        <dict lang="en" key="vc" value="Saint Vincent and the Grenadines" />
+        <dict lang="es" key="vc" value="San Vicente y las Granadinas" />
+        <dict lang="fr" key="vc" value="Saint Vincent et les Grenadines " />
+        <dict lang="pl" key="vc" value="Saint Vincent i Grenadyny " />
+        <dict lang="pt" key="vc" value="São Vicente e Granadinas " />
+
+        <dict lang="de" key="tt" value="Trinidad und Tobago " />
+        <dict lang="en" key="tt" value="Trinidad and Tobago" />
+        <dict lang="es" key="tt" value="Trinidad y Tobago" />
+        <dict lang="fr" key="tt" value="Trinidad et Tobago " />
+        <dict lang="pl" key="tt" value="Trynidad i Tobago " />
+        <dict lang="pt" key="tt" value="Trinidad e Tobago " />
+
+
+
+	<level difficulty="1">
+		<game type="associate" xml_version="1.0" author="Olav_2">
+			
+
+
+			<rounds>1</rounds>
+
+
+			<global_parameters>
+				
+				<game_setup>
+					<type_to_associate>image_on_map</type_to_associate>
+					<type_to_drag>image</type_to_drag>
+					
+					<!-- amount of items to choose from -->
+					<min_draggable> 6 </min_draggable>
+					<max_draggable> 10 </max_draggable>
+
+				</game_setup>
+
+				<map>
+					<image>examples/Maps/Americas/Central_America-Caribbean.svg</image>
+					<pos_x>  10 </pos_x> 
+					<pos_y>  10 </pos_y>
+					<width>  80 </width>
+					<height> 89 </height>
+				</map>		
+
+				<draggable_items_area>
+					<pos_x>  1 </pos_x> 
+					<pos_y>  10 </pos_y>
+					<width>  8 </width>
+					<height> 89 </height>
+					
+
+					<amount_x> 1 </amount_x>
+					<amount_y> 5 </amount_y>
+					
+				</draggable_items_area>
+
+				<draggable_items_area>
+					<pos_x>  91 </pos_x> 
+					<pos_y>  10 </pos_y>
+					<width>  8 </width>
+					<height> 89 </height>
+					
+
+					<amount_x> 1 </amount_x>
+					<amount_y> 5 </amount_y>
+					
+				</draggable_items_area>
+
+				<text_legend_area>
+					<pos_x>  0 </pos_x> 
+					<pos_y>  93 </pos_y>
+					<width>  100 </width>
+					<height> 7 </height>
+
+				</text_legend_area>
+
+
+				<background>
+					default/backgrounds/sky_3038760752_291c6ef25f_o.jpg
+				</background>		
+				
+			</global_parameters>
+			
+			<associations>	
+
+
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">559</pos_x>
+                                                <pos_y unit="px">225</pos_y>
+                                                <width>4</width>
+                                                <height>4</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">default/icons/flags/flag_ag.svg
+                                                <text key="ag" />
+                                        </image>
+                                </association>
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">345</pos_x>
+                                                <pos_y unit="px">95</pos_y>
+                                                <width>4</width>
+                                                <height>4</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">default/icons/flags/flag_bs.svg
+                                                <text key="bs" />
+                                        </image>
+                                </association>
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">575</pos_x>
+                                                <pos_y unit="px">325</pos_y>
+                                                <width>4</width>
+                                                <height>4</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">default/icons/flags/flag_bb.svg
+                                                <text key="bb" />
+                                        </image>
+                                </association>
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">155</pos_x>
+                                                <pos_y unit="px">235</pos_y>
+                                                <width>4</width>
+                                                <height>4</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">default/icons/flags/flag_bz.svg
+                                                <text key="bz" />
+                                        </image>
+                                </association>
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">212</pos_x>
+                                                <pos_y unit="px">361</pos_y>
+                                                <width>4</width>
+                                                <height>4</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">default/icons/flags/flag_cr.svg
+                                                <text key="cr" />
+                                        </image>
+                                </association>
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">314</pos_x>
+                                                <pos_y unit="px">152</pos_y>
+                                                <width>4</width>
+                                                <height>4</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">default/icons/flags/flag_cu.svg
+                                                <text key="cu" />
+                                        </image>
+                                </association>
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">562</pos_x>
+                                                <pos_y unit="px">265</pos_y>
+                                                <width>4</width>
+                                                <height>4</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">default/icons/flags/flag_dm.svg
+                                                <text key="dm" />
+                                        </image>
+                                </association>
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">432</pos_x>
+                                                <pos_y unit="px">202</pos_y>
+                                                <width>4</width>
+                                                <height>4</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">default/icons/flags/flag_do.svg
+                                                <text key="do" />
+                                        </image>
+                                </association>
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">142</pos_x>
+                                                <pos_y unit="px">297</pos_y>
+                                                <width>4</width>
+                                                <height>4</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">default/icons/flags/flag_sv.svg
+                                                <text key="sv" />
+                                        </image>
+                                </association>
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">552</pos_x>
+                                                <pos_y unit="px">322</pos_y>
+                                                <width>4</width>
+                                                <height>4</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">default/icons/flags/flag_gd.svg
+                                                <text key="gd" />
+                                        </image>
+                                </association>
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">117</pos_x>
+                                                <pos_y unit="px">267</pos_y>
+                                                <width>4</width>
+                                                <height>4</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">default/icons/flags/flag_gt.svg
+                                                <text key="gt" />
+                                        </image>
+                                </association>
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">397</pos_x>
+                                                <pos_y unit="px">199</pos_y>
+                                                <width>4</width>
+                                                <height>4</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">default/icons/flags/flag_ht.svg
+                                                <text key="ht" />
+                                        </image>
+                                </association>
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">182</pos_x>
+                                                <pos_y unit="px">269</pos_y>
+                                                <width>4</width>
+                                                <height>4</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">default/icons/flags/flag_hn.svg
+                                                <text key="hn" />
+                                        </image>
+                                </association>
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">327</pos_x>
+                                                <pos_y unit="px">218</pos_y>
+                                                <width>4</width>
+                                                <height>4</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">default/icons/flags/flag_jm.svg
+                                                <text key="jm" />
+                                        </image>
+                                </association>
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">207</pos_x>
+                                                <pos_y unit="px">315</pos_y>
+                                                <width>4</width>
+                                                <height>4</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">default/icons/flags/flag_ni.svg
+                                                <text key="ni" />
+                                        </image>
+                                </association>
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">276</pos_x>
+                                                <pos_y unit="px">375</pos_y>
+                                                <width>4</width>
+                                                <height>4</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">default/icons/flags/flag_pa.svg
+                                                <text key="pa" />
+                                        </image>
+                                </association>
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">545</pos_x>
+                                                <pos_y unit="px">229</pos_y>
+                                                <width>4</width>
+                                                <height>4</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">default/icons/flags/flag_kn.svg
+                                                <text key="kn" />
+                                        </image>
+                                </association>
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">563</pos_x>
+                                                <pos_y unit="px">292</pos_y>
+                                                <width>4</width>
+                                                <height>4</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">default/icons/flags/flag_lc.svg
+                                                <text key="lc" />
+                                        </image>
+                                </association>
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">557</pos_x>
+                                                <pos_y unit="px">308</pos_y>
+                                                <width>4</width>
+                                                <height>4</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">default/icons/flags/flag_vc.svg
+                                                <text key="vc" />
+                                        </image>
+                                </association>
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">555</pos_x>
+                                                <pos_y unit="px">350</pos_y>
+                                                <width>4</width>
+                                                <height>4</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">default/icons/flags/flag_tt.svg
+                                                <text key="tt" />
+                                        </image>
+                                </association>
+			</associations>
+		</game>
+	</level>
+
+
+
+	</game_set>
+
+</omnitux>

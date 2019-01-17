@@ -1,0 +1,4 @@
+#!/bin/sh
+
+cd ~/.mercatum/data/omnitux/
+./omnitux.sh

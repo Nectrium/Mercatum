@@ -1,0 +1,3 @@
+http://edu.kde.org/marble/data.php
+Marble authors
+Public Domain

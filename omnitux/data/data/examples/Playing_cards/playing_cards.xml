@@ -1,0 +1,803 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<omnitux version="1.0">
+
+<game_set author="Olav_2">
+
+	<title lang="de">Spielkarte</title>
+	<title lang="en">Playing cards</title>
+	<title lang="es">Naipes</title>
+	<title lang="fr">Cartes à jouer</title>
+	<title lang="it">Carte da Gioco</title>
+	<title lang="pl">Karty do gry</title>
+	<title lang="pt">Baralho</title>
+
+	<thumbnail>examples/Playing_cards/thumb_king.svg</thumbnail>
+
+	<tag>numbers</tag>
+
+	<menu_index value="400" />
+
+	<level difficulty="1">
+	
+		<game type="associate" >
+			
+			<rounds>4</rounds>
+						
+			<global_parameters>
+				
+				<game_setup>
+					<type_to_associate>image</type_to_associate>
+					<type_to_drag>image</type_to_drag>
+					
+					<!-- amount of items to choose from -->
+					<min_draggable> 5 </min_draggable>
+					<max_draggable> 6 </max_draggable>
+					
+				</game_setup>
+				
+				<item_to_associate>
+					<pos_x>  5 </pos_x> 
+					<pos_y>  41 </pos_y>
+					<width>  90 </width>
+					<height> 28 </height>
+				</item_to_associate>
+
+
+				
+				<goal>
+					<pos_x>  5 </pos_x> 
+					<pos_y>  41 </pos_y>
+					<width>  90 </width>
+					<height> 28 </height>
+					
+					<image>examples/Playing_cards/transparent.svg</image>
+				</goal>
+
+
+				
+				<draggable_items_area>
+					<pos_x>  5 </pos_x> 
+					<pos_y>  11 </pos_y>
+					<width>  90 </width>
+					<height> 28 </height>
+					
+					<amount_x> 3 </amount_x>
+					<amount_y> 1 </amount_y>
+
+				</draggable_items_area>
+
+
+				<draggable_items_area>
+					<pos_x>  5 </pos_x> 
+					<pos_y>  71 </pos_y>
+					<width>  90 </width>
+					<height> 28 </height>
+					
+					<amount_x> 3 </amount_x>
+					<amount_y> 1 </amount_y>
+
+				</draggable_items_area>
+
+
+				<background>
+					default/backgrounds/white.svg
+				</background>
+				
+			</global_parameters>
+			
+			<associations>
+
+
+				<association>
+                                        <image type="to_associate">examples/Playing_cards/headers/01_of_spades_01.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/01_of_spades_01.svg
+                                        </image>
+                                </association>
+				<association>
+                                        <image type="to_associate">examples/Playing_cards/headers/02_of_spades.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/02_of_spades.svg
+                                        </image>
+                                </association>
+				<association>
+                                        <image type="to_associate">examples/Playing_cards/headers/03_of_spades.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/03_of_spades.svg
+                                        </image>
+                                </association>				
+				<association>
+                                        <image type="to_associate">examples/Playing_cards/headers/04_of_spades.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/04_of_spades.svg
+                                        </image>
+                                </association>
+				<association>
+                                        <image type="to_associate">examples/Playing_cards/headers/05_of_spades.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/05_of_spades.svg
+                                        </image>
+                                </association>             
+				<association>
+                                        <image type="to_associate">examples/Playing_cards/headers/06_of_spades.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/06_of_spades.svg
+                                        </image>
+                                </association>
+				
+			</associations>
+
+		</game>
+	</level>
+
+
+
+	<level difficulty="2">
+	
+		<game type="associate" >
+			
+			<rounds>4</rounds>
+						
+			<global_parameters>
+				
+				<game_setup>
+					<type_to_associate>image</type_to_associate>
+					<type_to_drag>image</type_to_drag>
+					
+					<!-- amount of items to choose from -->
+					<min_draggable> 16 </min_draggable>
+					<max_draggable> 16 </max_draggable>
+					
+				</game_setup>
+				
+				<item_to_associate>
+					<pos_x>  35 </pos_x> 
+					<pos_y>  42 </pos_y>
+					<width>  30 </width>
+					<height> 26 </height>
+				</item_to_associate>
+
+
+				
+				<goal>
+					<pos_x>  35 </pos_x> 
+					<pos_y>  42 </pos_y>
+					<width>  30 </width>
+					<height> 26 </height>
+					
+					<image>examples/Playing_cards/transparent.svg</image>
+				</goal>
+
+
+				
+				<draggable_items_area>
+					<pos_x>  5 </pos_x> 
+					<pos_y>  12 </pos_y>
+					<width>  90 </width>
+					<height> 26 </height>
+					
+					<amount_x> 6 </amount_x>
+					<amount_y> 1 </amount_y>
+
+				</draggable_items_area>
+
+
+				<draggable_items_area>
+					<pos_x>  5 </pos_x> 
+					<pos_y>  72 </pos_y>
+					<width>  90 </width>
+					<height> 26 </height>
+					
+					<amount_x> 6 </amount_x>
+					<amount_y> 1 </amount_y>
+
+				</draggable_items_area>
+
+				<draggable_items_area>
+					<pos_x>  5 </pos_x> 
+					<pos_y>  42 </pos_y>
+					<width>  30 </width>
+					<height> 26 </height>
+					
+					<amount_x> 2 </amount_x>
+					<amount_y> 1 </amount_y>
+
+				</draggable_items_area>
+
+				<draggable_items_area>
+					<pos_x>  65 </pos_x> 
+					<pos_y>  42 </pos_y>
+					<width>  30 </width>
+					<height> 26 </height>
+					
+					<amount_x> 2 </amount_x>
+					<amount_y> 1 </amount_y>
+
+				</draggable_items_area>
+
+
+				<background>
+					examples/Playing_cards/board_level_2.svg
+				</background>
+				
+			</global_parameters>
+			
+			<associations>
+
+
+				<association>
+                                        <image type="to_associate">examples/Playing_cards/headers/01_of_hearts_01.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/01_of_hearts_01.svg
+                                        </image>
+                                </association>
+				<association>
+                                        <image type="to_associate">examples/Playing_cards/headers/02_of_hearts.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/02_of_hearts.svg
+                                        </image>
+                                </association>
+				<association>
+                                        <image type="to_associate">examples/Playing_cards/headers/03_of_hearts.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/03_of_hearts.svg
+                                        </image>
+                                </association>				
+				<association>
+                                        <image type="to_associate">examples/Playing_cards/headers/04_of_hearts.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/04_of_hearts.svg
+                                        </image>
+                                </association>
+				<association>
+                                        <image type="to_associate">examples/Playing_cards/headers/05_of_hearts.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/05_of_hearts.svg
+                                        </image>
+                                </association>             
+				<association>
+                                        <image type="to_associate">examples/Playing_cards/headers/06_of_hearts.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/06_of_hearts.svg
+                                        </image>
+                                </association>
+				<association>
+                                        <image type="to_associate">examples/Playing_cards/headers/07_of_hearts.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/07_of_hearts.svg
+                                        </image>
+                                </association>
+				<association>
+                                        <image type="to_associate">examples/Playing_cards/headers/08_of_hearts.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/08_of_hearts.svg
+                                        </image>
+                                </association>
+				<association>
+                                        <image type="to_associate">examples/Playing_cards/headers/09_of_hearts.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/09_of_hearts.svg
+                                        </image>
+                                </association>
+				<association>
+                                        <image type="to_associate">examples/Playing_cards/headers/01_of_diamonds_01.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/01_of_diamonds_01.svg
+                                        </image>
+                                </association>
+				<association>
+                                        <image type="to_associate">examples/Playing_cards/headers/02_of_diamonds.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/02_of_diamonds.svg
+                                        </image>
+                                </association>
+				<association>
+                                        <image type="to_associate">examples/Playing_cards/headers/03_of_diamonds.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/03_of_diamonds.svg
+                                        </image>
+                                </association>				
+				<association>
+                                        <image type="to_associate">examples/Playing_cards/headers/04_of_diamonds.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/04_of_diamonds.svg
+                                        </image>
+                                </association>
+				<association>
+                                        <image type="to_associate">examples/Playing_cards/headers/05_of_diamonds.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/05_of_diamonds.svg
+                                        </image>
+                                </association>             
+				<association>
+                                        <image type="to_associate">examples/Playing_cards/headers/06_of_diamonds.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/06_of_diamonds.svg
+                                        </image>
+                                </association>
+				<association>
+                                        <image type="to_associate">examples/Playing_cards/headers/07_of_diamonds.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/07_of_diamonds.svg
+                                        </image>
+                                </association>
+				<association>
+                                        <image type="to_associate">examples/Playing_cards/headers/08_of_diamonds.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/08_of_diamonds.svg
+                                        </image>
+                                </association>
+				<association>
+                                        <image type="to_associate">examples/Playing_cards/headers/09_of_diamonds.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/09_of_diamonds.svg
+                                        </image>
+                                </association>				
+			</associations>
+
+		</game>
+	</level>
+
+
+
+
+	<level difficulty="3">
+	
+		<game type="associate" >
+			
+			<rounds>4</rounds>
+						
+			<global_parameters>
+				
+				<game_setup>
+					<type_to_associate>image</type_to_associate>
+					<type_to_drag>image</type_to_drag>
+					
+					<!-- amount of items to choose from -->
+					<min_draggable> 40 </min_draggable>
+					<max_draggable> 48 </max_draggable>
+					
+				</game_setup>
+				
+				<item_to_associate>
+					<pos_x>  42 </pos_x> 
+					<pos_y>  12 </pos_y>
+					<width>  16 </width>
+					<height> 40 </height>
+				</item_to_associate>
+
+				<item_to_associate>
+					<pos_x>  42 </pos_x> 
+					<pos_y>  57 </pos_y>
+					<width>  16 </width>
+					<height> 40 </height>
+				</item_to_associate>
+				
+				<goal>
+					<pos_x>  42 </pos_x> 
+					<pos_y>  12 </pos_y>
+					<width>  16 </width>
+					<height> 40 </height>
+					
+					<image>examples/Playing_cards/transparent.svg</image>
+				</goal>
+				<goal>
+					<pos_x>  42 </pos_x> 
+					<pos_y>  57 </pos_y>
+					<width>  16 </width>
+					<height> 40 </height>
+					
+					<image>examples/Playing_cards/transparent.svg</image>
+				</goal>
+
+				
+				<draggable_items_area>
+					<pos_x>  1 </pos_x> 
+					<pos_y>  10 </pos_y>
+					<width>  38 </width>
+					<height> 89 </height>
+					
+					<amount_x> 4 </amount_x>
+					<amount_y> 6 </amount_y>
+
+					<spacing_y> 0.5 </spacing_y>
+					
+				</draggable_items_area>
+
+
+				<draggable_items_area>
+					<pos_x>  61 </pos_x> 
+					<pos_y>  10 </pos_y>
+					<width>  38 </width>
+					<height> 89 </height>
+					
+					<amount_x> 4 </amount_x>
+					<amount_y> 6 </amount_y>
+
+					<spacing_y> 0.5 </spacing_y>
+					
+				</draggable_items_area>
+
+
+				<background>
+					default/backgrounds/white.svg
+				</background>
+				
+			</global_parameters>
+			
+			<associations>
+
+> "
+                                <association>
+                                        <image type="to_associate">examples/Playing_cards/headers/01_of_clubs_01.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/01_of_clubs_01.svg
+                                        </image>
+                                </association>
+
+                                <association>
+                                        <image type="to_associate">examples/Playing_cards/headers/05_of_diamonds.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/05_of_diamonds.svg
+                                        </image>
+                                </association>
+
+                                <association>
+                                        <image type="to_associate">examples/Playing_cards/headers/08_of_spades.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/08_of_spades.svg
+                                        </image>
+                                </association>
+
+                                <association>
+                                        <image type="to_associate">examples/Playing_cards/headers/Jack_of_spades_en.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/Jack_of_spades_en.svg
+                                        </image>
+                                </association>
+
+                                <association>
+                                        <image type="to_associate">examples/Playing_cards/headers/10_of_clubs.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/10_of_clubs.svg
+                                        </image>
+                                </association>
+
+                                <association>
+                                        <image type="to_associate">examples/Playing_cards/headers/06_of_clubs.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/06_of_clubs.svg
+                                        </image>
+                                </association>
+
+                                <association>
+                                        <image type="to_associate">examples/Playing_cards/headers/Jack_of_diamonds_en.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/Jack_of_diamonds_en.svg
+                                        </image>
+                                </association>
+
+                                <association>
+                                        <image type="to_associate">examples/Playing_cards/headers/07_of_clubs.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/07_of_clubs.svg
+                                        </image>
+                                </association>
+
+                                <association>
+                                        <image type="to_associate">examples/Playing_cards/headers/02_of_diamonds.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/02_of_diamonds.svg
+                                        </image>
+                                </association>
+
+                                <association>
+                                        <image type="to_associate">examples/Playing_cards/headers/07_of_diamonds.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/07_of_diamonds.svg
+                                        </image>
+                                </association>
+
+                                <association>
+                                        <image type="to_associate">examples/Playing_cards/headers/06_of_hearts.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/06_of_hearts.svg
+                                        </image>
+                                </association>
+
+                                <association>
+                                        <image type="to_associate">examples/Playing_cards/headers/02_of_spades.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/02_of_spades.svg
+                                        </image>
+                                </association>
+
+                                <association>
+                                        <image type="to_associate">examples/Playing_cards/headers/10_of_diamonds.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/10_of_diamonds.svg
+                                        </image>
+                                </association>
+
+                                <association>
+                                        <image type="to_associate">examples/Playing_cards/headers/06_of_diamonds.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/06_of_diamonds.svg
+                                        </image>
+                                </association>
+
+                                <association>
+                                        <image type="to_associate">examples/Playing_cards/headers/Jack_of_clubs_en.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/Jack_of_clubs_en.svg
+                                        </image>
+                                </association>
+
+                                <association>
+                                        <image type="to_associate">examples/Playing_cards/headers/03_of_clubs.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/03_of_clubs.svg
+                                        </image>
+                                </association>
+
+                                <association>
+                                        <image type="to_associate">examples/Playing_cards/headers/01_of_hearts_01.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/01_of_hearts_01.svg
+                                        </image>
+                                </association>
+
+                                <association>
+                                        <image type="to_associate">examples/Playing_cards/headers/01_of_diamonds_01.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/01_of_diamonds_01.svg
+                                        </image>
+                                </association>
+
+                                <association>
+                                        <image type="to_associate">examples/Playing_cards/headers/Queen_of_spades_en.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/Queen_of_spades_en.svg
+                                        </image>
+                                </association>
+
+                                <association>
+                                        <image type="to_associate">examples/Playing_cards/headers/09_of_hearts.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/09_of_hearts.svg
+                                        </image>
+                                </association>
+
+                                <association>
+                                        <image type="to_associate">examples/Playing_cards/headers/05_of_hearts.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/05_of_hearts.svg
+                                        </image>
+                                </association>
+
+                                <association>
+                                        <image type="to_associate">examples/Playing_cards/headers/05_of_clubs.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/05_of_clubs.svg
+                                        </image>
+                                </association>
+
+                                <association>
+                                        <image type="to_associate">examples/Playing_cards/headers/King_of_spades_en.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/King_of_spades_en.svg
+                                        </image>
+                                </association>
+
+                                <association>
+                                        <image type="to_associate">examples/Playing_cards/headers/02_of_clubs.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/02_of_clubs.svg
+                                        </image>
+                                </association>
+
+                                <association>
+                                        <image type="to_associate">examples/Playing_cards/headers/09_of_clubs.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/09_of_clubs.svg
+                                        </image>
+                                </association>
+
+                                <association>
+                                        <image type="to_associate">examples/Playing_cards/headers/06_of_spades.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/06_of_spades.svg
+                                        </image>
+                                </association>
+
+                                <association>
+                                        <image type="to_associate">examples/Playing_cards/headers/09_of_diamonds.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/09_of_diamonds.svg
+                                        </image>
+                                </association>
+
+                                <association>
+                                        <image type="to_associate">examples/Playing_cards/headers/04_of_spades.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/04_of_spades.svg
+                                        </image>
+                                </association>
+
+                                <association>
+                                        <image type="to_associate">examples/Playing_cards/headers/04_of_hearts.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/04_of_hearts.svg
+                                        </image>
+                                </association>
+
+                                <association>
+                                        <image type="to_associate">examples/Playing_cards/headers/Queen_of_diamonds_en.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/Queen_of_diamonds_en.svg
+                                        </image>
+                                </association>
+
+                                <association>
+                                        <image type="to_associate">examples/Playing_cards/headers/09_of_spades.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/09_of_spades.svg
+                                        </image>
+                                </association>
+
+                                <association>
+                                        <image type="to_associate">examples/Playing_cards/headers/10_of_hearts.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/10_of_hearts.svg
+                                        </image>
+                                </association>
+
+                                <association>
+                                        <image type="to_associate">examples/Playing_cards/headers/King_of_clubs_en.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/King_of_clubs_en.svg
+                                        </image>
+                                </association>
+
+                                <association>
+                                        <image type="to_associate">examples/Playing_cards/headers/Queen_of_hearts_en.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/Queen_of_hearts_en.svg
+                                        </image>
+                                </association>
+
+                                <association>
+                                        <image type="to_associate">examples/Playing_cards/headers/Queen_of_clubs_en.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/Queen_of_clubs_en.svg
+                                        </image>
+                                </association>
+
+                                <association>
+                                        <image type="to_associate">examples/Playing_cards/headers/03_of_diamonds.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/03_of_diamonds.svg
+                                        </image>
+                                </association>
+
+                                <association>
+                                        <image type="to_associate">examples/Playing_cards/headers/King_of_diamonds_en.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/King_of_diamonds_en.svg
+                                        </image>
+                                </association>
+
+                                <association>
+                                        <image type="to_associate">examples/Playing_cards/headers/Jack_of_hearts_en.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/Jack_of_hearts_en.svg
+                                        </image>
+                                </association>
+
+                                <association>
+                                        <image type="to_associate">examples/Playing_cards/headers/05_of_spades.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/05_of_spades.svg
+                                        </image>
+                                </association>
+
+                                <association>
+                                        <image type="to_associate">examples/Playing_cards/headers/07_of_spades.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/07_of_spades.svg
+                                        </image>
+                                </association>
+
+                                <association>
+                                        <image type="to_associate">examples/Playing_cards/headers/08_of_diamonds.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/08_of_diamonds.svg
+                                        </image>
+                                </association>
+
+                                <association>
+                                        <image type="to_associate">examples/Playing_cards/headers/01_of_spades_01.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/01_of_spades_01.svg
+                                        </image>
+                                </association>
+
+                                <association>
+                                        <image type="to_associate">examples/Playing_cards/headers/08_of_hearts.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/08_of_hearts.svg
+                                        </image>
+                                </association>
+
+                                <association>
+                                        <image type="to_associate">examples/Playing_cards/headers/04_of_clubs.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/04_of_clubs.svg
+                                        </image>
+                                </association>
+
+                                <association>
+                                        <image type="to_associate">examples/Playing_cards/headers/10_of_spades.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/10_of_spades.svg
+                                        </image>
+                                </association>
+
+                                <association>
+                                        <image type="to_associate">examples/Playing_cards/headers/08_of_clubs.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/08_of_clubs.svg
+                                        </image>
+                                </association>
+
+                                <association>
+                                        <image type="to_associate">examples/Playing_cards/headers/02_of_hearts.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/02_of_hearts.svg
+                                        </image>
+                                </association>
+
+                                <association>
+                                        <image type="to_associate">examples/Playing_cards/headers/King_of_hearts_en.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/King_of_hearts_en.svg
+                                        </image>
+                                </association>
+
+                                <association>
+                                        <image type="to_associate">examples/Playing_cards/headers/03_of_spades.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/03_of_spades.svg
+                                        </image>
+                                </association>
+
+                                <association>
+                                        <image type="to_associate">examples/Playing_cards/headers/03_of_hearts.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/03_of_hearts.svg
+                                        </image>
+                                </association>
+
+                                <association>
+                                        <image type="to_associate">examples/Playing_cards/headers/04_of_diamonds.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/04_of_diamonds.svg
+                                        </image>
+                                </association>
+
+                                <association>
+                                        <image type="to_associate">examples/Playing_cards/headers/07_of_hearts.svg
+                                        </image>
+                                        <image type="to_drag">examples/Playing_cards/bodies/07_of_hearts.svg
+                                        </image>
+                                </association>
+				
+			</associations>
+
+		</game>
+	</level>
+
+
+</game_set>
+
+</omnitux>

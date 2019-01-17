@@ -1,0 +1,3 @@
+german sound files by Manfred Schulenburg
+
+These files may be used for Omnitux (http://omnitux.sourceforge.net/)

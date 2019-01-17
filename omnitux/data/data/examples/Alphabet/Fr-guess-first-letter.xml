@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<omnitux version="1.0">
+
+<game_set author="Olav_2">
+
+	<title lang="fr">Première lettre</title>
+
+	<thumbnail>examples/Alphabet/thumb_guess_first_letter.png</thumbnail>
+	
+
+
+	<tag>writing</tag>
+
+
+	<menu_index value="200" />
+
+	<game type="associate" author="Olav_2">
+		
+
+		<rounds>5</rounds>
+		
+		<global_parameters>
+			
+			<game_setup>
+				<type_to_associate>image</type_to_associate>
+				<type_to_drag>image</type_to_drag>
+				
+				<!-- amount of items to choose from -->
+				<min_draggable> 5 </min_draggable>
+				<max_draggable> 12 </max_draggable>
+				
+			</game_setup>
+
+			<item_to_associate>
+				<pos_x>  37 </pos_x> 
+				<pos_y>  10 </pos_y>
+				<width>  61 </width>
+				<height> 65 </height>
+			</item_to_associate>
+
+			<draggable_items_area>
+				<pos_x>  2  </pos_x> 
+				<pos_y>  10 </pos_y>
+				<width>  25</width>
+				<height> 85 </height>
+				
+
+				<amount_x> 2 </amount_x>
+				<amount_y> 6 </amount_y>
+				
+				<spacing_x> 2 </spacing_x>
+				<spacing_y> 1 </spacing_y>
+				
+			</draggable_items_area>
+
+
+			<goal>
+				<pos_x>  37 </pos_x> 
+				<pos_y>  77 </pos_y>
+				<width>  61 </width>
+				<height> 21 </height>
+				
+				<image>default/icons/NewTux_question.svg</image>
+			</goal>
+			
+		
+			<background>
+				Kot26/liczenie/back1s.png
+			</background>		
+			
+		</global_parameters>
+		
+		<associations>	
+			<association>
+				<image type="to_associate">examples/Alphabet/DouglasDC3Drawing.svg
+
+					<sound>examples/Alphabet/Fr/Fr-avion.ogg</sound>
+				</image>
+				<image type="to_associate">examples/Alphabet/rg1024_Tree.svg
+
+					<sound>examples/Alphabet/Fr/Fr-arbre-fr-Paris.ogg</sound>
+				</image>
+				<image type="to_associate">examples/Alphabet/Rainbow-diagram-ROYGBIV.svg
+
+					<sound>examples/Alphabet/Fr/Fr-arc-en-ciel.ogg</sound>
+				</image>
+				<image type="to_associate">examples/Alphabet/Abeille-bee.svg
+
+					<sound>examples/Alphabet/Fr/Fr-abeille.ogg</sound>
+				</image>
+				<image type="to_drag">examples/Alphabet/letters/A.svg
+					<sound>examples/Alphabet/letters/Fr/Fr-A-fr-Paris.ogg</sound>
+				</image>
+			</association>
+
+			<association>
+				<image type="to_associate">examples/Alphabet/rg1024_beach_ball.svg
+
+					<sound>examples/Alphabet/Fr/Fr-ballon.ogg</sound>
+				</image>
+				<image type="to_associate">examples/Alphabet/soccer_ball.svg
+
+					<sound>examples/Alphabet/Fr/Fr-ballon.ogg</sound>
+				</image>
+				<image type="to_associate">examples/Alphabet/yves_guillou_boat.svg
+
+					<sound>examples/Alphabet/Fr/Fr-bateau.ogg</sound>
+				</image>
+				<image type="to_associate">examples/Alphabet/valessiobrito_wooden_chair.svg
+
+					<sound>examples/Alphabet/Fr/Fr-banc.ogg</sound>
+				</image>
+				<image type="to_associate">examples/Alphabet/rg1024_cartoon_whale.svg
+
+					<sound>examples/Alphabet/Fr/Fr-baleine.ogg</sound>
+				</image>
+				<image type="to_drag">examples/Alphabet/letters/B.svg
+					<sound>examples/Alphabet/letters/Fr/Fr-B-fr-Sud_Ouest.ogg</sound>
+				</image>
+			</association>
+
+			<association>
+				<image type="to_associate">examples/Alphabet/Gerald_G_Rubber_Duck_1.svg
+
+					<sound>examples/Alphabet/Fr/Fr-canard.ogg</sound>
+				</image>
+				<image type="to_associate">examples/Alphabet/ivak_Cistern_Truck.svg
+
+					<sound>examples/Alphabet/Fr/Fr-camion.ogg</sound>
+				</image>
+				<image type="to_associate">examples/Alphabet/spoon.svg
+
+					<sound>examples/Alphabet/Fr/Fr-cuillere.ogg</sound>
+				</image>
+				<image type="to_associate">examples/Alphabet/divers_cadeau.svg
+
+					<sound>examples/Alphabet/Fr/Fr-cadeau.ogg</sound>
+				</image>
+				<goal>
+
+					<image>default/icons/NewTux_question.svg</image>
+				</goal>
+				<image type="to_drag">examples/Alphabet/letters/C.svg
+					<sound>examples/Alphabet/letters/Fr/Fr-C-fr-Paris.ogg</sound>
+				</image>
+			</association>
+
+			<association>
+				<image type="to_associate">examples/Alphabet/dolphin.png
+
+					<sound>examples/Alphabet/Fr/Fr-dauphin.ogg</sound>
+				</image>
+				<image type="to_associate">examples/Alphabet/BigRedSmile_A_Cartoon_Dinosaur.svg
+
+					<sound>examples/Alphabet/Fr/Fr-dinosaure.ogg</sound>
+				</image>
+
+				<goal>
+
+					<image>default/icons/NewTux_question.svg</image>
+				</goal>
+				<image type="to_drag">examples/Alphabet/letters/D.svg
+					<sound>examples/Alphabet/letters/Fr/Fr-D-fr-Paris.ogg</sound>
+				</image>
+			</association>
+
+			<association>
+				<image type="to_associate">examples/Alphabet/lemmling_Cartoon_elephant.svg
+
+					<sound>examples/Alphabet/Fr/Fr-elephant.ogg</sound>
+				</image>
+				<image type="to_associate">examples/Alphabet/Chrisdesign_comic_alien.svg
+
+					<sound>examples/Alphabet/Fr/Fr-extra_terrestre.ogg</sound>
+				</image>
+				<goal>
+
+					<image>default/icons/NewTux_question.svg</image>
+				</goal>
+				<image type="to_drag">examples/Alphabet/letters/E.svg
+					<sound>examples/Alphabet/letters/Fr/Fr-E-fr-Paris.ogg</sound>
+				</image>
+			</association>
+
+			<association>
+				<image type="to_associate">examples/Alphabet/jean_victor_balin_red_flower.svg
+
+					<sound>examples/Alphabet/Fr/Fr-une_fleur-fr-ouest.ogg</sound>
+				</image>
+				<image type="to_associate">examples/Alphabet/fleur.svg
+
+					<sound>examples/Alphabet/Fr/Fr-une_fleur-fr-ouest.ogg</sound>
+				</image>					
+				<image type="to_associate">examples/Alphabet/fork.svg
+
+					<sound>examples/Alphabet/Fr/Fr-fourchette.ogg</sound>
+				</image>
+				<goal>
+
+					<image>default/icons/NewTux_question.svg</image>
+				</goal>
+				<image type="to_drag">examples/Alphabet/letters/F.svg
+					<sound>examples/Alphabet/letters/Fr/Fr-F-fr-Paris.ogg</sound>
+				</image>
+			</association>
+
+
+
+			<association>
+				<image type="to_associate">examples/Alphabet/Martouf_Giraffe_sympa.svg
+
+					<sound>examples/Alphabet/Fr/Fr-girafe.ogg</sound>
+				</image>
+
+				<goal>
+
+					<image>default/icons/NewTux_question.svg</image>
+				</goal>
+				<image type="to_drag">examples/Alphabet/letters/G.svg
+					<sound>examples/Alphabet/letters/Fr/Fr-G-fr-Paris.ogg  </sound>
+				</image>
+			</association>
+
+
+			<association>
+				<image type="to_associate">examples/Alphabet/Bell214STDrawing.svg
+
+					<sound>examples/Alphabet/Fr/Fr-helicoptere.ogg</sound>
+				</image>
+
+				<goal>
+
+					<image>default/icons/NewTux_question.svg</image>
+				</goal>
+				<image type="to_drag">examples/Alphabet/letters/H.svg
+					<sound>examples/Alphabet/letters/Fr/Fr-H-fr-Paris.ogg  </sound>
+				</image>
+			</association>
+
+
+			<association>
+				<image type="to_associate">examples/Alphabet/johnny_automatic_igloo.svg
+
+					<sound>examples/Alphabet/Fr/Fr-igloo.ogg</sound>
+				</image>
+
+				<goal>
+
+					<image>default/icons/NewTux_question.svg</image>
+				</goal>
+				<image type="to_drag">examples/Alphabet/letters/I.svg
+					<sound>examples/Alphabet/letters/Fr/Fr-I-fr-Paris.ogg</sound>
+				</image>
+			</association>
+
+			<association>
+				<image type="to_associate">examples/Alphabet/Newspaper_Cover.svg
+
+					<sound>examples/Alphabet/Fr/Fr-journal.ogg</sound>
+				</image>
+
+				<goal>
+
+					<image>default/icons/NewTux_question.svg</image>
+				</goal>
+				<image type="to_drag">examples/Alphabet/letters/J.svg
+					<sound>examples/Alphabet/letters/Fr/Fr-J-fr-Paris.ogg</sound>
+				</image>
+			</association>
+
+
+
+			<association>
+				<image type="to_associate">examples/Alphabet/AJ_Kiwi.svg
+
+					<sound>examples/Alphabet/Fr/Fr-kiwi.ogg</sound>
+				</image>
+
+				<goal>
+
+					<image>default/icons/NewTux_question.svg</image>
+				</goal>
+				<image type="to_drag">examples/Alphabet/letters/K.svg
+					<sound>examples/Alphabet/letters/Fr/Fr-K-fr-Paris.ogg  </sound>
+				</image>
+			</association>
+
+
+			<association>
+				<image type="to_associate">examples/Alphabet/jean_victor_balin_book.svg
+
+					<sound>examples/Alphabet/Fr/Fr-un_livre-fr-ouest.ogg</sound>
+				</image>
+
+				<image type="to_associate">examples/Alphabet/TheStructorr_magnifying_glass.svg
+
+					<sound>examples/Alphabet/Fr/Fr-loupe.ogg</sound>
+				</image>
+
+				<goal>
+
+					<image>default/icons/NewTux_question.svg</image>
+				</goal>
+				<image type="to_drag">examples/Alphabet/letters/L.svg
+					<sound>examples/Alphabet/letters/Fr/Fr-L-fr-Paris.ogg  </sound>
+				</image>
+			</association>
+
+
+
+
+		</associations>
+
+	</game>
+
+
+
+</game_set>
+
+</omnitux>

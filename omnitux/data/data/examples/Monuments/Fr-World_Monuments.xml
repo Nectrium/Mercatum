@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<omnitux version="1.0">
+
+<game_set>
+
+	<title lang="fr">Monuments - Monde</title>
+	<thumbnail>examples/Monuments/icon_world.png</thumbnail>
+
+	<tag>arts</tag>
+
+	<menu_index value="400" />
+
+	<level difficulty="1">
+
+		<game type="associate" xml_version="1.0" author="Olav_2">
+			
+			
+			<rounds>1</rounds>
+
+
+			<global_parameters>
+				
+				<game_setup>
+					<type_to_associate>image_on_map</type_to_associate>
+					<type_to_drag>image</type_to_drag>
+					
+					<!-- amount of items to choose from -->
+					<min_draggable> 5 </min_draggable>
+					<max_draggable> 5 </max_draggable>
+					
+				</game_setup>
+
+				<map>
+					<image>examples/Maps/World_view.png</image>
+					<pos_x>   0 </pos_x> 
+					<pos_y>  6 </pos_y>
+					<width>  100 </width>
+					<height> 74 </height>
+				</map>		
+
+				<draggable_items_area>
+					<pos_x>  1 </pos_x> 
+					<pos_y>  81 </pos_y>
+					<width>  98 </width>
+					<height> 18 </height>
+					
+
+					<amount_x> 5 </amount_x>
+					<amount_y> 1 </amount_y>
+					
+				</draggable_items_area>
+
+				<background>
+					Kot26/liczenie/back1s.png
+				</background>		
+				
+			</global_parameters>
+			
+			<associations>	
+				<association>
+					<goal>
+						<pos_x>  49.77 </pos_x> 
+						<pos_y>  30.67 </pos_y>
+						<width>  16 </width>
+						<height> 16 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/All_Gizah_Pyramids.jpg
+						<sound>examples/Monuments/Fr-Pyramides_Gizeh.ogg</sound>
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x>  41.13 </pos_x> 
+						<pos_y>  17.81 </pos_y>
+						<width>  16 </width>
+						<height> 16 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Paris_06_Eiffelturm_4828.jpg
+						<sound>examples/Monuments/Fr-Tour_Eiffel.ogg</sound>
+					</image>
+				</association>
+				
+				<association>
+					<goal>
+						<pos_x>  72.8 </pos_x> 
+						<pos_y>  27.68 </pos_y>
+						<width>  16 </width>
+						<height> 16 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/The_Great_wall_-_by_Bernard_Goldbach.jpg
+						<sound>examples/Monuments/Fr-Grande_Muraille.ogg</sound>
+					</image>
+				</association>
+				
+				<association>
+					<goal>
+						<pos_x>  63.17 </pos_x> 
+						<pos_y>  32.25 </pos_y>
+						<width>  16 </width>
+						<height> 16 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Taj_Mahal_in_March_2004.jpg
+						<sound>examples/Monuments/Fr-Taj_Mahal.ogg</sound>
+					</image>
+				</association>
+				
+				<association>
+					<goal>
+						<pos_x>  20.6 </pos_x> 
+						<pos_y>  61.29 </pos_y>
+						<width>  16 </width>
+						<height> 16 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Sunset_across_Machu_Picchu.jpg
+						<sound>examples/Monuments/Fr-Machu_Picchu.ogg</sound>
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x>  9.4 </pos_x> 
+						<pos_y>  72.25 </pos_y>
+						<width>  16 </width>
+						<height> 16 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Moai_Rano_raraku.jpg
+						<sound>examples/Monuments/Fr-Moai.ogg</sound>
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x>  19.27 </pos_x> 
+						<pos_y>  24.12 </pos_y>
+						<width>  16 </width>
+						<height> 16 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Statue_of_Liberty,_NY.jpg
+						<sound>examples/Monuments/Fr-Statue_liberte.ogg</sound>
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x>  28.67 </pos_x> 
+						<pos_y>  67.68 </pos_y>
+						<width>  16 </width>
+						<height> 16 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Cristo_Redentor_-_Rio.jpg
+						<sound>examples/Monuments/Fr-Chirst_Redempteur.ogg</sound>
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x>  83.77 </pos_x> 
+						<pos_y>  75.98 </pos_y>
+						<width>  16 </width>
+						<height> 16 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Sydney_Opera_House_-_Dec_2008.jpg
+						<sound>examples/Monuments/Fr-opera_Sydney.ogg</sound>
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x>  45.77 </pos_x> 
+						<pos_y>  22.79 </pos_y>
+						<width>  16 </width>
+						<height> 16 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Acropolis_of_Athens_01361.JPG
+						<sound>examples/Monuments/Fr-Acropole_Athenes.ogg</sound>
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x>  70.6 </pos_x> 
+						<pos_y>  41.96 </pos_y>
+						<width>  16 </width>
+						<height> 16 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Templo_de_Angkor_Wat_en_Camboya.JPG
+						<sound>examples/Monuments/Fr-Angkor.ogg</sound>
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x>  39 </pos_x> 
+						<pos_y>  29.01 </pos_y>
+						<width>  16 </width>
+						<height> 16 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Kasbahs_in_Ait_Benhaddou.JPG
+						<sound>examples/Monuments/Fr-Ait_Benhaddou.ogg</sound>
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x>  48.67 </pos_x> 
+						<pos_y>  9.34 </pos_y>
+						<width>  16 </width>
+						<height> 16 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Sankt_Petersburg_Auferstehungskirche_2005_a.jpg
+						<sound>examples/Monuments/Fr-Saint_Petersbourg.ogg</sound>
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x>  15.67 </pos_x> 
+						<pos_y>  36.65 </pos_y>
+						<width>  16 </width>
+						<height> 16 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Chichen-Itza-Castillo-Seen-From-East.JPG
+						<sound>examples/Monuments/Fr-Pyramide_Chichen_Itza.ogg</sound>
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x>  40 </pos_x> 
+						<pos_y>  41.79 </pos_y>
+						<width>  16 </width>
+						<height> 16 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Great_Mosque_of_Djenne_1.jpg
+						<sound>examples/Monuments/Fr-Grande_Mosquee_Djenne.ogg</sound>
+					</image>
+				</association>
+				
+				<association>
+					<goal>
+						<pos_x>  59.9 </pos_x> 
+						<pos_y>  24.53 </pos_y>
+						<width>  16 </width>
+						<height> 16 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Samarkand4.jpg
+						<sound>examples/Monuments/Fr-Samarcande.ogg</sound>
+					</image>
+				</association>
+
+			</associations>
+
+		</game>
+	</level>
+
+
+	<level difficulty="2">
+
+		<game type="associate" xml_version="1.0" author="Olav_2">
+			
+			
+			<rounds>1</rounds>
+
+
+			<global_parameters>
+				
+				<game_setup>
+					<type_to_associate>image_on_map</type_to_associate>
+					<type_to_drag>image</type_to_drag>
+					
+					<!-- amount of items to choose from -->
+					<min_draggable> 5 </min_draggable>
+					<max_draggable> 5 </max_draggable>
+					
+				</game_setup>
+
+				<map>
+					<image>examples/Maps/World_view.png</image>
+					<pos_x>   0 </pos_x> 
+					<pos_y>  6 </pos_y>
+					<width>  100 </width>
+					<height> 74 </height>
+				</map>		
+
+				<draggable_items_area>
+					<pos_x>  1 </pos_x> 
+					<pos_y>  81 </pos_y>
+					<width>  98 </width>
+					<height> 18 </height>
+					
+
+					<amount_x> 5 </amount_x>
+					<amount_y> 1 </amount_y>
+					
+				</draggable_items_area>
+
+				<background>
+					Kot26/liczenie/back1s.png
+				</background>		
+				
+			</global_parameters>
+			
+			<associations>	
+				<association>
+					<goal>
+						<pos_x>  49.77 </pos_x> 
+						<pos_y>  30.67 </pos_y>
+						<width>  16 </width>
+						<height> 16 </height>
+						<image>default/icons/transparent.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/All_Gizah_Pyramids.jpg
+						<sound>examples/Monuments/Fr-Pyramides_Gizeh.ogg</sound>
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x>  41.13 </pos_x> 
+						<pos_y>  17.81 </pos_y>
+						<width>  16 </width>
+						<height> 16 </height>
+						<image>default/icons/transparent.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Paris_06_Eiffelturm_4828.jpg
+						<sound>examples/Monuments/Fr-Tour_Eiffel.ogg</sound>
+					</image>
+				</association>
+				
+				<association>
+					<goal>
+						<pos_x>  72.8 </pos_x> 
+						<pos_y>  27.68 </pos_y>
+						<width>  16 </width>
+						<height> 16 </height>
+						<image>default/icons/transparent.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/The_Great_wall_-_by_Bernard_Goldbach.jpg
+						<sound>examples/Monuments/Fr-Grande_Muraille.ogg</sound>
+					</image>
+				</association>
+				
+				<association>
+					<goal>
+						<pos_x>  63.17 </pos_x> 
+						<pos_y>  32.25 </pos_y>
+						<width>  16 </width>
+						<height> 16 </height>
+						<image>default/icons/transparent.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Taj_Mahal_in_March_2004.jpg
+						<sound>examples/Monuments/Fr-Taj_Mahal.ogg</sound>
+					</image>
+				</association>
+				
+				<association>
+					<goal>
+						<pos_x>  20.6 </pos_x> 
+						<pos_y>  61.29 </pos_y>
+						<width>  16 </width>
+						<height> 16 </height>
+						<image>default/icons/transparent.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Sunset_across_Machu_Picchu.jpg
+						<sound>examples/Monuments/Fr-Machu_Picchu.ogg</sound>
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x>  9.4 </pos_x> 
+						<pos_y>  72.25 </pos_y>
+						<width>  16 </width>
+						<height> 16 </height>
+						<image>default/icons/transparent.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Moai_Rano_raraku.jpg
+						<sound>examples/Monuments/Fr-Moai.ogg</sound>
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x>  19.27 </pos_x> 
+						<pos_y>  24.12 </pos_y>
+						<width>  16 </width>
+						<height> 16 </height>
+						<image>default/icons/transparent.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Statue_of_Liberty,_NY.jpg
+						<sound>examples/Monuments/Fr-Statue_liberte.ogg</sound>
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x>  28.67 </pos_x> 
+						<pos_y>  67.68 </pos_y>
+						<width>  16 </width>
+						<height> 16 </height>
+						<image>default/icons/transparent.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Cristo_Redentor_-_Rio.jpg
+						<sound>examples/Monuments/Fr-Chirst_Redempteur.ogg</sound>
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x>  83.77 </pos_x> 
+						<pos_y>  75.98 </pos_y>
+						<width>  16 </width>
+						<height> 16 </height>
+						<image>default/icons/transparent.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Sydney_Opera_House_-_Dec_2008.jpg
+						<sound>examples/Monuments/Fr-opera_Sydney.ogg</sound>
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x>  45.77 </pos_x> 
+						<pos_y>  22.79 </pos_y>
+						<width>  16 </width>
+						<height> 16 </height>
+						<image>default/icons/transparent.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Acropolis_of_Athens_01361.JPG
+						<sound>examples/Monuments/Fr-Acropole_Athenes.ogg</sound>
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x>  70.6 </pos_x> 
+						<pos_y>  41.96 </pos_y>
+						<width>  16 </width>
+						<height> 16 </height>
+						<image>default/icons/transparent.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Templo_de_Angkor_Wat_en_Camboya.JPG
+						<sound>examples/Monuments/Fr-Angkor.ogg</sound>
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x>  39 </pos_x> 
+						<pos_y>  29.01 </pos_y>
+						<width>  16 </width>
+						<height> 16 </height>
+						<image>default/icons/transparent.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Kasbahs_in_Ait_Benhaddou.JPG
+						<sound>examples/Monuments/Fr-Ait_Benhaddou.ogg</sound>
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x>  48.67 </pos_x> 
+						<pos_y>  9.34 </pos_y>
+						<width>  16 </width>
+						<height> 16 </height>
+						<image>default/icons/transparent.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Sankt_Petersburg_Auferstehungskirche_2005_a.jpg
+						<sound>examples/Monuments/Fr-Saint_Petersbourg.ogg</sound>
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x>  15.67 </pos_x> 
+						<pos_y>  36.65 </pos_y>
+						<width>  16 </width>
+						<height> 16 </height>
+						<image>default/icons/transparent.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Chichen-Itza-Castillo-Seen-From-East.JPG
+						<sound>examples/Monuments/Fr-Pyramide_Chichen_Itza.ogg</sound>
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x>  40 </pos_x> 
+						<pos_y>  41.79 </pos_y>
+						<width>  16 </width>
+						<height> 16 </height>
+						<image>default/icons/transparent.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Great_Mosque_of_Djenne_1.jpg
+						<sound>examples/Monuments/Fr-Grande_Mosquee_Djenne.ogg</sound>
+					</image>
+				</association>
+				
+				<association>
+					<goal>
+						<pos_x>  59.9 </pos_x> 
+						<pos_y>  24.53 </pos_y>
+						<width>  16 </width>
+						<height> 16 </height>
+						<image>default/icons/transparent.svg</image>
+					</goal>
+					<image type="to_drag">examples/Monuments/Samarkand4.jpg
+						<sound>examples/Monuments/Fr-Samarcande.ogg</sound>
+					</image>
+				</association>
+
+			</associations>
+
+		</game>
+	</level>
+
+
+
+	</game_set>
+</omnitux>

@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<omnitux version="1.0">
+
+<game_set type="puzzle">
+
+	<title lang="it">Paesaggi Italiani</title>
+
+	<thumbnail>examples/Monuments/Italy/Pisa_Duomo_2.jpg</thumbnail>
+
+	<menu_index value="200" lang="it" />
+
+	<dict key="assisi" lang="it" value="Assisi (PG) Umbria - San Pietro" />
+	
+	<dict key="firenze" lang="it" value="Firenze Toscana - Uffizi e Palazzo Vecchio" />
+
+	<dict key="noto" lang="it" value="Noto (SR) Sicilia - La Cattedrale" />
+
+	<dict key="aquila" lang="it" value="L'Aquila Abruzzo - Basilica di Santa Maria di Collemaggio" />
+
+	<dict key="levanzo" lang="it" value="Levanzo (TP) Sicilia - Il Porto dal Mare" />
+
+	<dict key="montagnana" lang="it" value="Montagnana (PD) Veneto - Cinta Muraria" />
+
+	<dict key="monteriggioni" lang="it" value="Monteriggioni (SI) Toscana - l'Antico Borgo" />
+
+	<dict key="torino" lang="it" value="Torino Piemonte - Palazzina di Caccia di Stupinigi" />
+
+	<dict key="mantova" lang="it" value="Mantova Lombardia - Plazzo Te" />
+
+	<dict key="pisa" lang="it" value="Pisa Toscana - Piazza dei Miracoli" />
+
+	<dict key="spoleto" lang="it" value="Spoleto (PG) Umbria - Rocca e Ponte delle Torri" />
+
+	<dict key="5terre" lang="it" value="Cinque Terre (SP) Liguria - Riviera delle Cinque Terre" />
+
+	<dict key="sepino" lang="it" value="Sepino (CB) Molise - Il teatro Romano" />
+
+	<dict key="sanfruttuoso" lang="it" value="San Fruttuoso (GE) Liguria - Abazia di San Fruttuoso" />
+
+	<dict key="ortobene" lang="it" value="Monte Ortobene (NU) Sardegna - Una casa nel granito" />
+
+	<dict key="trieste" lang="it" value="Trieste Friuli-Venezia Giulia - Castello di Miramare" />
+
+	<dict key="castelvetrano" lang="it" value="Castelvetrano (TP) Sicilia - Selinunte Il Tempio di Hera" />
+
+	<dict key="roma" lang="it" value="Roma Lazio - Piazza di Spagna" />
+
+	<dict key="ravenna" lang="it" value="Ravenna Emilia-Romagna - Mosaici di Sant'Apollinare in Classe" />
+
+	<dict key="brisighella" lang="it" value="Brisighella (RA) Emilia-Romagna - Via degli asini" />
+
+	<dict key="venezia" lang="it" value="Venezia Veneto - Teatro la Fenice" />
+
+	<dict key="lucca" lang="it" value="Lucca Toscana - Torre Giunigi" />
+
+	<dict key="trecime" lang="it" value="Trentino-Alto Adige - Tre cime di Lavaredo" />
+
+	<dict key="alberobello" lang="it" value="Alberobello (BA) Puglia - Trulli" />
+
+	<dict key="orgosolo" lang="it" value="Orgosolo (NU) - Murales su granito" />
+
+	<dict key="cansiglio" lang="it" value="Veneto - La foresta del Cansiglio" />
+
+	<dict key="ancona" lang="it" value="Ancona Marche - Mole Vanvitelliana" />
+
+	<dict key="bologna" lang="it" value="Bologna Emilia-Romagna - I Portici" />
+
+	<dict key="tivoli" lang="it" value="Tivoli (RM) Lazio - Villa Adriana" />
+
+	<dict key="andria" lang="it" value="Andria (BAT) - Castel del Monte" />
+
+	<dict key="aosta" lang="it" value="Aosta Valle d'Aosta - Castello di Fènis" />
+
+	<dict key="stilo" lang="it" value="Stilo (RC) Calabria - Cattolica di stilo" />
+
+	<dict key="caserta" lang="it" value="Caserta Campania - Il Parco della Reggia" />
+
+	<dict key="matera" lang="it" value="Matera Basilicata - I Sassi" />
+
+	<dict key="melfi" lang="it" value="Melfi (PZ) Basilicata - Il Castello" />
+
+
+	<level difficulty="1">
+
+
+		<game type="puzzle" xml_version="1.0" lang="*" author="Olav_2">
+			
+			<rounds>5</rounds>
+
+			<global_parameters>
+				
+				<game_setup>
+					<!-- those global parameters can be overriden for each image file -->
+					<pieces_amount_x> 2 </pieces_amount_x>
+					<pieces_amount_y> 2 </pieces_amount_y>
+					
+				</game_setup>
+
+				<background>
+					default/backgrounds/Whimsy.JPG
+				</background>
+				
+			</global_parameters>
+			
+			<puzzles>
+				<puzzle>
+					<image type="to_drag">examples/Monuments/Italy/Castello_Fénis.jpg</image>
+						<text key = "aosta" />
+				</puzzle>
+				<puzzle>
+					<image type="to_drag">examples/Monuments/Italy/Brisighella_via_degli_asini.jpg</image>
+						<text key = "brisighella" />
+				</puzzle>
+				<puzzle>
+					<image type="to_drag">examples/Monuments/Italy/Castello_di_melfi1.jpg</image>
+						<text key = "melfi" />
+				</puzzle>
+				<puzzle>
+					<image type="to_drag">examples/Monuments/Italy/Matera_boenisch_nov_2005.jpg</image>
+						<text key = "matera" />
+				</puzzle>
+				<puzzle>
+					<image type="to_drag">examples/Monuments/Italy/Trulli_Alberobello11_apr06.jpg</image>
+						<text key = "alberobello" />
+				</puzzle>
+				<puzzle>
+					<image type="to_drag">examples/Monuments/Italy/Sicily_Selinunte_Temple_E_(Hera).jpg</image>
+						<text key = "castelvetrano" />
+				</puzzle>
+				<puzzle>
+					<image type="to_drag">examples/Monuments/Italy/Schloss_miramare.jpg</image>
+						<text key = "trieste" />
+				</puzzle>
+				<puzzle>
+					<image type="to_drag">examples/Monuments/Italy/Sanfruttuoso01.jpg</image>
+						<text key = "sanfruttuoso" />
+				</puzzle>
+				<puzzle>
+					<image type="to_drag">examples/Monuments/Italy/Levanzo_Tp.jpg</image>
+						<text key = "levanzo" />
+				</puzzle>
+				<puzzle>
+					<image type="to_drag">examples/Monuments/Italy/Palazzina_di_caccia_di_Stupinigi1.jpg</image>
+						<text key = "torino" />
+				</puzzle>
+				<puzzle>
+					<image type="to_drag">examples/Monuments/Italy/Pisa_Duomo_2.jpg</image>
+						<text key = "pisa" />
+				</puzzle>
+				<puzzle>
+					<image type="to_drag">examples/Monuments/Italy/Stappoclasseaps.jpg</image>
+						<text key = "ravenna" />
+				</puzzle>
+
+			</puzzles>
+
+
+		</game>
+		
+	</level>
+
+
+	<level difficulty="2">
+
+
+		<game type="puzzle" xml_version="1.0" lang="*" author="Olav_2">
+			
+			<rounds>5</rounds>
+
+			<global_parameters>
+				
+				<game_setup>
+					<!-- those global parameters can be overriden for each image file -->
+					<pieces_amount_x> 3 </pieces_amount_x>
+					<pieces_amount_y> 3 </pieces_amount_y>
+					
+				</game_setup>
+				
+
+				<background>
+					default/backgrounds/Whimsy.JPG
+				</background>
+				
+			</global_parameters>
+			
+			<puzzles>
+				<puzzle>
+					<image type="to_drag">examples/Monuments/Italy/Castello_Fénis.jpg</image>
+						<text key = "aosta" />
+				</puzzle>
+				<puzzle>
+					<image type="to_drag">examples/Monuments/Italy/Brisighella_via_degli_asini.jpg</image>
+						<text key = "brisighella" />
+				</puzzle>
+				<puzzle>
+					<image type="to_drag">examples/Monuments/Italy/Castello_di_melfi1.jpg</image>
+						<text key = "melfi" />
+				</puzzle>
+				<puzzle>
+					<image type="to_drag">examples/Monuments/Italy/Matera_boenisch_nov_2005.jpg</image>
+						<text key = "matera" />
+				</puzzle>
+				<puzzle>
+					<image type="to_drag">examples/Monuments/Italy/Trulli_Alberobello11_apr06.jpg</image>
+						<text key = "alberobello" />
+				</puzzle>
+				<puzzle>
+					<image type="to_drag">examples/Monuments/Italy/Sicily_Selinunte_Temple_E_(Hera).jpg</image>
+						<text key = "castelvetrano" />
+				</puzzle>
+				<puzzle>
+					<image type="to_drag">examples/Monuments/Italy/Schloss_miramare.jpg</image>
+						<text key = "trieste" />
+				</puzzle>
+				<puzzle>
+					<image type="to_drag">examples/Monuments/Italy/Sanfruttuoso01.jpg</image>
+						<text key = "sanfruttuoso" />
+				</puzzle>
+				<puzzle>
+					<image type="to_drag">examples/Monuments/Italy/Levanzo_Tp.jpg</image>
+						<text key = "levanzo" />
+				</puzzle>
+				<puzzle>
+					<image type="to_drag">examples/Monuments/Italy/Palazzina_di_caccia_di_Stupinigi1.jpg</image>
+						<text key = "torino" />
+				</puzzle>
+				<puzzle>
+					<image type="to_drag">examples/Monuments/Italy/Pisa_Duomo_2.jpg</image>
+						<text key = "pisa" />
+				</puzzle>
+				<puzzle>
+					<image type="to_drag">examples/Monuments/Italy/Stappoclasseaps.jpg</image>
+						<text key = "ravenna" />
+				</puzzle>
+
+			</puzzles>
+
+		</game>
+		
+	</level>
+
+	<level difficulty="3">
+
+
+		<game type="puzzle" xml_version="1.0" lang="*" author="Olav_2">
+			
+			<rounds>5</rounds>
+
+			<global_parameters>
+				
+				<game_setup>
+					<!-- those global parameters can be overriden for each image file -->
+					<pieces_amount_x> 4 </pieces_amount_x>
+					<pieces_amount_y> 4 </pieces_amount_y>
+					
+				</game_setup>
+				
+
+				<background>
+					default/backgrounds/Whimsy.JPG
+				</background>
+				
+			</global_parameters>
+			
+			<puzzles>
+				<puzzle>
+					<image type="to_drag">examples/Monuments/Italy/Castello_Fénis.jpg</image>
+						<text key = "aosta" />
+				</puzzle>
+				<puzzle>
+					<image type="to_drag">examples/Monuments/Italy/Brisighella_via_degli_asini.jpg</image>
+						<text key = "brisighella" />
+				</puzzle>
+				<puzzle>
+					<image type="to_drag">examples/Monuments/Italy/Castello_di_melfi1.jpg</image>
+						<text key = "melfi" />
+				</puzzle>
+				<puzzle>
+					<image type="to_drag">examples/Monuments/Italy/Matera_boenisch_nov_2005.jpg</image>
+						<text key = "matera" />
+				</puzzle>
+				<puzzle>
+					<image type="to_drag">examples/Monuments/Italy/Trulli_Alberobello11_apr06.jpg</image>
+						<text key = "alberobello" />
+				</puzzle>
+				<puzzle>
+					<image type="to_drag">examples/Monuments/Italy/Sicily_Selinunte_Temple_E_(Hera).jpg</image>
+						<text key = "castelvetrano" />
+				</puzzle>
+				<puzzle>
+					<image type="to_drag">examples/Monuments/Italy/Schloss_miramare.jpg</image>
+						<text key = "trieste" />
+				</puzzle>
+				<puzzle>
+					<image type="to_drag">examples/Monuments/Italy/Sanfruttuoso01.jpg</image>
+						<text key = "sanfruttuoso" />
+				</puzzle>
+				<puzzle>
+					<image type="to_drag">examples/Monuments/Italy/Levanzo_Tp.jpg</image>
+						<text key = "levanzo" />
+				</puzzle>
+				<puzzle>
+					<image type="to_drag">examples/Monuments/Italy/Palazzina_di_caccia_di_Stupinigi1.jpg</image>
+						<text key = "torino" />
+				</puzzle>
+				<puzzle>
+					<image type="to_drag">examples/Monuments/Italy/Pisa_Duomo_2.jpg</image>
+						<text key = "pisa" />
+				</puzzle>
+				<puzzle>
+					<image type="to_drag">examples/Monuments/Italy/Stappoclasseaps.jpg</image>
+						<text key = "ravenna" />
+				</puzzle>
+
+			</puzzles>
+
+		</game>
+		
+	</level>
+
+	<level difficulty="4">
+
+
+		<game type="puzzle" xml_version="1.0" lang="*" author="Olav_2">
+			
+			<rounds>5</rounds>
+
+			<global_parameters>
+				
+				<game_setup>
+					<!-- those global parameters can be overriden for each image file -->
+					<pieces_amount_x> 5 </pieces_amount_x>
+					<pieces_amount_y> 5 </pieces_amount_y>
+					
+				</game_setup>
+				
+
+				<background>
+					default/backgrounds/Whimsy.JPG
+				</background>
+				
+			</global_parameters>
+			
+			<puzzles>
+				<puzzle>
+					<image type="to_drag">examples/Monuments/Italy/Castello_Fénis.jpg</image>
+						<text key = "aosta" />
+				</puzzle>
+				<puzzle>
+					<image type="to_drag">examples/Monuments/Italy/Brisighella_via_degli_asini.jpg</image>
+						<text key = "brisighella" />
+				</puzzle>
+				<puzzle>
+					<image type="to_drag">examples/Monuments/Italy/Castello_di_melfi1.jpg</image>
+						<text key = "melfi" />
+				</puzzle>
+				<puzzle>
+					<image type="to_drag">examples/Monuments/Italy/Matera_boenisch_nov_2005.jpg</image>
+						<text key = "matera" />
+				</puzzle>
+				<puzzle>
+					<image type="to_drag">examples/Monuments/Italy/Trulli_Alberobello11_apr06.jpg</image>
+						<text key = "alberobello" />
+				</puzzle>
+				<puzzle>
+					<image type="to_drag">examples/Monuments/Italy/Sicily_Selinunte_Temple_E_(Hera).jpg</image>
+						<text key = "castelvetrano" />
+				</puzzle>
+				<puzzle>
+					<image type="to_drag">examples/Monuments/Italy/Schloss_miramare.jpg</image>
+						<text key = "trieste" />
+				</puzzle>
+				<puzzle>
+					<image type="to_drag">examples/Monuments/Italy/Sanfruttuoso01.jpg</image>
+						<text key = "sanfruttuoso" />
+				</puzzle>
+				<puzzle>
+					<image type="to_drag">examples/Monuments/Italy/Levanzo_Tp.jpg</image>
+						<text key = "levanzo" />
+				</puzzle>
+				<puzzle>
+					<image type="to_drag">examples/Monuments/Italy/Palazzina_di_caccia_di_Stupinigi1.jpg</image>
+						<text key = "torino" />
+				</puzzle>
+				<puzzle>
+					<image type="to_drag">examples/Monuments/Italy/Pisa_Duomo_2.jpg</image>
+						<text key = "pisa" />
+				</puzzle>
+				<puzzle>
+					<image type="to_drag">examples/Monuments/Italy/Stappoclasseaps.jpg</image>
+						<text key = "ravenna" />
+				</puzzle>
+
+			</puzzles>
+
+		</game>
+		
+	</level>
+
+
+
+</game_set>
+
+</omnitux>

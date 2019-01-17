@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<omnitux version="1.0">
+
+<game_set author="Olav_2">
+
+ 	<title lang="de">Tiere</title>
+ 	<title lang="en">Animal sounds</title>
+ 	<title lang="es">Sonidos de animales</title>
+	<title lang="fr">Cris et bruits d'animaux</title>
+ 	<title lang="it">I versi degli Animali</title>
+ 	<title lang="pl">Zwierząt</title>
+ 	<title lang="pt">Som dos animais</title>
+
+
+	<thumbnail>examples/Animals/thumbnail.png</thumbnail>
+	
+	<menu_index value="100" />
+
+	<tag>learning</tag>
+
+	<level difficulty="1">
+
+		<game type="learning">
+
+			<music mode="off" />
+
+			<rounds>1</rounds>
+
+			<global_parameters>
+				
+				<game_setup>
+
+					<!-- amount of items to display -->
+					<min_display> 4 </min_display>
+					<max_display> 4 </max_display>
+					
+				</game_setup>
+				
+				<item_to_display_area>
+					<pos_x>   1 </pos_x> 
+					<pos_y>  11 </pos_y>
+					<width>  48 </width>
+					<height> 44 </height>
+
+					<image type="mask">
+						default/backgrounds/dark_green.svg
+					</image>
+
+				</item_to_display_area>
+				
+				<item_to_display_area>
+					<pos_x>  51 </pos_x> 
+					<pos_y>  11 </pos_y>
+					<width>  48 </width>
+					<height> 44 </height>
+
+					<image type="mask">
+						default/backgrounds/dark_green.svg
+					</image>
+
+				</item_to_display_area>
+
+				<item_to_display_area>
+					<pos_x>   1 </pos_x> 
+					<pos_y>  51 </pos_y>
+					<width>  48 </width>
+					<height> 44 </height>
+
+					<image type="mask">
+						default/backgrounds/dark_green.svg
+					</image>
+
+				</item_to_display_area>
+				
+				<item_to_display_area>
+					<pos_x>  51 </pos_x> 
+					<pos_y>  51 </pos_y>
+					<width>  48 </width>
+					<height> 44 </height>
+
+					<image type="mask">
+						default/backgrounds/dark_green.svg
+					</image>
+
+				</item_to_display_area>
+
+
+				<background>
+					examples/Animals/green.svg
+				</background>	
+			
+				
+			</global_parameters>
+			
+			<learning_cards>	
+
+				<learning_card>
+					<image>examples/Animals/Drawings/Anonymous_Architetto_--_Cavallo_20.svg</image>
+					<sound>examples/Animals/Sounds/59569_3bagbrew_horse.ogg</sound> 
+
+					<sound lang="fr">examples/Animals/Sounds/Fr/Fr-cheval.ogg</sound>
+				</learning_card>
+
+				<learning_card>
+					<image>examples/Animals/Drawings/bratac_Bird.svg</image>
+					<sound>examples/Animals/Sounds/14909__reinsamba__Nightingale_song_2.ogg</sound> 
+
+					<sound lang="fr">examples/Animals/Sounds/Fr/Fr-oiseau.ogg</sound> 
+				</learning_card>
+				
+
+
+				<learning_card>
+					<image type="to_drag">examples/Animals/Drawings/bsantos_Chicken.svg</image>
+					<sound>examples/Animals/Sounds/49805__gelo_papas__Chicken_Clucking.ogg </sound> 
+
+					<sound lang="fr">examples/Animals/Sounds/Fr/Fr-poule.ogg</sound> 					
+				</learning_card>
+
+
+				<learning_card>
+					<image type="to_drag">examples/Animals/Drawings/bugmenot_Happy_Pig.svg</image>
+					<sound>examples/Animals/Sounds/44273_Erdie_pig04.ogg</sound> 
+					<sound>examples/Animals/Sounds/44275__Erdie__pig06.ogg</sound>
+					
+					<sound lang="fr">examples/Animals/Sounds/Fr/Fr-cochon.ogg</sound> 
+				</learning_card>
+
+		
+
+				
+				<learning_card>
+					<image type="to_drag">examples/Animals/Drawings/Gerald_G_Puppy_Cartoon.svg
+						<sound>examples/Animals/Sounds/68389_Nummer39_growlandbark.ogg</sound> 
+						<sound lang="fr">examples/Animals/Sounds/Fr/Fr-chien.ogg</sound> 
+					</image>			
+
+				</learning_card>
+
+				<learning_card>
+					<image type="to_drag">examples/Animals/Drawings/jonata_Cricket.svg
+						<sound>examples/Animals/Sounds/57324_digifishmusic_Cricket_No_127.ogg</sound> 
+						<sound lang="fr">examples/Animals/Sounds/Fr/Fr-criquet.ogg</sound> 
+					</image>
+				</learning_card>
+
+
+		
+				<learning_card>
+					<image type="to_drag">examples/Animals/Drawings/mairin_Gray_Cow.svg
+						<sound>examples/Animals/Sounds/16568_acclivity_TwoCows.ogg</sound> 
+						<sound lang="fr">examples/Animals/Sounds/Fr/Fr-vache.ogg</sound> 
+					</image>
+				</learning_card>
+
+				<learning_card>
+					<image type="to_drag">examples/Animals/Drawings/pitr_Kitty_icon.svg
+						<sound>examples/Animals/Sounds/39989__Fishdog__meows_01.ogg</sound> 
+						<sound lang="fr">examples/Animals/Sounds/Fr/Fr-chat.ogg</sound> 
+					</image>
+				</learning_card>
+				
+
+				<learning_card>
+					<image type="to_drag">examples/Animals/Drawings/TheStructorr_sheep.svg
+						<sound>examples/Animals/Sounds/49410__dobroide__20080302_sheeps_close.ogg</sound> 
+						<sound lang="fr">examples/Animals/Sounds/Fr/Fr-mouton.ogg</sound> 
+					</image>
+				</learning_card>
+
+				<learning_card>
+					<image type="to_drag">examples/Alphabet/Gerald_G_Rubber_Duck_1.svg
+						<sound>examples/Animals/Sounds/21044_stuart_derisive_duck.ogg</sound> 
+						<sound>examples/Alphabet/Fr/Fr-canard.ogg</sound> 
+					</image>
+				</learning_card>
+
+				<learning_card>
+					<image type="to_drag">examples/Alphabet/Abeille-bee.svg
+						<sound>examples/Animals/Sounds/59451_digifishmusic_Bees_1.ogg</sound> 
+						<sound>examples/Alphabet/Fr/Fr-abeille.ogg</sound> 
+					</image>
+				</learning_card>
+
+
+				<learning_card>
+					<image type="to_drag">examples/Animals/Drawings/Anonymous_emperor_penguin.svg
+						<sound>examples/Animals/Sounds/45394__NOISE_INC__pinguin_vox.ogg</sound> 
+						<sound lang="fr">examples/Animals/Sounds/Fr/Fr-manchot_empereur.ogg</sound> 
+					</image>
+				</learning_card>
+
+				<learning_card>
+					<image type="to_drag">examples/Animals/Drawings/Gerald_G_Camel_with_Rider.svg
+						<sound>examples/Animals/Sounds/57181__Erdie__camel.ogg</sound> 						
+						<sound lang="fr">examples/Animals/Sounds/Fr/Fr-chameau.ogg</sound> 
+					</image>
+				</learning_card>
+
+				<learning_card>
+
+					<image type="to_drag">examples/Animals/Drawings/Heckert_GNU_white.svg
+						<sound>examples/Animals/Sounds/34699_roubignolle_Gnou_Beuglement.ogg</sound> 
+						<sound lang="fr">examples/Animals/Sounds/Fr/Fr-gnou.ogg</sound> 
+					</image>
+				</learning_card>
+
+
+				<learning_card>
+					<image type="to_drag">examples/Animals/Drawings/leland_mcinnes_Frog_on_a_lily_pad.svg
+						<sound lang="fr">examples/Animals/Sounds/Fr/Fr-grenouille.ogg</sound> 
+						<sound>examples/Animals/Sounds/17970_reinsamba_Water_frogs.ogg</sound> 
+					</image>
+				</learning_card>
+
+				<learning_card>
+					
+					<image type="to_drag">examples/Animals/Drawings/nicubunu_Donkey_on_a_plate.svg
+						<sound>examples/Animals/Sounds/16933_acclivity_Donkey.ogg</sound> 
+						<sound lang="fr">examples/Animals/Sounds/Fr/Fr-ane.ogg</sound> 
+					</image>
+				</learning_card>
+
+				<learning_card>
+
+					<image type="to_drag">examples/Animals/Drawings/StudioFibonacci_Cartoon_lion.svg
+						<sound>examples/Animals/Sounds/24797_Terwelp_Lions_Roar_at_Lincoln_Park_Zoo.ogg</sound> 
+						<sound lang="fr">examples/Animals/Sounds/Fr/Fr-lion.ogg</sound> 
+					</image>
+				</learning_card>
+
+				<learning_card>
+
+					<image type="to_drag">examples/Animals/Drawings/woodpecker.svg
+						<sound>examples/Animals/Sounds/13544_acclivity_Woodpecker.ogg</sound> 
+						<sound lang="fr">examples/Animals/Sounds/Fr/Fr-pivert.ogg</sound> 
+					</image>
+				</learning_card>
+
+				<learning_card>
+
+					<image type="to_drag">examples/Animals/Drawings/kogut.svg
+						<sound>examples/Animals/Sounds/19490__acclivity__Rooster2.ogg</sound> 
+						<sound lang="fr">examples/Animals/Sounds/Fr/Fr-coq.ogg</sound> 
+					</image>
+				</learning_card>
+
+
+			</learning_cards>
+
+		</game>
+		
+	</level>
+
+
+</game_set>
+</omnitux>

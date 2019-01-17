@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<omnitux version="1.0">
+
+<game_set author="Olav_2">
+
+	<title lang="fr">Formes géométriques</title>
+
+	<thumbnail>examples/Shapes/geometrical/thumbnail.svg</thumbnail>
+
+	<menu_index value="300" />
+
+	<level difficulty="1">
+	
+		<game type="associate" xml_version="1.0" author="Olav_2">
+			
+			<rounds>4</rounds>
+			
+			
+			<global_parameters>
+				
+				<game_setup>
+					<type_to_associate>image</type_to_associate>
+					<type_to_drag>image</type_to_drag>
+					
+					<!-- amount of items to choose from -->
+					<min_draggable> 3 </min_draggable>
+					<max_draggable> 5 </max_draggable>
+					
+				</game_setup>
+				
+				<item_to_associate>
+					<pos_x>  20 </pos_x> 
+					<pos_y>  10 </pos_y>
+					<width>  60 </width>
+					<height> 55 </height>
+				</item_to_associate>
+			
+				<goal>
+					<pos_x>  39 </pos_x> 
+					<pos_y>  31 </pos_y>
+					<width>  22 </width>
+					<height> 22 </height>
+					
+					<image>default/icons/question_mark_space.svg</image>
+				</goal>
+			
+				
+				<draggable_items_area>
+					<pos_x>  20 </pos_x> 
+					<pos_y>  70 </pos_y>
+					<width>  60 </width>
+					<height> 28 </height>
+					
+					<amount_x> 5 </amount_x>
+					<amount_y> 1 </amount_y>
+					
+				</draggable_items_area>
+
+				<background>
+					examples/Shapes/geometrical/background.png
+				</background>
+				
+			</global_parameters>
+			
+			<associations>
+
+				<association>
+					<image type="to_associate">default/icons/NewTux.svg
+						<sound>examples/Shapes/geometrical/Fr/Fr-carre.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Shapes/geometrical/square.svg
+					</image>
+				</association>
+				
+				<association>
+					<image type="to_associate">default/icons/NewTux.svg
+						<sound>examples/Shapes/geometrical/Fr/Fr-cercle.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Shapes/geometrical/circle.svg
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">default/icons/NewTux.svg
+						<sound>examples/Shapes/geometrical/Fr/Fr-coeur.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Shapes/geometrical/heart.svg
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">default/icons/NewTux.svg
+						<sound>examples/Shapes/geometrical/Fr/Fr-etoile.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Shapes/geometrical/star.svg
+					</image>
+					<image type="to_drag">examples/Shapes/geometrical/etoile.svg
+					</image>			
+				</association>
+
+				<association>
+					<image type="to_associate">default/icons/NewTux.svg
+						<sound>examples/Shapes/geometrical/Fr/Fr-triangle.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Shapes/geometrical/triangle.svg
+					</image>
+				</association>	
+				
+			</associations>
+
+		</game>
+	</level>
+
+
+	<level difficulty="2">
+		<game type="associate" xml_version="1.0" author="Olav_2">
+			
+			<rounds>3</rounds>
+			
+			
+			<global_parameters>
+				
+				<game_setup>
+					<type_to_associate>image</type_to_associate>
+					<type_to_drag>image</type_to_drag>
+					
+					<!-- amount of items to choose from -->
+					<min_draggable> 8 </min_draggable>
+					<max_draggable> 12 </max_draggable>
+					
+				</game_setup>
+				
+				<item_to_associate>
+					<pos_x>   5 </pos_x> 
+					<pos_y>  10 </pos_y>
+					<width>  40 </width>
+					<height> 35 </height>
+				</item_to_associate>
+
+				<item_to_associate>
+					<pos_x>  55 </pos_x> 
+					<pos_y>  10 </pos_y>
+					<width>  40 </width>
+					<height> 35 </height>
+				</item_to_associate>	
+				
+			
+				<goal>
+					<pos_x>  17 </pos_x> 
+					<pos_y>  25 </pos_y>
+					<width>  10 </width>
+					<height> 20 </height>
+
+					<image>default/icons/question_mark_space.svg</image>
+				</goal>
+				
+				<goal>
+					<pos_x>  67 </pos_x> 
+					<pos_y>  25 </pos_y>
+					<width>  10 </width>
+					<height> 20 </height>
+					
+					<image>default/icons/question_mark_space.svg</image>
+				</goal>
+				
+			
+				
+				<draggable_items_area>
+					<pos_x>  5 </pos_x> 
+					<pos_y>  55 </pos_y>
+					<width>  90 </width>
+					<height> 40 </height>
+					
+					<amount_x> 6 </amount_x>
+					<amount_y> 2 </amount_y>
+					
+				</draggable_items_area>
+
+				<background>
+					examples/Shapes/geometrical/background.png
+				</background>
+				
+			</global_parameters>
+			
+			<associations>
+
+				<association>
+					<image type="to_associate">examples/Shapes/geometrical/Fr/Fr-Tux_Asterisque.svg
+						<sound>examples/Shapes/geometrical/Fr/Fr-asterisque.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Shapes/geometrical/asterisk.svg
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Shapes/geometrical/Fr/Fr-Tux_Carre.svg
+						<sound>examples/Shapes/geometrical/Fr/Fr-carre.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Shapes/geometrical/square.svg
+					</image>
+				</association>
+				
+				<association>
+					<image type="to_associate">examples/Shapes/geometrical/Fr/Fr-Tux_Cercle.svg
+						<sound>examples/Shapes/geometrical/Fr/Fr-cercle.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Shapes/geometrical/circle.svg
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Shapes/geometrical/Fr/Fr-Tux_Coeur.svg
+						<sound>examples/Shapes/geometrical/Fr/Fr-coeur.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Shapes/geometrical/heart.svg
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Shapes/geometrical/Fr/Fr-Tux_Croix.svg
+						<sound>examples/Shapes/geometrical/Fr/Fr-croix.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Shapes/geometrical/cross.svg
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Shapes/geometrical/Fr/Fr-Tux_Disque.svg
+						<sound>examples/Shapes/geometrical/Fr/Fr-disque.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Shapes/geometrical/disc.svg
+					</image>
+				</association>
+				
+				<association>
+					<image type="to_associate">examples/Shapes/geometrical/Fr/Fr-Tux_Etoile.svg
+						<sound>examples/Shapes/geometrical/Fr/Fr-etoile.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Shapes/geometrical/star.svg
+					</image>
+					<image type="to_drag">examples/Shapes/geometrical/etoile.svg
+					</image>			
+				</association>
+				
+				<association>
+					<image type="to_associate">examples/Shapes/geometrical/Fr/Fr-Tux_Hexagone.svg
+						<sound>examples/Shapes/geometrical/Fr/Fr-hexagone.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Shapes/geometrical/hexagon.svg
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Shapes/geometrical/Fr/Fr-Tux_Losange.svg
+						<sound>examples/Shapes/geometrical/Fr/Fr-losange.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Shapes/geometrical/losange.svg
+					</image>
+				</association>
+
+				<association>
+					<image type="to_associate">examples/Shapes/geometrical/Fr/Fr-Tux_Rectangle.svg
+						<sound>examples/Shapes/geometrical/Fr/Fr-rectangle.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Shapes/geometrical/rectangle.svg
+					</image>
+				</association>
+				
+				<association>
+					<image type="to_associate">examples/Shapes/geometrical/Fr/Fr-Tux_Spirale.svg
+						<sound>examples/Shapes/geometrical/Fr/Fr-spirale.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Shapes/geometrical/spiral.svg
+					</image>
+				</association>
+				
+				<association>
+					<image type="to_associate">examples/Shapes/geometrical/Fr/Fr-Tux_Triangle.svg
+						<sound>examples/Shapes/geometrical/Fr/Fr-triangle.ogg</sound> 
+					</image>
+					<image type="to_drag">examples/Shapes/geometrical/triangle.svg
+					</image>
+				</association>	
+				
+			</associations>
+
+		</game>
+
+	</level>
+
+</game_set>
+
+</omnitux>

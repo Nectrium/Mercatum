@@ -1,0 +1,235 @@
+<?xml version="1.0" ?>
+<game type="associate" xml_version="1.0" author="Olav_2">
+	
+	<title lang="en">A to F board</title>
+	
+	<rounds>5</rounds>
+
+	<thumbnail>examples/Alphabet/En-Alphabet-A-F_map_mode.icon.png</thumbnail>
+
+	<tag>writing</tag>
+
+	<menu_index value="400" />
+
+	<global_parameters>
+		
+		<game_setup>
+			<type_to_associate>image_on_map</type_to_associate>
+			<type_to_drag>image</type_to_drag>
+			
+			<!-- amount of items to choose from -->
+			<min_draggable> 6 </min_draggable>
+			<max_draggable> 6 </max_draggable>
+			
+		</game_setup>
+
+		<map>
+			<image>examples/Alphabet/back.svg</image>
+			<pos_x>   5 </pos_x> 
+			<pos_y>  10 </pos_y>
+			<width>  70 </width>
+			<height> 85 </height>
+		</map>		
+
+		<draggable_items_area>
+			<pos_x>  80 </pos_x> 
+			<pos_y>  10 </pos_y>
+			<width>  15 </width>
+			<height> 80 </height>
+			
+
+			<amount_x> 1 </amount_x>
+			<amount_y> 6 </amount_y>
+			
+		</draggable_items_area>
+	
+		
+	
+		<background>
+			Kot26/liczenie/back1s.png
+		</background>		
+		
+	</global_parameters>
+	
+	<associations>	
+		<association>
+			<image type="to_associate">examples/Alphabet/Chrisdesign_comic_alien.svg
+				<pos_x>  3 </pos_x> 
+				<pos_y>  3 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+
+			</image>
+
+
+
+			<goal>
+				<pos_x>  17 </pos_x> 
+				<pos_y>  34 </pos_y>
+				<width>  16 </width>
+				<height> 16 </height>
+				<image>default/icons/NewTux_question.svg</image>
+			</goal>
+			<image type="to_drag">examples/Alphabet/letters/A.svg
+				<sound>examples/Alphabet/letters/En/A.ogg</sound>
+			</image>
+		</association>
+
+		<association>
+			<image type="to_associate">examples/Alphabet/Abeille-bee.svg
+				<pos_x>  36 </pos_x> 
+				<pos_y>  3 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+
+			</image>
+			<image type="to_associate">examples/Alphabet/rg1024_beach_ball.svg
+				<pos_x>  36 </pos_x> 
+				<pos_y>  3 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+
+			</image>
+                        <image type="to_associate">examples/Alphabet/soccer_ball.svg
+                                <pos_x>  36 </pos_x>
+                                <pos_y>  3 </pos_y>
+                                <width>  27 </width>
+                                <height> 44 </height>
+
+                        </image>
+			<image type="to_associate">examples/Alphabet/yves_guillou_boat.svg
+				<pos_x>  36 </pos_x> 
+				<pos_y>  3 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+
+			</image>
+			<goal>
+				<pos_x>  50 </pos_x> 
+				<pos_y>  34 </pos_y>
+				<width>  16 </width>
+				<height> 16 </height>
+				<image>default/icons/NewTux_question.svg</image>
+			</goal>
+			<image type="to_drag">examples/Alphabet/letters/B.svg
+				<sound>examples/Alphabet/letters/En/B.ogg</sound>
+			</image>
+		</association>
+
+		<association>
+
+
+			<image type="to_associate">examples/Alphabet/valessiobrito_Clock_Alarm.svg
+				<pos_x>  69 </pos_x> 
+				<pos_y>  3 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+
+			</image>
+
+
+
+			<goal>
+				<pos_x>  84 </pos_x> 
+				<pos_y>  34 </pos_y>
+				<width>  16 </width>
+				<height> 16 </height>
+				<image>default/icons/NewTux_question.svg</image>
+			</goal>
+			<image type="to_drag">examples/Alphabet/letters/C.svg
+				<sound>examples/Alphabet/letters/En/C.ogg</sound>
+			</image>
+		</association>
+
+		<association>
+			<image type="to_associate">examples/Alphabet/Gerald_G_Rubber_Duck_1.svg
+				<pos_x>  3 </pos_x> 
+				<pos_y>  53 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+
+			</image>
+
+			<image type="to_associate">examples/Alphabet/dolphin.png
+				<pos_x>  3 </pos_x> 
+				<pos_y>  53 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+
+			</image>
+			<image type="to_associate">examples/Alphabet/BigRedSmile_A_Cartoon_Dinosaur.svg
+				<pos_x>  3 </pos_x> 
+				<pos_y>  53 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+
+			</image>
+
+			<goal>
+				<pos_x>  17 </pos_x> 
+				<pos_y>  82 </pos_y>
+				<width>  16 </width>
+				<height> 16 </height>
+				<image>default/icons/NewTux_question.svg</image>
+			</goal>
+			<image type="to_drag">examples/Alphabet/letters/D.svg
+				<sound>examples/Alphabet/letters/En/D.ogg</sound>
+			</image>
+		</association>
+
+		<association>
+			<image type="to_associate">examples/Alphabet/lemmling_Cartoon_elephant.svg
+				<pos_x>  36 </pos_x> 
+				<pos_y>  53 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+
+			</image>
+
+			<goal>
+				<pos_x>  50 </pos_x> 
+				<pos_y>  82 </pos_y>
+				<width>  16 </width>
+				<height> 16 </height>
+				<image>default/icons/NewTux_question.svg</image>
+			</goal>
+			<image type="to_drag">examples/Alphabet/letters/E.svg
+				<sound>examples/Alphabet/letters/En/E.ogg </sound>
+			</image>
+		</association>
+
+		<association>
+			<image type="to_associate">examples/Alphabet/jean_victor_balin_red_flower.svg
+				<pos_x>  69 </pos_x> 
+				<pos_y>  53 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+			</image>
+			<image type="to_associate">examples/Alphabet/fleur.svg
+				<pos_x>  69 </pos_x> 
+				<pos_y>  53 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+			</image>
+			<image type="to_associate">examples/Alphabet/fork.svg
+				<pos_x>  69 </pos_x> 
+				<pos_y>  53 </pos_y>
+				<width>  27 </width>
+				<height> 44 </height>
+
+			</image>
+			<goal>
+				<pos_x>  84 </pos_x> 
+				<pos_y>  82 </pos_y>
+				<width>  16 </width>
+				<height> 16 </height>
+				<image>default/icons/NewTux_question.svg</image>
+			</goal>
+			<image type="to_drag">examples/Alphabet/letters/F.svg
+				<sound>examples/Alphabet/letters/En/F.ogg</sound>
+			</image>
+		</association>
+
+	</associations>
+
+</game>

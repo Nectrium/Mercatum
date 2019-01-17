@@ -1,0 +1,403 @@
+<?xml version="1.0" ?>
+<omnitux version="1.0">
+
+<game_set type="differences">
+
+
+	<title lang="de">Cartoons</title>
+	<title lang="en">Cartoons</title>
+	<title lang="es">Caricaturas</title>
+	<title lang="fr">Cartoons</title>
+	<title lang="it">Cartoons</title>
+	<title lang="pl">Kreskówki</title>
+	<title lang="pt">Imagens</title>
+ 
+	<thumbnail>default/icons/differences.png</thumbnail>
+
+	<rounds>2</rounds>
+
+	<game type="differences" author="Tutur">
+
+	<menu_index value="100" />
+
+	<!-- Le coordonnées ont pour référence le coin haut-gauche de l'image (sous inkscape c'est hélas bas-gauche, 
+		pour avoir les coordonnées "normales" il faut importer le SVG dans Gimp.
+	Le principe serait de prendre au hasard un nombre différences suivant le niveau (niv 1=3, niv2=5 , niv3=7 , niv4=10)
+	-->
+
+	
+		<global_parameters>
+	
+			<background>
+				Kot26/liczenie/back1s.png
+			</background>
+
+			<min_differences> 5 </min_differences>
+			<max_differences> 5 </max_differences>
+
+			<original>
+				<image>examples/Differences/Piratey_vector_version.svg
+				</image>
+				<pos_x unit="px"> 5 </pos_x>
+				<pos_y unit="px"> 10 </pos_y>
+				<width unit="px"> 40 </width>
+				<height unit="px"> 85 </height>
+				
+			</original>
+
+			<modified>
+				<image>examples/Differences/Piratey_Diff.svg
+				</image>
+				
+				<pos_x unit="px"> 55 </pos_x>
+				<pos_y unit="px"> 10 </pos_y>
+				<width unit="px"> 40 </width>
+				<height unit="px"> 85 </height>
+			</modified>
+
+			<found>
+				<image>examples/Differences/entoure.svg
+				</image>
+				<ratio_x>110</ratio_x>
+				<ratio_y>110</ratio_y>
+			</found>
+
+		</global_parameters>
+
+		<differences>
+		
+			<difference>
+				<pos_x unit="px"> 258 </pos_x>
+				<pos_y unit="px"> 9 </pos_y>
+				<width unit="px"> 62 </width>
+				<height unit="px"> 58 </height>
+				
+			</difference>
+			
+			<difference>
+				<pos_x unit="px"> 94 </pos_x>
+				<pos_y unit="px"> 57 </pos_y>
+				<width unit="px"> 63 </width>
+				<height unit="px"> 70 </height>
+			</difference>
+			
+			<difference>
+				<pos_x unit="px"> 216 </pos_x>
+				<pos_y unit="px"> 117 </pos_y>
+				<width unit="px"> 44 </width>
+				<height unit="px"> 32 </height>
+			</difference>
+
+			<difference>
+				<pos_x unit="px"> 289 </pos_x>
+				<pos_y unit="px"> 161 </pos_y>
+				<width unit="px"> 64 </width>
+				<height unit="px"> 57 </height>
+			</difference>		
+			
+			<difference>
+				<pos_x unit="px"> 67 </pos_x>
+				<pos_y unit="px"> 122 </pos_y>
+				<width unit="px"> 54 </width>
+				<height unit="px"> 47 </height>
+			</difference>
+				
+			<difference>
+				<pos_x unit="px"> 207 </pos_x>
+				<pos_y unit="px"> 273 </pos_y>
+				<width unit="px"> 54 </width>
+				<height unit="px"> 31 </height>
+			</difference>
+				
+			<difference>
+				<pos_x unit="px"> 95 </pos_x>
+				<pos_y unit="px"> 266 </pos_y>
+				<width unit="px"> 35 </width>
+				<height unit="px"> 35 </height>
+			</difference>
+				
+			<difference>
+				<pos_x unit="px"> 92 </pos_x>
+				<pos_y unit="px"> 303 </pos_y>
+				<width unit="px"> 35 </width>
+				<height unit="px"> 35 </height>
+			</difference>
+				
+			<difference>
+				<pos_x unit="px"> 175 </pos_x>
+				<pos_y unit="px"> 338 </pos_y>
+				<width unit="px"> 44 </width>
+				<height unit="px"> 28 </height>
+			</difference>
+				
+			<difference>
+				<pos_x unit="px"> 234 </pos_x>
+				<pos_y unit="px"> 418 </pos_y>
+				<width unit="px"> 29 </width>
+				<height unit="px"> 48 </height>
+			</difference>
+			
+			<!-- 
+			Lorsqu'une est trouvée, elle serait mise en évidence avec le fichier entoure.svg
+			On pourrait redimensionner cette image en fonction de la taille de la différence (width/height)
+			Par défaut l'image entoure.svg fait 256x256 , il faudrait sans doute qu'elle soit légèrement plus grande que la differance.
+			Donc en gros > 
+				La taille du cercle = taille de la diff + 10 %: 
+					cercle_largeur = width * 1.10   
+					cercle_hauteur = height * 1.10 
+				La position du cercle 
+					pos_x_cercle = (pos_x -((cercle_largeur - width) / 2 )
+					pos_y_cercle = (pos_y + (( cercle_hauteur - height) / 2 )
+			Un petit plus serait de pouvoir appliquer une rotation aléatoire pour faire moins monotone.			    
+			-->
+
+		</differences>
+
+	</game>
+
+	<game type="differences" author="Olav_2">
+	
+		<global_parameters>
+	
+			<background>
+				Kot26/liczenie/back1s.png
+			</background>
+
+			<min_differences> 5 </min_differences>
+			<max_differences> 5 </max_differences>
+
+			<original>
+				<image>examples/Differences/Mad_scientist.svg
+				</image>
+				<pos_x unit="px"> 5 </pos_x>
+				<pos_y unit="px"> 10 </pos_y>
+				<width unit="px"> 40 </width>
+				<height unit="px"> 85 </height>
+				
+			</original>
+
+			<modified>
+				<image>examples/Differences/Mad_scientist_diff.svg
+				</image>
+				
+				<pos_x unit="px"> 55 </pos_x>
+				<pos_y unit="px"> 10 </pos_y>
+				<width unit="px"> 40 </width>
+				<height unit="px"> 85 </height>
+			</modified>
+
+			<found>
+				<image>examples/Differences/entoure.svg
+				</image>
+				<ratio_x>110</ratio_x>
+				<ratio_y>110</ratio_y>
+			</found>
+
+		</global_parameters>
+
+		<differences>
+
+
+	<!-- 
+
+		97, 554, 23, 24 : bulle en +
+		48, 460, 21, 20 : bulle en -
+		378, 71, 22, 30 : bouton en -
+		533, 323, 85, 38 : galon en +
+		295, 468, 20, 54 : cheveu en -
+		260, 527, 124, 35 : autre couleur de lunettes
+		339, 392, 27, 33 : autre forme d'oeil
+		58, 364, 10, 11 : bulle en -
+		149, 125, 48, 52 : couleur en -
+		538, 239, 39, 36 : autre couleur
+
+	-->
+			<difference>
+				<pos_x unit="px">  97 </pos_x>
+				<pos_y unit="px">  62 </pos_y>
+				<width unit="px">  25 </width>
+				<height unit="px"> 26 </height>			
+			</difference>
+			<difference>
+				<pos_x unit="px"> 48  </pos_x>
+				<pos_y unit="px"> 160  </pos_y>
+				<width unit="px"> 21 </width>
+				<height unit="px"> 20 </height>			
+			</difference>
+			<difference>
+				<pos_x unit="px"> 378  </pos_x>
+				<pos_y unit="px">  539 </pos_y>
+				<width unit="px"> 22  </width>
+				<height unit="px"> 30 </height>			
+			</difference>
+			<difference>
+				<pos_x unit="px"> 533  </pos_x>
+				<pos_y unit="px"> 279  </pos_y>
+				<width unit="px"> 85  </width>
+				<height unit="px"> 38 </height>			
+			</difference>
+			<difference>
+				<pos_x unit="px"> 288  </pos_x>
+				<pos_y unit="px"> 118  </pos_y>
+				<width unit="px">  29 </width>
+				<height unit="px"> 54 </height>			
+			</difference>
+			<difference>
+				<pos_x unit="px"> 260  </pos_x>
+				<pos_y unit="px"> 78  </pos_y>
+				<width unit="px"> 124  </width>
+				<height unit="px"> 35 </height>			
+			</difference>			
+			<difference>
+				<pos_x unit="px"> 339  </pos_x>
+				<pos_y unit="px"> 215  </pos_y>
+				<width unit="px"> 27  </width>
+				<height unit="px"> 33 </height>			
+			</difference>			
+			<difference>
+				<pos_x unit="px"> 56  </pos_x>
+				<pos_y unit="px"> 263  </pos_y>
+				<width unit="px"> 14  </width>
+				<height unit="px"> 15 </height>			
+			</difference>
+			<difference>
+				<pos_x unit="px"> 149  </pos_x>
+				<pos_y unit="px"> 463  </pos_y>
+				<width unit="px">  48 </width>
+				<height unit="px"> 52 </height>			
+			</difference>
+			<difference>
+				<pos_x unit="px"> 538  </pos_x>
+				<pos_y unit="px"> 365  </pos_y>
+				<width unit="px"> 39  </width>
+				<height unit="px"> 36 </height>			
+			</difference>
+
+		</differences>
+
+	</game>
+
+	<game type="differences" author="Olav_2">
+	
+		<global_parameters>
+	
+			<background>
+				Kot26/liczenie/back1s.png
+			</background>
+
+			<min_differences> 5 </min_differences>
+			<max_differences> 5 </max_differences>
+
+			<original>
+				<image>examples/Differences/Chav.svg
+				</image>
+				<pos_x unit="px"> 5 </pos_x>
+				<pos_y unit="px"> 10 </pos_y>
+				<width unit="px"> 40 </width>
+				<height unit="px"> 85 </height>
+				
+			</original>
+
+			<modified>
+				<image>examples/Differences/Chav_diff.svg
+				</image>
+				
+				<pos_x unit="px"> 55 </pos_x>
+				<pos_y unit="px"> 10 </pos_y>
+				<width unit="px"> 40 </width>
+				<height unit="px"> 85 </height>
+			</modified>
+
+			<found>
+				<image>examples/Differences/entoure.svg
+				</image>
+				<ratio_x>110</ratio_x>
+				<ratio_y>110</ratio_y>
+			</found>
+
+		</global_parameters>
+
+		<differences>
+
+	<!-- 
+		coordonnees inkscape
+		
+		429, 564, 35, 41 : boucle d'oreille
+		309, 787, 44, 27 : 'ponpon' casquette
+		340, 278, 76, 87 : pendentif dans l'autre sens
+		335, 454, 27, 65 : haut de la fermeture eclair enlevé
+		291, 114, 271, 154 : couleur bandes jogging 
+		603, 103, 77, 69 : dernier lacet pied droit
+		257, 274, 59, 48 : manche poche veste
+		447, 329, 48, 45 : couleur poche veste
+		231, 686, 43, 29 : detail casquette
+		217, 634, 49, 44 : cheveux a gauche
+
+	-->
+			<difference>
+				<pos_x unit="px"> 429  </pos_x>
+				<pos_y unit="px"> 238 </pos_y>
+				<width unit="px"> 35  </width>
+				<height unit="px"> 41 </height>			
+			</difference>
+			<difference>
+				<pos_x unit="px">  309 </pos_x>
+				<pos_y unit="px">  29 </pos_y>
+				<width unit="px"> 44  </width>
+				<height unit="px"> 27 </height>			
+			</difference>
+			<difference>
+				<pos_x unit="px"> 340  </pos_x>
+				<pos_y unit="px"> 478  </pos_y>
+				<width unit="px"> 76  </width>
+				<height unit="px"> 87 </height>			
+			</difference>
+			<difference>
+				<pos_x unit="px"> 335  </pos_x>
+				<pos_y unit="px">  324 </pos_y>
+				<width unit="px"> 27  </width>
+				<height unit="px"> 65 </height>			
+			</difference>
+			<difference>
+				<pos_x unit="px"> 291  </pos_x>
+				<pos_y unit="px"> 575  </pos_y>
+				<width unit="px"> 271  </width>
+				<height unit="px"> 154 </height>			
+			</difference>
+			<difference>
+				<pos_x unit="px"> 603  </pos_x>
+				<pos_y unit="px"> 671  </pos_y>
+				<width unit="px"> 77  </width>
+				<height unit="px"> 69  </height>			
+			</difference>
+			<difference>
+				<pos_x unit="px"> 257 </pos_x>
+				<pos_y unit="px"> 521  </pos_y>
+				<width unit="px"> 59  </width>
+				<height unit="px"> 48 </height>			
+			</difference>
+			<difference>
+				<pos_x unit="px">  447 </pos_x>
+				<pos_y unit="px">  469 </pos_y>
+				<width unit="px">  48 </width>
+				<height unit="px"> 45 </height>			
+			</difference>
+			<difference>
+				<pos_x unit="px"> 231  </pos_x>
+				<pos_y unit="px"> 128  </pos_y>
+				<width unit="px"> 43  </width>
+				<height unit="px"> 29 </height>			
+			</difference>
+			<difference>
+				<pos_x unit="px"> 217  </pos_x>
+				<pos_y unit="px"> 165  </pos_y>
+				<width unit="px"> 49  </width>
+				<height unit="px"> 44 </height>			
+			</difference>
+
+		</differences>
+
+	</game>
+
+</game_set>
+</omnitux>

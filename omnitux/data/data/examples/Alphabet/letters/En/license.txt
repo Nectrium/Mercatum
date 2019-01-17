@@ -1,0 +1,4 @@
+English letter sounds from the 'klettres' project, recorded by Robert Wadley.
+License : GNU GPL 2+
+
+See http://edu.kde.org/klettres/

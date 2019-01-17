@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<omnitux version="1.0">
+<game type="memory_cards" xml_version="1.0" author="Olav_2">
+	
+	<title lang="fr">Items commençant par A-F</title>
+	
+	<thumbnail>examples/Alphabet/DouglasDC3Drawing.svg</thumbnail>
+
+	<menu_index value="200" />
+
+	<global_parameters>
+		
+		<identical_cards> 2 </identical_cards>
+		
+		<grid>
+			<pos_x>   5 </pos_x> 
+			<pos_y>  10 </pos_y>
+			<width>  90 </width>
+			<height> 87 </height>
+			
+			<amount_x> 6 </amount_x>
+			<amount_y> 4 </amount_y>			
+			
+			<spacing_x> 0.2 </spacing_x>
+			<spacing_y> 0.5 </spacing_y>
+			
+		</grid>
+
+		<card>
+			<front>
+				examples/Memory_Cards/small_tux_card_front.svg
+			</front>
+			
+			<back>
+				examples/Memory_Cards/small_tux_card_back.svg
+			</back>
+			
+			<image_area>
+				<ratio_x> 88 </ratio_x>
+				<ratio_y> 85 </ratio_y>
+			</image_area>
+		
+		</card>
+
+			<background mode="CENTERED">examples/Alphabet/DouglasDC3Drawing.svg</background>
+			<background mode="CENTERED">examples/Alphabet/rg1024_Tree.svg</background>
+			<background mode="CENTERED">examples/Alphabet/Rainbow-diagram-ROYGBIV.svg</background>
+			<background mode="CENTERED">examples/Alphabet/rg1024_beach_ball.svg</background>
+			<background mode="CENTERED">examples/Alphabet/soccer_ball.svg</background>
+			<background mode="CENTERED">examples/Alphabet/yves_guillou_boat.svg</background>
+			<background mode="CENTERED">examples/Alphabet/valessiobrito_wooden_chair.svg</background>
+			<background mode="CENTERED">examples/Alphabet/rg1024_cartoon_whale.svg</background>
+			<background mode="CENTERED">examples/Alphabet/Gerald_G_Rubber_Duck_1.svg</background>
+			<background mode="CENTERED">examples/Alphabet/ivak_Cistern_Truck.svg</background>
+			<background mode="CENTERED">examples/Alphabet/divers_cadeau.svg</background>
+			<background mode="CENTERED">examples/Alphabet/BigRedSmile_A_Cartoon_Dinosaur.svg</background>
+			<background mode="CENTERED">examples/Alphabet/lemmling_Cartoon_elephant.svg</background>
+			<background mode="CENTERED">examples/Alphabet/Chrisdesign_comic_alien.svg</background>
+			<background mode="CENTERED">examples/Alphabet/jean_victor_balin_red_flower.svg</background>	
+
+	</global_parameters>
+	
+	<associations>	
+		<association>
+			<image>examples/Alphabet/DouglasDC3Drawing.svg
+				<sound>examples/Alphabet/Fr/Fr-avion.ogg</sound>
+			</image>
+		</association>
+		<association>
+			<image>examples/Alphabet/rg1024_Tree.svg
+				<sound>examples/Alphabet/Fr/Fr-arbre-fr-Paris.ogg</sound>
+			</image>
+		</association>
+		<association>
+			<image>examples/Alphabet/Rainbow-diagram-ROYGBIV.svg
+				<sound>examples/Alphabet/Fr/Fr-arc-en-ciel.ogg</sound>
+			</image>
+		</association>
+		<association>
+			<image>examples/Alphabet/Abeille-bee.svg
+				<sound>examples/Alphabet/Fr/Fr-abeille.ogg</sound>
+			</image>
+		</association>
+		<association>
+			<image>examples/Alphabet/rg1024_beach_ball.svg
+				<sound>examples/Alphabet/Fr/Fr-ballon.ogg</sound>
+			</image>
+                        <image>examples/Alphabet/soccer_ball.svg
+                                <sound>examples/Alphabet/Fr/Fr-ballon.ogg</sound>
+                        </image>			
+		</association>
+		<association>
+			<image>examples/Alphabet/yves_guillou_boat.svg
+				<sound>examples/Alphabet/Fr/Fr-bateau.ogg</sound>
+			</image>
+		</association>
+		<association>
+			<image>examples/Alphabet/valessiobrito_wooden_chair.svg
+				<sound>examples/Alphabet/Fr/Fr-banc.ogg</sound>
+			</image>
+		</association>
+		<association>
+			<image>examples/Alphabet/rg1024_cartoon_whale.svg
+				<sound>examples/Alphabet/Fr/Fr-baleine.ogg</sound>
+			</image>
+		</association>
+		<association>
+			<image>examples/Alphabet/Gerald_G_Rubber_Duck_1.svg
+				<sound>examples/Alphabet/Fr/Fr-canard.ogg</sound>
+			</image>
+		</association>
+		<association>
+			<image>examples/Alphabet/ivak_Cistern_Truck.svg
+				<sound>examples/Alphabet/Fr/Fr-camion.ogg</sound>
+			</image>
+		</association>
+		<association>
+			<image>examples/Alphabet/spoon.svg
+				<sound>examples/Alphabet/Fr/Fr-cuillere.ogg</sound>
+			</image>
+		</association>
+		<association>
+			<image>examples/Alphabet/divers_cadeau.svg
+				<sound>examples/Alphabet/Fr/Fr-cadeau.ogg</sound>
+			</image>
+		</association>
+		<association>
+			<image>examples/Alphabet/dolphin.png
+				<sound>examples/Alphabet/Fr/Fr-dauphin.ogg</sound>
+			</image>
+		</association>
+		<association>
+			<image>examples/Alphabet/BigRedSmile_A_Cartoon_Dinosaur.svg
+				<sound>examples/Alphabet/Fr/Fr-dinosaure.ogg</sound>
+			</image>
+		</association>
+		<association>
+			<image>examples/Alphabet/lemmling_Cartoon_elephant.svg
+				<sound>examples/Alphabet/Fr/Fr-elephant.ogg</sound>
+			</image>
+		</association>
+		<association>
+			<image>examples/Alphabet/Chrisdesign_comic_alien.svg
+				<sound>examples/Alphabet/Fr/Fr-extra_terrestre.ogg</sound>
+			</image>
+		</association>
+		<association>
+			<image>examples/Alphabet/jean_victor_balin_red_flower.svg
+				<sound>examples/Alphabet/Fr/Fr-une_fleur-fr-ouest.ogg</sound>
+			</image>
+		</association>
+		<association>			
+			<image>examples/Alphabet/fork.svg
+				<sound>examples/Alphabet/Fr/Fr-fourchette.ogg</sound>
+			</image>
+		</association>
+
+	</associations>
+
+</game>
+</omnitux>

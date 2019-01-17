@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 10.0, SVG Export Plug-In . SVG Version: 3.0.0 Build 77)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN"    "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd" [
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+	<!ENTITY ns_svg "http://www.w3.org/2000/svg">
+	<!ENTITY ns_xlink "http://www.w3.org/1999/xlink">
+]>
+<svg 
+	 xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;" i:viewOrigin="242.2607 748.8032" i:rulerOrigin="0 0" i:pageBounds="0 792 612 0"
+	 xmlns="&ns_svg;" xmlns:xlink="&ns_xlink;" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 width="212.056" height="282.663" viewBox="0 0 212.056 282.663" overflow="visible" enable-background="new 0 0 212.056 282.663"
+	 xml:space="preserve">
+	<metadata>
+<rdf:RDF
+      xmlns="http://web.resource.org/cc/"
+      xmlns:dc="http://purl.org/dc/elements/1.1/"
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <Work rdf:about="">
+         <dc:title>Vegetables</dc:title>
+         <dc:description>Vegetables</dc:description>
+         <dc:subject>
+          <rdf:Bag>
+            <rdf:li>food</rdf:li>
+            <rdf:li>vegetable</rdf:li>
+          </rdf:Bag>
+         </dc:subject>
+         <dc:publisher><Agent rdf:about="http://www.openclipart.org/"><dc:title>Open Clip Art Project</dc:title></Agent></dc:publisher>
+         <dc:creator><Agent rdf:about=""><dc:title>ArtFavor</dc:title></Agent></dc:creator>
+         <dc:rights><Agent rdf:about="http://web.resource.org/cc/PublicDomain"><dc:title>Public Domain</dc:title></Agent></dc:rights>
+         <dc:date>2005/10/03</dc:date>
+         <dc:format>image/svg+xml</dc:format>
+         <dc:type>http://purl.org/dc/dcmitype/StillImage</dc:type>
+         <license rdf:resource="http://web.resource.org/cc/PublicDomain" />
+      </Work>
+      <License rdf:about="http://web.resource.org/cc/PublicDomain">
+         <permits rdf:resource="http://web.resource.org/cc/Reproduction" />
+         <permits rdf:resource="http://web.resource.org/cc/Distribution" />
+         <permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </License>
+   </rdf:RDF>
+		<variableSets  xmlns="&ns_vars;">
+			<variableSet  varSetName="binding1" locked="none">
+				<variables></variables>
+				<v:sampleDataSets  xmlns="&ns_custom;" xmlns:v="&ns_vars;"></v:sampleDataSets>
+			</variableSet>
+		</variableSets>
+		<sfw  xmlns="&ns_sfw;">
+			<slices></slices>
+			<sliceSourceBounds  y="466.141" x="242.261" width="212.056" height="282.663" bottomLeftOrigin="true"></sliceSourceBounds>
+		</sfw>
+	</metadata>
+	<switch>
+		<foreignObject requiredExtensions="&ns_ai;" x="0" y="0" width="1" height="1">
+			<i:pgfRef  xlink:href="#adobe_illustrator_pgf">
+			</i:pgfRef>
+		</foreignObject>
+		<g i:extraneous="self">
+			<g id="Layer_1" i:layer="yes" i:dimmedPercent="50" i:rgbTrio="#4F008000FFFF">
+				<g>
+					<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" fill="#415C26" d="M123.462,242.82
+						c9.225,6.797,6.02,31.361,11.068,34.759c5.05,3.301,32.233-0.583,33.885-8.155c1.747-7.573-8.446-25.437-5.146-38.836
+						c3.398-13.496,47.379-41.749,44.272-102.235C203.367,47.477,119.19-6.699,79.385,0.679C53.072,5.534-1.589,64.662,2.975,122.43
+						C12.004,233.499,114.144,236.121,123.462,242.82z"/>
+					<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" d="M121.035,239.81c0,0,6.407,39.709,12.33,42.137
+						c5.826,2.622,44.953-1.262,46.215-13.592c1.069-8.933-8.057-35.437-8.737-44.952c0,0-10.291,5.047-0.583,36.796
+						c3.106,10.098-18.545,14.37-28.059,13.011C132.59,271.85,136.765,241.849,121.035,239.81z"/>
+					<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" d="M83.171,233.597c0,0-48.157,1.65-51.167-51.748
+						c0,0,13.69-13.592,36.797,6.795c0,0-25.729-3.106-27.768-0.29C41.034,188.354,38.121,208.451,83.171,233.597z"/>
+					<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" d="M114.238,236.413c0,0-49.708,3.883-39.999-44.272
+						c0,0,16.989-8.155,25.922,3.397c0,0-15.049-0.679-17.767,2.039C82.395,197.577,73.559,220.005,114.238,236.413z"/>
+					<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" d="M121.714,230.877c0,0-36.602-15.63,1.457-57.184
+						c0,0,47.672,42.233,8.738,57.184c0,0,18.446-20.388-8.058-46.893C123.852,183.985,104.238,200.975,121.714,230.877z"/>
+					<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" d="M25.208,178.45c0,0-26.505-12.136-16.311-49.515
+						c0,0,17.865-4.758,28.447,11.358c0,0-16.311-3.301-22.913-2.038C14.432,138.256,12.975,155.342,25.208,178.45z"/>
+					<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" d="M0.645,122.721c0,0-6.02-27.865,12.913-39.418
+						c0,0,17.768,6.116,18.447,19.805c0,0-11.165-10.193-18.447-10.581C13.558,92.527,5.305,96.021,0.645,122.721z"/>
+					<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" d="M51.034,172.333c0,0-14.952-4.077-8.738-29.32
+						c0,0,24.466-2.622,33.302,8.252c0,0-20.291-2.816-27.088-0.388C48.51,150.877,46.568,158.546,51.034,172.333z"/>
+					<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" d="M45.695,136.41c0,0-2.719-17.669,12.135-27.962
+						c0,0,23.884,3.399,25.341,17.671c0,0-13.69-8.059-23.885-10.195C59.286,115.924,49.772,133.014,45.695,136.41z"/>
+					<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" d="M39.48,110.583c0,0-4.758-18.446,11.554-30.68
+						c0,0,15.728,4.079,19.807,16.992c0,0-12.817-7.281-19.225-8.447C51.616,88.448,45.112,93.787,39.48,110.583z"/>
+					<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" d="M90.647,183.985c0,0-15.826-23.594,5.339-43.593
+						c0,0,25.049,6.795,25.728,18.35c0,0-14.465-6.992-24.659-7.185C97.055,151.557,91.132,160.877,90.647,183.985z"/>
+					<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" d="M155.794,202.333c0,0-21.068-16.407,11.651-37.476
+						c0,0,42.719,42.623-9.128,54.371c0,0,28.253-20.972,7.671-42.137C165.988,177.091,155.114,181.265,155.794,202.333z"/>
+					<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" d="M186.474,207.092c0,0,32.041-5.438,19.029-49.711
+						c0,0-18.737,0.098-21.846,10.194c0,0,10.972,0.681,15.729-2.039C199.386,165.537,204.145,186.605,186.474,207.092z"/>
+					<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" d="M181.716,147.187c0,0-4.854-21.649,23.204-29.807
+						c0,0,15.535,22.332,1.264,35.826c0,0,2.717-22.234-4.661-27.669C201.522,125.538,190.454,130.293,181.716,147.187z"/>
+					<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" d="M135.308,167.576c0,0-5.146-29.903,17.768-46.117
+						c0,0,23.787,9.514,19.029,35.922c0,0-8.059-20.291-18.35-25.049C153.755,132.333,145.308,139.614,135.308,167.576z"/>
+					<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" d="M89.966,135.73c0,0,0.682-23.883,16.992-32.623
+						c0,0,24.951,12.137,24.951,25.147c0,0-17.184-13.884-24.369-15.535C107.54,112.719,100.161,118.741,89.966,135.73z"/>
+					<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" d="M77.539,100.292c0,0-4.466-10.874,10.291-21.068
+						c0,0,17.089,4.758,21.652,17.088c0,0-14.078-8.544-19.709-10C89.773,86.313,84.433,88.253,77.539,100.292z"/>
+					<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" d="M121.328,96.021c0,0,0-18.834,18.059-24.37
+						c0,0,14.368,7.573,16.407,23.885c0,0-11.942-14.079-16.99-17.09C138.804,78.447,132.104,81.846,121.328,96.021z"/>
+					<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" d="M146.182,116.701c0,0,11.067-18.446,19.807-21.165
+						c0,0,21.846,7.571,25.923,16.99c0,0-13.108-6.894-23.592-7.864C168.319,104.662,163.465,105.05,146.182,116.701z"/>
+					<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" d="M168.124,86.021c0,0,1.262-11.553,11.456-15.631
+						c0,0,23.884,7.476,21.167,36.796c0,0-9.516-23.883-19.712-28.739C181.035,78.447,174.24,81.846,168.124,86.021z"/>
+					<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" d="M12.295,73.108c0,0,4.758-19.127,17.671-22.524
+						c0,0,16.408,8.931,9.515,27.863c0,0-4.466-16.892-10.195-21.068C29.286,57.378,23.17,59.321,12.295,73.108z"/>
+					<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" d="M51.034,71.651c0,0-1.262-9.417,13.01-14.273
+						c0,0,16.311,9.614,12.233,21.068c0,0-9.516-13.59-12.913-14.951C63.364,63.496,53.85,67.575,51.034,71.651z"/>
+					<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" d="M88.511,74.468c0,0-10.292-18.253,9.611-29.322
+						c0,0,15.437,7.476,15.437,21.165c0,0-7.96-10.291-15.437-13.688C98.122,52.623,91.617,54.856,88.511,74.468z"/>
+					<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" d="M120.355,70.39c0,0,5.438-25.243,12.234-27.283
+						c0,0,24.659,12.331,28.059,27.283c0,0-19.612-16.505-26.604-18.35C134.045,52.04,127.832,66.311,120.355,70.39z"/>
+					<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" d="M150.065,47.574c0,0,6.99-10.39,18.64-13.69
+						c0,0,10.875,10.681,10.875,28.351c0,0-6.894-12.913-12.039-18.641C167.541,43.593,167.541,41.263,150.065,47.574z"/>
+					<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" d="M146.958,33.592c0,0-4.368-18.348-27.185-17.766
+						c0,0-6.215,13.689,0,25.921c0,0,2.523-14.173,4.661-19.027C124.435,22.72,134.822,24.271,146.958,33.592z"/>
+					<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" d="M78.315,42.428c0,0-6.504-13.204,4.855-21.844
+						c0,0,15.534,6.795,16.311,16.99c0,0-11.651-10.194-15.049-10.875C84.433,26.698,80.355,33.883,78.315,42.428z"/>
+					<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" d="M47.637,50.583c0,0-4.759-13.787,13.009-19.029
+						c0,0,10.195,4.758,6.116,18.348c0,0-3.591-7.959-7.476-12.329C59.286,37.574,52.199,40.389,47.637,50.583z"/>
+					<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" d="M76.083,17.962c0,0-2.039-11.167,9.515-17.962
+						c0,0,15.826,1.166,20.39,15.923c0,0-12.234-7.768-19.03-8.836C86.957,7.086,81.908,10.096,76.083,17.962z"/>
+					<path i:knockout="Off" fill-rule="evenodd" clip-rule="evenodd" d="M71.52,23.301c0,0-3.495-11.942-15.048-11.844
+						c0,0-10.195,6.116-4.757,18.059c0,0,4.174-10.293,7.572-12.331C59.286,17.185,65.307,19.127,71.52,23.301z"/>
+				</g>
+			</g>
+		</g>
+	</switch>
+</svg>

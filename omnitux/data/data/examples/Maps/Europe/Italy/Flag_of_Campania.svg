@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.45pre1"
+   width="600"
+   height="400"
+   version="1.0"
+   sodipodi:docbase="C:\Documents and Settings\Flanker\Desktop"
+   sodipodi:docname="Flag of Basilicata.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   sodipodi:modified="true">
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs5" />
+  <sodipodi:namedview
+     inkscape:window-height="1003"
+     inkscape:window-width="1280"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     guidetolerance="10.0"
+     gridtolerance="10.0"
+     objecttolerance="10.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     inkscape:zoom="0.9975"
+     inkscape:cx="443.20303"
+     inkscape:cy="123.99035"
+     inkscape:window-x="193"
+     inkscape:window-y="6"
+     inkscape:current-layer="svg2"
+     inkscape:showpageshadow="false" />
+  <rect
+     style="opacity:1;fill:#0073b5;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     id="rect2254"
+     width="600"
+     height="400"
+     x="0"
+     y="0" />
+  <g
+     id="g8033"
+     transform="translate(-9.63751,0)">
+    <path
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 198.52692,73.82279 L 198.52692,297.69399 C 198.52692,321.7566 221.23619,332.01966 246.78976,333.52281 C 260.85,334.34983 278.30388,335.36462 291.45792,336.58711 C 304.47414,337.80961 309.66698,347.31219 309.66698,347.31219 C 309.66698,347.31219 314.85982,337.80961 327.87603,336.58711 C 341.03007,335.36462 358.48393,334.34983 372.5442,333.52281 C 398.09777,332.01966 420.7481,321.7566 420.7481,297.69399 L 420.7481,73.82279 L 198.52692,73.82279 z "
+       id="path7062"
+       sodipodi:nodetypes="ccscccsccc" />
+    <path
+       id="rect6088"
+       d="M 198.52692,73.82279 L 198.52692,102.22656 L 381.85498,332.52102 C 400.41099,329.69054 415.9006,321.50999 419.80524,305.76726 L 235.12182,73.82279 L 198.52692,73.82279 z "
+       style="opacity:1;fill:#ce1029;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <path
+       sodipodi:nodetypes="ccscccsccc"
+       id="path4145"
+       d="M 198.52692,73.82279 L 198.52692,297.69399 C 198.52692,321.7566 221.23619,332.01966 246.78976,333.52281 C 260.85,334.34983 278.30388,335.36462 291.45792,336.58711 C 304.47414,337.80961 309.66698,347.31219 309.66698,347.31219 C 309.66698,347.31219 314.85982,337.80961 327.87603,336.58711 C 341.03007,335.36462 358.48393,334.34983 372.5442,333.52281 C 398.09777,332.01966 420.7481,321.7566 420.7481,297.69399 L 420.7481,73.82279 L 198.52692,73.82279 z "
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#17ff0b;stroke-width:1.88572729px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+</svg>

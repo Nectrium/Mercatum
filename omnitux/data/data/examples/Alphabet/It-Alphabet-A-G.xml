@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<omnitux version="1.0">
+<game type="associate" author="Olav_2">
+	
+	<title lang="it">Alfabeto : A a G</title>
+	
+	<rounds>5</rounds>
+
+	<thumbnail>examples/Alphabet/A-G.svg</thumbnail>
+
+	<tag>writing</tag>
+
+	<menu_index value="300" />
+
+	<global_parameters>
+		
+		<game_setup>
+			<type_to_associate>image</type_to_associate>
+			<type_to_drag sort="yes">text</type_to_drag>
+			
+			<!-- amount of items to choose from -->
+			<min_draggable> 7 </min_draggable>
+			<max_draggable> 7 </max_draggable>
+			
+		</game_setup>
+		
+		<item_to_associate>
+			<pos_x>   5 </pos_x> 
+			<pos_y>  10 </pos_y>
+			<width>  70 </width>
+			<height> 78 </height>
+		</item_to_associate>
+
+		<draggable_items_area>
+			<pos_x>  80 </pos_x> 
+			<pos_y>  10 </pos_y>
+			<width>  15 </width>
+			<height> 88 </height>
+			
+			<font_height> 10 </font_height>				
+			
+			<amount_x> 1 </amount_x>
+			<amount_y> 7 </amount_y>
+			
+		</draggable_items_area>
+	
+		
+		<goal>
+			<pos_x>  20 </pos_x> 
+			<pos_y>  89 </pos_y>
+			<width>  40 </width>
+			<height> 10 </height>
+		</goal>
+		
+		<background>
+			examples/Alphabet/green.svg
+		</background>		
+		
+	</global_parameters>
+	
+	<associations>	
+		<association>
+			<image>examples/Alphabet/DouglasDC3Drawing.svg
+				<sound>examples/Alphabet/It/aereo.ogg</sound>
+			</image>
+			<image>examples/Shapes/vegetables/aglio.svg
+				<sound>examples/Shapes/vegetables/It/aglio.ogg</sound> 
+			</image>
+			<image>examples/Shapes/fruits/nicubunu_Orange.svg
+				<sound>examples/Shapes/fruits/It/arancia.ogg</sound> 
+			</image>
+			<image>examples/Alphabet/rg1024_Tree.svg
+				<sound>examples/Alphabet/It/albero.ogg</sound>
+			</image>
+			<image>examples/Alphabet/divers_sapin.svg
+				<sound>examples/Alphabet/It/albero.ogg</sound>
+			</image>
+			<image>examples/Alphabet/Abeille-bee.svg
+				<sound>examples/Alphabet/It/ape.ogg</sound>
+			</image>
+			<image>examples/Alphabet/pineapple.svg
+				<sound>examples/Alphabet/It/ananas.ogg</sound>
+			</image>
+			<text>A
+				<sound>examples/Alphabet/letters/It/A.ogg</sound>
+			</text>
+		</association>
+		<association>
+			<image>examples/Alphabet/Bananen_Frucht.jpg
+				<sound>examples/Alphabet/It/banana.ogg</sound>
+			</image>
+			<image>examples/Alphabet/rg1024_cartoon_whale.jpg
+				<sound>examples/Alphabet/It/balena.ogg</sound>
+			</image>
+			<image>examples/Alphabet/yves_guillou_boat.jpg
+				<sound>examples/Alphabet/It/barca.ogg</sound>
+			</image>
+			<text>B
+				<sound>examples/Alphabet/letters/It/B.ogg</sound>
+			</text>
+		</association>
+		<association>
+			<image>examples/Alphabet/Hut.svg
+				<sound>examples/Alphabet/It/capanna.ogg</sound>
+			</image>
+			<image>examples/Alphabet/ivak_Cistern_Truck.svg
+				<sound>examples/Alphabet/It/camion.ogg</sound>
+			</image>
+			<image>examples/Alphabet/Nuvola_filesystems_folder_home.svg
+				<sound>examples/Alphabet/It/casa.ogg</sound>
+			</image>
+			<image>examples/Alphabet/Oetwil_am_See-blazon.svg
+				<sound>examples/Alphabet/It/cicogna.ogg</sound>
+			</image>
+			<image>examples/Alphabet/BigRedSmile_A_screwdriver_3.svg
+				<sound>examples/Alphabet/It/cacciavite.ogg</sound>
+			</image>
+			<text>C
+				<sound>examples/Alphabet/letters/It/C.ogg</sound>
+			</text>
+		</association>
+		<association>
+			<image>examples/Alphabet/Bottlenose_Dolphin_KSC04pd0178.jpg
+				<sound>examples/Alphabet/It/delfino.ogg</sound>
+			</image>
+			<image>examples/Alphabet/BigRedSmile_A_Cartoon_Dinosaur.svg
+				<sound>examples/Alphabet/It/dinosauro.ogg</sound>
+			</image>
+			<text>D
+				<sound>examples/Alphabet/letters/It/D.ogg</sound>
+			</text>
+		</association>
+		<association>
+			<image>examples/Alphabet/Afrikanischer_Elefant,_Miami.jpg
+				<sound>examples/Alphabet/It/elefante.ogg</sound>
+			</image>
+			<image>examples/Alphabet/Bell214STDrawing.svg
+				<sound>examples/Alphabet/It/elicottero.ogg</sound>
+			</image>
+			<image>examples/Alphabet/Chrisdesign_comic_alien.svg
+				<sound>examples/Alphabet/It/extraterrestre.ogg</sound>
+			</image>
+			<text>E
+				<sound>examples/Alphabet/letters/It/E.ogg</sound>
+			</text>
+		</association>
+		<association>
+			<image>examples/Alphabet/jean_victor_balin_red_flower.svg
+				<sound>examples/Alphabet/It/fiore.ogg</sound>
+			</image>
+			<image>examples/Alphabet/fleur.svg
+				<sound>examples/Alphabet/It/fiore.ogg</sound>
+			</image>
+			<image>examples/Alphabet/fork.svg
+				<sound>examples/Alphabet/It/forchetta.ogg</sound>
+			</image>
+			<image>examples/Alphabet/valessiobrito_Fire_June_holiday_s.svg
+				<sound>examples/Alphabet/It/fuoco.ogg</sound>
+			</image>
+			<text>F
+				<sound>examples/Alphabet/letters/It/F.ogg</sound>
+			</text>
+		</association>
+		<association>
+			<image>examples/Alphabet/Martouf_Giraffe_sympa.svg
+				<sound>examples/Alphabet/It/giraffa.ogg</sound>
+			</image>
+			<image>examples/Alphabet/Newspaper_Cover.svg
+				<sound>examples/Alphabet/It/giornale.ogg</sound>
+			</image>
+			<text>G
+				<sound>examples/Alphabet/letters/It/G.ogg</sound>
+			</text>
+		</association>
+	</associations>
+
+</game>
+</omnitux>

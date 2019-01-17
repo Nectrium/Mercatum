@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<omnitux version="1.0">
+
+<game_set author="Olav_2">
+
+	<title lang="de">Fahrzeuge</title>
+	<title lang="en">Vehicles</title>
+	<title lang="es">Vehículos</title>
+	<title lang="fr">Véhicules</title>
+	<title lang="it">Veicoli</title>
+	<title lang="pl">Pojazdy</title>
+	<title lang="pt">Veículos</title>
+
+	<thumbnail>examples/Vehicles/mbs_ICE-Train.svg</thumbnail>
+
+	<tag>associate</tag>
+
+	<menu_index value="150" />
+
+	<game type="associate">
+
+
+		<music mode="off" />
+
+
+		<rounds>3</rounds>
+
+
+		<global_parameters>
+			<game_setup>
+
+				<type_to_associate>image</type_to_associate>
+				<type_to_drag>image</type_to_drag>
+			
+				<!-- amount of items to choose from -->
+				<min_draggable> 4 </min_draggable>
+				<max_draggable> 6 </max_draggable>
+			
+			</game_setup>
+
+			<item_to_associate>
+				<pos_x>  2 </pos_x> 
+				<pos_y>  52 </pos_y>
+				<width>  36 </width>
+				<height> 40 </height>
+			</item_to_associate>
+
+
+			<goal>
+				<pos_x>  42 </pos_x> 
+				<pos_y>  52 </pos_y>
+				<width>  56 </width>
+				<height> 46 </height>
+			
+				<image>default/icons/question_mark_space.svg</image>
+			</goal>
+		
+		
+		
+			<draggable_items_area>
+				<pos_x>  2 </pos_x> 
+				<pos_y>  10 </pos_y>
+				<width>  96 </width>
+				<height> 40 </height>
+			
+				<amount_x> 3 </amount_x>
+				<amount_y> 2 </amount_y>
+			
+			</draggable_items_area>
+
+			<background>default/backgrounds/ABSTRACT-Vertigo_1600x1200.jpg</background>
+
+
+		</global_parameters>
+	
+		<associations>	
+
+			<association>
+				<image type="to_drag">examples/Vehicles/fire_engine_mimooh_01.svg</image>
+				<image type="to_associate">examples/cartoons/PeterM_Mouse.svg
+					<sound>examples/Vehicles/Sounds/104464__dkmedic__SIREN2.ogg</sound> 
+				</image>
+			</association>
+			<association>
+				<image type="to_drag">examples/Vehicles/koconmus_Soldek.svg</image>
+				 <image type="to_associate">examples/cartoons/PeterM_Mouse.svg
+					<sound>examples/Vehicles/Sounds/23722__milo__ship2_bergen.ogg</sound> 
+				</image>
+			</association>
+			<association>
+				<image type="to_drag">examples/Vehicles/mbs_ICE-Train.svg</image>
+				<image type="to_associate">examples/cartoons/PeterM_Mouse.svg
+					<sound>examples/Vehicles/Sounds/24968__mich3d__Train_TGV_Passing_06.ogg</sound> 
+				</image>
+			</association>
+			<association>
+				<image type="to_drag">examples/Alphabet/ivak_Cistern_Truck.svg</image>
+				<image type="to_associate">examples/cartoons/PeterM_Mouse.svg
+					<sound>examples/Vehicles/Sounds/26814__roscoetoon__t_start1.ogg</sound> 
+				</image>
+			</association>
+			<association>
+				<image type="to_drag">examples/Alphabet/yves_guillou_boat.svg</image>
+				<image type="to_associate">examples/cartoons/PeterM_Mouse.svg
+					<sound>examples/Vehicles/Sounds/38017__rockdoctor__sea2.ogg</sound> 
+				</image>
+			</association>
+			<association>
+				<image type="to_drag">examples/Alphabet/Gerald_G_Motorcycle_Clipart.svg</image>
+				<image type="to_associate">examples/cartoons/PeterM_Mouse.svg
+					<sound>examples/Vehicles/Sounds/49328__Heigh_hoo__hayabusa3.ogg</sound> 
+				</image>
+			</association>
+			<association>
+				<image type="to_drag">examples/Vehicles/Planes/Jarno_Aircraft.svg</image>
+				<image type="to_associate">examples/cartoons/PeterM_Mouse.svg
+					<sound>examples/Vehicles/Sounds/51491__Heigh_hoo__airliner_approach_2.ogg</sound> 
+				</image>
+			</association>
+			<association>
+				<image type="to_drag">examples/Alphabet/Bell214STDrawing.svg</image>
+				<image type="to_associate">examples/cartoons/PeterM_Mouse.svg
+					<sound>examples/Vehicles/Sounds/69607__Figowitz__Robinson_flying_loop.ogg</sound> 
+				</image>
+			</association>
+			<association>
+				<image type="to_drag">examples/Vehicles/jean_victor_balin_locotoy.svg</image>
+				<image type="to_associate">examples/cartoons/PeterM_Mouse.svg
+					<sound>examples/Vehicles/Sounds/9922__Heigh_hoo__steam_locomotive_close.ogg</sound> 
+				</image>
+			</association>
+			<association>
+				<image type="to_drag">examples/Vehicles/ryanlerch_Red_Lamborghini.svg</image>
+				<image type="to_associate">examples/cartoons/PeterM_Mouse.svg
+					<sound>examples/Vehicles/Sounds/21741__Erdie__car_start.ogg</sound> 
+				</image>
+			</association>
+
+
+		</associations>
+
+	</game>
+
+</game_set>
+</omnitux>

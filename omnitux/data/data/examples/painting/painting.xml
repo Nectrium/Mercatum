@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<omnitux version="1.0">
+
+<!--
+ german translation: 100% (2010-04-12)
+ -->
+
+<game_set type="puzzle">
+
+	<title lang="de">Kunst</title>
+	<title lang="en">Painting</title>
+	<title lang="es">Pintura</title>
+	<title lang="fr">Peinture</title>
+	<title lang="it">Quadri</title>
+	<title lang="pl">Malarstwo</title>
+	<title lang="pt">Pinturas</title>
+	
+	<thumbnail>examples/painting/thumb.png</thumbnail>
+
+	<menu_index value="500"  />
+
+	<level difficulty="1">
+
+		<game type="puzzle" author="Kot26">
+			
+
+			<global_parameters>
+				
+				<game_setup>
+					<!-- those global parameters can be overriden for each image file -->
+					<pieces_amount_x> 3 </pieces_amount_x>
+					<pieces_amount_y> 2 </pieces_amount_y>
+					
+				</game_setup>
+				
+
+				<background>
+					default/backgrounds/Whimsy.JPG
+				</background>
+				
+			</global_parameters>
+			
+			<puzzles>
+				<puzzle>
+					<image>examples/painting/Dejeuner-canotiers.jpg</image>
+					<text lang='de'>Renoir, Das Frühstück der Ruderer</text>
+					<text lang='fr'>Renoir, le Déjeuner des canotiers</text>
+					<text lang='es'>Renoir, Almuerzo de los remeros</text>
+					<text lang='it'>Renoir, le Déjeuner des canotiers</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/painting/Vincent_Van_Gogh_0013.jpg</image>
+					<text lang='de'>Vincent Van Gogh, Der Maler auf dem Weg zur Arbeit</text>
+					<text lang='en'>Vincent Van Gogh, Painter on His Way to Work</text>
+					<text lang="fr">Vincent Van Gogh, Le peintre sur la route d'Arles</text>
+					<text lang="es">Vincent Van Gogh, Pintor en su camino al trabajo</text>
+					<text lang="it">Vincent Van Gogh, Le peintre sur la route d'Arles</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/painting/Henri_Rousseau_011.jpg</image>
+					<text lang='de'>Henri Rousseau, Schlangenbeschwörerin</text>
+					<text lang='en'>Henri Rousseau, The Snake Charmer</text>
+					<text lang='es'>Henri Rousseau, La encantadora de serpientes</text>
+					<text lang="fr">Henri Rousseau, La charmeuse de Serpents</text>
+					<text lang="it">Henri Rousseau, La charmeuse de Serpents</text>
+				</puzzle>
+			</puzzles>
+
+		</game>
+		
+	</level>
+
+	<level difficulty="2">
+
+		<game type="puzzle" author="Kot26">
+			
+
+			<global_parameters>
+				
+				<game_setup>
+					<!-- those global parameters can be overriden for each image file -->
+					<pieces_amount_x> 4 </pieces_amount_x>
+					<pieces_amount_y> 3 </pieces_amount_y>
+					
+				</game_setup>
+				
+
+				<background>
+					default/backgrounds/Whimsy.JPG
+				</background>
+				
+			</global_parameters>
+			
+			<puzzles>
+				<puzzle>
+					<image>examples/painting/Dejeuner-canotiers.jpg</image>
+					<text lang='de'>Renoir, Das Frühstück der Ruderer</text>
+					<text lang='fr'>Renoir, le Déjeuner des canotiers</text>
+					<text lang='es'>Renoir, Almuerzo de los remeros</text>
+					<text lang='it'>Renoir, le Déjeuner des canotiers</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/painting/Vincent_Van_Gogh_0013.jpg</image>
+					<text lang='de'>Vincent Van Gogh, Der Maler auf dem Weg zur Arbeit</text>
+					<text lang='en'>Vincent Van Gogh, Painter on His Way to Work</text>
+					<text lang="fr">Vincent Van Gogh, Le peintre sur la route d'Arles</text>
+					<text lang="es">Vincent Van Gogh, Pintor en su camino al trabajo</text>
+					<text lang="it">Vincent Van Gogh, Le peintre sur la route d'Arles</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/painting/Henri_Rousseau_011.jpg</image>
+					<text lang='de'>Henri Rousseau, Schlangenbeschwörerin</text>
+					<text lang='en'>Henri Rousseau, The Snake Charmer</text>
+					<text lang='es'>Henri Rousseau, La encantadora de serpientes</text>
+					<text lang="fr">Henri Rousseau, La charmeuse de Serpents</text>
+					<text lang="it">Henri Rousseau, La charmeuse de Serpents</text>
+				</puzzle>
+			</puzzles>
+
+		</game>
+		
+	</level>
+	
+</game_set>
+
+</omnitux>

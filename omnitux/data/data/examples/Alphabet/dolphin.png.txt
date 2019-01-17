@@ -1,0 +1,2 @@
+Tux Paint authors
+GNU GPL

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<omnitux version="1.0">
+<game type="associate" author="Olav_2">
+	
+	<title lang="en">Counting table 1-9</title>
+	
+	<rounds>5</rounds>
+
+	<thumbnail>examples/Numbers/Chiffres_1_a_9_map_icon.png</thumbnail>
+
+	<tag>numbers</tag>
+
+	<menu_index value="300" />
+
+	<global_parameters>
+		
+		<game_setup>
+			<type_to_associate>image_on_map</type_to_associate>
+			<type_to_drag>image</type_to_drag>
+			
+			<!-- amount of items to choose from -->
+			<min_draggable> 9 </min_draggable>
+			<max_draggable> 9 </max_draggable>
+			
+		</game_setup>
+
+		<map>
+			<image>examples/Numbers/compter_1_9.svg</image>
+			<pos_x>   5 </pos_x> 
+			<pos_y>  10 </pos_y>
+			<width>  80 </width>
+			<height> 84 </height>
+		</map>		
+
+		<draggable_items_area>
+			<pos_x>  91 </pos_x> 
+			<pos_y>  15 </pos_y>
+			<width>  8 </width>
+			<height> 70 </height>
+			
+
+			<amount_x> 1 </amount_x>
+			<amount_y> 9 </amount_y>
+			
+		</draggable_items_area>
+	
+		
+	
+		<background>
+			Kot26/liczenie/back1s.png
+		</background>		
+		
+	</global_parameters>
+	
+	<associations>	
+		<association>
+
+			<goal>
+				<pos_x>  2 </pos_x> 
+				<pos_y>  6.5 </pos_y>
+				<width>  10 </width>
+				<height> 8 </height>
+				<image>default/icons/NewTux_question.svg</image>
+			</goal>
+			<image type="to_drag">examples/Numbers/digits/1.svg
+				<sound>Kot26/liczenie/En_us/En-us-one.ogg</sound>
+			</image>
+		</association>
+
+		<association>
+			<goal>
+				<pos_x>  2 </pos_x> 
+				<pos_y>  16.5 </pos_y>
+				<width>  10 </width>
+				<height> 8 </height>
+				<image>default/icons/NewTux_question.svg</image>
+			</goal>
+			<image type="to_drag">examples/Numbers/digits/2.svg
+				<sound>Kot26/liczenie/En_us/En-us-two.ogg</sound>
+			</image>
+		</association>
+
+		<association>
+
+			<goal>
+				<pos_x>  2 </pos_x> 
+				<pos_y>  26.5 </pos_y>
+				<width>  10 </width>
+				<height> 8 </height>
+				<image>default/icons/NewTux_question.svg</image>
+			</goal>
+			<image type="to_drag">examples/Numbers/digits/3.svg
+				<sound>Kot26/liczenie/En_us/En-us-three.ogg</sound>
+			</image>
+		</association>
+
+		<association>
+
+
+			<goal>
+				<pos_x>  2 </pos_x> 
+				<pos_y>  36.5 </pos_y>
+				<width>  10 </width>
+				<height> 8 </height>
+				<image>default/icons/NewTux_question.svg</image>
+			</goal>
+			<image type="to_drag">examples/Numbers/digits/4.svg
+				<sound>Kot26/liczenie/En_us/En-us-four.ogg</sound>
+			</image>
+		</association>
+
+		<association>
+
+			<goal>
+				<pos_x>  2 </pos_x> 
+				<pos_y>  46.5 </pos_y>
+				<width>  10 </width>
+				<height> 8 </height>
+				<image>default/icons/NewTux_question.svg</image>
+			</goal>
+			<image type="to_drag">examples/Numbers/digits/5.svg
+				<sound>Kot26/liczenie/En_us/En-us-five.ogg</sound>
+			</image>
+		</association>
+
+		<association>
+
+			<goal>
+				<pos_x>  2 </pos_x> 
+				<pos_y>  56.5 </pos_y>
+				<width>  10 </width>
+				<height> 8 </height>
+				<image>default/icons/NewTux_question.svg</image>
+			</goal>
+			<image type="to_drag">examples/Numbers/digits/6.svg
+				<sound>Kot26/liczenie/En_us/En-us-six.ogg</sound>
+			</image>
+		</association>
+
+		<association>
+
+			<goal>
+				<pos_x>  2 </pos_x> 
+				<pos_y>  66.5 </pos_y>
+				<width>  10 </width>
+				<height> 8 </height>
+				<image>default/icons/NewTux_question.svg</image>
+			</goal>
+			<image type="to_drag">examples/Numbers/digits/7.svg
+				<sound>Kot26/liczenie/En_us/En-us-seven.ogg</sound>
+			</image>
+		</association>
+
+		<association>
+
+			<goal>
+				<pos_x>  2 </pos_x> 
+				<pos_y>  76.5 </pos_y>
+				<width>  10 </width>
+				<height> 8 </height>
+				<image>default/icons/NewTux_question.svg</image>
+			</goal>
+			<image type="to_drag">examples/Numbers/digits/8.svg
+				<sound>Kot26/liczenie/En_us/En-us-eight.ogg</sound>
+			</image>
+		</association>
+
+		<association>
+
+			<goal>
+				<pos_x>  2 </pos_x> 
+				<pos_y>  86.5 </pos_y>
+				<width>  10 </width>
+				<height> 8 </height>
+				<image>default/icons/NewTux_question.svg</image>
+			</goal>
+			<image type="to_drag">examples/Numbers/digits/9.svg
+				<sound>Kot26/liczenie/En_us/En-us-nine.ogg</sound>
+			</image>
+		</association>
+
+	</associations>
+
+</game>
+</omnitux>

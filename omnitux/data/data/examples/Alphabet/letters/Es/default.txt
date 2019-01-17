@@ -1,0 +1,4 @@
+http://edu.kde.org/klettres/
+Ana Belén Caballero, Juan Pedro Paredes
+GNU GPL 2+
+

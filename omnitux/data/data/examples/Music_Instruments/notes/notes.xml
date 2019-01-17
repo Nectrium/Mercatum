@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<omnitux version="1.0">
+
+<game_set>
+
+	<title lang="de">Tonleiter</title>
+	<title lang="en">Musical scale</title>
+	<title lang="es">Escala musical</title>
+	<title lang="fr">Gamme musicale</title>
+	<title lang="it">Scala musicale</title>
+	<title lang="pl">Scala muzyczna</title>
+	<title lang="pt">Escala musical</title>
+
+	<tag>arts</tag>
+
+	<thumbnail>examples/Music_Instruments/notes/thumbnail.svg</thumbnail>
+
+	<menu_index value="200" />
+
+	<level difficulty="1">
+
+		<game type="associate" xml_version="1.0" author="Olav_2">
+
+		<music mode="off" />
+
+			<global_parameters>
+				
+				<game_setup>
+					<type_to_associate>image_on_map</type_to_associate>
+					<type_to_drag>image</type_to_drag>
+					
+					<!-- amount of items to choose from -->
+					<min_draggable> 3 </min_draggable>
+					<max_draggable> 3 </max_draggable>
+					
+				</game_setup>
+
+				<map>
+					<image>examples/Music_Instruments/notes/sheet.svg</image>
+					<pos_x>   2 </pos_x> 
+					<pos_y>  10 </pos_y>
+					<width>  96 </width>
+					<height> 60</height>
+				</map>		
+
+				<draggable_items_area>
+					<pos_x>   5 </pos_x> 
+					<pos_y>  73 </pos_y>
+					<width>  90 </width>
+					<height> 17 </height>
+					
+
+					<amount_x> 3 </amount_x>
+					<amount_y> 1 </amount_y>
+					
+				</draggable_items_area>
+			
+				<background>
+					default/backgrounds/yellow.svg
+				</background>		
+				
+			</global_parameters>
+			
+			<associations>	
+				<association>
+					<goal>
+						<pos_x>  13 </pos_x> 
+						<pos_y>  47.36 </pos_y>
+						<width>  14.2 </width>
+						<height> 38.7 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Music_Instruments/notes/note.svg
+						<sound>examples/Music_Instruments/notes/do.ogg</sound>
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x>  20 </pos_x> 
+						<pos_y>  43.36 </pos_y>
+						<width>  14.2 </width>
+						<height> 38.7 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Music_Instruments/notes/note.svg
+						<sound>examples/Music_Instruments/notes/re.ogg</sound>
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x>  27 </pos_x> 
+						<pos_y>  38.36 </pos_y>
+						<width>  14.2 </width>
+						<height> 38.7 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Music_Instruments/notes/note.svg
+						<sound>examples/Music_Instruments/notes/mi.ogg</sound>
+					</image>
+				</association>
+
+			</associations>
+
+		</game>
+	</level>	
+
+	<level difficulty="2">
+
+		<game type="associate" xml_version="1.0" author="Olav_2">
+
+		<music mode="off" />
+
+			<global_parameters>
+				
+				<game_setup>
+					<type_to_associate>image_on_map</type_to_associate>
+					<type_to_drag>image</type_to_drag>
+					
+					<!-- amount of items to choose from -->
+					<min_draggable> 8 </min_draggable>
+					<max_draggable> 8 </max_draggable>
+					
+				</game_setup>
+
+				<map>
+					<image>examples/Music_Instruments/notes/sheet.svg</image>
+					<pos_x>   2 </pos_x> 
+					<pos_y>  10 </pos_y>
+					<width>  96 </width>
+					<height> 60</height>
+				</map>		
+
+				<draggable_items_area>
+					<pos_x>   5 </pos_x> 
+					<pos_y>  73 </pos_y>
+					<width>  90 </width>
+					<height> 17 </height>
+					
+
+					<amount_x> 8 </amount_x>
+					<amount_y> 1 </amount_y>
+					
+				</draggable_items_area>
+			
+				
+			
+				<background>
+					default/backgrounds/yellow.svg
+				</background>		
+				
+			</global_parameters>
+			
+			<associations>	
+				<association>
+					<goal>
+						<pos_x>  13 </pos_x> 
+						<pos_y>  47.36 </pos_y>
+						<width>  14.2 </width>
+						<height> 38.7 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Music_Instruments/notes/note.svg
+						<sound>examples/Music_Instruments/notes/do.ogg</sound>
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x>  20 </pos_x> 
+						<pos_y>  43.36 </pos_y>
+						<width>  14.2 </width>
+						<height> 38.7 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Music_Instruments/notes/note.svg
+						<sound>examples/Music_Instruments/notes/re.ogg</sound>
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x>  27 </pos_x> 
+						<pos_y>  38.36 </pos_y>
+						<width>  14.2 </width>
+						<height> 38.7 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Music_Instruments/notes/note.svg
+						<sound>examples/Music_Instruments/notes/mi.ogg</sound>
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x>  34 </pos_x> 
+						<pos_y>  33.36 </pos_y>
+						<width>  14.2 </width>
+						<height> 38.7 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Music_Instruments/notes/note.svg
+						<sound>examples/Music_Instruments/notes/fa.ogg</sound>
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x>  41 </pos_x> 
+						<pos_y>  28.36 </pos_y>
+						<width>  14.2 </width>
+						<height> 38.7 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Music_Instruments/notes/note.svg
+						<sound>examples/Music_Instruments/notes/sol.ogg</sound>
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x>  48 </pos_x> 
+						<pos_y>  23.36 </pos_y>
+						<width>  14.2 </width>
+						<height> 38.7 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Music_Instruments/notes/note.svg
+						<sound>examples/Music_Instruments/notes/la.ogg</sound>
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x>  55 </pos_x> 
+						<pos_y>  18.36 </pos_y>
+						<width>  14.2 </width>
+						<height> 38.7 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Music_Instruments/notes/note.svg
+						<sound>examples/Music_Instruments/notes/si.ogg</sound>
+					</image>
+				</association>
+
+				<association>
+					<goal>
+						<pos_x>  62 </pos_x> 
+						<pos_y>  13.36 </pos_y>
+						<width>  14.2 </width>
+						<height> 38.7 </height>
+						<image>default/icons/NewTux_question.svg</image>
+					</goal>
+					<image type="to_drag">examples/Music_Instruments/notes/note.svg
+						<sound>examples/Music_Instruments/notes/do2.ogg</sound>
+					</image>
+				</association>
+
+			</associations>
+
+		</game>
+	</level>	
+	
+</game_set>
+</omnitux>

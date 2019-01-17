@@ -1,0 +1,1874 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<omnitux version="1.0">
+
+<game_set author="Kot26">
+
+	<title lang="en">Numbering</title>
+
+	<thumbnail>Kot26/liczenie/tuxpaint/6_zebra.png</thumbnail>
+
+	<tag>numbers</tag>
+
+	<menu_index value="100" />
+
+	<level difficulty="1">
+
+		<game type="associate" xml_version="1.0" author="Kot26">
+			
+			<title lang="en">Count from 1 to 5</title>
+			
+			<rounds>4</rounds>
+
+			<global_parameters>
+				
+				<game_setup>
+					<type_to_associate>image</type_to_associate>
+					<type_to_drag>text</type_to_drag>
+					
+					<!-- amount of items to choose from -->
+					<min_draggable> 3 </min_draggable>
+					<max_draggable> 4 </max_draggable>
+					
+				</game_setup>
+				
+				<item_to_associate>
+					<pos_x>   5 </pos_x> 
+					<pos_y>  10 </pos_y>
+					<width>  70 </width>
+					<height> 70 </height>
+				</item_to_associate>
+
+				<draggable_items_area>
+					<pos_x>  80 </pos_x> 
+					<pos_y>  10 </pos_y>
+					<width>  15 </width>
+					<height> 80 </height>
+					
+					<font_height> 10 </font_height>				
+					
+					<amount_x> 1 </amount_x>
+					<amount_y> 7 </amount_y>
+					
+				</draggable_items_area>
+			
+				
+				<goal>
+					<pos_x>  20 </pos_x> 
+					<pos_y>  81 </pos_y>
+					<width>  40 </width>
+					<height> 10 </height>
+				</goal>
+				
+				<background>
+					Kot26/liczenie/back1s.png
+				</background>		
+				
+			</global_parameters>
+			
+			<associations>	
+				<association>
+					<image>Kot26/liczenie/tuxpaint/1_wielblad.png</image>
+					<text>1
+						<sound>Kot26/liczenie/En_us/En-us-one.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/3_mlotek.png</image>
+					<text>3
+						<sound>Kot26/liczenie/En_us/En-us-three.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/3_aparat.png</image>
+					<text>3
+						<sound>Kot26/liczenie/En_us/En-us-three.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/1_slon.png</image>
+					<text>1
+						<sound>Kot26/liczenie/En_us/En-us-one.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/2_pies.png</image>
+					<text>2
+						<sound>Kot26/liczenie/En_us/En-us-two.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/1_aparat.png</image>
+					<text>1
+						<sound>Kot26/liczenie/En_us/En-us-one.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/3_lew.png</image>
+					<text>3
+						<sound>Kot26/liczenie/En_us/En-us-three.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/2_lornetka.png</image>
+					<text>2
+						<sound>Kot26/liczenie/En_us/En-us-two.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/3_tygrys.png</image>
+					<text>3
+						<sound>Kot26/liczenie/En_us/En-us-three.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/1_beben.png</image>
+					<text>1
+						<sound>Kot26/liczenie/En_us/En-us-one.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/1_kaczka.png</image>
+					<text>1
+						<sound>Kot26/liczenie/En_us/En-us-one.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/2_owca.png</image>
+					<text>2
+						<sound>Kot26/liczenie/En_us/En-us-two.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/2_oiseau.png</image>
+					<text>2
+						<sound>Kot26/liczenie/En_us/En-us-two.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/2_koza.png</image>
+					<text>2
+						<sound>Kot26/liczenie/En_us/En-us-two.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/2_delfin.png</image>
+					<text>2
+						<sound>Kot26/liczenie/En_us/En-us-two.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/3_bemben.png</image>
+					<text>3
+						<sound>Kot26/liczenie/En_us/En-us-three.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/2_swierszcz.png</image>
+					<text>2
+						<sound>Kot26/liczenie/En_us/En-us-two.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/3_pszczola.png</image>
+					<text>3
+						<sound>Kot26/liczenie/En_us/En-us-three.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/1_hippocampe.png</image>
+					<text>1
+						<sound>Kot26/liczenie/En_us/En-us-one.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/3_ptak.png</image>
+					<text>3
+						<sound>Kot26/liczenie/En_us/En-us-three.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/1_pies.png</image>
+					<text>1
+						<sound>Kot26/liczenie/En_us/En-us-one.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/2_hipopotam.png</image>
+					<text>2
+						<sound>Kot26/liczenie/En_us/En-us-two.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/3_swierszcz.png</image>
+					<text>3
+						<sound>Kot26/liczenie/En_us/En-us-three.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/1_tygrys.png</image>
+					<text>1
+						<sound>Kot26/liczenie/En_us/En-us-one.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/3_pingwin.png</image>
+					<text>3
+						<sound>Kot26/liczenie/En_us/En-us-three.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/1_mucha.png</image>
+					<text>1
+						<sound>Kot26/liczenie/En_us/En-us-one.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/2_zaba.png</image>
+					<text>2
+						<sound>Kot26/liczenie/En_us/En-us-two.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/3_zyrafa.png</image>
+					<text>3
+						<sound>Kot26/liczenie/En_us/En-us-three.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/1_osiol.png</image>
+					<text>1
+						<sound>Kot26/liczenie/En_us/En-us-one.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/2_niedzwiedz.png</image>
+					<text>2
+						<sound>Kot26/liczenie/En_us/En-us-two.ogg</sound>
+					</text>
+				</association>
+		
+			</associations>
+
+		</game>
+
+	</level>
+	
+
+
+	<level difficulty="2">
+
+		<game type="associate" xml_version="1.0" author="Kot26">
+			
+			<title lang="en">Count from 1 to 5</title>
+			
+			<rounds>5</rounds>
+
+			<global_parameters>
+				
+				<game_setup>
+					<type_to_associate>image</type_to_associate>
+					<type_to_drag>text</type_to_drag>
+					
+					<!-- amount of items to choose from -->
+					<min_draggable> 3 </min_draggable>
+					<max_draggable> 6 </max_draggable>
+					
+				</game_setup>
+				
+				<item_to_associate>
+					<pos_x>   5 </pos_x> 
+					<pos_y>  10 </pos_y>
+					<width>  70 </width>
+					<height> 70 </height>
+				</item_to_associate>
+
+				<draggable_items_area>
+					<pos_x>  80 </pos_x> 
+					<pos_y>  10 </pos_y>
+					<width>  15 </width>
+					<height> 80 </height>
+					
+					<font_height> 10 </font_height>				
+					
+					<amount_x> 1 </amount_x>
+					<amount_y> 7 </amount_y>
+					
+				</draggable_items_area>
+			
+				
+				<goal>
+					<pos_x>  20 </pos_x> 
+					<pos_y>  81 </pos_y>
+					<width>  40 </width>
+					<height> 10 </height>
+				</goal>
+				
+				<background>
+					Kot26/liczenie/back1s.png
+				</background>		
+				
+			</global_parameters>
+			
+			<associations>	
+				<association>
+					<image>Kot26/liczenie/tuxpaint/1_wielblad.png</image>
+					<text>1
+						<sound>Kot26/liczenie/En_us/En-us-one.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/4_motyl.png</image>
+					<text>4
+						<sound>Kot26/liczenie/En_us/En-us-four.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/3_mlotek.png</image>
+					<text>3
+						<sound>Kot26/liczenie/En_us/En-us-three.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/4_swinia.png</image>
+					<text>4
+						<sound>Kot26/liczenie/En_us/En-us-four.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/3_aparat.png</image>
+					<text>3
+						<sound>Kot26/liczenie/En_us/En-us-three.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/5_koliber.png</image>
+					<text>5
+						<sound>Kot26/liczenie/En_us/En-us-five.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/1_slon.png</image>
+					<text>1
+						<sound>Kot26/liczenie/En_us/En-us-one.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/2_pies.png</image>
+					<text>2
+						<sound>Kot26/liczenie/En_us/En-us-two.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/4_ryba.png</image>
+					<text>4
+						<sound>Kot26/liczenie/En_us/En-us-four.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/5_wiewiorka.png</image>
+					<text>5
+						<sound>Kot26/liczenie/En_us/En-us-five.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/1_aparat.png</image>
+					<text>1
+						<sound>Kot26/liczenie/En_us/En-us-one.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/3_lew.png</image>
+					<text>3
+						<sound>Kot26/liczenie/En_us/En-us-three.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/2_lornetka.png</image>
+					<text>2
+						<sound>Kot26/liczenie/En_us/En-us-two.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/5_wazka.png</image>
+					<text>5
+						<sound>Kot26/liczenie/En_us/En-us-five.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/3_tygrys.png</image>
+					<text>3
+						<sound>Kot26/liczenie/En_us/En-us-three.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/5_jelen.png</image>
+					<text>5
+						<sound>Kot26/liczenie/En_us/En-us-five.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/1_beben.png</image>
+					<text>1
+						<sound>Kot26/liczenie/En_us/En-us-one.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/1_kaczka.png</image>
+					<text>1
+						<sound>Kot26/liczenie/En_us/En-us-one.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/2_owca.png</image>
+					<text>2
+						<sound>Kot26/liczenie/En_us/En-us-two.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/4_krolik.png</image>
+					<text>4
+						<sound>Kot26/liczenie/En_us/En-us-four.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/5_koza.png</image>
+					<text>5
+						<sound>Kot26/liczenie/En_us/En-us-five.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/2_oiseau.png</image>
+					<text>2
+						<sound>Kot26/liczenie/En_us/En-us-two.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/2_koza.png</image>
+					<text>2
+						<sound>Kot26/liczenie/En_us/En-us-two.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/2_delfin.png</image>
+					<text>2
+						<sound>Kot26/liczenie/En_us/En-us-two.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/4_fleming.png</image>
+					<text>4
+						<sound>Kot26/liczenie/En_us/En-us-four.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/4_gitara.png</image>
+					<text>4
+						<sound>Kot26/liczenie/En_us/En-us-four.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/4_sowa.png</image>
+					<text>4
+						<sound>Kot26/liczenie/En_us/En-us-four.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/3_bemben.png</image>
+					<text>3
+						<sound>Kot26/liczenie/En_us/En-us-three.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/2_swierszcz.png</image>
+					<text>2
+						<sound>Kot26/liczenie/En_us/En-us-two.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/3_pszczola.png</image>
+					<text>3
+						<sound>Kot26/liczenie/En_us/En-us-three.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/1_hippocampe.png</image>
+					<text>1
+						<sound>Kot26/liczenie/En_us/En-us-one.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/3_ptak.png</image>
+					<text>3
+						<sound>Kot26/liczenie/En_us/En-us-three.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/1_pies.png</image>
+					<text>1
+						<sound>Kot26/liczenie/En_us/En-us-one.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/2_hipopotam.png</image>
+					<text>2
+						<sound>Kot26/liczenie/En_us/En-us-two.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/3_swierszcz.png</image>
+					<text>3
+						<sound>Kot26/liczenie/En_us/En-us-three.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/5_gitara.png</image>
+					<text>5
+						<sound>Kot26/liczenie/En_us/En-us-five.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/5_skrzypce.png</image>
+					<text>5
+						<sound>Kot26/liczenie/En_us/En-us-five.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/4_tygrys.png</image>
+					<text>4
+						<sound>Kot26/liczenie/En_us/En-us-four.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/1_tygrys.png</image>
+					<text>1
+						<sound>Kot26/liczenie/En_us/En-us-one.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/3_pingwin.png</image>
+					<text>3
+						<sound>Kot26/liczenie/En_us/En-us-three.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/4_mucha.png</image>
+					<text>4
+						<sound>Kot26/liczenie/En_us/En-us-four.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/5_krolik.png</image>
+					<text>5
+						<sound>Kot26/liczenie/En_us/En-us-five.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/4_tukan.png</image>
+					<text>4
+						<sound>Kot26/liczenie/En_us/En-us-four.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/1_mucha.png</image>
+					<text>1
+						<sound>Kot26/liczenie/En_us/En-us-one.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/2_zaba.png</image>
+					<text>2
+						<sound>Kot26/liczenie/En_us/En-us-two.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/3_zyrafa.png</image>
+					<text>3
+						<sound>Kot26/liczenie/En_us/En-us-three.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/1_osiol.png</image>
+					<text>1
+						<sound>Kot26/liczenie/En_us/En-us-one.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/2_niedzwiedz.png</image>
+					<text>2
+						<sound>Kot26/liczenie/En_us/En-us-two.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/5_fleming.png</image>
+					<text>5
+						<sound>Kot26/liczenie/En_us/En-us-five.ogg</sound>
+					</text>
+				</association>
+			
+			</associations>
+
+		</game>
+
+	</level>
+
+	<level difficulty="3">
+
+		<game type="associate" xml_version="1.0" author="Kot26">
+			
+			<title lang="en">Count from 1 to 10</title>
+			
+			<rounds>6</rounds>
+
+			<global_parameters>
+				
+				<game_setup>
+					<type_to_associate>image</type_to_associate>
+					<type_to_drag>text</type_to_drag>
+					
+					<!-- amount of items to choose from -->
+					<min_draggable> 3 </min_draggable>
+					<max_draggable> 8 </max_draggable>
+					
+				</game_setup>
+				
+				<item_to_associate>
+					<pos_x>   5 </pos_x> 
+					<pos_y>  10 </pos_y>
+					<width>  60 </width>
+					<height> 70 </height>
+				</item_to_associate>
+
+				<draggable_items_area>
+					<pos_x>  60 </pos_x> 
+					<pos_y>  10 </pos_y>
+					<width>  40 </width>
+					<height> 85 </height>
+					
+					<font_height> 10 </font_height>				
+					
+					<amount_x> 1 </amount_x>
+					<amount_y> 8 </amount_y>
+					
+				</draggable_items_area>
+			
+				
+				<goal>
+					<pos_x>  15 </pos_x> 
+					<pos_y>  80 </pos_y>
+					<width>  40 </width>
+					<height> 10 </height>
+				</goal>
+				
+				<background>
+					Kot26/liczenie/back1s.png
+				</background>		
+				
+			</global_parameters>
+			
+			<associations>	
+				<association>
+					<image>Kot26/liczenie/tuxpaint/1_wielblad.png</image>
+					<text>1
+						<sound>Kot26/liczenie/En_us/En-us-one.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/4_motyl.png</image>
+					<text>4
+						<sound>Kot26/liczenie/En_us/En-us-four.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/3_mlotek.png</image>
+					<text>3
+						<sound>Kot26/liczenie/En_us/En-us-three.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/10_gitara.png</image>
+					<text>10
+						<sound>Kot26/liczenie/En_us/En-us-ten.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/4_swinia.png</image>
+					<text>4
+						<sound>Kot26/liczenie/En_us/En-us-four.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/8_pingwin.png</image>
+					<text>8
+						<sound>Kot26/liczenie/En_us/En-us-eight.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/7_pingwin.png</image>
+					<text>7
+						<sound>Kot26/liczenie/En_us/En-us-seven.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/9_wiewiorka.png</image>
+					<text>9
+						<sound>Kot26/liczenie/En_us/En-us-nine.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/7_lis.png</image>
+					<text>7
+						<sound>Kot26/liczenie/En_us/En-us-seven.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/6_slimak.png</image>
+					<text>6
+						<sound>Kot26/liczenie/En_us/En-us-six.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/3_aparat.png</image>
+					<text>3
+						<sound>Kot26/liczenie/En_us/En-us-three.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/5_koliber.png</image>
+					<text>5
+						<sound>Kot26/liczenie/En_us/En-us-five.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/1_slon.png</image>
+					<text>1
+						<sound>Kot26/liczenie/En_us/En-us-one.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/2_pies.png</image>
+					<text>2
+						<sound>Kot26/liczenie/En_us/En-us-two.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/9_niedzwiedz.png</image>
+					<text>9
+						<sound>Kot26/liczenie/En_us/En-us-nine.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/4_ryba.png</image>
+					<text>4
+						<sound>Kot26/liczenie/En_us/En-us-four.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/5_wiewiorka.png</image>
+					<text>5
+						<sound>Kot26/liczenie/En_us/En-us-five.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/1_aparat.png</image>
+					<text>1
+						<sound>Kot26/liczenie/En_us/En-us-one.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/10_swierszcz.png</image>
+					<text>10
+						<sound>Kot26/liczenie/En_us/En-us-ten.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/7_foka.png</image>
+					<text>7
+						<sound>Kot26/liczenie/En_us/En-us-seven.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/10_koza.png</image>
+					<text>10
+						<sound>Kot26/liczenie/En_us/En-us-ten.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/10_mlotek.png</image>
+					<text>10
+						<sound>Kot26/liczenie/En_us/En-us-ten.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/3_lew.png</image>
+					<text>3
+						<sound>Kot26/liczenie/En_us/En-us-three.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/2_lornetka.png</image>
+					<text>2
+						<sound>Kot26/liczenie/En_us/En-us-two.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/6_delfin.png</image>
+					<text>6
+						<sound>Kot26/liczenie/En_us/En-us-six.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/5_wazka.png</image>
+					<text>5
+						<sound>Kot26/liczenie/En_us/En-us-five.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/3_tygrys.png</image>
+					<text>3
+						<sound>Kot26/liczenie/En_us/En-us-three.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/5_jelen.png</image>
+					<text>5
+						<sound>Kot26/liczenie/En_us/En-us-five.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/9_pila.png</image>
+					<text>9
+						<sound>Kot26/liczenie/En_us/En-us-nine.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/1_beben.png</image>
+					<text>1
+						<sound>Kot26/liczenie/En_us/En-us-one.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/1_kaczka.png</image>
+					<text>1
+						<sound>Kot26/liczenie/En_us/En-us-one.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/2_owca.png</image>
+					<text>2
+						<sound>Kot26/liczenie/En_us/En-us-two.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/4_krolik.png</image>
+					<text>4
+						<sound>Kot26/liczenie/En_us/En-us-four.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/6_motyl.png</image>
+					<text>6
+						<sound>Kot26/liczenie/En_us/En-us-six.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/6_kury.png</image>
+					<text>6
+						<sound>Kot26/liczenie/En_us/En-us-six.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/5_koza.png</image>
+					<text>5
+						<sound>Kot26/liczenie/En_us/En-us-five.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/8_pedzel.png</image>
+					<text>8
+						<sound>Kot26/liczenie/En_us/En-us-eight.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/2_oiseau.png</image>
+					<text>2
+						<sound>Kot26/liczenie/En_us/En-us-two.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/2_koza.png</image>
+					<text>2
+						<sound>Kot26/liczenie/En_us/En-us-two.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/2_delfin.png</image>
+					<text>2
+						<sound>Kot26/liczenie/En_us/En-us-two.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/4_fleming.png</image>
+					<text>4
+						<sound>Kot26/liczenie/En_us/En-us-four.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/10_papuga.png</image>
+					<text>10
+						<sound>Kot26/liczenie/En_us/En-us-ten.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/7_mlotek.png</image>
+					<text>7
+						<sound>Kot26/liczenie/En_us/En-us-seven.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/8_koliber.png</image>
+					<text>8
+						<sound>Kot26/liczenie/En_us/En-us-eight.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/8_swinia.png</image>
+					<text>8
+						<sound>Kot26/liczenie/En_us/En-us-eight.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/4_gitara.png</image>
+					<text>4
+						<sound>Kot26/liczenie/En_us/En-us-four.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/10_koala.png</image>
+					<text>10
+						<sound>Kot26/liczenie/En_us/En-us-ten.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/4_sowa.png</image>
+					<text>4
+						<sound>Kot26/liczenie/En_us/En-us-four.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/3_bemben.png</image>
+					<text>3
+						<sound>Kot26/liczenie/En_us/En-us-three.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/6_osiol.png</image>
+					<text>6
+						<sound>Kot26/liczenie/En_us/En-us-six.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/2_swierszcz.png</image>
+					<text>2
+						<sound>Kot26/liczenie/En_us/En-us-two.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/8_biedronka.png</image>
+					<text>8
+						<sound>Kot26/liczenie/En_us/En-us-eight.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/3_pszczola.png</image>
+					<text>3
+						<sound>Kot26/liczenie/En_us/En-us-three.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/1_hippocampe.png</image>
+					<text>1
+						<sound>Kot26/liczenie/En_us/En-us-one.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/6_pies.png</image>
+					<text>6
+						<sound>Kot26/liczenie/En_us/En-us-six.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/3_ptak.png</image>
+					<text>3
+						<sound>Kot26/liczenie/En_us/En-us-three.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/7_kon.png</image>
+					<text>7
+						<sound>Kot26/liczenie/En_us/En-us-seven.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/1_pies.png</image>
+					<text>1
+						<sound>Kot26/liczenie/En_us/En-us-one.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/10_wielblad.png</image>
+					<text>10
+						<sound>Kot26/liczenie/En_us/En-us-ten.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/2_hipopotam.png</image>
+					<text>2
+						<sound>Kot26/liczenie/En_us/En-us-two.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/3_swierszcz.png</image>
+					<text>3
+						<sound>Kot26/liczenie/En_us/En-us-three.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/5_gitara.png</image>
+					<text>5
+						<sound>Kot26/liczenie/En_us/En-us-five.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/7_ges.png</image>
+					<text>7
+						<sound>Kot26/liczenie/En_us/En-us-seven.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/10_pszczola.png</image>
+					<text>10
+						<sound>Kot26/liczenie/En_us/En-us-ten.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/5_skrzypce.png</image>
+					<text>5
+						<sound>Kot26/liczenie/En_us/En-us-five.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/9_kura.png</image>
+					<text>9
+						<sound>Kot26/liczenie/En_us/En-us-nine.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/10_lew.png</image>
+					<text>10
+						<sound>Kot26/liczenie/En_us/En-us-ten.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/4_tygrys.png</image>
+					<text>4
+						<sound>Kot26/liczenie/En_us/En-us-four.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/10_pingwin.png</image>
+					<text>10
+						<sound>Kot26/liczenie/En_us/En-us-ten.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/9_papuga.png</image>
+					<text>9
+						<sound>Kot26/liczenie/En_us/En-us-nine.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/1_tygrys.png</image>
+					<text>1
+						<sound>Kot26/liczenie/En_us/En-us-one.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/6_zebra.png</image>
+					<text>6
+						<sound>Kot26/liczenie/En_us/En-us-six.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/3_pingwin.png</image>
+					<text>3
+						<sound>Kot26/liczenie/En_us/En-us-three.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/6_koala.png</image>
+					<text>6
+						<sound>Kot26/liczenie/En_us/En-us-six.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/4_mucha.png</image>
+					<text>4
+						<sound>Kot26/liczenie/En_us/En-us-four.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/9_kangur.png</image>
+					<text>9
+						<sound>Kot26/liczenie/En_us/En-us-nine.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/8_mysz.png</image>
+					<text>8
+						<sound>Kot26/liczenie/En_us/En-us-eight.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/8_bobr.png</image>
+					<text>8
+						<sound>Kot26/liczenie/En_us/En-us-eight.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/5_krolik.png</image>
+					<text>5
+						<sound>Kot26/liczenie/En_us/En-us-five.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/4_tukan.png</image>
+					<text>4
+						<sound>Kot26/liczenie/En_us/En-us-four.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/1_mucha.png</image>
+					<text>1
+						<sound>Kot26/liczenie/En_us/En-us-one.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/2_zaba.png</image>
+					<text>2
+						<sound>Kot26/liczenie/En_us/En-us-two.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/9_ryba.png</image>
+					<text>9
+						<sound>Kot26/liczenie/En_us/En-us-nine.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/7_ryba.png</image>
+					<text>7
+						<sound>Kot26/liczenie/En_us/En-us-seven.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/3_zyrafa.png</image>
+					<text>3
+						<sound>Kot26/liczenie/En_us/En-us-three.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/1_osiol.png</image>
+					<text>1
+						<sound>Kot26/liczenie/En_us/En-us-one.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/2_niedzwiedz.png</image>
+					<text>2
+						<sound>Kot26/liczenie/En_us/En-us-two.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/6_tukan.png</image>
+					<text>6
+						<sound>Kot26/liczenie/En_us/En-us-six.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/6_nozyczki.png</image>
+					<text>6
+						<sound>Kot26/liczenie/En_us/En-us-six.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/7_zebra.png</image>
+					<text>7
+						<sound>Kot26/liczenie/En_us/En-us-seven.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/5_fleming.png</image>
+					<text>5
+						<sound>Kot26/liczenie/En_us/En-us-five.ogg</sound>
+					</text>
+				</association>
+			</associations>
+
+		</game>
+	
+	</level>
+
+	<level difficulty="4">
+	
+		<game type="associate" xml_version="1.0" author="Kot26">
+			
+			<title lang="en">Count from 1 to 10 / 4 goals</title>
+
+			<rounds>3</rounds>
+			
+			<global_parameters>
+				
+				<game_setup>
+					<type_to_associate>image</type_to_associate>
+					<type_to_drag>text</type_to_drag>
+					
+					<!-- amount of items to choose from -->
+					<min_draggable> 4 </min_draggable>
+					<max_draggable> 8 </max_draggable>
+					
+				</game_setup>
+				
+				<item_to_associate>
+					<pos_x>   5 </pos_x> 
+					<pos_y>  10 </pos_y>
+					<width>  40 </width>
+					<height> 30 </height>
+				</item_to_associate>
+
+				<item_to_associate>
+					<pos_x>   5 </pos_x> 
+					<pos_y>  50 </pos_y>
+					<width>  40 </width>
+					<height> 30 </height>
+				</item_to_associate>		
+				
+				<item_to_associate>
+					<pos_x>  45 </pos_x> 
+					<pos_y>  10 </pos_y>
+					<width>  40 </width>
+					<height> 30 </height>
+				</item_to_associate>	
+				
+				<item_to_associate>
+					<pos_x>  45 </pos_x> 
+					<pos_y>  50 </pos_y>
+					<width>  40 </width>
+					<height> 30 </height>
+				</item_to_associate>	
+				
+				<goal>
+					<pos_x>  15 </pos_x> 
+					<pos_y>  40.5 </pos_y>
+					<width>  20 </width>
+					<height> 9 </height>
+				</goal>
+				
+				
+				<goal>
+					<pos_x>  15 </pos_x> 
+					<pos_y>  80.5 </pos_y>
+					<width>  20 </width>
+					<height> 9 </height>
+				</goal>
+				
+				<goal>
+					<pos_x>  55 </pos_x> 
+					<pos_y>  40.5 </pos_y>
+					<width>  20 </width>
+					<height> 9 </height>
+				</goal>
+				
+				<goal>
+					<pos_x>  55 </pos_x> 
+					<pos_y>  80.5 </pos_y>
+					<width>  20 </width>
+					<height> 9 </height>
+				</goal>		
+				
+				<draggable_items_area>
+					<pos_x>  85 </pos_x> 
+					<pos_y>  10 </pos_y>
+					<width>  10 </width>
+					<height> 80 </height>
+					
+					<font_height> 8 </font_height>
+					
+					<amount_x> 1 </amount_x>
+					<amount_y> 8 </amount_y>
+					
+				</draggable_items_area>
+
+				<background>
+					Kot26/liczenie/back1s.png
+				</background>
+				
+			</global_parameters>
+			
+			<associations>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/1_wielblad.png</image>
+					<text>1
+						<sound>Kot26/liczenie/En_us/En-us-one.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/4_motyl.png</image>
+					<text>4
+						<sound>Kot26/liczenie/En_us/En-us-four.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/3_mlotek.png</image>
+					<text>3
+						<sound>Kot26/liczenie/En_us/En-us-three.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/10_gitara.png</image>
+					<text>10
+						<sound>Kot26/liczenie/En_us/En-us-ten.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/4_swinia.png</image>
+					<text>4
+						<sound>Kot26/liczenie/En_us/En-us-four.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/8_pingwin.png</image>
+					<text>8
+						<sound>Kot26/liczenie/En_us/En-us-eight.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/7_pingwin.png</image>
+					<text>7
+						<sound>Kot26/liczenie/En_us/En-us-seven.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/9_wiewiorka.png</image>
+					<text>9
+						<sound>Kot26/liczenie/En_us/En-us-nine.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/7_lis.png</image>
+					<text>7
+						<sound>Kot26/liczenie/En_us/En-us-seven.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/6_slimak.png</image>
+					<text>6
+						<sound>Kot26/liczenie/En_us/En-us-six.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/3_aparat.png</image>
+					<text>3
+						<sound>Kot26/liczenie/En_us/En-us-three.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/5_koliber.png</image>
+					<text>5
+						<sound>Kot26/liczenie/En_us/En-us-five.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/1_slon.png</image>
+					<text>1
+						<sound>Kot26/liczenie/En_us/En-us-one.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/2_pies.png</image>
+					<text>2
+						<sound>Kot26/liczenie/En_us/En-us-two.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/9_niedzwiedz.png</image>
+					<text>9
+						<sound>Kot26/liczenie/En_us/En-us-nine.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/4_ryba.png</image>
+					<text>4
+						<sound>Kot26/liczenie/En_us/En-us-four.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/5_wiewiorka.png</image>
+					<text>5
+						<sound>Kot26/liczenie/En_us/En-us-five.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/1_aparat.png</image>
+					<text>1
+						<sound>Kot26/liczenie/En_us/En-us-one.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/10_swierszcz.png</image>
+					<text>10
+						<sound>Kot26/liczenie/En_us/En-us-ten.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/7_foka.png</image>
+					<text>7
+						<sound>Kot26/liczenie/En_us/En-us-seven.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/10_koza.png</image>
+					<text>10
+						<sound>Kot26/liczenie/En_us/En-us-ten.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/10_mlotek.png</image>
+					<text>10
+						<sound>Kot26/liczenie/En_us/En-us-ten.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/3_lew.png</image>
+					<text>3
+						<sound>Kot26/liczenie/En_us/En-us-three.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/2_lornetka.png</image>
+					<text>2
+						<sound>Kot26/liczenie/En_us/En-us-two.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/6_delfin.png</image>
+					<text>6
+						<sound>Kot26/liczenie/En_us/En-us-six.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/5_wazka.png</image>
+					<text>5
+						<sound>Kot26/liczenie/En_us/En-us-five.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/3_tygrys.png</image>
+					<text>3
+						<sound>Kot26/liczenie/En_us/En-us-three.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/5_jelen.png</image>
+					<text>5
+						<sound>Kot26/liczenie/En_us/En-us-five.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/9_pila.png</image>
+					<text>9
+						<sound>Kot26/liczenie/En_us/En-us-nine.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/1_beben.png</image>
+					<text>1
+						<sound>Kot26/liczenie/En_us/En-us-one.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/1_kaczka.png</image>
+					<text>1
+						<sound>Kot26/liczenie/En_us/En-us-one.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/2_owca.png</image>
+					<text>2
+						<sound>Kot26/liczenie/En_us/En-us-two.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/4_krolik.png</image>
+					<text>4
+						<sound>Kot26/liczenie/En_us/En-us-four.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/6_motyl.png</image>
+					<text>6
+						<sound>Kot26/liczenie/En_us/En-us-six.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/6_kury.png</image>
+					<text>6
+						<sound>Kot26/liczenie/En_us/En-us-six.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/5_koza.png</image>
+					<text>5
+						<sound>Kot26/liczenie/En_us/En-us-five.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/8_pedzel.png</image>
+					<text>8
+						<sound>Kot26/liczenie/En_us/En-us-eight.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/2_oiseau.png</image>
+					<text>2
+						<sound>Kot26/liczenie/En_us/En-us-two.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/2_koza.png</image>
+					<text>2
+						<sound>Kot26/liczenie/En_us/En-us-two.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/2_delfin.png</image>
+					<text>2
+						<sound>Kot26/liczenie/En_us/En-us-two.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/4_fleming.png</image>
+					<text>4
+						<sound>Kot26/liczenie/En_us/En-us-four.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/10_papuga.png</image>
+					<text>10
+						<sound>Kot26/liczenie/En_us/En-us-ten.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/7_mlotek.png</image>
+					<text>7
+						<sound>Kot26/liczenie/En_us/En-us-seven.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/8_koliber.png</image>
+					<text>8
+						<sound>Kot26/liczenie/En_us/En-us-eight.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/8_swinia.png</image>
+					<text>8
+						<sound>Kot26/liczenie/En_us/En-us-eight.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/4_gitara.png</image>
+					<text>4
+						<sound>Kot26/liczenie/En_us/En-us-four.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/10_koala.png</image>
+					<text>10
+						<sound>Kot26/liczenie/En_us/En-us-ten.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/4_sowa.png</image>
+					<text>4
+						<sound>Kot26/liczenie/En_us/En-us-four.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/3_bemben.png</image>
+					<text>3
+						<sound>Kot26/liczenie/En_us/En-us-three.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/6_osiol.png</image>
+					<text>6
+						<sound>Kot26/liczenie/En_us/En-us-six.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/2_swierszcz.png</image>
+					<text>2
+						<sound>Kot26/liczenie/En_us/En-us-two.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/8_biedronka.png</image>
+					<text>8
+						<sound>Kot26/liczenie/En_us/En-us-eight.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/3_pszczola.png</image>
+					<text>3
+						<sound>Kot26/liczenie/En_us/En-us-three.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/1_hippocampe.png</image>
+					<text>1
+						<sound>Kot26/liczenie/En_us/En-us-one.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/6_pies.png</image>
+					<text>6
+						<sound>Kot26/liczenie/En_us/En-us-six.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/3_ptak.png</image>
+					<text>3
+						<sound>Kot26/liczenie/En_us/En-us-three.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/7_kon.png</image>
+					<text>7
+						<sound>Kot26/liczenie/En_us/En-us-seven.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/1_pies.png</image>
+					<text>1
+						<sound>Kot26/liczenie/En_us/En-us-one.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/10_wielblad.png</image>
+					<text>10
+						<sound>Kot26/liczenie/En_us/En-us-ten.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/2_hipopotam.png</image>
+					<text>2
+						<sound>Kot26/liczenie/En_us/En-us-two.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/3_swierszcz.png</image>
+					<text>3
+						<sound>Kot26/liczenie/En_us/En-us-three.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/5_gitara.png</image>
+					<text>5
+						<sound>Kot26/liczenie/En_us/En-us-five.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/7_ges.png</image>
+					<text>7
+						<sound>Kot26/liczenie/En_us/En-us-seven.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/10_pszczola.png</image>
+					<text>10
+						<sound>Kot26/liczenie/En_us/En-us-ten.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/5_skrzypce.png</image>
+					<text>5
+						<sound>Kot26/liczenie/En_us/En-us-five.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/9_kura.png</image>
+					<text>9
+						<sound>Kot26/liczenie/En_us/En-us-nine.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/10_lew.png</image>
+					<text>10
+						<sound>Kot26/liczenie/En_us/En-us-ten.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/4_tygrys.png</image>
+					<text>4
+						<sound>Kot26/liczenie/En_us/En-us-four.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/10_pingwin.png</image>
+					<text>10
+						<sound>Kot26/liczenie/En_us/En-us-ten.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/9_papuga.png</image>
+					<text>9
+						<sound>Kot26/liczenie/En_us/En-us-nine.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/1_tygrys.png</image>
+					<text>1
+						<sound>Kot26/liczenie/En_us/En-us-one.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/6_zebra.png</image>
+					<text>6
+						<sound>Kot26/liczenie/En_us/En-us-six.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/3_pingwin.png</image>
+					<text>3
+						<sound>Kot26/liczenie/En_us/En-us-three.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/6_koala.png</image>
+					<text>6
+						<sound>Kot26/liczenie/En_us/En-us-six.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/4_mucha.png</image>
+					<text>4
+						<sound>Kot26/liczenie/En_us/En-us-four.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/9_kangur.png</image>
+					<text>9
+						<sound>Kot26/liczenie/En_us/En-us-nine.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/8_mysz.png</image>
+					<text>8
+						<sound>Kot26/liczenie/En_us/En-us-eight.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/8_bobr.png</image>
+					<text>8
+						<sound>Kot26/liczenie/En_us/En-us-eight.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/5_krolik.png</image>
+					<text>5
+						<sound>Kot26/liczenie/En_us/En-us-five.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/4_tukan.png</image>
+					<text>4
+						<sound>Kot26/liczenie/En_us/En-us-four.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/1_mucha.png</image>
+					<text>1
+						<sound>Kot26/liczenie/En_us/En-us-one.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/2_zaba.png</image>
+					<text>2
+						<sound>Kot26/liczenie/En_us/En-us-two.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/9_ryba.png</image>
+					<text>9
+						<sound>Kot26/liczenie/En_us/En-us-nine.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/7_ryba.png</image>
+					<text>7
+						<sound>Kot26/liczenie/En_us/En-us-seven.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/3_zyrafa.png</image>
+					<text>3
+						<sound>Kot26/liczenie/En_us/En-us-three.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/1_osiol.png</image>
+					<text>1
+						<sound>Kot26/liczenie/En_us/En-us-one.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/2_niedzwiedz.png</image>
+					<text>2
+						<sound>Kot26/liczenie/En_us/En-us-two.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/6_tukan.png</image>
+					<text>6
+						<sound>Kot26/liczenie/En_us/En-us-six.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/6_nozyczki.png</image>
+					<text>6
+						<sound>Kot26/liczenie/En_us/En-us-six.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/7_zebra.png</image>
+					<text>7
+						<sound>Kot26/liczenie/En_us/En-us-seven.ogg</sound>
+					</text>
+				</association>
+				<association>
+					<image>Kot26/liczenie/tuxpaint/5_fleming.png</image>
+					<text>5
+						<sound>Kot26/liczenie/En_us/En-us-five.ogg</sound>
+					</text>
+				</association>
+			</associations>
+
+		</game>
+	
+
+	</level>
+	
+
+</game_set>
+
+</omnitux>

@@ -1,0 +1,193 @@
+<?xml version="1.0" ?>
+<game type="associate" xml_version="1.0" author="Kot26">
+	
+	<title lang="es">Encontra de 1-9 Artículos</title>
+
+	<rounds>6</rounds>
+
+	<thumbnail>Kot26/liczenie/thumb_find_1_to_9_items.png</thumbnail>
+	
+	<tag>numbers</tag>
+
+	<menu_index value="200" />
+
+	<global_parameters>
+		
+		<game_setup>
+			<type_to_associate>image</type_to_associate>
+			<type_to_drag>image</type_to_drag>
+			
+			<!-- amount of items to choose from -->
+			<min_draggable> 5 </min_draggable>
+			<max_draggable> 9 </max_draggable>
+			
+		</game_setup>
+		
+		<item_to_associate>
+			<pos_x>  65 </pos_x> 
+			<pos_y>  10 </pos_y>
+			<width>  30 </width>
+			<height> 50 </height>
+		</item_to_associate>
+
+		<draggable_items_area>
+			<pos_x>  5 </pos_x> 
+			<pos_y>  10 </pos_y>
+			<width>  55 </width>
+			<height> 85 </height>
+			
+			<amount_x> 3 </amount_x>
+			<amount_y> 3 </amount_y>
+
+			<spacing_x> 0.2 </spacing_x>
+			<spacing_y> 0.5 </spacing_y>
+			
+		</draggable_items_area>
+	
+		
+		<goal>
+			<pos_x>  65 </pos_x> 
+			<pos_y>  65 </pos_y>
+			<width>  30 </width>
+			<height> 30 </height>
+		</goal>
+		
+		<background>
+			Kot26/liczenie/back_green_yellow.png
+		</background>		
+		
+	</global_parameters>
+	
+	<associations>	
+
+                <association>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/1_wielblad.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/1_slon.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/1_aparat.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/1_beben.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/1_kaczka.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/1_hippocampe.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/1_pies.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/1_tygrys.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/1_mucha.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/1_osiol.png</image>
+                        <image type="to_associate">examples/Numbers/digits/1.svg
+                                <sound>examples/Numbers/Es/Es_1.ogg</sound>
+                        </image>
+                </association>
+                <association>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/2_pies.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/2_lornetka.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/2_owca.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/2_oiseau.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/2_koza.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/2_delfin.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/2_swierszcz.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/2_hipopotam.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/2_zaba.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/2_niedzwiedz.png</image>
+                        <image type="to_associate">examples/Numbers/digits/2.svg
+                                <sound>examples/Numbers/Es/Es_2.ogg</sound>
+                        </image>
+                </association>
+                <association>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/3_mlotek.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/3_aparat.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/3_lew.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/3_tygrys.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/3_bemben.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/3_pszczola.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/3_ptak.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/3_swierszcz.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/3_pingwin.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/3_zyrafa.png</image>
+                        <image type="to_associate">examples/Numbers/digits/3.svg
+                                <sound>examples/Numbers/Es/Es_3.ogg</sound>
+                        </image>
+                </association>
+                <association>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/4_motyl.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/4_swinia.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/4_ryba.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/4_krolik.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/4_fleming.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/4_gitara.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/4_sowa.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/4_tygrys.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/4_mucha.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/4_tukan.png</image>
+                        <image type="to_associate">examples/Numbers/digits/4.svg
+                                <sound>examples/Numbers/Es/Es_4.ogg</sound>
+                        </image>
+                </association>
+                <association>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/5_koliber.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/5_wiewiorka.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/5_wazka.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/5_jelen.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/5_koza.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/5_gitara.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/5_skrzypce.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/5_krolik.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/5_fleming.png</image>
+                        <image type="to_associate">examples/Numbers/digits/5.svg
+                                <sound>examples/Numbers/Es/Es_5.ogg</sound>
+                        </image>
+                </association>
+                <association>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/6_slimak.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/6_delfin.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/6_motyl.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/6_kury.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/6_osiol.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/6_pies.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/6_zebra.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/6_koala.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/6_tukan.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/6_nozyczki.png</image>
+                        <image type="to_associate">examples/Numbers/digits/6.svg
+                                <sound>examples/Numbers/Es/Es_6.ogg</sound>
+                        </image>
+                </association>
+                <association>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/7_pingwin.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/7_lis.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/7_foka.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/7_mlotek.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/7_kon.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/7_ges.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/7_ryba.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/7_zebra.png</image>
+                        <image type="to_associate">examples/Numbers/digits/7.svg
+                                <sound>examples/Numbers/Es/Es_7.ogg</sound>
+                        </image>
+                </association>
+                <association>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/8_pingwin.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/8_pedzel.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/8_koliber.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/8_swinia.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/8_biedronka.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/8_mysz.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/8_bobr.png</image>
+                        <image type="to_associate">examples/Numbers/digits/8.svg
+                                <sound>examples/Numbers/Es/Es_8.ogg</sound>
+                        </image>
+                </association>
+                <association>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/9_wiewiorka.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/9_niedzwiedz.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/9_pila.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/9_kura.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/9_papuga.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/9_kangur.png</image>
+                        <image type="to_drag">Kot26/liczenie/tuxpaint/9_ryba.png</image>
+                        <image type="to_associate">examples/Numbers/digits/9.svg
+                                <sound>examples/Numbers/Es/Es_9.ogg</sound>
+                        </image>
+                </association>
+
+
+	</associations>
+
+</game>

@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<omnitux version="1.0">
+
+<game_set author="Olav_2">
+
+	<title lang="it">Lettere Iniziali</title>
+
+	<thumbnail>examples/Alphabet/thumb_guess_first_letter.png</thumbnail>
+	
+
+
+	<tag>writing</tag>
+
+
+	<menu_index value="200" />
+
+	<game type="associate" author="Olav_2">
+		
+
+		<rounds>5</rounds>
+		
+		<global_parameters>
+			
+			<game_setup>
+				<type_to_associate>image</type_to_associate>
+				<type_to_drag>image</type_to_drag>
+				
+				<!-- amount of items to choose from -->
+				<min_draggable> 5 </min_draggable>
+				<max_draggable> 12 </max_draggable>
+				
+			</game_setup>
+
+			<item_to_associate>
+				<pos_x>  37 </pos_x> 
+				<pos_y>  10 </pos_y>
+				<width>  61 </width>
+				<height> 65 </height>
+			</item_to_associate>
+
+			<draggable_items_area>
+				<pos_x>  2  </pos_x> 
+				<pos_y>  10 </pos_y>
+				<width>  25</width>
+				<height> 85 </height>
+				
+
+				<amount_x> 2 </amount_x>
+				<amount_y> 6 </amount_y>
+				
+				<spacing_x> 2 </spacing_x>
+				<spacing_y> 1 </spacing_y>
+				
+			</draggable_items_area>
+
+
+			<goal>
+				<pos_x>  37 </pos_x> 
+				<pos_y>  77 </pos_y>
+				<width>  61 </width>
+				<height> 21 </height>
+				
+				<image>default/icons/NewTux_question.svg</image>
+			</goal>
+			
+		
+			<background>
+				Kot26/liczenie/back1s.png
+			</background>		
+			
+		</global_parameters>
+		
+		<associations>	
+			<association>
+				<image type="to_associate">examples/Alphabet/DouglasDC3Drawing.svg
+
+					<sound>examples/Alphabet/It/aereo.ogg</sound>
+				</image>
+				<image type="to_associate">examples/Alphabet/rg1024_Tree.svg
+
+					<sound>examples/Alphabet/It/albero.ogg</sound>
+				</image>
+				<image type="to_associate">examples/Alphabet/Rainbow-diagram-ROYGBIV.svg
+
+					<sound>examples/Alphabet/It/arcobaleno.ogg</sound>
+				</image>
+				<image type="to_associate">examples/Alphabet/Abeille-bee.svg
+
+					<sound>examples/Alphabet/It/ape.ogg</sound>
+				</image>
+				<image type="to_drag">examples/Alphabet/letters/A.svg
+					<sound>examples/Alphabet/letters/It/A.ogg</sound>
+				</image>
+			</association>
+
+			<association>
+				<image type="to_associate">examples/Alphabet/battery.svg
+
+					<sound>examples/Alphabet/It/batteria.ogg</sound>
+				</image>
+				<image type="to_associate">examples/Alphabet/Bananen_Frucht.jpg
+
+					<sound>examples/Alphabet/It/banana.ogg</sound>
+				</image>
+				<image type="to_associate">examples/Alphabet/yves_guillou_boat.svg
+
+					<sound>examples/Alphabet/It/barca.ogg</sound>
+				</image>
+				<image type="to_associate">examples/Alphabet/rg1024_cartoon_whale.svg
+
+					<sound>examples/Alphabet/It/balena.ogg</sound>
+				</image>
+				<image type="to_drag">examples/Alphabet/letters/B.svg
+					<sound>examples/Alphabet/letters/It/B.ogg</sound>
+				</image>
+			</association>
+
+			<association>
+				<image type="to_associate">examples/Alphabet/Heraldique_meuble_Eglise.svg
+
+					<sound>examples/Alphabet/It/chiesa.ogg</sound>
+				</image>
+				<image type="to_associate">examples/Alphabet/ivak_Cistern_Truck.svg
+
+					<sound>examples/Alphabet/It/camion.ogg</sound>
+				</image>
+				<image type="to_associate">examples/Alphabet/coltello.svg
+
+					<sound>examples/Alphabet/It/coltello.ogg</sound>
+				</image>
+				<image type="to_associate">examples/Alphabet/Nuvola_filesystems_folder_home.svg
+
+					<sound>examples/Alphabet/It/casa.ogg</sound>
+				</image>
+				<goal>
+
+					<image>default/icons/NewTux_question.svg</image>
+				</goal>
+				<image type="to_drag">examples/Alphabet/letters/C.svg
+					<sound>examples/Alphabet/letters/It/C.ogg</sound>
+				</image>
+			</association>
+
+			<association>
+				<image type="to_associate">examples/Alphabet/dolphin.png
+
+					<sound>examples/Alphabet/It/delfino.ogg</sound>
+				</image>
+				<image type="to_associate">examples/Alphabet/BigRedSmile_A_Cartoon_Dinosaur.svg
+
+					<sound>examples/Alphabet/It/dinosauro.ogg</sound>
+				</image>
+
+				<goal>
+
+					<image>default/icons/NewTux_question.svg</image>
+				</goal>
+				<image type="to_drag">examples/Alphabet/letters/D.svg
+					<sound>examples/Alphabet/letters/It/D.ogg</sound>
+				</image>
+			</association>
+
+			<association>
+				<image type="to_associate">examples/Alphabet/lemmling_Cartoon_elephant.svg
+
+					<sound>examples/Alphabet/It/elefante.ogg</sound>
+				</image>
+				<image type="to_associate">examples/Alphabet/Bell214STDrawing.svg
+
+					<sound>examples/Alphabet/It/extraterrestre.ogg</sound>
+				</image>
+				<image type="to_associate">examples/Alphabet/Chrisdesign_comic_alien.svg
+
+					<sound>examples/Alphabet/It/elicottero.ogg</sound>
+				</image>
+				<goal>
+
+					<image>default/icons/NewTux_question.svg</image>
+				</goal>
+				<image type="to_drag">examples/Alphabet/letters/E.svg
+					<sound>examples/Alphabet/letters/It/E.ogg</sound>
+				</image>
+			</association>
+
+			<association>
+				<image type="to_associate">examples/Alphabet/jean_victor_balin_red_flower.svg
+
+					<sound>examples/Alphabet/It/fiore.ogg</sound>
+				</image>
+				<image type="to_associate">examples/Alphabet/fleur.svg
+
+					<sound>examples/Alphabet/It/fiore.ogg</sound>
+				</image>					
+				<image type="to_associate">examples/Alphabet/fork.svg
+
+					<sound>examples/Alphabet/It/forchetta.ogg</sound>
+				</image>
+				<image type="to_associate">examples/Alphabet/valessiobrito_Fire_June_holiday_s.svg
+
+					<sound>examples/Alphabet/It/fuoco.ogg</sound>
+				</image>
+				<goal>
+
+					<image>default/icons/NewTux_question.svg</image>
+				</goal>
+				<image type="to_drag">examples/Alphabet/letters/F.svg
+					<sound>examples/Alphabet/letters/It/F.ogg</sound>
+				</image>
+			</association>
+
+
+
+			<association>
+				<image type="to_associate">examples/Alphabet/Martouf_Giraffe_sympa.svg
+
+					<sound>examples/Alphabet/It/giraffa.ogg</sound>
+				</image>
+				<image type="to_associate">examples/Alphabet/Newspaper_Cover.svg
+
+					<sound>examples/Alphabet/It/giornale.ogg</sound>
+				</image>
+
+				<goal>
+
+					<image>default/icons/NewTux_question.svg</image>
+				</goal>
+				<image type="to_drag">examples/Alphabet/letters/G.svg
+					<sound>examples/Alphabet/letters/It/G.ogg  </sound>
+				</image>
+			</association>
+
+
+			<association>
+				<image type="to_associate">examples/Alphabet/Hamburger.svg
+
+					<sound>examples/Alphabet/It/hamburgher.ogg</sound>
+				</image>
+
+				<goal>
+
+					<image>default/icons/NewTux_question.svg</image>
+				</goal>
+				<image type="to_drag">examples/Alphabet/letters/H.svg
+					<sound>examples/Alphabet/letters/It/H.ogg  </sound>
+				</image>
+			</association>
+
+
+			<association>
+				<image type="to_associate">examples/Alphabet/johnny_automatic_igloo.svg
+
+					<sound>examples/Alphabet/It/igloo.ogg</sound>
+				</image>
+
+				<goal>
+
+					<image>default/icons/NewTux_question.svg</image>
+				</goal>
+				<image type="to_drag">examples/Alphabet/letters/I.svg
+					<sound>examples/Alphabet/letters/It/I.ogg</sound>
+				</image>
+			</association>
+
+			<association>
+				<image type="to_associate">default/icons/flags/flag_jm.svg
+
+					<sound>examples/Alphabet/It/jamaica.ogg</sound>
+				</image>
+
+				<goal>
+
+					<image>default/icons/NewTux_question.svg</image>
+				</goal>
+				<image type="to_drag">examples/Alphabet/letters/J.svg
+					<sound>examples/Alphabet/letters/It/J.ogg</sound>
+				</image>
+			</association>
+
+
+
+			<association>
+				<image type="to_associate">examples/Alphabet/AJ_Kiwi.svg
+
+					<sound>examples/Alphabet/It/kiwi.ogg</sound>
+				</image>
+
+				<goal>
+
+					<image>default/icons/NewTux_question.svg</image>
+				</goal>
+				<image type="to_drag">examples/Alphabet/letters/K.svg
+					<sound>examples/Alphabet/letters/It/K.ogg  </sound>
+				</image>
+			</association>
+
+
+			<association>
+				<image type="to_associate">examples/Alphabet/jean_victor_balin_book.svg
+
+					<sound>examples/Alphabet/It/libro.ogg</sound>
+				</image>
+
+				<image type="to_associate">examples/Alphabet/TheStructorr_magnifying_glass.svg
+
+					<sound>examples/Alphabet/It/lente.ogg</sound>
+				</image>
+
+				<goal>
+
+					<image>default/icons/NewTux_question.svg</image>
+				</goal>
+				<image type="to_drag">examples/Alphabet/letters/L.svg
+					<sound>examples/Alphabet/letters/It/L.ogg  </sound>
+				</image>
+			</association>
+
+
+
+
+		</associations>
+
+	</game>
+
+
+
+</game_set>
+
+</omnitux>

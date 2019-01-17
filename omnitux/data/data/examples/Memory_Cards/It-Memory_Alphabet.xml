@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<omnitux version="1.0">
+
+<game_set type="memory_cards">
+
+	<title lang="it">Ricorda le Lettere (A-Z)</title>
+	
+	<thumbnail>examples/Alphabet/letters/A.svg</thumbnail>
+
+	<menu_index value="600" />
+
+	<level difficulty="1">
+
+		<game type="memory_cards" xml_version="1.0" author="Olav_2">
+
+			<global_parameters>
+				
+				<identical_cards> 2 </identical_cards>
+				
+				<grid>
+					<pos_x>   5 </pos_x> 
+					<pos_y>  10 </pos_y>
+					<width>  90 </width>
+					<height> 87 </height>
+					
+					<amount_x> 4 </amount_x>
+					<amount_y> 3 </amount_y>			
+					
+					<spacing_x> 0.2 </spacing_x>
+					<spacing_y> 0.5 </spacing_y>
+					
+				</grid>
+
+				<card>
+					<front>
+						examples/Memory_Cards/tux_card_front.svg
+					</front>
+					
+					<back>
+						examples/Memory_Cards/tux_card_back.svg
+					</back>
+					
+					<image_area>
+						<ratio_x> 88 </ratio_x>
+						<ratio_y> 85 </ratio_y>
+					</image_area>
+				
+				</card>
+			
+					<background mode="CENTERED">examples/Alphabet/letters/A.svg</background>
+					<background mode="CENTERED">examples/Alphabet/letters/B.svg</background>
+					<background mode="CENTERED">examples/Alphabet/letters/C.svg</background>
+					<background mode="CENTERED">examples/Alphabet/letters/D.svg</background>			
+					<background mode="CENTERED">examples/Alphabet/letters/E.svg</background>
+					<background mode="CENTERED">examples/Alphabet/letters/F.svg</background>
+					<background mode="CENTERED">examples/Alphabet/letters/G.svg</background>
+					<background mode="CENTERED">examples/Alphabet/letters/H.svg</background>
+					<background mode="CENTERED">examples/Alphabet/letters/I.svg</background>
+					<background mode="CENTERED">examples/Alphabet/letters/J.svg</background>
+					<background mode="CENTERED">examples/Alphabet/letters/K.svg</background>
+					<background mode="CENTERED">examples/Alphabet/letters/L.svg</background>
+					<background mode="CENTERED">examples/Alphabet/letters/M.svg</background>
+					<background mode="CENTERED">examples/Alphabet/letters/N.svg</background>
+					<background mode="CENTERED">examples/Alphabet/letters/O.svg</background>
+					<background mode="CENTERED">examples/Alphabet/letters/P.svg</background>
+					<background mode="CENTERED">examples/Alphabet/letters/Q.svg</background>
+					<background mode="CENTERED">examples/Alphabet/letters/R.svg</background>
+					<background mode="CENTERED">examples/Alphabet/letters/S.svg</background>
+					<background mode="CENTERED">examples/Alphabet/letters/T.svg</background>
+					<background mode="CENTERED">examples/Alphabet/letters/U.svg</background>
+					<background mode="CENTERED">examples/Alphabet/letters/V.svg</background>
+					<background mode="CENTERED">examples/Alphabet/letters/W.svg</background>
+					<background mode="CENTERED">examples/Alphabet/letters/X.svg</background>
+					<background mode="CENTERED">examples/Alphabet/letters/Y.svg</background>
+					<background mode="CENTERED">examples/Alphabet/letters/Z.svg</background>
+
+
+
+			</global_parameters>
+			
+			<associations>
+				<association>
+					<image>examples/Alphabet/letters/A.svg
+						<sound>examples/Alphabet/letters/It/A.ogg</sound>
+					</image>
+				</association>
+
+				<association>
+					<image>examples/Alphabet/letters/B.svg
+						<sound>examples/Alphabet/letters/It/B.ogg</sound>
+					</image>
+				</association>
+
+				<association>
+					<image>examples/Alphabet/letters/C.svg
+						<sound>examples/Alphabet/letters/It/C.ogg</sound>
+					</image>
+				</association>
+
+				<association>
+					<image>examples/Alphabet/letters/D.svg
+						<sound>examples/Alphabet/letters/It/D.ogg</sound>
+					</image>
+				</association>
+
+				<association>
+
+					<image>examples/Alphabet/letters/E.svg
+						<sound>examples/Alphabet/letters/It/E.ogg</sound>
+					</image>
+				</association>
+
+				<association>
+					<image>examples/Alphabet/letters/F.svg
+						<sound>examples/Alphabet/letters/It/F.ogg</sound>
+					</image>
+				</association>
+				<association>
+					<image>examples/Alphabet/letters/G.svg
+						<sound>examples/Alphabet/letters/It/G.ogg</sound>
+					</image>
+				</association>
+				<association>
+					<image>examples/Alphabet/letters/H.svg
+						<sound>examples/Alphabet/letters/It/H.ogg</sound>
+					</image>
+				</association>
+				<association>
+					<image>examples/Alphabet/letters/I.svg
+						<sound>examples/Alphabet/letters/It/I.ogg</sound>
+					</image>
+				</association>
+				<association>
+					<image>examples/Alphabet/letters/J.svg
+						<sound>examples/Alphabet/letters/It/J.ogg</sound>
+					</image>
+				</association>		
+				<association>
+					<image>examples/Alphabet/letters/K.svg
+						<sound>examples/Alphabet/letters/It/K.ogg</sound>
+					</image>
+				</association>		
+				<association>
+					<image>examples/Alphabet/letters/L.svg
+						<sound>examples/Alphabet/letters/It/L.ogg</sound>
+					</image>
+				</association>
+				<association>
+					<image>examples/Alphabet/letters/M.svg
+						<sound>examples/Alphabet/letters/It/M.ogg</sound>
+					</image>
+				</association>
+				<association>
+					<image>examples/Alphabet/letters/N.svg
+						<sound>examples/Alphabet/letters/It/N.ogg</sound>
+					</image>
+				</association>
+				<association>
+					<image>examples/Alphabet/letters/O.svg
+						<sound>examples/Alphabet/letters/It/O.ogg</sound>
+					</image>
+				</association>		
+				<association>
+					<image>examples/Alphabet/letters/P.svg
+						<sound>examples/Alphabet/letters/It/P.ogg</sound>
+					</image>
+				</association>
+				<association>
+					<image>examples/Alphabet/letters/Q.svg
+						<sound>examples/Alphabet/letters/It/Q.ogg</sound>
+					</image>
+				</association>
+				<association>
+					<image>examples/Alphabet/letters/R.svg
+						<sound>examples/Alphabet/letters/It/R.ogg</sound>
+					</image>
+				</association>		
+				<association>
+					<image>examples/Alphabet/letters/S.svg
+						<sound>examples/Alphabet/letters/It/S.ogg</sound>
+					</image>
+				</association>
+				<association>
+					<image>examples/Alphabet/letters/T.svg
+						<sound>examples/Alphabet/letters/It/T.ogg</sound>
+					</image>
+				</association>
+				<association>
+					<image>examples/Alphabet/letters/U.svg
+						<sound>examples/Alphabet/letters/It/U.ogg</sound>
+					</image>
+				</association>
+				<association>
+					<image>examples/Alphabet/letters/V.svg
+						<sound>examples/Alphabet/letters/It/V.ogg</sound>
+					</image>
+				</association>		
+				<association>
+					<image>examples/Alphabet/letters/W.svg
+						<sound>examples/Alphabet/letters/It/W.ogg</sound>
+					</image>
+				</association>
+				<association>
+					<image>examples/Alphabet/letters/X.svg
+						<sound>examples/Alphabet/letters/It/X.ogg</sound>
+					</image>
+				</association>
+				<association>
+					<image>examples/Alphabet/letters/Y.svg
+						<sound>examples/Alphabet/letters/It/Y.ogg</sound>
+					</image>
+				</association>
+				<association>
+					<image>examples/Alphabet/letters/Z.svg
+						<sound>examples/Alphabet/letters/It/Z.ogg</sound>
+					</image>
+				</association>		
+			</associations>
+
+		</game>
+
+	</level>
+
+
+	<level difficulty="2">
+
+		<game type="memory_cards" xml_version="1.0" author="Olav_2">
+
+			<global_parameters>
+				
+				<identical_cards> 2 </identical_cards>
+				
+				<grid>
+					<pos_x>   5 </pos_x> 
+					<pos_y>  10 </pos_y>
+					<width>  90 </width>
+					<height> 87 </height>
+					
+					<amount_x> 5 </amount_x>
+					<amount_y> 4 </amount_y>			
+					
+					<spacing_x> 0.2 </spacing_x>
+					<spacing_y> 0.5 </spacing_y>
+					
+				</grid>
+
+				<card>
+					<front>
+						examples/Memory_Cards/tux_card_front.svg
+					</front>
+					
+					<back>
+						examples/Memory_Cards/tux_card_back.svg
+					</back>
+					
+					<image_area>
+						<ratio_x> 88 </ratio_x>
+						<ratio_y> 85 </ratio_y>
+					</image_area>
+				
+				</card>
+			
+					<background mode="CENTERED">examples/Alphabet/letters/A.svg</background>
+					<background mode="CENTERED">examples/Alphabet/letters/B.svg</background>
+					<background mode="CENTERED">examples/Alphabet/letters/C.svg</background>
+					<background mode="CENTERED">examples/Alphabet/letters/D.svg</background>			
+					<background mode="CENTERED">examples/Alphabet/letters/E.svg</background>
+					<background mode="CENTERED">examples/Alphabet/letters/F.svg</background>
+					<background mode="CENTERED">examples/Alphabet/letters/G.svg</background>
+					<background mode="CENTERED">examples/Alphabet/letters/H.svg</background>
+					<background mode="CENTERED">examples/Alphabet/letters/I.svg</background>
+					<background mode="CENTERED">examples/Alphabet/letters/J.svg</background>
+					<background mode="CENTERED">examples/Alphabet/letters/K.svg</background>
+					<background mode="CENTERED">examples/Alphabet/letters/L.svg</background>
+					<background mode="CENTERED">examples/Alphabet/letters/M.svg</background>
+					<background mode="CENTERED">examples/Alphabet/letters/N.svg</background>
+					<background mode="CENTERED">examples/Alphabet/letters/O.svg</background>
+					<background mode="CENTERED">examples/Alphabet/letters/P.svg</background>
+					<background mode="CENTERED">examples/Alphabet/letters/Q.svg</background>
+					<background mode="CENTERED">examples/Alphabet/letters/R.svg</background>
+					<background mode="CENTERED">examples/Alphabet/letters/S.svg</background>
+					<background mode="CENTERED">examples/Alphabet/letters/T.svg</background>
+					<background mode="CENTERED">examples/Alphabet/letters/U.svg</background>
+					<background mode="CENTERED">examples/Alphabet/letters/V.svg</background>
+					<background mode="CENTERED">examples/Alphabet/letters/W.svg</background>
+					<background mode="CENTERED">examples/Alphabet/letters/X.svg</background>
+					<background mode="CENTERED">examples/Alphabet/letters/Y.svg</background>
+					<background mode="CENTERED">examples/Alphabet/letters/Z.svg</background>
+
+
+
+			</global_parameters>
+			
+			<associations>
+				<association>
+					<image>examples/Alphabet/letters/A.svg
+						<sound>examples/Alphabet/letters/It/A.ogg</sound>
+					</image>
+				</association>
+
+				<association>
+					<image>examples/Alphabet/letters/B.svg
+						<sound>examples/Alphabet/letters/It/B.ogg</sound>
+					</image>
+				</association>
+
+				<association>
+					<image>examples/Alphabet/letters/C.svg
+						<sound>examples/Alphabet/letters/It/C.ogg</sound>
+					</image>
+				</association>
+
+				<association>
+					<image>examples/Alphabet/letters/D.svg
+						<sound>examples/Alphabet/letters/It/D.ogg</sound>
+					</image>
+				</association>
+
+				<association>
+
+					<image>examples/Alphabet/letters/E.svg
+						<sound>examples/Alphabet/letters/It/E.ogg</sound>
+					</image>
+				</association>
+
+				<association>
+					<image>examples/Alphabet/letters/F.svg
+						<sound>examples/Alphabet/letters/It/F.ogg</sound>
+					</image>
+				</association>
+				<association>
+					<image>examples/Alphabet/letters/G.svg
+						<sound>examples/Alphabet/letters/It/G.ogg</sound>
+					</image>
+				</association>
+				<association>
+					<image>examples/Alphabet/letters/H.svg
+						<sound>examples/Alphabet/letters/It/H.ogg</sound>
+					</image>
+				</association>
+				<association>
+					<image>examples/Alphabet/letters/I.svg
+						<sound>examples/Alphabet/letters/It/I.ogg</sound>
+					</image>
+				</association>
+				<association>
+					<image>examples/Alphabet/letters/J.svg
+						<sound>examples/Alphabet/letters/It/J.ogg</sound>
+					</image>
+				</association>		
+				<association>
+					<image>examples/Alphabet/letters/K.svg
+						<sound>examples/Alphabet/letters/It/K.ogg</sound>
+					</image>
+				</association>		
+				<association>
+					<image>examples/Alphabet/letters/L.svg
+						<sound>examples/Alphabet/letters/It/L.ogg</sound>
+					</image>
+				</association>
+				<association>
+					<image>examples/Alphabet/letters/M.svg
+						<sound>examples/Alphabet/letters/It/M.ogg</sound>
+					</image>
+				</association>
+				<association>
+					<image>examples/Alphabet/letters/N.svg
+						<sound>examples/Alphabet/letters/It/N.ogg</sound>
+					</image>
+				</association>
+				<association>
+					<image>examples/Alphabet/letters/O.svg
+						<sound>examples/Alphabet/letters/It/O.ogg</sound>
+					</image>
+				</association>		
+				<association>
+					<image>examples/Alphabet/letters/P.svg
+						<sound>examples/Alphabet/letters/It/P.ogg</sound>
+					</image>
+				</association>
+				<association>
+					<image>examples/Alphabet/letters/Q.svg
+						<sound>examples/Alphabet/letters/It/Q.ogg</sound>
+					</image>
+				</association>
+				<association>
+					<image>examples/Alphabet/letters/R.svg
+						<sound>examples/Alphabet/letters/It/R.ogg</sound>
+					</image>
+				</association>		
+				<association>
+					<image>examples/Alphabet/letters/S.svg
+						<sound>examples/Alphabet/letters/It/S.ogg</sound>
+					</image>
+				</association>
+				<association>
+					<image>examples/Alphabet/letters/T.svg
+						<sound>examples/Alphabet/letters/It/T.ogg</sound>
+					</image>
+				</association>
+				<association>
+					<image>examples/Alphabet/letters/U.svg
+						<sound>examples/Alphabet/letters/It/U.ogg</sound>
+					</image>
+				</association>
+				<association>
+					<image>examples/Alphabet/letters/V.svg
+						<sound>examples/Alphabet/letters/It/V.ogg</sound>
+					</image>
+				</association>		
+				<association>
+					<image>examples/Alphabet/letters/W.svg
+						<sound>examples/Alphabet/letters/It/W.ogg</sound>
+					</image>
+				</association>
+				<association>
+					<image>examples/Alphabet/letters/X.svg
+						<sound>examples/Alphabet/letters/It/X.ogg</sound>
+					</image>
+				</association>
+				<association>
+					<image>examples/Alphabet/letters/Y.svg
+						<sound>examples/Alphabet/letters/It/Y.ogg</sound>
+					</image>
+				</association>
+				<association>
+					<image>examples/Alphabet/letters/Z.svg
+						<sound>examples/Alphabet/letters/It/Z.ogg</sound>
+					</image>
+				</association>		
+			</associations>
+
+		</game>
+
+	</level>
+
+</game_set>
+
+</omnitux>

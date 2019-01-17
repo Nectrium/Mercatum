@@ -1,0 +1,4 @@
+http://edu.kde.org/klettres/
+Robert Wadley
+GNU GPL 2+
+

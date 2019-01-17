@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<omnitux version="1.0">
+
+<game_set type="memory_cards">
+
+	<title lang="de">Tuxguys</title>
+	<title lang="en">Tuxguys</title>
+	<title lang="es">Tuxguys</title>
+	<title lang="fr">Tuxguys</title>
+	<title lang="it">Tuxini</title>
+	<title lang="pl">Tuxguys</title>
+	<title lang="pt">Tuxguys</title>
+	
+	<thumbnail>examples/Memory_Cards/backgrounds/Anonymous_Xbill_01.svg</thumbnail>
+
+	<menu_index value="400" />
+
+	<level difficulty="1">
+
+		<game type="memory_cards" xml_version="1.0" author="Olav_2">
+			
+
+
+			<global_parameters>
+				
+				<identical_cards> 2 </identical_cards>
+				
+				<grid>
+					<pos_x>   5 </pos_x> 
+					<pos_y>  10 </pos_y>
+					<width>  90 </width>
+					<height> 87 </height>
+					
+					<amount_x> 5 </amount_x>
+					<amount_y> 4 </amount_y>			
+					
+					<spacing_x> 0.3 </spacing_x>
+					<spacing_y> 0.5 </spacing_y>
+					
+				</grid>
+
+				<card>
+					<front>
+						examples/Memory_Cards/tux_card_front_blue.svg
+					</front>
+					
+					<back>
+						examples/Memory_Cards/tux_card_back_blue.svg
+					</back>
+					
+					<image_area>
+						<ratio_x> 92 </ratio_x>
+						<ratio_y> 88 </ratio_y>
+					</image_area>
+				
+				</card>
+
+					<background mode="CENTERED">examples/Memory_Cards/backgrounds/milker_Fire_3.svg
+					</background>
+
+			</global_parameters>
+			
+			<associations>	
+
+				<association><image>default/awards/tuxes/actarus-goldotux.png</image></association>
+				<association><image>default/awards/tuxes/fcys14-indiana-tux.png</image></association>
+				<association><image>default/awards/tuxes/fcys14-tux-gendarme.png</image></association>
+				<association><image>default/awards/tuxes/fcys14-tux-obelix.png</image></association>
+				<association><image>default/awards/tuxes/fcys14-tux-pompier.png</image></association>
+				<association><image>default/awards/tuxes/illuzmax-panoratux.png</image></association>
+				<association><image>default/awards/tuxes/overlord59-tux-bassiste-ampli.png</image></association>
+				<association><image>default/awards/tuxes/overlord59-tux-pianiste.png</image></association>
+				<association><image>default/awards/tuxes/overlord59-tux-teacher.png</image></association>
+				<association><image>default/awards/tuxes/overlord59-tux-trompette.png</image></association>
+				<association><image>default/awards/tuxes/touko-tux-pirate.png</image></association>
+				<association><image>default/awards/tuxes/unknown-doom-marine-tux.png</image></association>
+				<association><image>default/awards/tuxes/unknown-tux-m.png</image></association>
+		
+
+			</associations>
+
+		</game>
+		
+	</level>
+	
+	<level difficulty="2">
+	
+		<game type="memory_cards" xml_version="1.0" author="Olav_2">
+			
+			<global_parameters>
+				
+				<identical_cards> 2 </identical_cards>
+				
+				<grid>
+					<pos_x>   5 </pos_x> 
+					<pos_y>  10 </pos_y>
+					<width>  90 </width>
+					<height> 87 </height>
+					
+					<amount_x> 6 </amount_x>
+					<amount_y> 5 </amount_y>			
+					
+					<spacing_x> 0.3 </spacing_x>
+					<spacing_y> 0.5 </spacing_y>
+					
+				</grid>
+
+				<card>
+					<front>
+						examples/Memory_Cards/tux_card_front_blue.svg
+					</front>
+					
+					<back>
+						examples/Memory_Cards/tux_card_back_blue.svg
+					</back>
+					
+					<image_area>
+						<ratio_x> 92 </ratio_x>
+						<ratio_y> 88 </ratio_y>
+					</image_area>
+				
+				</card>
+
+
+					<background mode="CENTERED">examples/Memory_Cards/backgrounds/Anonymous_Xbill_01.svg
+					</background>
+
+					<background mode="CENTERED">examples/Memory_Cards/backgrounds/milker_Fire_3.svg
+					</background>
+
+			</global_parameters>
+			
+			<associations>	
+				
+				<association><image>default/awards/tuxes/actarus-goldotux.png</image></association>
+				<association><image>default/awards/tuxes/fcys14-indiana-tux.png</image></association>
+				<association><image>default/awards/tuxes/fcys14-tux-gendarme.png</image></association>
+				<association><image>default/awards/tuxes/fcys14-tux-obelix.png</image></association>
+				<association><image>default/awards/tuxes/fcys14-tux-pompier.png</image></association>
+				<association><image>default/awards/tuxes/illuzmax-panoratux.png</image></association>
+				<association><image>default/awards/tuxes/overlord59-tux-bassiste-ampli.png</image></association>
+				<association><image>default/awards/tuxes/overlord59-tux-pianiste.png</image></association>
+				<association><image>default/awards/tuxes/overlord59-tux-teacher.png</image></association>
+				<association><image>default/awards/tuxes/overlord59-tux-trompette.png</image></association>
+				<association><image>default/awards/tuxes/touko-tux-pirate.png</image></association>
+				<association><image>default/awards/tuxes/unknown-doom-marine-tux.png</image></association>
+				<association><image>default/awards/tuxes/unknown-tux-m.png</image></association>
+				<association><image>default/awards/tuxes/overlord59-tux-aviateur.png</image></association>
+				<association><image>default/awards/tuxes/overlord59-tux-medecin.png</image></association>
+
+			</associations>
+
+		</game>
+
+	</level>
+	
+	<level difficulty="3">
+	
+		<game type="memory_cards" xml_version="1.0" author="Olav_2">
+			
+
+			<global_parameters>
+				
+				<identical_cards> 3 </identical_cards>
+				
+				<grid>
+					<pos_x>   5 </pos_x> 
+					<pos_y>  10 </pos_y>
+					<width>  90 </width>
+					<height> 87 </height>
+					
+					<amount_x> 6 </amount_x>
+					<amount_y> 5 </amount_y>			
+					
+					<spacing_x> 0.3 </spacing_x>
+					<spacing_y> 0.5 </spacing_y>
+					
+				</grid>
+
+				<card>
+					<front>
+						examples/Memory_Cards/tux_card_front_blue.svg
+					</front>
+					
+					<back>
+						examples/Memory_Cards/tux_card_back_blue.svg
+					</back>
+					
+					<image_area>
+						<ratio_x> 92 </ratio_x>
+						<ratio_y> 88 </ratio_y>
+					</image_area>
+				
+				</card>
+
+
+					<background mode="CENTERED">examples/Memory_Cards/backgrounds/Anonymous_Xbill_01.svg
+					</background>
+
+					<background mode="CENTERED">examples/Memory_Cards/backgrounds/milker_Fire_3.svg
+					</background>
+
+			</global_parameters>
+			
+			<associations>	
+				
+				
+				<association><image>default/awards/tuxes/actarus-goldotux.png</image></association>
+				<association><image>default/awards/tuxes/fcys14-indiana-tux.png</image></association>
+				<association><image>default/awards/tuxes/fcys14-tux-gendarme.png</image></association>
+				<association><image>default/awards/tuxes/fcys14-tux-obelix.png</image></association>
+				<association><image>default/awards/tuxes/fcys14-tux-pompier.png</image></association>
+				<association><image>default/awards/tuxes/illuzmax-panoratux.png</image></association>
+				<association><image>default/awards/tuxes/overlord59-tux-bassiste-ampli.png</image></association>
+				<association><image>default/awards/tuxes/overlord59-tux-pianiste.png</image></association>
+				<association><image>default/awards/tuxes/overlord59-tux-teacher.png</image></association>
+				<association><image>default/awards/tuxes/overlord59-tux-trompette.png</image></association>
+				<association><image>default/awards/tuxes/touko-tux-pirate.png</image></association>
+				<association><image>default/awards/tuxes/unknown-doom-marine-tux.png</image></association>
+				<association><image>default/awards/tuxes/unknown-tux-m.png</image></association>
+
+			</associations>
+
+		</game>
+
+	</level>
+	
+</game_set>
+		
+</omnitux>

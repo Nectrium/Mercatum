@@ -1,0 +1,3 @@
+http://www.tuxpaint.org/
+Tuxpaint authors
+GNU GPL

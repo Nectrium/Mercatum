@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<omnitux version="1.0">
+<game type="associate" xml_version="1.0" author="eugenio">
+	
+	<title lang="it">Frutti</title>
+
+	<rounds>5</rounds>
+	
+	<thumbnail>examples/Shapes/fruits/NewTux_with_fruit.svg</thumbnail>
+	
+	<global_parameters>
+		
+		<game_setup>
+			<type_to_associate>image</type_to_associate>
+			<type_to_drag>image</type_to_drag>
+			
+			<!-- amount of items to choose from -->
+			<min_draggable> 4 </min_draggable>
+			<max_draggable> 8 </max_draggable>
+			
+		</game_setup>
+		
+		<item_to_associate>
+			<pos_x>  10 </pos_x> 
+			<pos_y>  10 </pos_y>
+			<width>  30 </width>
+			<height> 80 </height>
+		</item_to_associate>
+
+
+		<goal>
+			<pos_x>  15 </pos_x> 
+			<pos_y>  45 </pos_y>
+			<width>  20 </width>
+			<height> 28 </height>
+			
+			<image>default/icons/question_mark_space.svg</image>
+		</goal>
+		
+		
+		
+		<draggable_items_area>
+			<pos_x>  50 </pos_x> 
+			<pos_y>  10 </pos_y>
+			<width>  40 </width>
+			<height> 80 </height>
+			
+			<amount_x> 2 </amount_x>
+			<amount_y> 4 </amount_y>
+			
+		</draggable_items_area>
+
+		<background>
+			examples/Shapes/geometrical/background.png
+		</background>
+		
+	</global_parameters>
+	
+	<associations>
+
+		<association>
+			<image type="to_associate">default/awards/tuxes/NewTux_with_rainbow.svg
+				<sound>examples/Shapes/fruits/It/mela.ogg</sound> 
+			</image>
+			<image type="to_drag">examples/Shapes/fruits/Machovka_apple.svg
+			</image>
+		</association>
+
+		<association>
+			<image type="to_associate">default/awards/tuxes/NewTux_with_rainbow.svg
+				<sound>examples/Shapes/fruits/It/banana.ogg</sound> 
+			</image>
+			<image type="to_drag">examples/Shapes/fruits/Machovka_banana3.svg
+			</image>
+		</association>
+
+		<association>
+			<image type="to_associate">default/awards/tuxes/NewTux_with_rainbow.svg
+				<sound>examples/Shapes/fruits/It/mirtillo.ogg</sound> 
+			</image>
+			<image type="to_drag">examples/Shapes/fruits/Machovka_blueberry.svg
+			</image>
+		</association>
+		
+		<association>
+			<image type="to_associate">default/awards/tuxes/NewTux_with_rainbow.svg
+				<sound>examples/Shapes/fruits/It/ciliegia.ogg</sound> 
+			</image>
+			<image type="to_drag">examples/Shapes/fruits/nicubunu_Cherry.svg
+			</image>
+		</association>
+		
+		<association>
+			<image type="to_associate">default/awards/tuxes/NewTux_with_rainbow.svg
+				<sound>examples/Shapes/fruits/It/limone.ogg</sound> 
+			</image>
+			<image type="to_drag">examples/Shapes/fruits/Machovka_lemon.svg
+			</image>
+		</association>		
+
+		<association>
+			<image type="to_associate">default/awards/tuxes/NewTux_with_rainbow.svg
+				<sound>examples/Shapes/fruits/It/pera.ogg</sound> 
+			</image>
+			<image type="to_drag">examples/Shapes/fruits/Machovka_pear1.svg
+			</image>
+		</association>	
+		
+				<association>
+			<image type="to_associate">default/awards/tuxes/NewTux_with_rainbow.svg
+				<sound>examples/Shapes/fruits/It/prugna.ogg</sound> 
+			</image>
+			<image type="to_drag">examples/Shapes/fruits/Machovka_plums.svg
+			</image>
+		</association>	
+		
+				<association>
+			<image type="to_associate">default/awards/tuxes/NewTux_with_rainbow.svg
+				<sound>examples/Shapes/fruits/It/fragola.ogg</sound> 
+			</image>
+			<image type="to_drag">examples/Shapes/fruits/Machovka_strawberry.svg
+			</image>
+		</association>	
+		
+				<association>
+			<image type="to_associate">default/awards/tuxes/NewTux_with_rainbow.svg
+				<sound>examples/Shapes/fruits/It/cocomero.ogg</sound> 
+			</image>
+			<image type="to_drag">examples/Shapes/fruits/Machovka_watermelon1.svg
+			</image>
+		</association>	
+				<association>
+			<image type="to_associate">default/awards/tuxes/NewTux_with_rainbow.svg
+				<sound>examples/Shapes/fruits/It/uva.ogg</sound> 
+			</image>
+			<image type="to_drag">examples/Shapes/fruits/nicubunu_Grapes.svg
+			</image>
+		</association>	
+		
+				<association>
+			<image type="to_associate">default/awards/tuxes/NewTux_with_rainbow.svg
+				<sound>examples/Shapes/fruits/It/arancia.ogg</sound> 
+			</image>
+			<image type="to_drag">examples/Shapes/fruits/nicubunu_Orange.svg
+			</image>
+		</association>	
+		
+				<association>
+			<image type="to_associate">default/awards/tuxes/NewTux_with_rainbow.svg
+				<sound>examples/Shapes/fruits/It/kiwi.ogg</sound> 
+			</image>
+			<image type="to_drag">examples/Shapes/fruits/AJ_Kiwi.svg
+			</image>
+		</association>	
+
+	</associations>
+
+</game>
+</omnitux>

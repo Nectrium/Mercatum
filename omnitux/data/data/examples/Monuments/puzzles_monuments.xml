@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<omnitux version="1.0">
+
+<game_set type="puzzle">
+
+	<title lang="de">Bauwerke der Welt</title>
+	<title lang="en">World Monuments</title>
+	<title lang="es">Monumentos Mundiales</title>
+	<title lang="fr">Monuments - Monde</title>
+	<title lang="it">Monumenti - Mondo</title>
+	<title lang="pl">Zabytki - Świat</title>
+	<title lang="pt">Monumentos famosos</title>
+
+	<thumbnail>examples/Monuments/icon_world.png</thumbnail>
+
+	<menu_index value="300" lang="de" />
+	<menu_index value="200" lang="en" />
+	<menu_index value="200" lang="es" />
+	<menu_index value="200" lang="fr" />
+	<menu_index value="200" lang="it" />
+	<menu_index value="200" lang="pl" />
+	<menu_index value="200" lang="pt" />
+
+	<level difficulty="1">
+
+
+		<game type="puzzle" xml_version="1.0" lang="*" author="Olav_2">
+			
+			<rounds>5</rounds>
+
+			<global_parameters>
+				
+				<game_setup>
+					<!-- those global parameters can be overriden for each image file -->
+					<pieces_amount_x> 2 </pieces_amount_x>
+					<pieces_amount_y> 2 </pieces_amount_y>
+					
+				</game_setup>
+				
+
+				<background>
+					default/backgrounds/Whimsy.JPG
+				</background>
+				
+			</global_parameters>
+			
+			<puzzles>
+				<puzzle>
+					<image>examples/Monuments/The_Great_wall_-_by_Bernard_Goldbach.jpg</image>
+					<text lang="de">Die Chinesische Mauer, China</text>
+					<text lang="en">The Great Wall, China</text>
+					<text lang="es">La Gran Muralla, China</text>
+					<text lang="it">La Grande Muraglia, Cina</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/Kasbahs_in_Ait_Benhaddou.JPG</image>
+					<text lang="de">Kasbahs in Ait Benhaddou, Marokko</text>
+					<text lang="en">Kasbahs in Ait Benhaddou, Morocco</text>
+					<text lang="es">Kasbahs in Ait Benhaddou, Marruecos</text>
+					<text lang="it">Kasbahs di Benhaddou, Marocco</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/Statue_of_Liberty,_NY.jpg</image>
+					<text lang="de">Freiheitsstatue, New York, USA</text>
+					<text lang="en">Statue of Liberty, New York, USA</text>
+					<text lang="es">Estatua de la libertad, New York, USA</text>
+					<text lang="it">Statua della Libertà, New York, USA</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/Moai_Rano_raraku.jpg</image>
+					<text lang="de">Moais am Ahu Tongariki, Osterinsel</text>
+					<text lang="en">Moai Rano Raraku, Easter Island</text>
+					<text lang="es">Moai Rano Raraku, Isla de Pascua</text>
+					<text lang="it">Moai Rano Raraku, Isola di Pasqua</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/Acropolis_of_Athens_01361.JPG</image>
+					<text lang="de">Akropolis von Athen, Griechenland</text>
+					<text lang="en">Acropolis of Athens, Greece</text>
+					<text lang="es">Acrópolis de Atenas, Grecia</text>
+					<text lang="it">Acropoli di Atene, Grecia</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/Chichen-Itza-Castillo-Seen-From-East.JPG</image>
+					<text lang="de">Chichen Itza, Pyramide des Kukulkan, Mexiko</text>
+					<text lang="en">Chichen Itza, Temple of Kukulkan, Mexico</text>
+					<text lang="es">Chichén Itzá, Templo de Kukulkán, México</text>
+					<text lang="it">Chichén Itzá, Tempio di Kukulkán, Messico</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/All_Gizah_Pyramids.jpg</image>
+					<text lang="de">Pyramiden von Gizeh, Ägypten</text>
+					<text lang="en">Gizah Pyramids, Egypt</text>
+					<text lang="es">Pirámides de Giza, Egipto</text>
+					<text lang="it">Piramidi di Giza, Egitto</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/Samarkand4.jpg</image>
+					<text lang="de">Registan mit Moscheen, Samarkand, Usbekistan</text>
+					<text lang="en">Mosques in Registan, Samarkand, Uzbekistan</text>
+					<text lang="es">Mezquitas en Registán, Samarcanda, Uzbekistán</text>
+					<text lang="it">Moschea a Registán, Samarcanda, Uzbekistán</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/Cristo_Redentor_-_Rio.jpg</image>
+					<text lang="de">Christus-Statue Cristo Redentor, Rio de Janeiro, Brasilien</text>
+					<text lang="en">Christ the Redeemer, Rio de Janeiro, Brazil</text>
+					<text lang="es">Cristo Redentor, Río de Janeiro, Brasil</text>
+					<text lang="it">Cristo Redentore, Rio de Janeiro, Brasile</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/Paris_06_Eiffelturm_4828.jpg</image>
+					<text lang="de">Eiffelturm, Paris, Frankreich</text>
+					<text lang="en">The Eiffel Tower, Paris, France</text>
+					<text lang="es">La Torre Eiffel, París, Francia</text>
+					<text lang="it">La Torre Eiffel, Parigi, Francia</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/Templo_de_Angkor_Wat_en_Camboya.JPG</image>
+					<text lang="de">Tempelanlagen von Angkor Wat, Kambodscha</text>
+					<text lang="en">Angkor Wat Temple, Cambodia</text>
+					<text lang="es">Templo Angkor Wat, Cambodia</text>
+					<text lang="it">Tempio di Angkor Wat, Cambogia</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/Sunset_across_Machu_Picchu.jpg</image>
+					<text lang="de">Machu Picchu, Peru</text>
+					<text lang="en">Machu Picchu, Peru</text>
+					<text lang="es">Machu Picchu, Perú</text>
+					<text lang="it">Machu Picchu, Peru</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/Great_Mosque_of_Djenne_1.jpg</image>
+					<text lang="de">Große Moschee von Djenné , Mali</text>
+					<text lang="en">Great Mosque of Djenne, Mali</text>
+					<text lang="es">Gran mezquita de Djenné, Malí</text>
+					<text lang="it">Gran moschea di Djenné, Malí</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/Taj_Mahal_in_March_2004.jpg</image>
+					<text lang="de">Taj Mahal, Indien</text>
+					<text lang="en">Taj Mahal, India</text>
+					<text lang="es">Taj Mahal, India</text>
+					<text lang="it">Taj Mahal, India</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/Sydney_Opera_House_-_Dec_2008.jpg</image>
+					<text lang="de">Opernhaus, Sydney, Australien</text>
+					<text lang="en">Opera House, Sydney, Australia</text>
+					<text lang="es">Casa de la Ópera, Sídney, Australia</text>
+					<text lang="it">Opera House, Sydney, Australia</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/Sankt_Petersburg_Auferstehungskirche_2005_a.jpg</image>
+					<text lang="de">Sankt Petersburg, Russland</text>
+					<text lang="en">Saint Petersburg, Russia</text>
+					<text lang="es">San Petersburgo, Rusia</text>
+					<text lang="it">San Pietroburgo, Russia</text>
+				</puzzle>
+
+			</puzzles>
+
+
+		</game>
+		
+	</level>
+
+
+	<level difficulty="2">
+
+
+		<game type="puzzle" xml_version="1.0" lang="*" author="Olav_2">
+			
+			<rounds>5</rounds>
+
+			<global_parameters>
+				
+				<game_setup>
+					<!-- those global parameters can be overriden for each image file -->
+					<pieces_amount_x> 3 </pieces_amount_x>
+					<pieces_amount_y> 3 </pieces_amount_y>
+					
+				</game_setup>
+				
+
+				<background>
+					default/backgrounds/Whimsy.JPG
+				</background>
+				
+			</global_parameters>
+			
+			<puzzles>
+				<puzzle>
+					<image>examples/Monuments/The_Great_wall_-_by_Bernard_Goldbach.jpg</image>
+					<text lang="de">Die Chinesische Mauer, China</text>
+					<text lang="en">The Great Wall, China</text>
+					<text lang="es">La Gran Muralla, China</text>
+					<text lang="it">La Grande Muraglia, Cina</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/Kasbahs_in_Ait_Benhaddou.JPG</image>
+					<text lang="de">Kasbahs in Ait Benhaddou, Marokko</text>
+					<text lang="en">Kasbahs in Ait Benhaddou, Morocco</text>
+					<text lang="es">Kasbahs in Ait Benhaddou, Marruecos</text>
+					<text lang="it">Kasbahs di Benhaddou, Marocco</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/Statue_of_Liberty,_NY.jpg</image>
+					<text lang="de">Freiheitsstatue, New York, USA</text>
+					<text lang="en">Statue of Liberty, New York, USA</text>
+					<text lang="es">Estatua de la libertad, New York, USA</text>
+					<text lang="it">Statua della Libertà, New York, USA</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/Moai_Rano_raraku.jpg</image>
+					<text lang="de">Moais am Ahu Tongariki, Osterinsel</text>
+					<text lang="en">Moai Rano Raraku, Easter Island</text>
+					<text lang="es">Moai Rano Raraku, Isla de Pascua</text>
+					<text lang="it">Moai Rano Raraku, Isola di Pasqua</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/Acropolis_of_Athens_01361.JPG</image>
+					<text lang="de">Akropolis von Athen, Griechenland</text>
+					<text lang="en">Acropolis of Athens, Greece</text>
+					<text lang="es">Acrópolis de Atenas, Grecia</text>
+					<text lang="it">Acropoli di Atene, Grecia</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/Chichen-Itza-Castillo-Seen-From-East.JPG</image>
+					<text lang="de">Chichen Itza, Pyramide des Kukulkan, Mexiko</text>
+					<text lang="en">Chichen Itza, Temple of Kukulkan, Mexico</text>
+					<text lang="es">Chichén Itzá, Templo de Kukulkán, México</text>
+					<text lang="it">Chichén Itzá, Tempio di Kukulkán, Messico</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/All_Gizah_Pyramids.jpg</image>
+					<text lang="de">Pyramiden von Gizeh, Ägypten</text>
+					<text lang="en">Gizah Pyramids, Egypt</text>
+					<text lang="es">Pirámides de Giza, Egipto</text>
+					<text lang="it">Piramidi di Giza, Egitto</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/Samarkand4.jpg</image>
+					<text lang="de">Registan mit Moscheen, Samarkand, Usbekistan</text>
+					<text lang="en">Mosques in Registan, Samarkand, Uzbekistan</text>
+					<text lang="es">Mezquitas en Registán, Samarcanda, Uzbekistán</text>
+					<text lang="it">Moschea a Registán, Samarcanda, Uzbekistán</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/Cristo_Redentor_-_Rio.jpg</image>
+					<text lang="de">Christus-Statue Cristo Redentor, Rio de Janeiro, Brasilien</text>
+					<text lang="en">Christ the Redeemer, Rio de Janeiro, Brazil</text>
+					<text lang="es">Cristo Redentor, Río de Janeiro, Brasil</text>
+					<text lang="it">Cristo Redentore, Rio de Janeiro, Brasile</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/Paris_06_Eiffelturm_4828.jpg</image>
+					<text lang="de">Eiffelturm, Paris, Frankreich</text>
+					<text lang="en">The Eiffel Tower, Paris, France</text>
+					<text lang="es">La Torre Eiffel, París, Francia</text>
+					<text lang="it">La Torre Eiffel, Parigi, Francia</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/Templo_de_Angkor_Wat_en_Camboya.JPG</image>
+					<text lang="de">Tempelanlagen von Angkor Wat, Kambodscha</text>
+					<text lang="en">Angkor Wat Temple, Cambodia</text>
+					<text lang="es">Templo Angkor Wat, Cambodia</text>
+					<text lang="it">Tempio di Angkor Wat, Cambogia</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/Sunset_across_Machu_Picchu.jpg</image>
+					<text lang="de">Machu Picchu, Peru</text>
+					<text lang="en">Machu Picchu, Peru</text>
+					<text lang="es">Machu Picchu, Perú</text>
+					<text lang="it">Machu Picchu, Peru</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/Great_Mosque_of_Djenne_1.jpg</image>
+					<text lang="de">Große Moschee von Djenné , Mali</text>
+					<text lang="en">Great Mosque of Djenne, Mali</text>
+					<text lang="es">Gran mezquita de Djenné, Malí</text>
+					<text lang="it">Gran moschea di Djenné, Malí</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/Taj_Mahal_in_March_2004.jpg</image>
+					<text lang="de">Taj Mahal, Indien</text>
+					<text lang="en">Taj Mahal, India</text>
+					<text lang="es">Taj Mahal, India</text>
+					<text lang="it">Taj Mahal, India</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/Sydney_Opera_House_-_Dec_2008.jpg</image>
+					<text lang="de">Opernhaus, Sydney, Australien</text>
+					<text lang="en">Opera House, Sydney, Australia</text>
+					<text lang="es">Casa de la Ópera, Sídney, Australia</text>
+					<text lang="it">Opera House, Sydney, Australia</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/Sankt_Petersburg_Auferstehungskirche_2005_a.jpg</image>
+					<text lang="de">Sankt Petersburg, Russland</text>
+					<text lang="en">Saint Petersburg, Russia</text>
+					<text lang="es">San Petersburgo, Rusia</text>
+					<text lang="it">San Pietroburgo, Russia</text>
+				</puzzle>
+
+			</puzzles>
+
+		</game>
+		
+	</level>
+
+	<level difficulty="3">
+
+
+		<game type="puzzle" xml_version="1.0" lang="*" author="Olav_2">
+			
+			<rounds>5</rounds>
+
+			<global_parameters>
+				
+				<game_setup>
+					<!-- those global parameters can be overriden for each image file -->
+					<pieces_amount_x> 4 </pieces_amount_x>
+					<pieces_amount_y> 4 </pieces_amount_y>
+					
+				</game_setup>
+				
+
+				<background>
+					default/backgrounds/Whimsy.JPG
+				</background>
+				
+			</global_parameters>
+			
+			<puzzles>
+				<puzzle>
+					<image>examples/Monuments/The_Great_wall_-_by_Bernard_Goldbach.jpg</image>
+					<text lang="de">Die Chinesische Mauer, China</text>
+					<text lang="en">The Great Wall, China</text>
+					<text lang="es">La Gran Muralla, China</text>
+					<text lang="it">La Grande Muraglia, Cina</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/Kasbahs_in_Ait_Benhaddou.JPG</image>
+					<text lang="de">Kasbahs in Ait Benhaddou, Marokko</text>
+					<text lang="en">Kasbahs in Ait Benhaddou, Morocco</text>
+					<text lang="es">Kasbahs in Ait Benhaddou, Marruecos</text>
+					<text lang="it">Kasbahs di Benhaddou, Marocco</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/Statue_of_Liberty,_NY.jpg</image>
+					<text lang="de">Freiheitsstatue, New York, USA</text>
+					<text lang="en">Statue of Liberty, New York, USA</text>
+					<text lang="es">Estatua de la libertad, New York, USA</text>
+					<text lang="it">Statua della Libertà, New York, USA</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/Moai_Rano_raraku.jpg</image>
+					<text lang="de">Moais am Ahu Tongariki, Osterinsel</text>
+					<text lang="en">Moai Rano Raraku, Easter Island</text>
+					<text lang="es">Moai Rano Raraku, Isla de Pascua</text>
+					<text lang="it">Moai Rano Raraku, Isola di Pasqua</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/Acropolis_of_Athens_01361.JPG</image>
+					<text lang="de">Akropolis von Athen, Griechenland</text>
+					<text lang="en">Acropolis of Athens, Greece</text>
+					<text lang="es">Acrópolis de Atenas, Grecia</text>
+					<text lang="it">Acropoli di Atene, Grecia</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/Chichen-Itza-Castillo-Seen-From-East.JPG</image>
+					<text lang="de">Chichen Itza, Pyramide des Kukulkan, Mexiko</text>
+					<text lang="en">Chichen Itza, Temple of Kukulkan, Mexico</text>
+					<text lang="es">Chichén Itzá, Templo de Kukulkán, México</text>
+					<text lang="it">Chichén Itzá, Tempio di Kukulkán, Messico</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/All_Gizah_Pyramids.jpg</image>
+					<text lang="de">Pyramiden von Gizeh, Ägypten</text>
+					<text lang="en">Gizah Pyramids, Egypt</text>
+					<text lang="es">Pirámides de Giza, Egipto</text>
+					<text lang="it">Piramidi di Giza, Egitto</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/Samarkand4.jpg</image>
+					<text lang="de">Registan mit Moscheen, Samarkand, Usbekistan</text>
+					<text lang="en">Mosques in Registan, Samarkand, Uzbekistan</text>
+					<text lang="es">Mezquitas en Registán, Samarcanda, Uzbekistán</text>
+					<text lang="it">Moschea a Registán, Samarcanda, Uzbekistán</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/Cristo_Redentor_-_Rio.jpg</image>
+					<text lang="de">Christus-Statue Cristo Redentor, Rio de Janeiro, Brasilien</text>
+					<text lang="en">Christ the Redeemer, Rio de Janeiro, Brazil</text>
+					<text lang="es">Cristo Redentor, Río de Janeiro, Brasil</text>
+					<text lang="it">Cristo Redentore, Rio de Janeiro, Brasile</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/Paris_06_Eiffelturm_4828.jpg</image>
+					<text lang="de">Eiffelturm, Paris, Frankreich</text>
+					<text lang="en">The Eiffel Tower, Paris, France</text>
+					<text lang="es">La Torre Eiffel, París, Francia</text>
+					<text lang="it">La Torre Eiffel, Parigi, Francia</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/Templo_de_Angkor_Wat_en_Camboya.JPG</image>
+					<text lang="de">Tempelanlagen von Angkor Wat, Kambodscha</text>
+					<text lang="en">Angkor Wat Temple, Cambodia</text>
+					<text lang="es">Templo Angkor Wat, Cambodia</text>
+					<text lang="it">Tempio di Angkor Wat, Cambogia</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/Sunset_across_Machu_Picchu.jpg</image>
+					<text lang="de">Machu Picchu, Peru</text>
+					<text lang="en">Machu Picchu, Peru</text>
+					<text lang="es">Machu Picchu, Perú</text>
+					<text lang="it">Machu Picchu, Peru</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/Great_Mosque_of_Djenne_1.jpg</image>
+					<text lang="de">Große Moschee von Djenné , Mali</text>
+					<text lang="en">Great Mosque of Djenne, Mali</text>
+					<text lang="es">Gran mezquita de Djenné, Malí</text>
+					<text lang="it">Gran moschea di Djenné, Malí</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/Taj_Mahal_in_March_2004.jpg</image>
+					<text lang="de">Taj Mahal, Indien</text>
+					<text lang="en">Taj Mahal, India</text>
+					<text lang="es">Taj Mahal, India</text>
+					<text lang="it">Taj Mahal, India</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/Sydney_Opera_House_-_Dec_2008.jpg</image>
+					<text lang="de">Opernhaus, Sydney, Australien</text>
+					<text lang="en">Opera House, Sydney, Australia</text>
+					<text lang="es">Casa de la Ópera, Sídney, Australia</text>
+					<text lang="it">Opera House, Sydney, Australia</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/Sankt_Petersburg_Auferstehungskirche_2005_a.jpg</image>
+					<text lang="de">Sankt Petersburg, Russland</text>
+					<text lang="en">Saint Petersburg, Russia</text>
+					<text lang="es">San Petersburgo, Rusia</text>
+					<text lang="it">San Pietroburgo, Russia</text>
+				</puzzle>
+
+			</puzzles>
+
+		</game>
+		
+	</level>
+
+	<level difficulty="4">
+
+
+		<game type="puzzle" xml_version="1.0" lang="*" author="Olav_2">
+			
+			<rounds>5</rounds>
+
+			<global_parameters>
+				
+				<game_setup>
+					<!-- those global parameters can be overriden for each image file -->
+					<pieces_amount_x> 5 </pieces_amount_x>
+					<pieces_amount_y> 5 </pieces_amount_y>
+					
+				</game_setup>
+				
+
+				<background>
+					default/backgrounds/Whimsy.JPG
+				</background>
+				
+			</global_parameters>
+			
+			<puzzles>
+				<puzzle>
+					<image>examples/Monuments/The_Great_wall_-_by_Bernard_Goldbach.jpg</image>
+					<text lang="de">Die Chinesische Mauer, China</text>
+					<text lang="en">The Great Wall, China</text>
+					<text lang="es">La Gran Muralla, China</text>
+					<text lang="it">La Grande Muraglia, Cina</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/Kasbahs_in_Ait_Benhaddou.JPG</image>
+					<text lang="de">Kasbahs in Ait Benhaddou, Marokko</text>
+					<text lang="en">Kasbahs in Ait Benhaddou, Morocco</text>
+					<text lang="es">Kasbahs in Ait Benhaddou, Marruecos</text>
+					<text lang="it">Kasbahs di Benhaddou, Marocco</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/Statue_of_Liberty,_NY.jpg</image>
+					<text lang="de">Freiheitsstatue, New York, USA</text>
+					<text lang="en">Statue of Liberty, New York, USA</text>
+					<text lang="es">Estatua de la libertad, New York, USA</text>
+					<text lang="it">Statua della Libertà, New York, USA</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/Moai_Rano_raraku.jpg</image>
+					<text lang="de">Moais am Ahu Tongariki, Osterinsel</text>
+					<text lang="en">Moai Rano Raraku, Easter Island</text>
+					<text lang="es">Moai Rano Raraku, Isla de Pascua</text>
+					<text lang="it">Moai Rano Raraku, Isola di Pasqua</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/Acropolis_of_Athens_01361.JPG</image>
+					<text lang="de">Akropolis von Athen, Griechenland</text>
+					<text lang="en">Acropolis of Athens, Greece</text>
+					<text lang="es">Acrópolis de Atenas, Grecia</text>
+					<text lang="it">Acropoli di Atene, Grecia</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/Chichen-Itza-Castillo-Seen-From-East.JPG</image>
+					<text lang="de">Chichen Itza, Pyramide des Kukulkan, Mexiko</text>
+					<text lang="en">Chichen Itza, Temple of Kukulkan, Mexico</text>
+					<text lang="es">Chichén Itzá, Templo de Kukulkán, México</text>
+					<text lang="it">Chichén Itzá, Tempio di Kukulkán, Messico</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/All_Gizah_Pyramids.jpg</image>
+					<text lang="de">Pyramiden von Gizeh, Ägypten</text>
+					<text lang="en">Gizah Pyramids, Egypt</text>
+					<text lang="es">Pirámides de Giza, Egipto</text>
+					<text lang="it">Piramidi di Giza, Egitto</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/Samarkand4.jpg</image>
+					<text lang="de">Registan mit Moscheen, Samarkand, Usbekistan</text>
+					<text lang="en">Mosques in Registan, Samarkand, Uzbekistan</text>
+					<text lang="es">Mezquitas en Registán, Samarcanda, Uzbekistán</text>
+					<text lang="it">Moschea a Registán, Samarcanda, Uzbekistán</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/Cristo_Redentor_-_Rio.jpg</image>
+					<text lang="de">Christus-Statue Cristo Redentor, Rio de Janeiro, Brasilien</text>
+					<text lang="en">Christ the Redeemer, Rio de Janeiro, Brazil</text>
+					<text lang="es">Cristo Redentor, Río de Janeiro, Brasil</text>
+					<text lang="it">Cristo Redentore, Rio de Janeiro, Brasile</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/Paris_06_Eiffelturm_4828.jpg</image>
+					<text lang="de">Eiffelturm, Paris, Frankreich</text>
+					<text lang="en">The Eiffel Tower, Paris, France</text>
+					<text lang="es">La Torre Eiffel, París, Francia</text>
+					<text lang="it">La Torre Eiffel, Parigi, Francia</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/Templo_de_Angkor_Wat_en_Camboya.JPG</image>
+					<text lang="de">Tempelanlagen von Angkor Wat, Kambodscha</text>
+					<text lang="en">Angkor Wat Temple, Cambodia</text>
+					<text lang="es">Templo Angkor Wat, Cambodia</text>
+					<text lang="it">Tempio di Angkor Wat, Cambogia</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/Sunset_across_Machu_Picchu.jpg</image>
+					<text lang="de">Machu Picchu, Peru</text>
+					<text lang="en">Machu Picchu, Peru</text>
+					<text lang="es">Machu Picchu, Perú</text>
+					<text lang="it">Machu Picchu, Peru</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/Great_Mosque_of_Djenne_1.jpg</image>
+					<text lang="de">Große Moschee von Djenné , Mali</text>
+					<text lang="en">Great Mosque of Djenne, Mali</text>
+					<text lang="es">Gran mezquita de Djenné, Malí</text>
+					<text lang="it">Gran moschea di Djenné, Malí</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/Taj_Mahal_in_March_2004.jpg</image>
+					<text lang="de">Taj Mahal, Indien</text>
+					<text lang="en">Taj Mahal, India</text>
+					<text lang="es">Taj Mahal, India</text>
+					<text lang="it">Taj Mahal, India</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/Sydney_Opera_House_-_Dec_2008.jpg</image>
+					<text lang="de">Opernhaus, Sydney, Australien</text>
+					<text lang="en">Opera House, Sydney, Australia</text>
+					<text lang="es">Casa de la Ópera, Sídney, Australia</text>
+					<text lang="it">Opera House, Sydney, Australia</text>
+				</puzzle>
+				<puzzle>
+					<image>examples/Monuments/Sankt_Petersburg_Auferstehungskirche_2005_a.jpg</image>
+					<text lang="de">Sankt Petersburg, Russland</text>
+					<text lang="en">Saint Petersburg, Russia</text>
+					<text lang="es">San Petersburgo, Rusia</text>
+					<text lang="it">San Pietroburgo, Russia</text>
+				</puzzle>
+
+			</puzzles>
+
+		</game>
+		
+	</level>
+
+
+
+</game_set>
+
+</omnitux>

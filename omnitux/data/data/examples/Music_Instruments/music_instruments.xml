@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<omnitux version="1.0">
+<game type="associate" xml_version="1.0" author="Olav_2">
+	
+	<title lang="de">Musikinstrumente</title>
+	<title lang="en">Musical instruments</title>
+	<title lang="es">Instrumentos musicales</title>
+	<title lang="fr">Instruments de musique</title>
+	<title lang="it">Strumenti Musicali</title>
+	<title lang="pl">Instrumenty muzyczne</title>
+	<title lang="pt">Instrumentos de música</title>
+
+	<music mode="off" />
+
+	<thumbnail>examples/Music_Instruments/thumbnail_music.svg</thumbnail>
+
+	<rounds>5</rounds>
+
+	<tag>arts</tag>
+
+	<menu_index value="100" />
+
+	<global_parameters>
+		
+		<game_setup>
+			<type_to_associate>image</type_to_associate>
+			<type_to_drag>image</type_to_drag>
+			
+			<!-- amount of items to choose from -->
+			<min_draggable> 4 </min_draggable>
+			<max_draggable> 6 </max_draggable>
+			
+		</game_setup>
+		
+		<item_to_associate>
+			<pos_x>   5 </pos_x> 
+			<pos_y>  10 </pos_y>
+			<width>  90 </width>
+			<height> 50 </height>
+		</item_to_associate>
+
+		<goal>
+			<pos_x>  30 </pos_x> 
+			<pos_y>  10 </pos_y>
+			<width>  40 </width>
+			<height> 50 </height>
+			
+			<image>default/icons/NewTux_question.svg</image>
+		</goal>
+
+		<draggable_items_area>
+			<pos_x>  5 </pos_x> 
+			<pos_y>  65 </pos_y>
+			<width>  90 </width>
+			<height> 30 </height>
+			
+			<amount_x> 4 </amount_x>
+			<amount_y> 2 </amount_y>
+			
+		</draggable_items_area>
+	
+		<background>
+			examples/Music_Instruments/background_music.png
+		</background>		
+		
+	</global_parameters>
+	
+	<associations>	
+
+		<association>
+			<image type="to_associate">examples/Music_Instruments/Blue_danube_easy.svg
+				<sound>examples/Music_Instruments/06_Auszug_e.ogg</sound> 
+			</image>
+			<image type="to_drag">examples/Music_Instruments/Lublin_Archikatedra9.jpg
+				<sound lang="fr">examples/Music_Instruments/Fr-orgue.ogg</sound>
+				<sound lang="it">examples/Music_Instruments/It/organo.ogg</sound> 
+			</image>
+		</association>
+		
+		<association>
+			<image type="to_associate">examples/Music_Instruments/Blue_danube_easy.svg
+				<sound>examples/Music_Instruments/12692__Connum__movement_in_C.ogg</sound> 
+			</image>
+			<image type="to_drag">examples/Music_Instruments/Piano_at_Fort_Wayne.jpg
+				<sound lang="fr">examples/Music_Instruments/Fr-piano.ogg</sound> 
+				<sound lang="it">examples/Music_Instruments/It/piano.ogg</sound> 
+			</image>
+		</association>
+
+		<association>
+			<image type="to_associate">examples/Music_Instruments/Blue_danube_easy.svg
+				<sound>examples/Music_Instruments/Harmonica-pumping.ogg</sound> 
+			</image>
+			<image type="to_drag">examples/Music_Instruments/Harmonica-bluejay.jpg
+				<sound lang="fr">examples/Music_Instruments/Fr-harmonica.ogg</sound> 
+				<sound lang="it">examples/Music_Instruments/It/armonica.ogg</sound> 
+			</image>
+		</association>
+
+		<association>
+			<image type="to_associate">examples/Music_Instruments/Blue_danube_easy.svg
+				<sound>examples/Music_Instruments/Rocky-road-to-dublin-eviolin.ogg</sound> 
+			</image>
+			<image type="to_drag">examples/Music_Instruments/papapishu_violin.svg
+				<sound lang="fr">examples/Music_Instruments/Fr-violon.ogg</sound> 
+				<sound lang="it">examples/Music_Instruments/It/violoncello.ogg</sound> 
+			</image>
+		</association>
+
+		<association>
+			<image type="to_associate">examples/Music_Instruments/Blue_danube_easy.svg
+				<sound>examples/Music_Instruments/2323__Synapse__TrumpetLoop01.ogg</sound> 
+			</image>
+			<image type="to_drag">examples/Music_Instruments/Gerald_G_Trumpet_1.svg
+				<sound lang="fr">examples/Music_Instruments/Fr-trompette.ogg</sound> 
+				<sound lang="it">examples/Music_Instruments/It/tromba.ogg</sound> 
+			</image>
+		</association>
+
+		<association>
+			<image type="to_associate">examples/Music_Instruments/Blue_danube_easy.svg
+				<sound>examples/Music_Instruments/24602__acclivity__TenorSax1.ogg</sound> 
+			</image>
+			<image type="to_drag">examples/Music_Instruments/TheresaKnott_Saxophone.svg
+				<sound lang="fr">examples/Music_Instruments/Fr-saxophone.ogg</sound> 
+				<sound lang="it">examples/Music_Instruments/It/sax.ogg</sound> 
+			</image>
+		</association>
+
+		<association>
+			<image type="to_associate">examples/Music_Instruments/Blue_danube_easy.svg
+				<sound>examples/Music_Instruments/33663__ERH__key_jaz_epi_3_5.ogg</sound> 
+			</image>
+			<image type="to_drag">examples/Music_Instruments/TheresaKnott_Flying_V_guitar.svg
+				<sound lang="fr">examples/Music_Instruments/Fr-guitare_electrique.ogg</sound> 
+				<sound lang="it">examples/Music_Instruments/It/chitarra_elettrica.ogg</sound> 
+			</image>
+		</association>
+
+		<association>
+			<image type="to_associate">examples/Music_Instruments/Blue_danube_easy.svg
+				<sound>examples/Music_Instruments/58645__ERH__DADGAD_tk89_RIFF_4E.ogg</sound> 
+			</image>
+			<image type="to_drag">examples/Music_Instruments/papapishu_guitar_1.svg
+				<sound lang="fr">examples/Music_Instruments/Fr-guitare_acoustique.ogg</sound>
+				<sound lang="it">examples/Music_Instruments/It/chitarra_acustica.ogg</sound> 
+			</image>
+		</association>
+
+		<association>
+			<image type="to_associate">examples/Music_Instruments/Blue_danube_easy.svg
+				<sound>examples/Music_Instruments/39091__hello_flowers__TIG_New_Wave_125_Tijo_Break_2.ogg</sound> 
+			</image>
+			<image type="to_drag">examples/Music_Instruments/TheresaKnott_Drum_Kit_3.svg
+				<sound lang="fr">examples/Music_Instruments/Fr-batterie.ogg</sound> 
+				<sound lang="it">examples/Music_Instruments/It/batteria.ogg</sound> 
+			</image>
+		</association>
+
+		<association>
+			<image type="to_associate">examples/Music_Instruments/Blue_danube_easy.svg
+				<sound>examples/Music_Instruments/Glissando_Imprecision_for_2_Harps.ogg</sound> 
+			</image>
+			<image type="to_drag">examples/Music_Instruments/Gerald_G_Harp_1.svg
+				<sound lang="fr">examples/Music_Instruments/Fr-harpe.ogg</sound> 
+				<sound lang="it">examples/Music_Instruments/It/arpa.ogg</sound> 
+			</image>
+			<image type="to_drag">examples/Music_Instruments/papapishu_harp_1.svg
+				<sound lang="fr">examples/Music_Instruments/Fr-harpe.ogg</sound> 
+				<sound lang="it">examples/Music_Instruments/It/arpa.ogg</sound> 
+			</image>			
+		</association>
+
+		<association>
+			<image type="to_associate">examples/Music_Instruments/Blue_danube_easy.svg
+				<sound>examples/Music_Instruments/70089__Trinity101__WS219681a.ogg</sound> 
+			</image>
+			<image type="to_drag">examples/Music_Instruments/Schaferpfeife_in_G-G.jpg
+				<sound lang="fr">examples/Music_Instruments/Fr-cornemuse.ogg</sound> 
+				<sound lang="it">examples/Music_Instruments/It/cornamusa.ogg</sound> 
+			</image>
+			
+		</association>
+
+	</associations>
+
+</game>
+</omnitux>

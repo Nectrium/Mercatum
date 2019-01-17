@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<omnitux version="1.0">
+
+<game_set author="Olav_2">
+
+	<title lang="de">Tiere</title>
+	<title lang="en">Animals</title>
+	<title lang="es">Animales</title>
+	<title lang="fr">Animaux</title>
+	<title lang="it">Animali</title>
+	<title lang="pl">Zwierzęta</title>
+	<title lang="pt">Aanimais</title>
+	
+	<tag>mouse_manipulation</tag>
+
+	<menu_index value="10" />
+
+	<thumbnail>examples/Alphabet/Sylvilagus_floridanus.jpg</thumbnail>
+
+
+	<level difficulty="1">
+
+		<game type="transform">
+			
+			<rounds>5</rounds>
+			
+			<global_parameters>
+				
+				<game_setup>
+					<!-- those global parameters can be overriden for each image file -->
+					<pieces_amount_x> 3 </pieces_amount_x>
+					<pieces_amount_y> 3 </pieces_amount_y>
+				
+				</game_setup>
+			
+				<image_area>
+					<pos_x> 0 </pos_x>
+					<pos_y> 10 </pos_y>
+					<width> 100 </width>
+					<height> 90 </height>
+				</image_area>
+
+			</global_parameters>
+			
+			<transformations>
+				<transformation>
+					<image>examples/Transform/animals/Bottlenose_Dolphin_KSC04pd0178_mod.jpg</image>
+					<image>examples/Alphabet/Bottlenose_Dolphin_KSC04pd0178.jpg</image>
+					<text lang='fr'>Dauphin</text>
+				</transformation>
+
+
+				<transformation>
+					<image>examples/Transform/animals/Sylvilagus_floridanus_pixels.jpg</image>
+					<image>examples/Alphabet/Sylvilagus_floridanus.jpg</image>
+					<text lang='fr'>Lapin</text>
+				</transformation>
+				
+				<transformation>
+					<image>examples/Transform/animals/Equus_quagga_mod.jpg</image>
+					<image>examples/Alphabet/Equus_quagga.jpg</image>
+					<text lang='fr'>Zèbre</text>
+				</transformation>
+
+				<transformation>
+					<image>examples/Transform/animals/Afrikanischer_Elefant,_Miami_mod.jpg</image>
+					<image>examples/Alphabet/Afrikanischer_Elefant,_Miami.jpg</image>
+					<text lang='fr'>Eléphant</text>
+				</transformation>
+
+				<transformation>
+					<image>examples/Transform/animals/Duck_in_Malbork_mod.JPG</image>
+					<image>examples/Alphabet/Duck_in_Malbork.JPG</image>
+					<text lang='fr'>Canard</text>
+				</transformation>
+
+				<transformation>
+					<image>examples/Transform/animals/Giraffe_standing_mod.jpg</image>
+					<image>examples/Alphabet/Giraffe_standing.jpg</image>
+					<text lang='fr'>Girafe</text>
+				</transformation>
+
+				<transformation>
+					<image>examples/Transform/animals/Lightmatter_chimp_mod.jpg</image>
+					<image>examples/Alphabet/Lightmatter_chimp.jpg</image>
+					<text lang='fr'>Singe</text>
+				</transformation>
+
+			</transformations>
+
+
+
+		</game>
+		
+	</level>
+
+
+
+
+	<level difficulty="2">
+
+		<game type="transform">
+			
+			<rounds>5</rounds>
+			
+			<global_parameters>
+				
+				<game_setup>
+					<!-- those global parameters can be overriden for each image file -->
+					<pieces_amount_x> 7 </pieces_amount_x>
+					<pieces_amount_y> 6 </pieces_amount_y>
+				
+				</game_setup>
+			
+				<image_area>
+					<pos_x> 0 </pos_x>
+					<pos_y> 10 </pos_y>
+					<width> 100 </width>
+					<height> 90 </height>
+				</image_area>
+
+			</global_parameters>
+			
+			<transformations>
+				<transformation>
+					<image>examples/Transform/animals/Bottlenose_Dolphin_KSC04pd0178_mod.jpg</image>
+					<image>examples/Alphabet/Bottlenose_Dolphin_KSC04pd0178.jpg</image>
+					<text lang='fr'>Dauphin</text>
+				</transformation>
+
+
+				<transformation>
+					<image>examples/Transform/animals/Sylvilagus_floridanus_pixels.jpg</image>
+					<image>examples/Alphabet/Sylvilagus_floridanus.jpg</image>
+					<text lang='fr'>Lapin</text>
+				</transformation>
+				
+				<transformation>
+					<image>examples/Transform/animals/Equus_quagga_mod.jpg</image>
+					<image>examples/Alphabet/Equus_quagga.jpg</image>
+					<text lang='fr'>Zèbre</text>
+				</transformation>
+
+				<transformation>
+					<image>examples/Transform/animals/Afrikanischer_Elefant,_Miami_mod.jpg</image>
+					<image>examples/Alphabet/Afrikanischer_Elefant,_Miami.jpg</image>
+					<text lang='fr'>Eléphant</text>
+				</transformation>
+
+				<transformation>
+					<image>examples/Transform/animals/Duck_in_Malbork_mod.JPG</image>
+					<image>examples/Alphabet/Duck_in_Malbork.JPG</image>
+					<text lang='fr'>Canard</text>
+				</transformation>
+
+				<transformation>
+					<image>examples/Transform/animals/Giraffe_standing_mod.jpg</image>
+					<image>examples/Alphabet/Giraffe_standing.jpg</image>
+					<text lang='fr'>Girafe</text>
+				</transformation>
+
+				<transformation>
+					<image>examples/Transform/animals/Lightmatter_chimp_mod.jpg</image>
+					<image>examples/Alphabet/Lightmatter_chimp.jpg</image>
+					<text lang='fr'>Singe</text>
+				</transformation>
+
+			</transformations>
+
+
+
+		</game>
+		
+	</level>
+
+
+
+
+	<level difficulty="3">
+
+		<game type="transform">
+			
+			<rounds>5</rounds>
+			
+			<global_parameters>
+				
+				<game_setup>
+					<!-- those global parameters can be overriden for each image file -->
+					<pieces_amount_x> 14 </pieces_amount_x>
+					<pieces_amount_y> 10 </pieces_amount_y>
+				
+				</game_setup>
+			
+				<image_area>
+					<pos_x> 0 </pos_x>
+					<pos_y> 10 </pos_y>
+					<width> 100 </width>
+					<height> 90 </height>
+				</image_area>
+
+			</global_parameters>
+			
+			<transformations>
+				<transformation>
+					<image>examples/Transform/animals/Bottlenose_Dolphin_KSC04pd0178_mod.jpg</image>
+					<image>examples/Alphabet/Bottlenose_Dolphin_KSC04pd0178.jpg</image>
+					<text lang='fr'>Dauphin</text>
+				</transformation>
+
+
+				<transformation>
+					<image>examples/Transform/animals/Sylvilagus_floridanus_pixels.jpg</image>
+					<image>examples/Alphabet/Sylvilagus_floridanus.jpg</image>
+					<text lang='fr'>Lapin</text>
+				</transformation>
+				
+				<transformation>
+					<image>examples/Transform/animals/Equus_quagga_mod.jpg</image>
+					<image>examples/Alphabet/Equus_quagga.jpg</image>
+					<text lang='fr'>Zèbre</text>
+				</transformation>
+
+				<transformation>
+					<image>examples/Transform/animals/Afrikanischer_Elefant,_Miami_mod.jpg</image>
+					<image>examples/Alphabet/Afrikanischer_Elefant,_Miami.jpg</image>
+					<text lang='fr'>Eléphant</text>
+				</transformation>
+
+				<transformation>
+					<image>examples/Transform/animals/Duck_in_Malbork_mod.JPG</image>
+					<image>examples/Alphabet/Duck_in_Malbork.JPG</image>
+					<text lang='fr'>Canard</text>
+				</transformation>
+
+				<transformation>
+					<image>examples/Transform/animals/Giraffe_standing_mod.jpg</image>
+					<image>examples/Alphabet/Giraffe_standing.jpg</image>
+					<text lang='fr'>Girafe</text>
+				</transformation>
+
+				<transformation>
+					<image>examples/Transform/animals/Lightmatter_chimp_mod.jpg</image>
+					<image>examples/Alphabet/Lightmatter_chimp.jpg</image>
+					<text lang='fr'>Singe</text>
+				</transformation>
+
+			</transformations>
+
+
+
+		</game>
+		
+	</level>
+
+</game_set>
+
+</omnitux>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<omnitux version="1.0">
+<game type="associate" author="Olav_2">
+	
+	<title lang="fr">Alphabet : A à G</title>
+	
+	<rounds>5</rounds>
+
+	<thumbnail>examples/Alphabet/A-G.svg</thumbnail>
+
+	<tag>writing</tag>
+
+	<menu_index value="300" />
+
+	<global_parameters>
+		
+		<game_setup>
+			<type_to_associate>image</type_to_associate>
+			<type_to_drag sort="yes">text</type_to_drag>
+			
+			<!-- amount of items to choose from -->
+			<min_draggable> 7 </min_draggable>
+			<max_draggable> 7 </max_draggable>
+			
+		</game_setup>
+		
+		<item_to_associate>
+			<pos_x>   5 </pos_x> 
+			<pos_y>  10 </pos_y>
+			<width>  70 </width>
+			<height> 78 </height>
+		</item_to_associate>
+
+		<draggable_items_area>
+			<pos_x>  80 </pos_x> 
+			<pos_y>  10 </pos_y>
+			<width>  15 </width>
+			<height> 88 </height>
+			
+			<font_height> 10 </font_height>				
+			
+			<amount_x> 1 </amount_x>
+			<amount_y> 7 </amount_y>
+			
+		</draggable_items_area>
+	
+		
+		<goal>
+			<pos_x>  20 </pos_x> 
+			<pos_y>  89 </pos_y>
+			<width>  40 </width>
+			<height> 10 </height>
+		</goal>
+		
+		<background>
+			examples/Alphabet/green.svg
+		</background>		
+		
+	</global_parameters>
+	
+	<associations>	
+		<association>
+			<image>examples/Alphabet/DouglasDC3Drawing.svg
+				<sound>examples/Alphabet/Fr/Fr-avion.ogg</sound>
+			</image>
+			<text>A
+				<sound>examples/Alphabet/letters/Fr/Fr-A-fr-Paris.ogg</sound>
+			</text>
+		</association>
+		<association>
+			<image>examples/Alphabet/Bananen_Frucht.jpg
+				<sound>examples/Alphabet/Fr/Fr-banane.ogg</sound>
+			</image>
+			<text>B
+				<sound>examples/Alphabet/letters/Fr/Fr-B-fr-Sud_Ouest.ogg</sound>
+			</text>
+		</association>
+		<association>
+			<image>examples/Alphabet/Duck_in_Malbork.JPG
+				<sound>examples/Alphabet/Fr/Fr-canard.ogg</sound>
+			</image>
+			<image>examples/Alphabet/ivak_Cistern_Truck.svg
+				<sound>examples/Alphabet/Fr/Fr-camion.ogg</sound>
+			</image>
+			<text>C
+				<sound>examples/Alphabet/letters/Fr/Fr-C-fr-Paris.ogg</sound>
+			</text>
+		</association>
+		<association>
+			<image>examples/Alphabet/Bottlenose_Dolphin_KSC04pd0178.jpg
+				<sound>examples/Alphabet/Fr/Fr-dauphin.ogg</sound>
+			</image>
+			<text>D
+				<sound>examples/Alphabet/letters/Fr/Fr-D-fr-Paris.ogg</sound>
+			</text>
+		</association>
+		<association>
+			<image>examples/Alphabet/Afrikanischer_Elefant,_Miami.jpg
+				<sound>examples/Alphabet/Fr/Fr-elephant.ogg</sound>
+			</image>
+			<text>E
+				<sound>examples/Alphabet/letters/Fr/Fr-E-fr-Paris.ogg</sound>
+			</text>
+		</association>
+		<association>
+			<image>examples/Alphabet/jean_victor_balin_red_flower.svg
+				<sound>examples/Alphabet/Fr/Fr-une_fleur-fr-ouest.ogg</sound>
+			</image>
+			<text>F
+				<sound>examples/Alphabet/letters/Fr/Fr-F-fr-Paris.ogg</sound>
+			</text>
+		</association>
+		<association>
+			<image>examples/Alphabet/Giraffe_standing.jpg
+				<sound>examples/Alphabet/Fr/Fr-girafe.ogg</sound>
+			</image>
+			<text>G
+				<sound>examples/Alphabet/letters/Fr/Fr-G-fr-Paris.ogg</sound>
+			</text>
+		</association>
+	</associations>
+
+</game>
+</omnitux>

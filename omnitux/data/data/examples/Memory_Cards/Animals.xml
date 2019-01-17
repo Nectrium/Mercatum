@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<omnitux version="1.0">
+<game type="memory_cards" xml_version="1.0" author="Olav_2">
+	
+	<title lang="de">Tiere</title>
+	<title lang="en">Animals</title>
+	<title lang="es">Animales</title>
+	<title lang="fr">Animaux</title>
+	<title lang="it">Animali</title>
+	<title lang="pl">Zwierzęta</title>
+	<title lang="pt">Animais</title>
+	
+	<thumbnail>default/awards/tuxes/yannthebigboss-tux-leopard.png</thumbnail>
+
+	<menu_index value="100" />
+
+	<global_parameters>
+		
+		<identical_cards> 2 </identical_cards>
+		
+		<grid>
+			<pos_x>   5 </pos_x> 
+			<pos_y>  10 </pos_y>
+			<width>  90 </width>
+			<height> 87 </height>
+			
+			<amount_x> 4 </amount_x>
+			<amount_y> 3 </amount_y>			
+			
+			<spacing_x> 0.2 </spacing_x>
+			<spacing_y> 0.5 </spacing_y>
+			
+		</grid>
+
+		<card>
+			<front>
+				examples/Memory_Cards/tux_card_animal_front.svg
+			</front>
+			
+			<back>
+				examples/Memory_Cards/tux_card_animal_back.svg
+			</back>
+			
+			<image_area>
+				<ratio_x> 88 </ratio_x>
+				<ratio_y> 85 </ratio_y>
+			</image_area>
+		
+		</card>
+
+
+			<background mode="CENTERED">examples/Alphabet/Afrikanischer_Elefant,_Miami.jpg
+			</background>
+
+			<background mode="CENTERED">examples/Alphabet/Bottlenose_Dolphin_KSC04pd0178.jpg
+			</background>
+
+			<background mode="CENTERED">examples/Alphabet/Duck_in_Malbork.JPG
+			</background>
+
+			<background mode="CENTERED">examples/Alphabet/Equus_quagga.jpg
+			</background>
+
+			<background mode="CENTERED">examples/Alphabet/Giraffe_standing.jpg
+			</background>
+
+                        <background mode="CENTERED">examples/Alphabet/Lightmatter_chimp.jpg
+                        </background>
+
+
+	</global_parameters>
+	
+	<associations>	
+		<association>
+			<image>examples/Alphabet/Afrikanischer_Elefant,_Miami.jpg
+			</image>
+		</association>
+		<association>
+			<image>examples/Alphabet/Bottlenose_Dolphin_KSC04pd0178.jpg
+			</image>
+		</association>
+		<association>
+			<image>examples/Alphabet/Duck_in_Malbork.JPG
+			</image>
+		</association>
+		<association>
+			<image>examples/Alphabet/Equus_quagga.jpg
+			</image>
+		</association>
+		<association>
+			<image>examples/Alphabet/Giraffe_standing.jpg
+			</image>
+		</association>
+		<association>
+                        <image>examples/Alphabet/Lightmatter_chimp.jpg
+                        </image>
+		</association>
+
+
+	</associations>
+
+</game>
+</omnitux>

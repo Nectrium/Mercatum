@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<omnitux version="1.0">
+
+<game_set>
+
+	<title lang="fr">Les Régions d'Italie</title>
+	<title lang="it">Le Regioni Italiane</title>
+
+	<thumbnail>examples/Maps/Europe/Italy/Italy_map_with_regions.svg</thumbnail>
+
+	<tag>geography</tag>
+
+	<menu_index lang="fr" value="900" />
+
+
+        <dict lang="fr" key="ab" value="Abruzzes " />
+        <dict lang="it" key="ab" value="Abruzzo " />
+
+        <dict lang="it" key="ba" value="Basilicate " />
+        <dict lang="it" key="ba" value="Basilicata " />
+
+        <dict lang="fr" key="ca" value="Calabre" />
+        <dict lang="it" key="ca" value="Calabria" />
+
+        <dict lang="fr" key="cm" value="Campanie " />
+        <dict lang="it" key="cm" value="Campania " />
+
+        <dict lang="fr" key="er" value="Émilie-Romagne " />
+        <dict lang="it" key="er" value="Emilia-Romagna " />
+
+        <dict lang="fr" key="fv" value="Frioul-Vénétie julienne " />
+        <dict lang="it" key="fv" value="Friuli-Venezia Giulia " />
+
+        <dict lang="fr" key="la" value="Latium " />
+        <dict lang="it" key="la" value="Lazio " />
+
+        <dict lang="fr" key="li" value="Liguria " />
+        <dict lang="it" key="li" value="Liguria " />
+ 
+        <dict lang="fr" key="lo" value="Lombardia " />
+        <dict lang="it" key="lo" value="Lombardia " />
+
+        <dict lang="fr" key="ma" value="Marches " />
+        <dict lang="it" key="ma" value="Marche " />
+
+        <dict lang="fr" key="mo" value="Molise " />
+        <dict lang="it" key="mo" value="Molise " />
+
+        <dict lang="fr" key="pi" value="Piémont " />
+        <dict lang="it" key="pi" value="Piemonte " />
+
+        <dict lang="fr" key="pu" value="Pouilles" />
+        <dict lang="it" key="pu" value="Puglia" />
+
+        <dict lang="fr" key="sa" value="Sardaigne " />
+        <dict lang="it" key="sa" value="Sardegna " />
+
+        <dict lang="fr" key="si" value="Sicile " />
+        <dict lang="it" key="si" value="Sicilia " />
+
+        <dict lang="fr" key="to" value="Toscane " />
+        <dict lang="it" key="to" value="Toscana " />
+
+        <dict lang="fr" key="ta" value="Trentin-Haut-Adige " />
+        <dict lang="it" key="ta" value="Trentino-Alto Adige " />
+
+        <dict lang="fr" key="um" value="Ombrie " />
+        <dict lang="it" key="um" value="Umbria " />
+
+        <dict lang="fr" key="va" value="Vallée d'Aoste " />
+        <dict lang="it" key="va" value="Valle d'Aosta " />
+
+        <dict lang="fr" key="ve" value="Vénétie " />
+        <dict lang="it" key="ve" value="Veneto " />
+
+
+
+
+	<level difficulty="1">
+		<game type="associate" xml_version="1.0" author="Eugenio Baldi">
+			
+
+
+			<rounds>1</rounds>
+
+
+			<global_parameters>
+				
+				<game_setup>
+					<type_to_associate>image_on_map</type_to_associate>
+					<type_to_drag>image</type_to_drag>
+					
+					<!-- amount of items to choose from -->
+					<min_draggable> 8 </min_draggable>
+					<max_draggable> 10 </max_draggable>
+
+				</game_setup>
+
+				<map>
+					<image>examples/Maps/Europe/Italy/Italy_map_with_regions.svg</image>
+					<pos_x>   1 </pos_x> 
+					<pos_y>  10 </pos_y>
+					<width>  98 </width>
+					<height> 78 </height>
+				</map>		
+
+				<draggable_items_area>
+					<pos_x>  10 </pos_x> 
+					<pos_y>  90 </pos_y>
+					<width>  80 </width>
+					<height> 5 </height>
+					
+
+					<amount_x> 10 </amount_x>
+					<amount_y> 1 </amount_y>
+					
+				</draggable_items_area>
+
+				<text_legend_area>
+					<pos_x>  0 </pos_x> 
+					<pos_y>  82 </pos_y>
+					<width>  100 </width>
+					<height> 7 </height>
+
+				</text_legend_area>
+
+
+				<background>
+					default/backgrounds/sky_3038760752_291c6ef25f_o.jpg
+				</background>		
+				
+			</global_parameters>
+			
+			<associations>	
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">720</pos_x>
+                                                <pos_y unit="px">682</pos_y>
+                                                <width>5</width>
+                                                <height>5</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">examples/Maps/Europe/Italy/Abruzzo_bandiera.svg
+                                                <text key="ab" />
+                                        </image>
+                                </association>
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">925</pos_x>
+                                                <pos_y unit="px">890</pos_y>
+                                                <width>5</width>
+                                                <height>5</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">examples/Maps/Europe/Italy/Flag_of_Basilicata.svg
+                                                <text key="ba" />
+                                        </image>
+                                </association>
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">958</pos_x>
+                                                <pos_y unit="px">1036</pos_y>
+                                                <width>5</width>
+                                                <height>5</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">examples/Maps/Europe/Italy/Flag_of_Calabria.svg
+                                                <text key="ca" />
+                                        </image>
+                                </association>
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">792</pos_x>
+                                                <pos_y unit="px">828</pos_y>
+                                                <width>5</width>
+                                                <height>5</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">examples/Maps/Europe/Italy/Flag_of_Campania.svg
+                                                <text key="cm" />
+                                        </image>
+                                </association>
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">480</pos_x>
+                                                <pos_y unit="px">395</pos_y>
+                                                <width>5</width>
+                                                <height>5</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">examples/Maps/Europe/Italy/Emilia-Romagna-Bandiera.svg
+                                                <text key="er" />
+                                        </image>
+                                </association>
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">630</pos_x>
+                                                <pos_y unit="px">190</pos_y>
+                                                <width>5</width>
+                                                <height>5</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">examples/Maps/Europe/Italy/Friuli-Venezia_Giulia-Flag.png
+                                                <text key="fv" />
+                                        </image>
+                                </association>
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">600</pos_x>
+                                                <pos_y unit="px">710</pos_y>
+                                                <width>5</width>
+                                                <height>5</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">examples/Maps/Europe/Italy/Flag_of_Lazio.png
+                                                <text key="la" />
+                                        </image>
+                                </association>
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">267</pos_x>
+                                                <pos_y unit="px">400</pos_y>
+                                                <width>5</width>
+                                                <height>5</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">examples/Maps/Europe/Italy/Flag_of_Liguria.svg
+                                                <text key="li" />
+                                        </image>
+                                </association>
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">340</pos_x>
+                                                <pos_y unit="px">270</pos_y>
+                                                <width>5</width>
+                                                <height>5</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">examples/Maps/Europe/Italy/Flag_of_Lombardy.svg
+                                                <text key="lo" />
+                                        </image>
+                                </association>
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">660</pos_x>
+                                                <pos_y unit="px">540</pos_y>
+                                                <width>5</width>
+                                                <height>5</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">examples/Maps/Europe/Italy/Flag_of_Marche.svg
+                                                <text key="ma" />
+                                        </image>
+                                </association>
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">800</pos_x>
+                                                <pos_y unit="px">730</pos_y>
+                                                <width>5</width>
+                                                <height>5</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">examples/Maps/Europe/Italy/Flag_of_Molise.svg
+                                                <text key="mo" />
+                                        </image>
+                                </association>
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">170</pos_x>
+                                                <pos_y unit="px">330</pos_y>
+                                                <width>5</width>
+                                                <height>5</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">examples/Maps/Europe/Italy/Piemonte.svg
+                                                <text key="pi" />
+                                        </image>
+                                </association>
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">980</pos_x>
+                                                <pos_y unit="px">824</pos_y>
+                                                <width>5</width>
+                                                <height>5</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">examples/Maps/Europe/Italy/Stub_Puglia.png
+                                                <text key="pu" />
+                                        </image>
+                                </association>
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">275</pos_x>
+                                                <pos_y unit="px">930</pos_y>
+                                                <width>5</width>
+                                                <height>5</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">examples/Maps/Europe/Italy/Bandiera_ufficiale_RAS.svg
+                                                <text key="sa" />
+                                        </image>
+                                </association>
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">750</pos_x>
+                                                <pos_y unit="px">1230</pos_y>
+                                                <width>5</width>
+                                                <height>5</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">examples/Maps/Europe/Italy/Sicilian_Flag.svg
+                                                <text key="si" />
+                                        </image>
+                                </association>
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">460</pos_x>
+                                                <pos_y unit="px">540</pos_y>
+                                                <width>5</width>
+                                                <height>5</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">examples/Maps/Europe/Italy/Flag_of_Tuscany.svg
+                                                <text key="to" />
+                                        </image>
+                                </association>
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">465</pos_x>
+                                                <pos_y unit="px">150</pos_y>
+                                                <width>5</width>
+                                                <height>5</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">examples/Maps/Europe/Italy/Flag_of_Trentino-South_Tyrol.svg
+                                                <text key="ta" />
+                                        </image>
+                                </association>
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">585</pos_x>
+                                                <pos_y unit="px">600</pos_y>
+                                                <width>5</width>
+                                                <height>5</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">examples/Maps/Europe/Italy/Flag_of_Umbria.svg
+                                                <text key="um" />
+                                        </image>
+                                </association>
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">120</pos_x>
+                                                <pos_y unit="px">240</pos_y>
+                                                <width>5</width>
+                                                <height>5</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">examples/Maps/Europe/Italy/Flag_of_Valle_d'Aosta.svg
+                                                <text key="va" />
+                                        </image>
+                                </association>
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">520</pos_x>
+                                                <pos_y unit="px">270</pos_y>
+                                                <width>5</width>
+                                                <height>5</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">examples/Maps/Europe/Italy/Flag_of_Veneto.png
+                                                <text key="ve" />
+                                        </image>
+                                </association>
+			</associations>
+		</game>
+	</level>
+
+
+	<level difficulty="2">
+		<game type="associate" xml_version="1.0" author="Eugenio Baldi ">
+
+			<rounds>1</rounds>
+
+
+			<global_parameters>
+				
+				<game_setup>
+					<type_to_associate>image_on_map</type_to_associate>
+					<type_to_drag>image</type_to_drag>
+					
+					<!-- amount of items to choose from -->
+					<min_draggable> 20 </min_draggable>
+					<max_draggable> 20 </max_draggable>
+
+				</game_setup>
+
+				<map>
+					<image>examples/Maps/Europe/Italy/Italy_map_with_regions.svg</image>
+					<pos_x>   1 </pos_x> 
+					<pos_y>  10 </pos_y>
+					<width>  98 </width>
+					<height> 68 </height>
+				</map>		
+
+				<draggable_items_area>
+					<pos_x>  10 </pos_x> 
+					<pos_y>  80 </pos_y>
+					<width>  80 </width>
+					<height> 18 </height>
+					
+					<spacing_y>0.2</spacing_y>
+
+					<amount_x> 9 </amount_x>
+					<amount_y> 3 </amount_y>
+					
+				</draggable_items_area>
+
+				<text_legend_area>
+					<pos_x>  0 </pos_x> 
+					<pos_y>  72 </pos_y>
+					<width>  100 </width>
+					<height> 7 </height>
+
+				</text_legend_area>
+
+
+				<background>
+					default/backgrounds/sky_3038760752_291c6ef25f_o.jpg
+				</background>		
+				
+			</global_parameters>
+			
+			<associations>	
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">720</pos_x>
+                                                <pos_y unit="px">682</pos_y>
+                                                <width>5</width>
+                                                <height>5</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">examples/Maps/Europe/Italy/Abruzzo_bandiera.svg
+                                                <text key="ab" />
+                                        </image>
+                                </association>
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">925</pos_x>
+                                                <pos_y unit="px">890</pos_y>
+                                                <width>5</width>
+                                                <height>5</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">examples/Maps/Europe/Italy/Flag_of_Basilicata.svg
+                                                <text key="ba" />
+                                        </image>
+                                </association>
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">958</pos_x>
+                                                <pos_y unit="px">1036</pos_y>
+                                                <width>5</width>
+                                                <height>5</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">examples/Maps/Europe/Italy/Flag_of_Calabria.svg
+                                                <text key="ca" />
+                                        </image>
+                                </association>
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">792</pos_x>
+                                                <pos_y unit="px">828</pos_y>
+                                                <width>5</width>
+                                                <height>5</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">examples/Maps/Europe/Italy/Flag_of_Campania.svg
+                                                <text key="cm" />
+                                        </image>
+                                </association>
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">480</pos_x>
+                                                <pos_y unit="px">395</pos_y>
+                                                <width>5</width>
+                                                <height>5</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">examples/Maps/Europe/Italy/Emilia-Romagna-Bandiera.svg
+                                                <text key="er" />
+                                        </image>
+                                </association>
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">630</pos_x>
+                                                <pos_y unit="px">190</pos_y>
+                                                <width>5</width>
+                                                <height>5</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">examples/Maps/Europe/Italy/Friuli-Venezia_Giulia-Flag.png
+                                                <text key="fv" />
+                                        </image>
+                                </association>
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">600</pos_x>
+                                                <pos_y unit="px">710</pos_y>
+                                                <width>5</width>
+                                                <height>5</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">examples/Maps/Europe/Italy/Flag_of_Lazio.png
+                                                <text key="la" />
+                                        </image>
+                                </association>
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">267</pos_x>
+                                                <pos_y unit="px">400</pos_y>
+                                                <width>5</width>
+                                                <height>5</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">examples/Maps/Europe/Italy/Flag_of_Liguria.svg
+                                                <text key="li" />
+                                        </image>
+                                </association>
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">340</pos_x>
+                                                <pos_y unit="px">270</pos_y>
+                                                <width>5</width>
+                                                <height>5</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">examples/Maps/Europe/Italy/Flag_of_Lombardy.svg
+                                                <text key="lo" />
+                                        </image>
+                                </association>
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">660</pos_x>
+                                                <pos_y unit="px">540</pos_y>
+                                                <width>5</width>
+                                                <height>5</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">examples/Maps/Europe/Italy/Flag_of_Marche.svg
+                                                <text key="ma" />
+                                        </image>
+                                </association>
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">800</pos_x>
+                                                <pos_y unit="px">730</pos_y>
+                                                <width>5</width>
+                                                <height>5</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">examples/Maps/Europe/Italy/Flag_of_Molise.svg
+                                                <text key="mo" />
+                                        </image>
+                                </association>
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">170</pos_x>
+                                                <pos_y unit="px">330</pos_y>
+                                                <width>5</width>
+                                                <height>5</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">examples/Maps/Europe/Italy/Piemonte.svg
+                                                <text key="pi" />
+                                        </image>
+                                </association>
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">980</pos_x>
+                                                <pos_y unit="px">824</pos_y>
+                                                <width>5</width>
+                                                <height>5</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">examples/Maps/Europe/Italy/Stub_Puglia.png
+                                                <text key="pu" />
+                                        </image>
+                                </association>
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">275</pos_x>
+                                                <pos_y unit="px">930</pos_y>
+                                                <width>5</width>
+                                                <height>5</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">examples/Maps/Europe/Italy/Bandiera_ufficiale_RAS.svg
+                                                <text key="sa" />
+                                        </image>
+                                </association>
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">750</pos_x>
+                                                <pos_y unit="px">1230</pos_y>
+                                                <width>5</width>
+                                                <height>5</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">examples/Maps/Europe/Italy/Sicilian_Flag.svg
+                                                <text key="si" />
+                                        </image>
+                                </association>
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">460</pos_x>
+                                                <pos_y unit="px">540</pos_y>
+                                                <width>5</width>
+                                                <height>5</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">examples/Maps/Europe/Italy/Flag_of_Tuscany.svg
+                                                <text key="to" />
+                                        </image>
+                                </association>
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">465</pos_x>
+                                                <pos_y unit="px">150</pos_y>
+                                                <width>5</width>
+                                                <height>5</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">examples/Maps/Europe/Italy/Flag_of_Trentino-South_Tyrol.svg
+                                                <text key="ta" />
+                                        </image>
+                                </association>
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">585</pos_x>
+                                                <pos_y unit="px">600</pos_y>
+                                                <width>5</width>
+                                                <height>5</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">examples/Maps/Europe/Italy/Flag_of_Umbria.svg
+                                                <text key="um" />
+                                        </image>
+                                </association>
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">120</pos_x>
+                                                <pos_y unit="px">240</pos_y>
+                                                <width>5</width>
+                                                <height>5</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">examples/Maps/Europe/Italy/Flag_of_Valle_d'Aosta.svg
+                                                <text key="va" />
+                                        </image>
+                                </association>
+                                <association>
+                                        <goal>
+                                                <pos_x unit="px">520</pos_x>
+                                                <pos_y unit="px">270</pos_y>
+                                                <width>5</width>
+                                                <height>5</height>
+                                                <image>default/icons/NewTux_question.svg</image>
+                                        </goal>
+                                        <image type="to_drag">examples/Maps/Europe/Italy/Flag_of_Veneto.png
+                                                <text key="ve" />
+                                        </image>
+                                </association>
+			</associations>
+		</game>
+	</level>
+
+
+	</game_set>
+
+</omnitux>

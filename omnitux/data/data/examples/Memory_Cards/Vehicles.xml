@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<omnitux version="1.0">
+
+<game_set author="Olav_2">
+
+	<title lang="de">Fahrzeuge</title>
+	<title lang="en">Vehicles</title>
+	<title lang="es">Vehículos</title>
+	<title lang="fr">Véhicules</title>
+	<title lang="it">Veicoli</title>
+	<title lang="pl">Pojazdy</title>
+	<title lang="pt">Veículos</title>
+	
+	<thumbnail>examples/Memory_Cards/tux_card_back_white_gear.svg</thumbnail>
+
+	<menu_index value="300" />
+
+	<level difficulty="1">
+
+		<game type="memory_cards" xml_version="1.0" author="Olav_2">
+			
+
+
+			<global_parameters>
+				
+				<identical_cards> 2 </identical_cards>
+				
+				<grid>
+					<pos_x>   5 </pos_x> 
+					<pos_y>  10 </pos_y>
+					<width>  90 </width>
+					<height> 87 </height>
+					
+					<amount_x> 4 </amount_x>
+					<amount_y> 3 </amount_y>			
+					
+					<spacing_x> 0.3 </spacing_x>
+					<spacing_y> 1 </spacing_y>
+					
+				</grid>
+
+				<card>
+					<front>
+						examples/Memory_Cards/tux_card_front_white_gear.svg
+					</front>
+					
+					<back>
+						examples/Memory_Cards/tux_card_back_white_gear.svg
+					</back>
+					
+					<image_area>
+						<ratio_x> 88 </ratio_x>
+						<ratio_y> 85 </ratio_y>
+					</image_area>
+				
+				</card>
+
+
+					<background>examples/Landscapes/roads/100966-vhdfgbg.jpg</background>
+
+					<background>examples/Landscapes/roads/53570-002g.jpg</background>
+
+					<background>examples/Landscapes/roads/8429-RoadToSunset.jpg</background>
+
+					<background>default/backgrounds/sky_3038760752_291c6ef25f_o.jpg</background>
+
+
+			</global_parameters>
+			
+			<associations>	
+				<association>
+					<image>examples/Vehicles/autobus.svg</image>
+				</association>
+				<association>
+					<image>examples/Vehicles/bobocal_American_Sport_Car.svg</image>
+				</association>
+				<association>
+					<image>examples/Vehicles/Gerald_G_Beach_Trip.svg</image>
+				</association>
+				<association>
+					<image>examples/Vehicles/Gerald_G_Girl_and_Boy_Driving_Car_Cartoon.svg</image>
+				</association>		
+				<association>
+					<image>examples/Vehicles/heavy_equipment_26.svg</image>
+				</association>
+				<association>
+					<image>examples/Vehicles/Montacarichi.svg</image>
+				</association>
+				<association>
+					<image>examples/Vehicles/mystica_Snowmobile.svg</image>
+				</association>
+				<association>
+					<image>examples/Vehicles/ufo_web_factory_500.svg</image>
+				</association>
+				<association>
+					<image>examples/Vehicles/webmichl_2cv4.svg</image>
+				</association>		
+				<association>
+					<image>examples/Alphabet/Gerald_G_Motorcycle_Clipart.svg</image>
+				</association>		
+				<association>
+					<image>examples/Vehicles/Planes/Jarno_Aircraft.svg</image>
+				</association>			
+				<association>
+					<image>examples/Vehicles/Planes/Jarno_Business_jet.svg</image>
+				</association>			
+				<association>
+					<image>examples/Vehicles/Planes/Jarno_Single_engine_Cessna.svg</image>
+				</association>			
+				
+				
+			</associations>
+
+		</game>
+	</level>
+
+
+
+
+	<level difficulty="2">
+
+		<game type="memory_cards" xml_version="1.0" author="Olav_2">
+			
+
+
+			<global_parameters>
+				
+				<identical_cards> 2 </identical_cards>
+				
+				<grid>
+					<pos_x>   1 </pos_x> 
+					<pos_y>  10 </pos_y>
+					<width>  98 </width>
+					<height> 87 </height>
+					
+					<amount_x> 4 </amount_x>
+					<amount_y> 4 </amount_y>			
+					
+					<spacing_x> 0.3 </spacing_x>
+					<spacing_y> 1 </spacing_y>
+					
+				</grid>
+
+				<card>
+					<front>
+						examples/Memory_Cards/tux_card_front_white_gear.svg
+					</front>
+					
+					<back>
+						examples/Memory_Cards/tux_card_back_white_gear.svg
+					</back>
+					
+					<image_area>
+						<ratio_x> 88 </ratio_x>
+						<ratio_y> 85 </ratio_y>
+					</image_area>
+				
+				</card>
+
+
+					<background>examples/Landscapes/roads/100966-vhdfgbg.jpg</background>
+
+					<background>examples/Landscapes/roads/53570-002g.jpg</background>
+
+					<background>examples/Landscapes/roads/8429-RoadToSunset.jpg</background>
+
+					<background>default/backgrounds/sky_3038760752_291c6ef25f_o.jpg</background>
+
+
+			</global_parameters>
+			
+			<associations>	
+				<association>
+					<image>examples/Vehicles/autobus.svg</image>
+				</association>
+				<association>
+					<image>examples/Vehicles/bobocal_American_Sport_Car.svg</image>
+				</association>
+				<association>
+					<image>examples/Vehicles/Gerald_G_Beach_Trip.svg</image>
+				</association>
+				<association>
+					<image>examples/Vehicles/Gerald_G_Girl_and_Boy_Driving_Car_Cartoon.svg</image>
+				</association>		
+				<association>
+					<image>examples/Vehicles/heavy_equipment_26.svg</image>
+				</association>
+				<association>
+					<image>examples/Vehicles/Montacarichi.svg</image>
+				</association>
+				<association>
+					<image>examples/Vehicles/mystica_Snowmobile.svg</image>
+				</association>
+				<association>
+					<image>examples/Vehicles/ufo_web_factory_500.svg</image>
+				</association>
+				<association>
+					<image>examples/Vehicles/webmichl_2cv4.svg</image>
+				</association>		
+				<association>
+					<image>examples/Alphabet/Gerald_G_Motorcycle_Clipart.svg</image>
+				</association>		
+				<association>
+					<image>examples/Alphabet/ivak_Cistern_Truck.svg</image>
+				</association>					
+				<association>
+					<image>examples/Alphabet/DouglasDC3Drawing.svg</image>
+				</association>				
+				<association>
+					<image>examples/Vehicles/Planes/Jarno_Aircraft_1.svg</image>
+				</association>
+				<association>
+					<image>examples/Vehicles/Planes/Jarno_Aircraft.svg</image>
+				</association>			
+				<association>
+					<image>examples/Vehicles/Planes/Jarno_Business_jet.svg</image>
+				</association>			
+				<association>
+					<image>examples/Vehicles/Planes/Jarno_Single_engine_Cessna.svg</image>
+				</association>			
+				
+				
+			</associations>
+
+		</game>
+	</level>
+
+</game_set>
+</omnitux>

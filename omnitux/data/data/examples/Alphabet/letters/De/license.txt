@@ -1,0 +1,4 @@
+German letter sounds from the 'klettres' project, recorded by Helmut Kriege.
+License : GNU GPL 2+
+
+See http://edu.kde.org/klettres/

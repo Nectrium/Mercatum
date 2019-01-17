@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<omnitux version="1.0">
+<game type="memory_cards" xml_version="1.0" author="Olav_2">
+	
+	<title lang="fr">Se souvenir des chiffres</title>
+	
+
+	<thumbnail>examples/Numbers/digits/1.svg</thumbnail>
+
+	<menu_index value="500" />
+
+	<global_parameters>
+		
+		<identical_cards> 2 </identical_cards>
+		
+		<grid>
+			<pos_x>   5 </pos_x> 
+			<pos_y>  10 </pos_y>
+			<width>  90 </width>
+			<height> 87 </height>
+			
+			<amount_x> 4 </amount_x>
+			<amount_y> 3 </amount_y>			
+			
+			<spacing_x> 0.2 </spacing_x>
+			<spacing_y> 0.5 </spacing_y>
+			
+		</grid>
+
+		<card>
+			<front>
+				examples/Memory_Cards/tux_card_front_white.svg
+			</front>
+			
+			<back>
+				examples/Memory_Cards/tux_card_back_white.svg
+			</back>
+			
+			<image_area>
+				<ratio_x> 78 </ratio_x>
+				<ratio_y> 78 </ratio_y>
+			</image_area>
+		
+		</card>
+
+		<background>examples/Landscapes/91300-Arcobaleno a Oltre il colle1680.jpg</background>		
+		<background>examples/Landscapes/56346-austria2.jpg</background>
+		<background>examples/Landscapes/91300-Arcobaleno a Oltre il colle1680.jpg</background>
+		<background>examples/Landscapes/92608-pict3511.jpg</background>
+		<background>examples/Landscapes/31505-darlowo.jpg</background>
+		<background>examples/Landscapes/30897-cristallo-1600x1200.jpg</background>
+		
+		
+	</global_parameters>
+	
+	<associations>	
+		<association>
+			<image>examples/Numbers/digits/1.svg
+				<sound>Kot26/liczenie/Fr/Fr-un.ogg</sound>
+			</image>
+		</association>
+
+		<association>
+			<image>examples/Numbers/digits/2.svg
+				<sound>Kot26/liczenie/Fr/Fr-deux-fr.ogg</sound>
+			</image>
+		</association>
+
+		<association>
+			<image>examples/Numbers/digits/3.svg
+				<sound>Kot26/liczenie/Fr/Fr-Trois-fr-Paris.ogg</sound>
+			</image>
+		</association>
+
+		<association>
+			<image>examples/Numbers/digits/4.svg
+				<sound>Kot26/liczenie/Fr/Fr-quatre.ogg</sound>
+			</image>
+		</association>
+
+		<association>
+			<image>examples/Numbers/digits/5.svg
+				<sound>Kot26/liczenie/Fr/Fr-cinq-fr.ogg</sound>
+			</image>
+		</association>
+
+		<association>
+			<image>examples/Numbers/digits/6.svg
+				<sound>Kot26/liczenie/Fr/Fr-Six-fr-Paris.ogg</sound>
+			</image>
+		</association>
+
+		<association>
+			<image>examples/Numbers/digits/7.svg
+				<sound>Kot26/liczenie/Fr/Fr-sept.ogg</sound>
+			</image>
+		</association>
+
+		<association>
+			<image>examples/Numbers/digits/8.svg
+				<sound>Kot26/liczenie/Fr/Fr-huit.ogg</sound>
+			</image>
+		</association>
+
+		<association>
+			<image>examples/Numbers/digits/9.svg
+				<sound>Kot26/liczenie/Fr/Fr-neuf.ogg</sound>
+			</image>
+		</association>
+	</associations>
+
+</game>
+</omnitux>
