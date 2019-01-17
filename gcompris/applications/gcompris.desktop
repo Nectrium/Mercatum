@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=GCompris
+Comment=Application d'apprentissage et d'éveil pour les enfants
+Exec=.mercatum/data/gcompris/bin/gcompris-qt.sh
+Icon=gcompris.png
+Type=Education
+Categories=Education;Games;
+Terminal=false
+Keywords=education
