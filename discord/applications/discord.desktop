@@ -4,6 +4,6 @@ StartupWMClass=discord
 Comment=All-in-one voice and text chat for gamers that's free, secure, and works on both your desktop and phone.
 GenericName=Internet Messenger
 Exec=.mercatum/data/discord/Discord
-Icon=.mercatum/data/discord/discord.png
+Icon=discord.png
 Type=Application
 Categories=Network;InstantMessaging;
