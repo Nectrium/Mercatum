@@ -1,3 +1,5 @@
+[![Nectop](https://img.shields.io/badge/Acheter-Un%20Nectop-green.svg)](https://nectrium.com)
+
 # Mercatum
 Place de marché open source et libre du Nectop
 
@@ -9,3 +11,4 @@ Applications disponibles :
 - Discord : Application de chat, modifiée pour fonctionner sur les plateformes ARM
 - Omnitux : logiciel d'apprentissage pour enfants
 - GCompris : logiciel d'apprentissage pour enfants
+- Clang7 : Compilateur pour les langages C, C++ et Objective-C basé sur LLVM
