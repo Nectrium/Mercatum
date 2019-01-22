@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Name=RetroArch
+GenericName=RetroArch
+Type=Application
+Comment=Frontend for emulators, game engines and media players
+Comment[ru]=Графический интерфейс для эмуляторов, игровых движков и медиаплееров
+Comment[fr]=Emulateurs, moteurs de jeux et lecteurs vidéo
+Icon=retroarch.png
+Exec=retroarch.sh
+Terminal=false
+StartupNotify=false
+Keywords=multi;engine;emulator;xmb;
+Categories=Game;Emulator;

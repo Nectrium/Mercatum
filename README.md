@@ -12,3 +12,4 @@ Applications disponibles :
 - Omnitux : logiciel d'apprentissage pour enfants
 - GCompris : logiciel d'apprentissage pour enfants
 - Clang7 : Compilateur pour les langages C, C++ et Objective-C basé sur LLVM
+- RetroArch : Emulateurs de consoles, moteurs de jeux et lecteurs video
