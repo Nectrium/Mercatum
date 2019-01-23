@@ -13,3 +13,4 @@ Applications disponibles :
 - GCompris : logiciel d'apprentissage pour enfants
 - Clang7 : Compilateur pour les langages C, C++ et Objective-C basé sur LLVM
 - RetroArch : Emulateurs de consoles, moteurs de jeux et lecteurs video
+- Clementine : Lecteur audio permettant de gérer ses listes de lecture

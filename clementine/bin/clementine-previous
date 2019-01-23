@@ -1,0 +1,3 @@
+#!/bin/sh
+
+cd ~/.mercatum/data/clementine/ && LD_LIBRARY_PATH=./lib/arm-linux-gnueabihf/ ./bin/clementine --previous
