@@ -14,3 +14,4 @@ Applications disponibles :
 - Clang7 : Compilateur pour les langages C, C++ et Objective-C basé sur LLVM
 - RetroArch : Emulateurs de consoles, moteurs de jeux et lecteurs video
 - Clementine : Lecteur audio permettant de gérer ses listes de lecture
+- Tor : Logiciel de navigation anonyme et de proxying

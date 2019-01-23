@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Categories=Network;Application;
+Name=SelekTOR
+Comment=Tor Exit Node Selection and Proxying
+Comment[fr]=Sélection des noeuds de sortie TOR et du mandataire
+Exec=selektor
+Icon=selektor.png
+Terminal=false
+Type=Application
+Keywords=network;tor

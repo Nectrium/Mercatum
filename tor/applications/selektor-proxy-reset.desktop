@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Categories=Network;Application;
+Name=SelekTOR Proxy Reset
+Name[fr]=Réinit. du mandataire SelekTOR
+GenericName=SelekTOR Proxy Reset
+GenericName[fr]=Réinit. du mandataire SelekTOR
+Comment=SelekTOR System Proxy Reset
+Comment[fr]=Réinitialisation du mandataire SelekTOR
+Exec=selektor --default-proxy
+Icon=selektor.png
+Terminal=false
+Type=Application
+Keywords=network;tor

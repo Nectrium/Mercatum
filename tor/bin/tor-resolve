@@ -1,0 +1,5 @@
+#!/bin/sh
+
+NOSTOR_HOME=~/.mercatum/data/tor/
+
+cd $NOSTOR_HOME && LD_LIBRARY_PATH=. tor-resolve "$@"

@@ -1,0 +1,7 @@
+#!/bin/sh
+#
+# Startup script for TOR + SelekTOR
+
+NOSTOR_HOME=~/.mercatum/data/tor/
+
+cd $NOSTOR_HOME && LD_LIBRARY_PATH=. java -Xms32m -Xmx64m -jar SelekTOR.jar "$@" &

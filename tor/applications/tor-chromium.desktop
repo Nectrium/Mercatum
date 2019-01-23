@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Categories=Network;Application;
+Name=Tor-Chromium
+Comment=Chromium paramétré pour utiliser TOR
+Comment[fr]=Chromium paramétré pour utiliser TOR
+Exec=tor-chromium
+Icon=tor-chromium.png
+Terminal=false
+Type=Application
+Keywords=network;tor
