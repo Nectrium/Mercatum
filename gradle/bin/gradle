@@ -1,0 +1,3 @@
+#!/bin/sh
+
+~/.mercatum/data/gradle/bin/gradle
