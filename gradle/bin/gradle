@@ -1,3 +1,3 @@
 #!/bin/sh
 
-~/.mercatum/data/gradle/bin/gradle
+~/.mercatum/data/gradle/bin/gradle "$@"
