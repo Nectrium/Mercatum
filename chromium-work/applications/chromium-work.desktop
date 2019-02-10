@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Chromium (Work)
+Comment=Chromium optimisé pour travailler
+Exec=chromium-browser --disable-smooth-scrolling --disable-low-res-tiling --enable-low-end-device-mode --num-raster-threads=4 --profiler-timing=0 --disable-composited-antialiasing --disk-cache-dir=/tmp/${USER}-cache --disk-cache-size=300000 --no-sandbox --test-type --show-component-extension-options --ignore-gpu-blacklist --use-gl=glx
+Icon=chromium-browser
+Type=Application
+Categories=Network;WebBrowser;
